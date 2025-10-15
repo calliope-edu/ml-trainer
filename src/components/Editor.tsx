@@ -27,6 +27,7 @@ const Editor = forwardRef<MakeCodeFrameDriver, EditorProps>(function Editor(
   const [{ languageId }] = useSettings();
   return (
     <MakeCodeFrame
+      baseUrl="https://makecode.calliope.cc"
       ref={ref}
       queryParams={{ hidelanguage: "1" }}
       controllerId={controllerId}
