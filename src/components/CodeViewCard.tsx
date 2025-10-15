@@ -78,6 +78,7 @@ const CodeViewCard = ({ project, parentRef }: CodeViewCardProps) => {
           className={tourElClassname.makeCodeCodeView}
         />
         <MakeCodeBlocksRendering
+          baseUrl="https://makecode.calliope.cc"
           code={project}
           layout={BlockLayout.Flow}
           loaderCmp={
