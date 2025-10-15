@@ -330,6 +330,7 @@ const MakeCodePreview = ({ project }: MakeCodePreviewProps) => {
           }}
         >
           <MakeCodeBlocksRendering
+            baseUrl="https://makecode.calliope.cc"
             code={project}
             layout={BlockLayout.Clean}
             loaderCmp={
