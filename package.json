@@ -60,7 +60,7 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
-    "@microbit/makecode-embed": "^0.3.0",
+    "@microbit/makecode-embed": "github:calliope-edu/makecode-embed#feat-calliope",
     "@microbit/microbit-connection": "github:calliope-edu/mini-connection#feature-add-calliope",
     "@microbit/ml-header-generator": "^0.4.3",
     "@microbit/smoothie": "^1.37.0-microbit.2",
