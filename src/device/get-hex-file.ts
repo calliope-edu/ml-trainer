@@ -11,7 +11,7 @@ import {
 } from "@microbit/microbit-connection";
 
 import hexV1 from "./firmware/ml-microbit-cpp-version-combined.hex";
-import hexV2 from "./firmware/MICROBIT.hex";
+import hexV2 from "./firmware/FIRMWARE.hex";
 import hexUniversal from "./firmware/universal-hex.hex";
 import hexRadioRemoteDev from "./firmware/radio-remote-v0.2.1-dev.hex";
 import hexRadioRemote from "./firmware/radio-remote-v0.2.1.hex";
