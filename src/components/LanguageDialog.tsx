@@ -252,10 +252,10 @@ const SupportStatement = ({
       </Text>
       <List>
         <SupportedListItem supported={language.makeCode} intl={intl}>
-          Microsoft MakeCode
+          MakeCode
         </SupportedListItem>
         <SupportedListItem supported={uiSupported(language)} intl={intl}>
-          micro:bit CreateAI
+          KI-Trainer
         </SupportedListItem>
       </List>
     </Text>

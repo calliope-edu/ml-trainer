@@ -73,7 +73,7 @@ export const allLanguages: Language[] = [
     id: "de",
     name: "Deutsch",
     enName: "German",
-    ui: false,
+    ui: true,
     makeCode: true,
   },
   {

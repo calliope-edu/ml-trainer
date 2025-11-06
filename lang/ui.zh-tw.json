@@ -8,7 +8,7 @@
     "description": "Menu item link to view information about app"
   },
   "about-dialog-alt": {
-    "defaultMessage": "micro:bit 開發板在 LED 顯示器上顯示一顆心",
+    "defaultMessage": "Calliope mini 開發板在 LED 顯示器上顯示一顆心",
     "description": "Alt text for image in about dialog"
   },
   "about-dialog-title": {
@@ -16,8 +16,8 @@
     "description": "Title of about dialog"
   },
   "accelerometer-image-alt": {
-    "defaultMessage": "micro:bit 會顯示 X 軸穿過前方，Y 軸向下和向上，Z 軸回到前方",
-    "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the micro:bit accelerometer"
+    "defaultMessage": "Calliope mini 會顯示 X 軸穿過前方，Y 軸向下和向上，Z 軸回到前方",
+    "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the Calliope mini accelerometer"
   },
   "accessibility": {
     "defaultMessage": "無障礙設定",
@@ -76,11 +76,11 @@
     "description": "Blocks preview heading text"
   },
   "bluetooth-unsupported-advice": {
-    "defaultMessage": "我們建議您使用 Google Chrome 或 Microsoft Edge，以便您能夠直接連線到您的 micro:bit。",
+    "defaultMessage": "我們建議您使用 Google Chrome 或 Microsoft Edge，以便您能夠直接連線到您的 Calliope mini。",
     "description": "Note on supported browsers"
   },
   "bluetooth-unsupported-explain": {
-    "defaultMessage": "很遺憾，此瀏覽器不支援 WebUSB 和 Web 藍牙。這表示您無法連線到 micro:bit 來記錄訓練機器學習模型所需要的數據樣本。",
+    "defaultMessage": "很遺憾，此瀏覽器不支援 WebUSB 和 Web 藍牙。這表示您無法連線到 Calliope mini 來記錄訓練機器學習模型所需要的數據樣本。",
     "description": "Note on supported browsers"
   },
   "bluetooth-unsupported-header": {
@@ -132,7 +132,7 @@
     "description": "Aria label for code tooltip icon"
   },
   "code-tooltip": {
-    "defaultMessage": "這些是對於當您將您的 ML 模型和程式碼傳輸到 micro:bit 時，各個偵測動作 MakeCode 區塊",
+    "defaultMessage": "這些是對於當您將您的 ML 模型和程式碼傳輸到 Calliope mini 時，各個偵測動作 MakeCode 區塊",
     "description": "Code column heading tooltip"
   },
   "confirm-action": {
@@ -145,11 +145,11 @@
   },
   "connect-action": {
     "defaultMessage": "連線",
-    "description": "Connect action to connect to data collection micro:bit via Bluetooth or micro:bit radio"
+    "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-action-aria": {
-    "defaultMessage": "連結到 micro:bit",
-    "description": "Connect action to connect to data collection micro:bit via Bluetooth or micro:bit radio"
+    "defaultMessage": "連結到 Calliope mini",
+    "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-battery-heading": {
     "defaultMessage": "中斷 USB 並連接電池組",
@@ -160,15 +160,15 @@
     "description": "Label for battery holder icon"
   },
   "connect-battery-link": {
-    "defaultMessage": "您可以將 micro:bit 連接到您的手腕或物件上",
+    "defaultMessage": "您可以將 Calliope mini 連接到您的手腕或物件上",
     "description": "Battery connection dialog"
   },
   "connect-battery-subtitle": {
-    "defaultMessage": "中斷 micro:bit 與電腦的連線並連接電池組。",
+    "defaultMessage": "中斷 Calliope mini 與電腦的連線並連接電池組。",
     "description": "Battery connection dialog"
   },
   "connect-bluetooth-cancelled-connection": {
-    "defaultMessage": "您沒有選擇 micro:bit。您想再試一次嗎？",
+    "defaultMessage": "您沒有選擇 Calliope mini。您想再試一次嗎？",
     "description": "Error when the user cancelled the Web Bluetooth permission/device selection dialog"
   },
   "connect-bluetooth-heading": {
@@ -184,27 +184,27 @@
     "description": "Connection dialog heading"
   },
   "connect-bluetooth-start-requirements1": {
-    "defaultMessage": "一個 micro:bit",
-    "description": "Label for icon of single micro:bit"
+    "defaultMessage": "一個 Calliope mini",
+    "description": "Label for icon of single Calliope mini"
   },
   "connect-bluetooth-start-requirements2-subtitle": {
     "defaultMessage": "需要網際網路、USB 連接埠和網路藍牙",
     "description": "Under heading 'Computer' this lists the features the computer needs"
   },
   "connect-bluetooth-start-switch-radio": {
-    "defaultMessage": "改用 micro:bit 無線電來連線",
+    "defaultMessage": "改用 Calliope mini 無線電來連線",
     "description": "Link to alternative connection method"
   },
   "connect-cable-alt": {
-    "defaultMessage": "顯示將 USB 纜線連接至 micro:bit 頂部的動畫",
+    "defaultMessage": "顯示將 USB 纜線連接至 Calliope mini 頂部的動畫",
     "description": "Alt text"
   },
   "connect-cable-download-project-subtitle": {
-    "defaultMessage": "使用 USB 纜線將 micro:bit 連線到這台電腦以將機器學習 MakeCode 程式下載到其中。",
+    "defaultMessage": "使用 USB 纜線將 Calliope mini 連線到這台電腦以將機器學習 MakeCode 程式下載到其中。",
     "description": "Download project dialog"
   },
   "connect-cable-heading": {
-    "defaultMessage": "將 USB 纜線連接至 micro:bit",
+    "defaultMessage": "將 USB 纜線連接至 Calliope mini",
     "description": "Connect cable dialog heading"
   },
   "connect-cable-skip": {
@@ -212,7 +212,7 @@
     "description": "Link to skip"
   },
   "connect-cable-subtitle": {
-    "defaultMessage": "使用 USB 纜線將 micro:bit 連線到這台電腦，以便將數據收集程式下載到其中。",
+    "defaultMessage": "使用 USB 纜線將 Calliope mini 連線到這台電腦，以便將數據收集程式下載到其中。",
     "description": "Project download instructions"
   },
   "connect-computer": {
@@ -220,39 +220,39 @@
     "description": "Label for computer icon in connection dialog"
   },
   "connect-data-collection-heading": {
-    "defaultMessage": "將 USB 纜線連接至 micro:bit 1",
+    "defaultMessage": "將 USB 纜線連接至 Calliope mini 1",
     "description": "Connection dialog heading"
   },
   "connect-data-collection-subtitle": {
-    "defaultMessage": "利用 USB 纜線將第一台 micro:bit 連線到這台電腦，以便將數據收集程式下載到其上。這是您將用來收集數據樣本的 micro:bit。",
+    "defaultMessage": "利用 USB 纜線將第一台 Calliope mini 連線到這台電腦，以便將數據收集程式下載到其上。這是您將用來收集數據樣本的 Calliope mini。",
     "description": "Connection dialog subtitle"
   },
   "connect-failed-bluetooth-heading": {
-    "defaultMessage": "無法連線到 micro:bit",
+    "defaultMessage": "無法連線到 Calliope mini",
     "description": "Bluetooth connection error message"
   },
   "connect-failed-bluetooth1": {
-    "defaultMessage": "無法建立與數據收集 micro:bit 的連線。",
+    "defaultMessage": "無法建立與數據收集 Calliope mini 的連線。",
     "description": "Bluetooth connection error message"
   },
   "connect-failed-bridge-heading": {
-    "defaultMessage": "無法連線到無線電連結 micro:bit",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "無法連線到無線電連結 Calliope mini",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-bridge1": {
-    "defaultMessage": "無法建立與您的電腦連線的 micro:bit 的連線。",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "無法建立與您的電腦連線的 Calliope mini 的連線。",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote-heading": {
-    "defaultMessage": "無法連線至數據收集 micro:bit",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "無法連線至數據收集 Calliope mini",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote1": {
-    "defaultMessage": "無法建立與數據收集 micro:bit 的連線。",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "無法建立與數據收集 Calliope mini 的連線。",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-help-alt": {
-    "defaultMessage": "WebUSB 連線對話框，帶有標記為 1 的 BBC micro:bit 項目和標記為 2 的「連線」按鈕",
+    "defaultMessage": "WebUSB 連線對話框，帶有標記為 1 的 BBC Calliope mini 項目和標記為 2 的「連線」按鈕",
     "description": "Alt text for image in connect help dialog"
   },
   "connect-micro-usb-cable": {
@@ -260,7 +260,7 @@
     "description": "Label for cable icon in list of requirements"
   },
   "connect-or-import": {
-    "defaultMessage": "<link1>連線數據收集用的 micro:bit</link1> 或<link2>匯入數據樣本</link2>",
+    "defaultMessage": "<link1>連線數據收集用的 Calliope mini</link1> 或<link2>匯入數據樣本</link2>",
     "description": "Empty data samples page text"
   },
   "connect-pattern-heading": {
@@ -268,19 +268,19 @@
     "description": "Heading for Bluetooth pattern connection dialog"
   },
   "connect-pattern-input-label": {
-    "defaultMessage": "第 {colNum} 欄 - micro:bit 顯示器上亮起的 LED 數量",
+    "defaultMessage": "第 {colNum} 欄 - Calliope mini 顯示器上亮起的 LED 數量",
     "description": "Screen reader text for numeric pattern input"
   },
   "connect-pattern-subtitle": {
-    "defaultMessage": "複製 micro:bit 上顯示的圖案。",
+    "defaultMessage": "複製 Calliope mini 上顯示的圖案。",
     "description": "Instruction for bluetooth pattern dialog"
   },
   "connect-popup": {
-    "defaultMessage": "選擇 micro:bit",
+    "defaultMessage": "選擇 Calliope mini",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-bluetooth-alt": {
-    "defaultMessage": "網路藍牙連線對話框，帶有標記為 1 的 BBC micro:bit 項目和標記為 2 的「配對」按鈕",
+    "defaultMessage": "網路藍牙連線對話框，帶有標記為 1 的 BBC Calliope mini 項目和標記為 2 的「配對」按鈕",
     "description": "Alt text"
   },
   "connect-popup-bluetooth-instruction2": {
@@ -288,7 +288,7 @@
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-bluetooth-title": {
-    "defaultMessage": "使用網路藍牙連線至 micro:bit",
+    "defaultMessage": "使用網路藍牙連線至 Calliope mini",
     "description": "Instruction for dialog that previews the Bluetooth permission dialog"
   },
   "connect-popup-instruction-heading": {
@@ -296,19 +296,19 @@
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-instruction1": {
-    "defaultMessage": "選擇您的 micro:bit",
+    "defaultMessage": "選擇您的 Calliope mini",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-usb-bluetooth-data-collection-title": {
-    "defaultMessage": "將數據收集程式下載至 micro:bit",
+    "defaultMessage": "將數據收集程式下載至 Calliope mini",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-data-collection-title": {
-    "defaultMessage": "將數據收集程式下載至 micro:bit 1",
+    "defaultMessage": "將數據收集程式下載至 Calliope mini 1",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-link-title": {
-    "defaultMessage": "將無線電連結程式下載至 micro:bit 2",
+    "defaultMessage": "將無線電連結程式下載至 Calliope mini 2",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-webusb-instruction2": {
@@ -316,36 +316,36 @@
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-radio-data-collection-microbit-description": {
-    "defaultMessage": "將數據收集用的 micro:bit 連線至這台電腦，以將您的機器學習 MakeCode 程式下載到其中。如果您正在配戴數據收集 micro:bit，則可能需要將其移除。",
-    "description": "Connect radio data collection micro:bit dialog description"
+    "defaultMessage": "將數據收集用的 Calliope mini 連線至這台電腦，以將您的機器學習 MakeCode 程式下載到其中。如果您正在配戴數據收集 Calliope mini，則可能需要將其移除。",
+    "description": "Connect radio data collection Calliope mini dialog description"
   },
   "connect-radio-data-collection-microbit-title": {
-    "defaultMessage": "將 USB 纜線連線至數據收集用的 micro:bit",
-    "description": "Connect radio data collection micro:bit dialog title"
+    "defaultMessage": "將 USB 纜線連線至數據收集用的 Calliope mini",
+    "description": "Connect radio data collection Calliope mini dialog title"
   },
   "connect-radio-heading": {
-    "defaultMessage": "連線到 micro:bits",
-    "description": "Text shown while radio link and data connection micro:bit are being connected"
+    "defaultMessage": "連線到 Calliope minis",
+    "description": "Text shown while radio link and data connection Calliope mini are being connected"
   },
   "connect-radio-link-heading": {
-    "defaultMessage": "將 USB 纜線連接至 micro:bit 2",
-    "description": "Heading for connecting radio link micro:bit cable"
+    "defaultMessage": "將 USB 纜線連接至 Calliope mini 2",
+    "description": "Heading for connecting radio link Calliope mini cable"
   },
   "connect-radio-link-subtitle": {
-    "defaultMessage": "使用 USB 電纜將第二個 micro:bit 連線至這台電腦，以下載無線電連結程式。此無線電連結 micro:bit 將與數據收集 micro:bit 通訊。",
-    "description": "Instruction for connecting radio link micro:bit cable"
+    "defaultMessage": "使用 USB 電纜將第二個 Calliope mini 連線至這台電腦，以下載無線電連結程式。此無線電連結 Calliope mini 將與數據收集 Calliope mini 通訊。",
+    "description": "Instruction for connecting radio link Calliope mini cable"
   },
   "connect-radio-start-heading": {
-    "defaultMessage": "使用 micro:bit 無線電連線所需的條件",
+    "defaultMessage": "使用 Calliope mini 無線電連線所需的條件",
     "description": "Connection dialog heading"
   },
   "connect-radio-start-requirements1": {
-    "defaultMessage": "2 片micro:bit",
-    "description": "Label for icon of two micro:bits"
+    "defaultMessage": "2 片Calliope mini",
+    "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
     "defaultMessage": "僅限 V2",
-    "description": "Shown below 2 micro:bit label for micro:bit radio approach"
+    "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
     "defaultMessage": "需要網際網路和 USB 連接埠",
@@ -357,22 +357,22 @@
   },
   "connect-to-record": {
     "defaultMessage": "連線以記錄數據樣本",
-    "description": "Live graph disconnected micro:bit status message for data samples page"
+    "description": "Live graph disconnected Calliope mini status message for data samples page"
   },
   "connect-to-record-body": {
-    "defaultMessage": "連線 micro:bit 以記錄數據樣本。",
+    "defaultMessage": "連線 Calliope mini 以記錄數據樣本。",
     "description": "Insufficient data modal content"
   },
   "connect-to-test-model": {
     "defaultMessage": "連線以測試您的 ML 模型",
-    "description": "Live graph disconnected micro:bit status message for test model page"
+    "description": "Live graph disconnected Calliope mini status message for test model page"
   },
   "connect-to-tour-body": {
-    "defaultMessage": "您需要連線數據收集用的 micro:bit 才能檢視導覽內容。",
-    "description": "Prompt to connect the app to a micro:bit"
+    "defaultMessage": "您需要連線數據收集用的 Calliope mini 才能檢視導覽內容。",
+    "description": "Prompt to connect the app to a Calliope mini"
   },
   "connect-troubleshoot": {
-    "defaultMessage": "疑難排解連線至 micro:bit 的問題",
+    "defaultMessage": "疑難排解連線至 Calliope mini 的問題",
     "description": "Link to support article for troubleshooting"
   },
   "connect-troubleshooting": {
@@ -412,15 +412,15 @@
     "description": "Aria label for menu"
   },
   "data-collection-microbit": {
-    "defaultMessage": "數據收集用的 micro:bit",
-    "description": "Data collection micro:bit image caption"
+    "defaultMessage": "數據收集用的 Calliope mini",
+    "description": "Data collection Calliope mini image caption"
   },
   "data-collection-microbit-label": {
-    "defaultMessage": "圖表顯示數據收集用的 micro:bit 被連線到一個人的手腕上",
+    "defaultMessage": "圖表顯示數據收集用的 Calliope mini 被連線到一個人的手腕上",
     "description": "Aria label for data collection image"
   },
   "data-connection-region": {
-    "defaultMessage": "micro:bit 數據連線",
+    "defaultMessage": "Calliope mini 數據連線",
     "description": "Region label for data connection area"
   },
   "data-features-hide-action": {
@@ -500,43 +500,43 @@
     "description": "Disconnect (from bluetooth/radio) action"
   },
   "disconnected-during-recording": {
-    "defaultMessage": "micro:bit 在錄製過程中已斷線",
-    "description": "Error when the micro:bit is disconnected during recording"
+    "defaultMessage": "Calliope mini 在錄製過程中已斷線",
+    "description": "Error when the Calliope mini is disconnected during recording"
   },
   "disconnected-warning-bluetooth-heading": {
-    "defaultMessage": "數據收集 micro:bit 連線遺失",
+    "defaultMessage": "數據收集 Calliope mini 連線遺失",
     "description": "Dialog heading"
   },
   "disconnected-warning-bluetooth1": {
-    "defaultMessage": "與數據收集 micro:bit 的連線已遺失。",
+    "defaultMessage": "與數據收集 Calliope mini 的連線已遺失。",
     "description": "Dialog text"
   },
   "disconnected-warning-bluetooth2": {
-    "defaultMessage": "請檢查 micro:bit：",
+    "defaultMessage": "請檢查 Calliope mini：",
     "description": "Heading for list of things to check"
   },
   "disconnected-warning-bluetooth3": {
-    "defaultMessage": "已開機（micro:bit 背面的紅燈應亮起）",
-    "description": "List item, one of several things to check about the micro:bit"
+    "defaultMessage": "已開機（Calliope mini 背面的紅燈應亮起）",
+    "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bluetooth4": {
     "defaultMessage": "靠近電腦",
-    "description": "List item, one of several things to check about the micro:bit"
+    "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bridge-heading": {
-    "defaultMessage": "無線電連結 micro:bit 連線遺失",
+    "defaultMessage": "無線電連結 Calliope mini 連線遺失",
     "description": "Connection error dialog"
   },
   "disconnected-warning-bridge1": {
-    "defaultMessage": "與您的電腦連線的 micro:bit 的連線已遺失。",
+    "defaultMessage": "與您的電腦連線的 Calliope mini 的連線已遺失。",
     "description": "Connection error dialog"
   },
   "disconnected-warning-remote-heading": {
-    "defaultMessage": "數據收集 micro:bit 連線遺失",
+    "defaultMessage": "數據收集 Calliope mini 連線遺失",
     "description": "Connection error dialog"
   },
   "disconnected-warning-remote1": {
-    "defaultMessage": "與數據收集 micro:bit 的連線已遺失。",
+    "defaultMessage": "與數據收集 Calliope mini 的連線已遺失。",
     "description": "Connection error dialog"
   },
   "dont-show-again": {
@@ -548,19 +548,19 @@
     "description": "Download action"
   },
   "download-project-choose-microbit-subtitle": {
-    "defaultMessage": "將您的專案下載到相同的 micro:bit 將會中斷 micro:bit 與工具的連線。如果您想要記錄更多數據樣本，則您需要重新連線 micro:bit。",
-    "description": "Download project choose micro:bit dialog subtitle"
+    "defaultMessage": "將您的專案下載到相同的 Calliope mini 將會中斷 Calliope mini 與工具的連線。如果您想要記錄更多數據樣本，則您需要重新連線 Calliope mini。",
+    "description": "Download project choose Calliope mini dialog subtitle"
   },
   "download-project-choose-microbit-title": {
-    "defaultMessage": "您想使用哪一個 micro:bit？",
-    "description": "Download project choose micro:bit dialog title"
+    "defaultMessage": "您想使用哪一個 Calliope mini？",
+    "description": "Download project choose Calliope mini dialog title"
   },
   "download-project-different-microbit-option": {
-    "defaultMessage": "不同的 micro:bit",
-    "description": "Download project different micro:bit option"
+    "defaultMessage": "不同的 Calliope mini",
+    "description": "Download project different Calliope mini option"
   },
   "download-project-intro-description": {
-    "defaultMessage": "您的程式包含您建立的機器學習模型。模型在 micro:bit 上運行，因此您無需連線到 {appNameFull} 即可使用它。",
+    "defaultMessage": "您的程式包含您建立的機器學習模型。模型在 Calliope mini 上運行，因此您無需連線到 {appNameFull} 即可使用它。",
     "description": "Download project intro dialog description"
   },
   "download-project-intro-title": {
@@ -568,15 +568,15 @@
     "description": "Download project intro dialog title"
   },
   "download-project-same-microbit-option": {
-    "defaultMessage": "相同的 micro:bit",
-    "description": "Download project same micro:bit option"
+    "defaultMessage": "相同的 Calliope mini",
+    "description": "Download project same Calliope mini option"
   },
   "downloading-data-collection-header": {
     "defaultMessage": "下載數據收集程式",
     "description": "Progress text"
   },
   "downloading-header": {
-    "defaultMessage": "將程式下載至 micro:bit",
+    "defaultMessage": "將程式下載至 Calliope mini",
     "description": "Progress text"
   },
   "downloading-radio-link-header": {
@@ -584,7 +584,7 @@
     "description": "Progress text"
   },
   "downloading-subtitle": {
-    "defaultMessage": "請稍等。正在將程式下載至 micro:bit。",
+    "defaultMessage": "請稍等。正在將程式下載至 Calliope mini。",
     "description": "Progress text"
   },
   "edit-in-makecode-action": {
@@ -708,11 +708,11 @@
     "description": "Tooltip for data feature of a recording"
   },
   "firmware-outdated-content1": {
-    "defaultMessage": "您 micro:bit 上的韌體過舊，無法連線至 micro:bit。",
+    "defaultMessage": "您 Calliope mini 上的韌體過舊，無法連線至 Calliope mini。",
     "description": "Connection error dialog"
   },
   "firmware-outdated-content2": {
-    "defaultMessage": "在連線至 micro:bit 前，您必須<link>更新您的韌體</link>。",
+    "defaultMessage": "在連線至 Calliope mini 前，您必須<link>更新您的韌體</link>。",
     "description": "Connection error dialog"
   },
   "firmware-outdated-heading": {
@@ -786,11 +786,11 @@
   },
   "homepage": { "defaultMessage": "首頁", "description": "Link to home page" },
   "homepage-alt": {
-    "defaultMessage": "顯示代表 micro:bit 加速計數據的 x、y、z 圖線的圖表，並重疊拍手圖示",
+    "defaultMessage": "顯示代表 Calliope mini 加速計數據的 x、y、z 圖線的圖表，並重疊拍手圖示",
     "description": "Alt text for image in homepage"
   },
   "homepage-alt-graph": {
-    "defaultMessage": "顯示代表 micro:bit 加速計數據的 x、y、z 圖線的圖表",
+    "defaultMessage": "顯示代表 Calliope mini 加速計數據的 x、y、z 圖線的圖表",
     "description": "Alt text for image in homepage"
   },
   "homepage-alt-hands": {
@@ -798,7 +798,7 @@
     "description": "Alt text for image in homepage"
   },
   "homepage-description": {
-    "defaultMessage": "以您自己的移動數據來訓練機器學習模型並且在您的 micro:bit 上運行它。",
+    "defaultMessage": "以您自己的移動數據來訓練機器學習模型並且在您的 Calliope mini 上運行它。",
     "description": "Home page description"
   },
   "homepage-how-it-works": {
@@ -814,7 +814,7 @@
     "description": "Home page section heading"
   },
   "homepage-projects-more": {
-    "defaultMessage": "探索更多<link>有關於 micro:bit 和 AI 的內容及資源</link>。",
+    "defaultMessage": "探索更多<link>有關於 Calliope mini 和 AI 的內容及資源</link>。",
     "description": "Link back to AI landing page"
   },
   "homepage-step-by-step": {
@@ -822,7 +822,7 @@
     "description": "Home page section heading"
   },
   "homepage-subtitle": {
-    "defaultMessage": "利用移動和機器學習在您的 BBC micro:bit 上建立 AI。",
+    "defaultMessage": "利用移動和機器學習在您的 BBC Calliope mini 上建立 AI。",
     "description": "Home page subtitle"
   },
   "homepage-video-alt": {
@@ -842,11 +842,11 @@
     "description": "Title of import error dialog"
   },
   "incompatible-device-body-alt": {
-    "defaultMessage": "返回選擇不同的 micro:bit，或<link>儲存專案十六進位檔案</link>，稍後可以將其下載到 micro:bit V2 上。",
+    "defaultMessage": "返回選擇不同的 Calliope mini，或<link>儲存專案十六進位檔案</link>，稍後可以將其下載到 Calliope mini V2 上。",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body1": {
-    "defaultMessage": "繼續 MakeCode 來編輯程式。然後，您可以儲存專案十六進位檔案，並將其下載到 micro:bit V2 上。",
+    "defaultMessage": "繼續 MakeCode 來編輯程式。然後，您可以儲存專案十六進位檔案，並將其下載到 Calliope mini V2 上。",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body2": {
@@ -858,7 +858,7 @@
     "description": "Incompatible device dialog heading"
   },
   "incompatible-device-subtitle": {
-    "defaultMessage": "您使用的是 micro:bit V1，但是機器學習專案需要 micro:bit V2 上更快的處理器。 <link>瞭解有關 micro:bit 版本的更多資訊。</link>",
+    "defaultMessage": "您使用的是 Calliope mini V1，但是機器學習專案需要 Calliope mini V2 上更快的處理器。 <link>瞭解有關 Calliope mini 版本的更多資訊。</link>",
     "description": "Incompatible device dialog subtitle"
   },
   "insufficient-data-body": {
@@ -891,7 +891,7 @@
   },
   "language-supported-for": {
     "defaultMessage": "Translations supported for:",
-    "description": "Text introducing list of translated areas for a given language (areas: Microsoft MakeCode, micro:bit CreateAI UI itself)"
+    "description": "Text introducing list of translated areas for a given language (areas: Microsoft MakeCode, Calliope mini ML-Machine UI itself)"
   },
   "language-toast-title": {
     "defaultMessage": "Language not fully supported",
@@ -1074,7 +1074,7 @@
     "description": "Heading for live graph"
   },
   "live-graph-tooltip": {
-    "defaultMessage": "這張圖表即時顯示來自 micro:bit 加速計的運動數據。嘗試移動您的數據收集用的 micro:bit 以查看 X、Y 和 Z 軸的變更。每條彩色線條代表您在 micro:bit 移動的不同方向 (維度)。",
+    "defaultMessage": "這張圖表即時顯示來自 Calliope mini 加速計的運動數據。嘗試移動您的數據收集用的 Calliope mini 以查看 X、Y 和 Z 軸的變更。每條彩色線條代表您在 Calliope mini 移動的不同方向 (維度)。",
     "description": "Tooltip for live graph heading"
   },
   "live-graph-tooltip-aria": {
@@ -1107,8 +1107,8 @@
     "description": "Title of MakeCode load error dialog"
   },
   "microbit-not-connected": {
-    "defaultMessage": "您的 micro:bit 未連線",
-    "description": "Live graph disconnected micro:bit status message"
+    "defaultMessage": "您的 Calliope mini 未連線",
+    "description": "Live graph disconnected Calliope mini status message"
   },
   "ml.onStart|block": {
     "defaultMessage": "ML $event 開始時",
@@ -1119,7 +1119,7 @@
     "description": "Aria label for the additional actions menu to the right of the Edit in MakeCode button"
   },
   "name-action-hint": {
-    "defaultMessage": "命名您希望 micro:bit 辨識的動作",
+    "defaultMessage": "命名您希望 Calliope mini 辨識的動作",
     "description": "Hint shown when you have an unnamed action"
   },
   "name-project": {
@@ -1167,7 +1167,7 @@
     "description": "Open last session title"
   },
   "newpage-new-session-subtitle": {
-    "defaultMessage": "連線您的 micro:bit 並收集移動數據以建立機器學習模型。",
+    "defaultMessage": "連線您的 Calliope mini 並收集移動數據以建立機器學習模型。",
     "description": "Start new session subtitle"
   },
   "newpage-new-session-title": {
@@ -1196,11 +1196,11 @@
   },
   "not-create-ai-hex-import-dialog-content": {
     "defaultMessage": "這項專案不包含任何數據樣本，因此僅開啟程式碼。您需要先訓練模型，然後才能使用程式碼。",
-    "description": "Content of import non-CreateAI hex dialog"
+    "description": "Content of import non-ML-Machine hex dialog"
   },
   "not-create-ai-hex-import-dialog-title": {
     "defaultMessage": "您的 MakeCode 專案已匯入",
-    "description": "Title of import non-CreateAI hex dialog"
+    "description": "Title of import non-ML-Machine hex dialog"
   },
   "not-found": {
     "defaultMessage": "{appNameFull} 首頁",
@@ -1235,23 +1235,23 @@
     "description": "Data preview description text"
   },
   "open-shared-project-description": {
-    "defaultMessage": "This is a Microsoft MakeCode shared project compatible with CreateAI.",
-    "description": "Import shared CreateAI project description"
+    "defaultMessage": "This is a Microsoft MakeCode shared project compatible with ML-Machine.",
+    "description": "Import shared ML-Machine project description"
   },
   "open-shared-project-error-description": {
     "defaultMessage": "Check the link you followed is correct, and make sure you are connected to the internet before trying again.",
-    "description": "Import shared CreateAI error description"
+    "description": "Import shared ML-Machine error description"
   },
   "open-shared-project-title": {
-    "defaultMessage": "Open shared CreateAI project",
-    "description": "Import shared CreateAI project title"
+    "defaultMessage": "Open shared ML-Machine project",
+    "description": "Import shared ML-Machine project title"
   },
   "other-tabs-body1": {
     "defaultMessage": "其他程序連線至此裝置。",
     "description": "Connection error dialog"
   },
   "other-tabs-body2": {
-    "defaultMessage": "關閉任何其他可能正在使用 WebUSB 的索引標籤 (例如 MakeCode、Python 編輯程式、{appNameShort})，或者在重試之前拔下並重新插入 micro:bit。",
+    "defaultMessage": "關閉任何其他可能正在使用 WebUSB 的索引標籤 (例如 MakeCode、Python 編輯程式、{appNameShort})，或者在重試之前拔下並重新插入 Calliope mini。",
     "description": "Connection error dialog"
   },
   "other-tabs-heading": {
@@ -1271,11 +1271,11 @@
     "description": "Validation message for project name"
   },
   "radio-link-microbit": {
-    "defaultMessage": "無線電連結 micro:bit",
-    "description": "Radio link micro:bit image caption"
+    "defaultMessage": "無線電連結 Calliope mini",
+    "description": "Radio link Calliope mini image caption"
   },
   "radio-link-microbit-label": {
-    "defaultMessage": "顯示無線電連結 micro:bit 與電腦連線的示意圖",
+    "defaultMessage": "顯示無線電連結 Calliope mini 與電腦連線的示意圖",
     "description": "Aria label for radio link image"
   },
   "recognition-point-label": {
@@ -1284,34 +1284,34 @@
   },
   "reconnect-action": {
     "defaultMessage": "重新連線",
-    "description": "Button text to reconnect a micro:bit over Bluetooth/radio"
+    "description": "Button text to reconnect a Calliope mini over Bluetooth/radio"
   },
   "reconnect-failed-bluetooth-heading": {
-    "defaultMessage": "無法重新連線至數據收集 micro:bit",
+    "defaultMessage": "無法重新連線至數據收集 Calliope mini",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bluetooth1": {
-    "defaultMessage": "無法重新建立與數據收集 micro:bit 的連線。",
+    "defaultMessage": "無法重新建立與數據收集 Calliope mini 的連線。",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bridge-heading": {
-    "defaultMessage": "無法重新連線到無線電連結 micro:bit",
+    "defaultMessage": "無法重新連線到無線電連結 Calliope mini",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bridge1": {
-    "defaultMessage": "無法重新建立與您的電腦連線的 micro:bit 的連線。",
+    "defaultMessage": "無法重新建立與您的電腦連線的 Calliope mini 的連線。",
     "description": "Connection error dialog"
   },
   "reconnect-failed-radio-heading": {
-    "defaultMessage": "無法重新連線到 micro:bits",
+    "defaultMessage": "無法重新連線到 Calliope minis",
     "description": "Connection error dialog"
   },
   "reconnect-failed-remote-heading": {
-    "defaultMessage": "無法重新連線至數據收集 micro:bit",
+    "defaultMessage": "無法重新連線至數據收集 Calliope mini",
     "description": "Connection error dialog"
   },
   "reconnect-failed-remote1": {
-    "defaultMessage": "無法重新建立與數據收集 micro:bit 的連線。",
+    "defaultMessage": "無法重新建立與數據收集 Calliope mini 的連線。",
     "description": "Connection error dialog"
   },
   "reconnect-failed-subtitle": {
@@ -1335,8 +1335,8 @@
     "description": "Hint when you have named the first action but not recorded any data samples"
   },
   "record-hint-button-b": {
-    "defaultMessage": "按下以記錄數據樣本或是按下您的數據收集用的 micro:bit 上的按鍵 B。",
-    "description": "Hint when you have named the first action but not recorded any data samples and have a micro:bit connected"
+    "defaultMessage": "按下以記錄數據樣本或是按下您的數據收集用的 Calliope mini 上的按鍵 B。",
+    "description": "Hint when you have named the first action but not recorded any data samples and have a Calliope mini connected"
   },
   "record-samples": {
     "defaultMessage": "記錄 {numSamples} 個樣本",
@@ -1371,11 +1371,11 @@
     "description": "Text in recording dialog"
   },
   "recording-fingerprint-label": {
-    "defaultMessage": "顯示一次記錄的 micro:bit x、y、z 加速度計數據功能的熱圖",
+    "defaultMessage": "顯示一次記錄的 Calliope mini x、y、z 加速度計數據功能的熱圖",
     "description": "Label for recording fingerprint heatmap"
   },
   "recording-graph-label": {
-    "defaultMessage": "顯示一次記錄的 micro:bit x、y、z 加速度計數據的圖表",
+    "defaultMessage": "顯示一次記錄的 Calliope mini x、y、z 加速度計數據的圖表",
     "description": "Label for recording graph"
   },
   "recording-options-aria": {
@@ -1527,7 +1527,7 @@
     "description": "Testing model page title"
   },
   "third-party-content-description": {
-    "defaultMessage": "The content above is provided by a third party, and is not endorsed by the Micro:bit Educational Foundation.",
+    "defaultMessage": "The content above is provided by a third party, and is not endorsed by the Calliope mini Educational Foundation.",
     "description": "Notify user of third party content"
   },
   "tour-action": {
@@ -1583,15 +1583,15 @@
     "description": "Tour step content"
   },
   "tour-dataSamples-connected-title": {
-    "defaultMessage": "您的數據收集用的 micro:bit 已連線！",
+    "defaultMessage": "您的數據收集用的 Calliope mini 已連線！",
     "description": "Tour step title"
   },
   "tour-dataSamples-liveGraph-content": {
-    "defaultMessage": "圖表顯示來自 micro:bit 加速計的移動數據。移動您的數據收集用的 micro:bit 並查看圖表如何變化。",
+    "defaultMessage": "圖表顯示來自 Calliope mini 加速計的移動數據。移動您的數據收集用的 Calliope mini 並查看圖表如何變化。",
     "description": "Tour step content"
   },
   "tour-makecode-intro-content1": {
-    "defaultMessage": "下載模型和程式碼以在 micro:bit 上測試您的專案。您還可以新增更多程式碼區塊以利用您的模型建立您自己的程式。",
+    "defaultMessage": "下載模型和程式碼以在 Calliope mini 上測試您的專案。您還可以新增更多程式碼區塊以利用您的模型建立您自己的程式。",
     "description": "Tour step description"
   },
   "tour-makecode-intro-content2": {
@@ -1611,7 +1611,7 @@
     "description": "Tour step title"
   },
   "tour-trainModel-afterTrain-content": {
-    "defaultMessage": "現在測試您的機器學習模型。藉由移動您的數據收集用的 micro:bit 嘗試各個動作。模型是否正確地估計各個動作？",
+    "defaultMessage": "現在測試您的機器學習模型。藉由移動您的數據收集用的 Calliope mini 嘗試各個動作。模型是否正確地估計各個動作？",
     "description": "Tour step description"
   },
   "tour-trainModel-afterTrain-delayedUntilConnected-title": {
@@ -1627,15 +1627,15 @@
     "description": "Tour step title"
   },
   "tour-trainModel-editInMakeCode-content": {
-    "defaultMessage": "在 MakeCode 中開啟您的專案，將程式和您的機器學習模型下載到 micro:bit。您可以新增更多區塊以利用您的模型來建立您自己的程式。",
+    "defaultMessage": "在 MakeCode 中開啟您的專案，將程式和您的機器學習模型下載到 Calliope mini。您可以新增更多區塊以利用您的模型來建立您自己的程式。",
     "description": "Tour step description"
   },
   "tour-trainModel-estimatedAction-content": {
-    "defaultMessage": "模型估計您目前正在執行的動作會顯示在該動作的 micro:bit 圖示下方。",
+    "defaultMessage": "模型估計您目前正在執行的動作會顯示在該動作的 Calliope mini 圖示下方。",
     "description": "Tour step description"
   },
   "tour-trainModel-makeCodeBlocks-content": {
-    "defaultMessage": "當您將程式碼和模型傳輸到 micro:bit 時，這些 MakeCode 區塊將顯示偵測到的各個動作的圖示。",
+    "defaultMessage": "當您將程式碼和模型傳輸到 Calliope mini 時，這些 MakeCode 區塊將顯示偵測到的各個動作的圖示。",
     "description": "Tour step description"
   },
   "tour-trainModel-makeCodeBlocks-title": {
@@ -1643,7 +1643,7 @@
     "description": "Tour step title"
   },
   "train-description": {
-    "defaultMessage": "電腦程式會發現數據樣本中的模式或差異，並使用它們建立數學模型，讓 {appNameFull} 能夠在當您移動 micro:bit 時辨識不同的動作。",
+    "defaultMessage": "電腦程式會發現數據樣本中的模式或差異，並使用它們建立數學模型，讓 {appNameFull} 能夠在當您移動 Calliope mini 時辨識不同的動作。",
     "description": "Explanation on training dialog"
   },
   "train-error-body": {
@@ -1671,11 +1671,11 @@
     "description": "Progress title"
   },
   "transfer-hex-alt": {
-    "defaultMessage": "將十六進位檔案從下載資料夾拖曳到檔案總管中列出的 micro:bit 磁碟機或裝置上的動畫",
+    "defaultMessage": "將十六進位檔案從下載資料夾拖曳到檔案總管中列出的 Calliope mini 磁碟機或裝置上的動畫",
     "description": "Alt text"
   },
   "transfer-hex-heading": {
-    "defaultMessage": "將儲存的 HEX 檔案傳輸至 micro:bit",
+    "defaultMessage": "將儲存的 HEX 檔案傳輸至 Calliope mini",
     "description": "Dialog shown when WebUSB fails"
   },
   "transfer-hex-manual-download": {
@@ -1683,7 +1683,7 @@
     "description": "Dialog shown when WebUSB fails"
   },
   "transfer-hex-message": {
-    "defaultMessage": "將十六進位檔案從您的下載資料夾拖曳至 MICROBIT 磁碟。",
+    "defaultMessage": "將十六進位檔案從您的下載資料夾拖曳至 MINI 磁碟。",
     "description": "Dialog shown when WebUSB fails"
   },
   "try-again-action": {
@@ -1695,31 +1695,31 @@
     "description": "Label for unknown ML event"
   },
   "unplug-radio-link-microbit-description": {
-    "defaultMessage": "從電腦上拔下無線電連結 micro:bit。如果您想要記錄更多數據樣本，則需要重新連接 micro:bit。",
-    "description": "Unplug radio link micro:bit dialog description"
+    "defaultMessage": "從電腦上拔下無線電連結 Calliope mini。如果您想要記錄更多數據樣本，則需要重新連接 Calliope mini。",
+    "description": "Unplug radio link Calliope mini dialog description"
   },
   "unplug-radio-link-microbit-label": {
-    "defaultMessage": "顯示 USB 纜線從 micro:bit 頂部斷開連接的動畫",
-    "description": "Unplug radio link micro:bit dialog aria label"
+    "defaultMessage": "顯示 USB 纜線從 Calliope mini 頂部斷開連接的動畫",
+    "description": "Unplug radio link Calliope mini dialog aria label"
   },
   "unplug-radio-link-microbit-title": {
-    "defaultMessage": "拔掉無線電連結 micro:bit",
-    "description": "Unplug radio link micro:bit dialog title"
+    "defaultMessage": "拔掉無線電連結 Calliope mini",
+    "description": "Unplug radio link Calliope mini dialog title"
   },
   "unsupported-device-explain": {
-    "defaultMessage": "很遺憾，使用 micro:bit 無線電連線時，我們僅支援 micro:bit V2。您已連線<link>micro:bit V1</link>。",
+    "defaultMessage": "很遺憾，使用 Calliope mini 無線電連線時，我們僅支援 Calliope mini V2。您已連線<link>Calliope mini V1</link>。",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-header": {
-    "defaultMessage": "micro:bit 無線電連線不支援 micro:bit V1",
+    "defaultMessage": "Calliope mini 無線電連線不支援 Calliope mini V1",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-with-bluetooth": {
-    "defaultMessage": "請改用網路藍牙連線至您的 micro:bit V1。",
+    "defaultMessage": "請改用網路藍牙連線至您的 Calliope mini V1。",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-without-bluetooth": {
-    "defaultMessage": "您可以利用網路藍牙連線至 micro:bit V1，但是，此瀏覽器或裝置沒有啟用藍牙。 <link>如何啟用藍牙</link>。",
+    "defaultMessage": "您可以利用網路藍牙連線至 Calliope mini V1，但是，此瀏覽器或裝置沒有啟用藍牙。 <link>如何啟用藍牙</link>。",
     "description": "Unsupported device dialog"
   },
   "user-guide": {
@@ -1727,8 +1727,8 @@
     "description": "Used for link to user guide page on microbit.org"
   },
   "webusb-retry-no-select": {
-    "defaultMessage": "您沒有選擇 micro:bit。您想再試一次嗎？",
-    "description": "Shown if the user fails to choose a micro:bit"
+    "defaultMessage": "您沒有選擇 Calliope mini。您想再試一次嗎？",
+    "description": "Shown if the user fails to choose a Calliope mini"
   },
   "webusb-retry-replug1": {
     "defaultMessage": "發生 WebUSB 錯誤。",
@@ -1739,7 +1739,7 @@
     "description": "WebUSB error dialog"
   },
   "webusb-retry-replug3": {
-    "defaultMessage": "檢查此 micro:bit 是否未連線電池組",
+    "defaultMessage": "檢查此 Calliope mini 是否未連線電池組",
     "description": "WebUSB error dialog"
   },
   "webusb-retry-replug4": {

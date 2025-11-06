@@ -15,13 +15,11 @@ import {
 import { useRef } from "react";
 import { RiQuestionLine } from "react-icons/ri";
 import { useIntl } from "react-intl";
-import HelpMenuItems from "./HelpMenuItems";
 import { TourTrigger } from "../model";
 
 interface HelpMenuProps extends BoxProps {
   onAboutDialogOpen: () => void;
   onConnectFirstDialogOpen: () => void;
-  onFeedbackOpen: () => void;
   tourTrigger: TourTrigger | undefined;
 }
 
@@ -29,9 +27,6 @@ interface HelpMenuProps extends BoxProps {
  * A help button that triggers a drop-down menu with actions.
  */
 const HelpMenu = ({
-  onAboutDialogOpen,
-  onConnectFirstDialogOpen,
-  onFeedbackOpen,
   tourTrigger,
   ...rest
 }: HelpMenuProps) => {
@@ -59,12 +54,6 @@ const HelpMenu = ({
         />
         <Portal containerRef={containerRef}>
           <MenuList>
-            <HelpMenuItems
-              onAboutDialogOpen={onAboutDialogOpen}
-              onConnectFirstDialogOpen={onConnectFirstDialogOpen}
-              onFeedbackOpen={onFeedbackOpen}
-              tourTrigger={tourTrigger}
-            />
           </MenuList>
         </Portal>
       </Menu>

@@ -17,7 +17,7 @@
   },
   "accelerometer-image-alt": {
     "defaultMessage": "crwdns362656:0crwdne362656:0",
-    "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the micro:bit accelerometer"
+    "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the Calliope mini accelerometer"
   },
   "accessibility": {
     "defaultMessage": "crwdns364036:0crwdne364036:0",
@@ -145,11 +145,11 @@
   },
   "connect-action": {
     "defaultMessage": "crwdns362714:0crwdne362714:0",
-    "description": "Connect action to connect to data collection micro:bit via Bluetooth or micro:bit radio"
+    "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-action-aria": {
     "defaultMessage": "crwdns362716:0crwdne362716:0",
-    "description": "Connect action to connect to data collection micro:bit via Bluetooth or micro:bit radio"
+    "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-battery-heading": {
     "defaultMessage": "crwdns362718:0crwdne362718:0",
@@ -185,7 +185,7 @@
   },
   "connect-bluetooth-start-requirements1": {
     "defaultMessage": "crwdns362734:0crwdne362734:0",
-    "description": "Label for icon of single micro:bit"
+    "description": "Label for icon of single Calliope mini"
   },
   "connect-bluetooth-start-requirements2-subtitle": {
     "defaultMessage": "crwdns362736:0crwdne362736:0",
@@ -237,19 +237,19 @@
   },
   "connect-failed-bridge-heading": {
     "defaultMessage": "crwdns362760:0crwdne362760:0",
-    "description": "micro:bit radio connection error message"
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-bridge1": {
     "defaultMessage": "crwdns362762:0crwdne362762:0",
-    "description": "micro:bit radio connection error message"
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote-heading": {
     "defaultMessage": "crwdns362764:0crwdne362764:0",
-    "description": "micro:bit radio connection error message"
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote1": {
     "defaultMessage": "crwdns362766:0crwdne362766:0",
-    "description": "micro:bit radio connection error message"
+    "description": "Calliope mini radio connection error message"
   },
   "connect-help-alt": {
     "defaultMessage": "crwdns362768:0crwdne362768:0",
@@ -317,23 +317,23 @@
   },
   "connect-radio-data-collection-microbit-description": {
     "defaultMessage": "crwdns362800:0crwdne362800:0",
-    "description": "Connect radio data collection micro:bit dialog description"
+    "description": "Connect radio data collection Calliope mini dialog description"
   },
   "connect-radio-data-collection-microbit-title": {
     "defaultMessage": "crwdns362802:0crwdne362802:0",
-    "description": "Connect radio data collection micro:bit dialog title"
+    "description": "Connect radio data collection Calliope mini dialog title"
   },
   "connect-radio-heading": {
     "defaultMessage": "crwdns362804:0crwdne362804:0",
-    "description": "Text shown while radio link and data connection micro:bit are being connected"
+    "description": "Text shown while radio link and data connection Calliope mini are being connected"
   },
   "connect-radio-link-heading": {
     "defaultMessage": "crwdns362806:0crwdne362806:0",
-    "description": "Heading for connecting radio link micro:bit cable"
+    "description": "Heading for connecting radio link Calliope mini cable"
   },
   "connect-radio-link-subtitle": {
     "defaultMessage": "crwdns362808:0crwdne362808:0",
-    "description": "Instruction for connecting radio link micro:bit cable"
+    "description": "Instruction for connecting radio link Calliope mini cable"
   },
   "connect-radio-start-heading": {
     "defaultMessage": "crwdns362810:0crwdne362810:0",
@@ -341,11 +341,11 @@
   },
   "connect-radio-start-requirements1": {
     "defaultMessage": "crwdns362812:0crwdne362812:0",
-    "description": "Label for icon of two micro:bits"
+    "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
     "defaultMessage": "crwdns362814:0crwdne362814:0",
-    "description": "Shown below 2 micro:bit label for micro:bit radio approach"
+    "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
     "defaultMessage": "crwdns362816:0crwdne362816:0",
@@ -357,7 +357,7 @@
   },
   "connect-to-record": {
     "defaultMessage": "crwdns362820:0crwdne362820:0",
-    "description": "Live graph disconnected micro:bit status message for data samples page"
+    "description": "Live graph disconnected Calliope mini status message for data samples page"
   },
   "connect-to-record-body": {
     "defaultMessage": "crwdns362822:0crwdne362822:0",
@@ -365,11 +365,11 @@
   },
   "connect-to-test-model": {
     "defaultMessage": "crwdns362824:0crwdne362824:0",
-    "description": "Live graph disconnected micro:bit status message for test model page"
+    "description": "Live graph disconnected Calliope mini status message for test model page"
   },
   "connect-to-tour-body": {
     "defaultMessage": "crwdns362826:0crwdne362826:0",
-    "description": "Prompt to connect the app to a micro:bit"
+    "description": "Prompt to connect the app to a Calliope mini"
   },
   "connect-troubleshoot": {
     "defaultMessage": "crwdns362828:0crwdne362828:0",
@@ -413,7 +413,7 @@
   },
   "data-collection-microbit": {
     "defaultMessage": "crwdns362848:0crwdne362848:0",
-    "description": "Data collection micro:bit image caption"
+    "description": "Data collection Calliope mini image caption"
   },
   "data-collection-microbit-label": {
     "defaultMessage": "crwdns362850:0crwdne362850:0",
@@ -501,7 +501,7 @@
   },
   "disconnected-during-recording": {
     "defaultMessage": "crwdns362890:0crwdne362890:0",
-    "description": "Error when the micro:bit is disconnected during recording"
+    "description": "Error when the Calliope mini is disconnected during recording"
   },
   "disconnected-warning-bluetooth-heading": {
     "defaultMessage": "crwdns362892:0crwdne362892:0",
@@ -517,11 +517,11 @@
   },
   "disconnected-warning-bluetooth3": {
     "defaultMessage": "crwdns362898:0crwdne362898:0",
-    "description": "List item, one of several things to check about the micro:bit"
+    "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bluetooth4": {
     "defaultMessage": "crwdns362900:0crwdne362900:0",
-    "description": "List item, one of several things to check about the micro:bit"
+    "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bridge-heading": {
     "defaultMessage": "crwdns362902:0crwdne362902:0",
@@ -549,15 +549,15 @@
   },
   "download-project-choose-microbit-subtitle": {
     "defaultMessage": "crwdns362914:0crwdne362914:0",
-    "description": "Download project choose micro:bit dialog subtitle"
+    "description": "Download project choose Calliope mini dialog subtitle"
   },
   "download-project-choose-microbit-title": {
     "defaultMessage": "crwdns362916:0crwdne362916:0",
-    "description": "Download project choose micro:bit dialog title"
+    "description": "Download project choose Calliope mini dialog title"
   },
   "download-project-different-microbit-option": {
     "defaultMessage": "crwdns362918:0crwdne362918:0",
-    "description": "Download project different micro:bit option"
+    "description": "Download project different Calliope mini option"
   },
   "download-project-intro-description": {
     "defaultMessage": "crwdns362920:0{appNameFull}crwdne362920:0",
@@ -569,7 +569,7 @@
   },
   "download-project-same-microbit-option": {
     "defaultMessage": "crwdns362924:0crwdne362924:0",
-    "description": "Download project same micro:bit option"
+    "description": "Download project same Calliope mini option"
   },
   "downloading-data-collection-header": {
     "defaultMessage": "crwdns362926:0crwdne362926:0",
@@ -897,7 +897,7 @@
   },
   "language-supported-for": {
     "defaultMessage": "crwdns366283:0crwdne366283:0",
-    "description": "Text introducing list of translated areas for a given language (areas: Microsoft MakeCode, micro:bit CreateAI UI itself)"
+    "description": "Text introducing list of translated areas for a given language (areas: Microsoft MakeCode, Calliope mini ML-Machine UI itself)"
   },
   "language-toast-title": {
     "defaultMessage": "crwdns366285:0crwdne366285:0",
@@ -1117,7 +1117,7 @@
   },
   "microbit-not-connected": {
     "defaultMessage": "crwdns363176:0crwdne363176:0",
-    "description": "Live graph disconnected micro:bit status message"
+    "description": "Live graph disconnected Calliope mini status message"
   },
   "ml.onStart|block": {
     "defaultMessage": "crwdns363484:0$eventcrwdne363484:0",
@@ -1205,11 +1205,11 @@
   },
   "not-create-ai-hex-import-dialog-content": {
     "defaultMessage": "crwdns363218:0crwdne363218:0",
-    "description": "Content of import non-CreateAI hex dialog"
+    "description": "Content of import non-ML-Machine hex dialog"
   },
   "not-create-ai-hex-import-dialog-title": {
     "defaultMessage": "crwdns363220:0crwdne363220:0",
-    "description": "Title of import non-CreateAI hex dialog"
+    "description": "Title of import non-ML-Machine hex dialog"
   },
   "not-found": {
     "defaultMessage": "crwdns363222:0{appNameFull}crwdne363222:0",
@@ -1244,16 +1244,16 @@
     "description": "Data preview description text"
   },
   "open-shared-project-description": {
-    "defaultMessage": "This is a Microsoft MakeCode shared project compatible with CreateAI.",
-    "description": "Import shared CreateAI project description"
+    "defaultMessage": "This is a Microsoft MakeCode shared project compatible with ML-Machine.",
+    "description": "Import shared ML-Machine project description"
   },
   "open-shared-project-error-description": {
     "defaultMessage": "Check the link you followed is correct, and make sure you are connected to the internet before trying again.",
-    "description": "Import shared CreateAI error description"
+    "description": "Import shared ML-Machine error description"
   },
   "open-shared-project-title": {
-    "defaultMessage": "Open shared CreateAI project",
-    "description": "Import shared CreateAI project title"
+    "defaultMessage": "Open shared ML-Machine project",
+    "description": "Import shared ML-Machine project title"
   },
   "other-tabs-body1": {
     "defaultMessage": "crwdns363230:0crwdne363230:0",
@@ -1281,7 +1281,7 @@
   },
   "radio-link-microbit": {
     "defaultMessage": "crwdns363242:0crwdne363242:0",
-    "description": "Radio link micro:bit image caption"
+    "description": "Radio link Calliope mini image caption"
   },
   "radio-link-microbit-label": {
     "defaultMessage": "crwdns363244:0crwdne363244:0",
@@ -1293,7 +1293,7 @@
   },
   "reconnect-action": {
     "defaultMessage": "crwdns363248:0crwdne363248:0",
-    "description": "Button text to reconnect a micro:bit over Bluetooth/radio"
+    "description": "Button text to reconnect a Calliope mini over Bluetooth/radio"
   },
   "reconnect-failed-bluetooth-heading": {
     "defaultMessage": "crwdns363250:0crwdne363250:0",
@@ -1345,7 +1345,7 @@
   },
   "record-hint-button-b": {
     "defaultMessage": "crwdns363274:0crwdne363274:0",
-    "description": "Hint when you have named the first action but not recorded any data samples and have a micro:bit connected"
+    "description": "Hint when you have named the first action but not recorded any data samples and have a Calliope mini connected"
   },
   "record-samples": {
     "defaultMessage": "crwdns363276:0{numSamples}crwdne363276:0",
@@ -1536,7 +1536,7 @@
     "description": "Testing model page title"
   },
   "third-party-content-description": {
-    "defaultMessage": "The content above is provided by a third party, and is not endorsed by the Micro:bit Educational Foundation.",
+    "defaultMessage": "The content above is provided by a third party, and is not endorsed by the Calliope mini Educational Foundation.",
     "description": "Notify user of third party content"
   },
   "tour-action": {
@@ -1705,15 +1705,15 @@
   },
   "unplug-radio-link-microbit-description": {
     "defaultMessage": "crwdns363452:0crwdne363452:0",
-    "description": "Unplug radio link micro:bit dialog description"
+    "description": "Unplug radio link Calliope mini dialog description"
   },
   "unplug-radio-link-microbit-label": {
     "defaultMessage": "crwdns363454:0crwdne363454:0",
-    "description": "Unplug radio link micro:bit dialog aria label"
+    "description": "Unplug radio link Calliope mini dialog aria label"
   },
   "unplug-radio-link-microbit-title": {
     "defaultMessage": "crwdns363456:0crwdne363456:0",
-    "description": "Unplug radio link micro:bit dialog title"
+    "description": "Unplug radio link Calliope mini dialog title"
   },
   "unsupported-device-explain": {
     "defaultMessage": "crwdns363458:0crwdne363458:0",
@@ -1737,7 +1737,7 @@
   },
   "webusb-retry-no-select": {
     "defaultMessage": "crwdns363468:0crwdne363468:0",
-    "description": "Shown if the user fails to choose a micro:bit"
+    "description": "Shown if the user fails to choose a Calliope mini"
   },
   "webusb-retry-replug1": {
     "defaultMessage": "crwdns363470:0crwdne363470:0",

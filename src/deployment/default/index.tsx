@@ -19,8 +19,8 @@ const stubConsentContext = createContext<CookieConsent | undefined>(
 
 const defaultDeploymentFactory: DeploymentConfigFactory = () => ({
   chakraTheme: theme,
-  appNameFull: "ml-trainer",
-  appNameShort: "ml-trainer",
+  appNameFull: "KI-Trainer",
+  appNameShort: "KI-Trainer",
   AppLogo: (props: BoxProps) => {
     return (
       <VStack
@@ -30,7 +30,7 @@ const defaultDeploymentFactory: DeploymentConfigFactory = () => ({
         alignItems="center"
         {...props}
       >
-        <Text>ml-trainer</Text>
+        <Text>KI-Trainer</Text>
       </VStack>
     );
   },

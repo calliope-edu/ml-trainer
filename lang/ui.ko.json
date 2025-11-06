@@ -8,7 +8,7 @@
     "description": "Menu item link to view information about app"
   },
   "about-dialog-alt": {
-    "defaultMessage": "LED 화면에 하트를 표시하고 있는 micro:bit",
+    "defaultMessage": "LED 화면에 하트를 표시하고 있는 Calliope mini",
     "description": "Alt text for image in about dialog"
   },
   "about-dialog-title": {
@@ -16,8 +16,8 @@
     "description": "Title of about dialog"
   },
   "accelerometer-image-alt": {
-    "defaultMessage": "micro:bit은 X축을 앞으로 이동, Y축을 위 아래로 이동, Z축을 뒤에서 앞으로 표시합니다.",
-    "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the micro:bit accelerometer"
+    "defaultMessage": "Calliope mini은 X축을 앞으로 이동, Y축을 위 아래로 이동, Z축을 뒤에서 앞으로 표시합니다.",
+    "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the Calliope mini accelerometer"
   },
   "accessibility": {
     "defaultMessage": "접근성",
@@ -76,11 +76,11 @@
     "description": "Blocks preview heading text"
   },
   "bluetooth-unsupported-advice": {
-    "defaultMessage": "micro:bit에 바로 연결하려면 Google Chrome 또는 Microsoft Edge를 사용하는 것이 좋습니다.",
+    "defaultMessage": "Calliope mini에 바로 연결하려면 Google Chrome 또는 Microsoft Edge를 사용하는 것이 좋습니다.",
     "description": "Note on supported browsers"
   },
   "bluetooth-unsupported-explain": {
-    "defaultMessage": "아쉽게도 이 브라우저는 WebUSB와 Web Bluetooth를 지원하지 않습니다. 따라서 micro:bit에 연결할 수 없어 기계 학습 모델을 훈련하는 데 필요한 데이터 샘플을 기록할 수 없습니다.",
+    "defaultMessage": "아쉽게도 이 브라우저는 WebUSB와 Web Bluetooth를 지원하지 않습니다. 따라서 Calliope mini에 연결할 수 없어 기계 학습 모델을 훈련하는 데 필요한 데이터 샘플을 기록할 수 없습니다.",
     "description": "Note on supported browsers"
   },
   "bluetooth-unsupported-header": {
@@ -132,7 +132,7 @@
     "description": "Aria label for code tooltip icon"
   },
   "code-tooltip": {
-    "defaultMessage": "ML 모델과 코드를 micro:bit로 전송할 때 감지된 각 행동에 대한 MakeCode 블록입니다.",
+    "defaultMessage": "ML 모델과 코드를 Calliope mini로 전송할 때 감지된 각 행동에 대한 MakeCode 블록입니다.",
     "description": "Code column heading tooltip"
   },
   "confirm-action": {
@@ -145,11 +145,11 @@
   },
   "connect-action": {
     "defaultMessage": "연결하기",
-    "description": "Connect action to connect to data collection micro:bit via Bluetooth or micro:bit radio"
+    "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-action-aria": {
     "defaultMessage": "마이크로비트 연결",
-    "description": "Connect action to connect to data collection micro:bit via Bluetooth or micro:bit radio"
+    "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-battery-heading": {
     "defaultMessage": "USB를 분리하고 배터리 팩을 연결합니다.",
@@ -160,15 +160,15 @@
     "description": "Label for battery holder icon"
   },
   "connect-battery-link": {
-    "defaultMessage": "micro:bit를 손목에 착용하거나 물체에 부착할 수 있습니다.",
+    "defaultMessage": "Calliope mini를 손목에 착용하거나 물체에 부착할 수 있습니다.",
     "description": "Battery connection dialog"
   },
   "connect-battery-subtitle": {
-    "defaultMessage": "컴퓨터에서 micro:bit를 분리한 후 배터리 팩을 연결하세요.",
+    "defaultMessage": "컴퓨터에서 Calliope mini를 분리한 후 배터리 팩을 연결하세요.",
     "description": "Battery connection dialog"
   },
   "connect-bluetooth-cancelled-connection": {
-    "defaultMessage": "micro:bit를 선택하지 않으셨습니다. 다시 시도하시겠습니까? ",
+    "defaultMessage": "Calliope mini를 선택하지 않으셨습니다. 다시 시도하시겠습니까? ",
     "description": "Error when the user cancelled the Web Bluetooth permission/device selection dialog"
   },
   "connect-bluetooth-heading": {
@@ -184,27 +184,27 @@
     "description": "Connection dialog heading"
   },
   "connect-bluetooth-start-requirements1": {
-    "defaultMessage": "micro:bit 1대",
-    "description": "Label for icon of single micro:bit"
+    "defaultMessage": "Calliope mini 1대",
+    "description": "Label for icon of single Calliope mini"
   },
   "connect-bluetooth-start-requirements2-subtitle": {
     "defaultMessage": "인터넷, USB 포트, Web Bluetooth",
     "description": "Under heading 'Computer' this lists the features the computer needs"
   },
   "connect-bluetooth-start-switch-radio": {
-    "defaultMessage": "대신 micro:bit 라디오를 사용하여 연결하기",
+    "defaultMessage": "대신 Calliope mini 라디오를 사용하여 연결하기",
     "description": "Link to alternative connection method"
   },
   "connect-cable-alt": {
-    "defaultMessage": "micro:bit 상단에 연결된 USB 케이블을 보여주는 애니메이션",
+    "defaultMessage": "Calliope mini 상단에 연결된 USB 케이블을 보여주는 애니메이션",
     "description": "Alt text"
   },
   "connect-cable-download-project-subtitle": {
-    "defaultMessage": "USB 케이블로 micro:bit를 이 컴퓨터에 연결하여 기계 학습 MakeCode 프로그램을 micro:bit에 다운로드합니다.",
+    "defaultMessage": "USB 케이블로 Calliope mini를 이 컴퓨터에 연결하여 기계 학습 MakeCode 프로그램을 Calliope mini에 다운로드합니다.",
     "description": "Download project dialog"
   },
   "connect-cable-heading": {
-    "defaultMessage": "USB 케이블을 micro:bit에 연결하기",
+    "defaultMessage": "USB 케이블을 Calliope mini에 연결하기",
     "description": "Connect cable dialog heading"
   },
   "connect-cable-skip": {
@@ -212,7 +212,7 @@
     "description": "Link to skip"
   },
   "connect-cable-subtitle": {
-    "defaultMessage": "데이터 수집 프로그램을 micro:bit에 다운로드할 수 있도록 USB 케이블로 micro:bit를 이 컴퓨터에 연결합니다.",
+    "defaultMessage": "데이터 수집 프로그램을 Calliope mini에 다운로드할 수 있도록 USB 케이블로 Calliope mini를 이 컴퓨터에 연결합니다.",
     "description": "Project download instructions"
   },
   "connect-computer": {
@@ -220,39 +220,39 @@
     "description": "Label for computer icon in connection dialog"
   },
   "connect-data-collection-heading": {
-    "defaultMessage": "USB 케이블을 micro:bit 1에 연결하기",
+    "defaultMessage": "USB 케이블을 Calliope mini 1에 연결하기",
     "description": "Connection dialog heading"
   },
   "connect-data-collection-subtitle": {
-    "defaultMessage": "데이터 수집 프로그램을 micro:bit에 다운로드할 수 있도록 USB 케이블로 첫 번째 micro:bit를 이 컴퓨터에 연결합니다. 이 micro:bit를 사용하여 데이터 샘플을 수집하게 됩니다.",
+    "defaultMessage": "데이터 수집 프로그램을 Calliope mini에 다운로드할 수 있도록 USB 케이블로 첫 번째 Calliope mini를 이 컴퓨터에 연결합니다. 이 Calliope mini를 사용하여 데이터 샘플을 수집하게 됩니다.",
     "description": "Connection dialog subtitle"
   },
   "connect-failed-bluetooth-heading": {
-    "defaultMessage": "micro:bit에 연결하지 못했습니다.",
+    "defaultMessage": "Calliope mini에 연결하지 못했습니다.",
     "description": "Bluetooth connection error message"
   },
   "connect-failed-bluetooth1": {
-    "defaultMessage": "데이터 수집 micro:bit에 연결할 수 없습니다.",
+    "defaultMessage": "데이터 수집 Calliope mini에 연결할 수 없습니다.",
     "description": "Bluetooth connection error message"
   },
   "connect-failed-bridge-heading": {
-    "defaultMessage": "라디오 링크 micro:bit에 연결할 수 없습니다.",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "라디오 링크 Calliope mini에 연결할 수 없습니다.",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-bridge1": {
-    "defaultMessage": "컴퓨터에 연결된 micro:bit에 대한 연결을 설정할 수 없습니다.",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "컴퓨터에 연결된 Calliope mini에 대한 연결을 설정할 수 없습니다.",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote-heading": {
-    "defaultMessage": "데이터 수집 micro:bit에 연결할 수 없습니다.",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "데이터 수집 Calliope mini에 연결할 수 없습니다.",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote1": {
-    "defaultMessage": "데이터 수집 micro:bit에 연결할 수 없습니다.",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "데이터 수집 Calliope mini에 연결할 수 없습니다.",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-help-alt": {
-    "defaultMessage": "BBC micro:bit entry 레이블 1 및 연결 버튼 레이블 2의 WebUSB 연결 대화 상자 ",
+    "defaultMessage": "BBC Calliope mini entry 레이블 1 및 연결 버튼 레이블 2의 WebUSB 연결 대화 상자 ",
     "description": "Alt text for image in connect help dialog"
   },
   "connect-micro-usb-cable": {
@@ -260,7 +260,7 @@
     "description": "Label for cable icon in list of requirements"
   },
   "connect-or-import": {
-    "defaultMessage": "<link1>데이터 수집 micro:bit에 연결하기</link1> 또는  <link2>데이터 샘플 가져오기</link2>를 하세요.",
+    "defaultMessage": "<link1>데이터 수집 Calliope mini에 연결하기</link1> 또는  <link2>데이터 샘플 가져오기</link2>를 하세요.",
     "description": "Empty data samples page text"
   },
   "connect-pattern-heading": {
@@ -268,19 +268,19 @@
     "description": "Heading for Bluetooth pattern connection dialog"
   },
   "connect-pattern-input-label": {
-    "defaultMessage": "{colNum}열 - micro:bit 디스플레이에 켜진 LED 개수",
+    "defaultMessage": "{colNum}열 - Calliope mini 디스플레이에 켜진 LED 개수",
     "description": "Screen reader text for numeric pattern input"
   },
   "connect-pattern-subtitle": {
-    "defaultMessage": "micro:bit에 표시된 패턴을 복사합니다.",
+    "defaultMessage": "Calliope mini에 표시된 패턴을 복사합니다.",
     "description": "Instruction for bluetooth pattern dialog"
   },
   "connect-popup": {
-    "defaultMessage": "micro:bit을 선택하세요",
+    "defaultMessage": "Calliope mini을 선택하세요",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-bluetooth-alt": {
-    "defaultMessage": "BBC micro:bit entry 레이블 1 및 페어링 버튼 레이블 2의 Web Bluetooth 연결 대화 상자",
+    "defaultMessage": "BBC Calliope mini entry 레이블 1 및 페어링 버튼 레이블 2의 Web Bluetooth 연결 대화 상자",
     "description": "Alt text"
   },
   "connect-popup-bluetooth-instruction2": {
@@ -288,7 +288,7 @@
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-bluetooth-title": {
-    "defaultMessage": "Web Bluetooth를 사용하여 micro:bit에 연결하기",
+    "defaultMessage": "Web Bluetooth를 사용하여 Calliope mini에 연결하기",
     "description": "Instruction for dialog that previews the Bluetooth permission dialog"
   },
   "connect-popup-instruction-heading": {
@@ -296,19 +296,19 @@
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-instruction1": {
-    "defaultMessage": "micro:bit를 선택하세요",
+    "defaultMessage": "Calliope mini를 선택하세요",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-usb-bluetooth-data-collection-title": {
-    "defaultMessage": "micro:bit에 데이터 수집 프로그램 다운로드하기",
+    "defaultMessage": "Calliope mini에 데이터 수집 프로그램 다운로드하기",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-data-collection-title": {
-    "defaultMessage": "micro:bit 1에 데이터 수집 프로그램 다운로드하기",
+    "defaultMessage": "Calliope mini 1에 데이터 수집 프로그램 다운로드하기",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-link-title": {
-    "defaultMessage": "micro:bit 2에 라디오 링크 프로그램 다운로드하기",
+    "defaultMessage": "Calliope mini 2에 라디오 링크 프로그램 다운로드하기",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-webusb-instruction2": {
@@ -316,36 +316,36 @@
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-radio-data-collection-microbit-description": {
-    "defaultMessage": "기계 학습 MakeCode 프로그램을 데이터 수집 micro:bit에 다운로드하려면 해당 micro:bit를 컴퓨터에 연결하세요. 데이터 수집 micro:bit을 착용하고 있다면 벗어야 합니다.",
-    "description": "Connect radio data collection micro:bit dialog description"
+    "defaultMessage": "기계 학습 MakeCode 프로그램을 데이터 수집 Calliope mini에 다운로드하려면 해당 Calliope mini를 컴퓨터에 연결하세요. 데이터 수집 Calliope mini을 착용하고 있다면 벗어야 합니다.",
+    "description": "Connect radio data collection Calliope mini dialog description"
   },
   "connect-radio-data-collection-microbit-title": {
-    "defaultMessage": "USB 케이블을 데이터 수집 micro:bit에 연결하기",
-    "description": "Connect radio data collection micro:bit dialog title"
+    "defaultMessage": "USB 케이블을 데이터 수집 Calliope mini에 연결하기",
+    "description": "Connect radio data collection Calliope mini dialog title"
   },
   "connect-radio-heading": {
-    "defaultMessage": "micro:bit 연결 중",
-    "description": "Text shown while radio link and data connection micro:bit are being connected"
+    "defaultMessage": "Calliope mini 연결 중",
+    "description": "Text shown while radio link and data connection Calliope mini are being connected"
   },
   "connect-radio-link-heading": {
-    "defaultMessage": "USB 케이블을 micro:bit 2에 연결하기",
-    "description": "Heading for connecting radio link micro:bit cable"
+    "defaultMessage": "USB 케이블을 Calliope mini 2에 연결하기",
+    "description": "Heading for connecting radio link Calliope mini cable"
   },
   "connect-radio-link-subtitle": {
-    "defaultMessage": "USB 케이블로 두 번째 micro:bit를 이 컴퓨터에 연결하여 라디오 링크 프로그램을 다운로드합니다. 이 라디오 링크 micro:bit는 데이터 수집 micro:bit와 통신하게 됩니다.",
-    "description": "Instruction for connecting radio link micro:bit cable"
+    "defaultMessage": "USB 케이블로 두 번째 Calliope mini를 이 컴퓨터에 연결하여 라디오 링크 프로그램을 다운로드합니다. 이 라디오 링크 Calliope mini는 데이터 수집 Calliope mini와 통신하게 됩니다.",
+    "description": "Instruction for connecting radio link Calliope mini cable"
   },
   "connect-radio-start-heading": {
-    "defaultMessage": "micro:bit 라디오를 사용하여 연결하는 데 필요한 것",
+    "defaultMessage": "Calliope mini 라디오를 사용하여 연결하는 데 필요한 것",
     "description": "Connection dialog heading"
   },
   "connect-radio-start-requirements1": {
-    "defaultMessage": "micro:bit 2대",
-    "description": "Label for icon of two micro:bits"
+    "defaultMessage": "Calliope mini 2대",
+    "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
     "defaultMessage": "V2에 한정됨",
-    "description": "Shown below 2 micro:bit label for micro:bit radio approach"
+    "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
     "defaultMessage": "인터넷 및 USB 포트",
@@ -357,22 +357,22 @@
   },
   "connect-to-record": {
     "defaultMessage": "데이터 샘플을 기록하려면 연결하기",
-    "description": "Live graph disconnected micro:bit status message for data samples page"
+    "description": "Live graph disconnected Calliope mini status message for data samples page"
   },
   "connect-to-record-body": {
-    "defaultMessage": "데이터 샘플을 기록하려면 micro:bit 연결하기",
+    "defaultMessage": "데이터 샘플을 기록하려면 Calliope mini 연결하기",
     "description": "Insufficient data modal content"
   },
   "connect-to-test-model": {
     "defaultMessage": "ML 모델을 테스트하려면 연결하기",
-    "description": "Live graph disconnected micro:bit status message for test model page"
+    "description": "Live graph disconnected Calliope mini status message for test model page"
   },
   "connect-to-tour-body": {
-    "defaultMessage": "투어를 보려면 데이터 수집 micro:bit를 연결해야 합니다.",
-    "description": "Prompt to connect the app to a micro:bit"
+    "defaultMessage": "투어를 보려면 데이터 수집 Calliope mini를 연결해야 합니다.",
+    "description": "Prompt to connect the app to a Calliope mini"
   },
   "connect-troubleshoot": {
-    "defaultMessage": "micro:bit 연결 문제 해결",
+    "defaultMessage": "Calliope mini 연결 문제 해결",
     "description": "Link to support article for troubleshooting"
   },
   "connect-troubleshooting": {
@@ -412,15 +412,15 @@
     "description": "Aria label for menu"
   },
   "data-collection-microbit": {
-    "defaultMessage": "데이터 수집 micro:bit",
-    "description": "Data collection micro:bit image caption"
+    "defaultMessage": "데이터 수집 Calliope mini",
+    "description": "Data collection Calliope mini image caption"
   },
   "data-collection-microbit-label": {
-    "defaultMessage": "데이터 수집 micro:bit가 사람의 손목에 연결되는 것을 보여주는 다이어그램",
+    "defaultMessage": "데이터 수집 Calliope mini가 사람의 손목에 연결되는 것을 보여주는 다이어그램",
     "description": "Aria label for data collection image"
   },
   "data-connection-region": {
-    "defaultMessage": "micro:bit 데이터 연결",
+    "defaultMessage": "Calliope mini 데이터 연결",
     "description": "Region label for data connection area"
   },
   "data-features-hide-action": {
@@ -500,15 +500,15 @@
     "description": "Disconnect (from bluetooth/radio) action"
   },
   "disconnected-during-recording": {
-    "defaultMessage": "기록 중에 micro:bit 연결이 끊어짐",
-    "description": "Error when the micro:bit is disconnected during recording"
+    "defaultMessage": "기록 중에 Calliope mini 연결이 끊어짐",
+    "description": "Error when the Calliope mini is disconnected during recording"
   },
   "disconnected-warning-bluetooth-heading": {
-    "defaultMessage": "데이터 수집 micro:bit 연결 끊어짐",
+    "defaultMessage": "데이터 수집 Calliope mini 연결 끊어짐",
     "description": "Dialog heading"
   },
   "disconnected-warning-bluetooth1": {
-    "defaultMessage": "데이터 수집 micro:bit 연결이 끊어졌습니다.",
+    "defaultMessage": "데이터 수집 Calliope mini 연결이 끊어졌습니다.",
     "description": "Dialog text"
   },
   "disconnected-warning-bluetooth2": {
@@ -516,27 +516,27 @@
     "description": "Heading for list of things to check"
   },
   "disconnected-warning-bluetooth3": {
-    "defaultMessage": "micro:bit의 전원이 켜져 있는가(micro:bit 뒷면의 빨간색 표시등이 켜져 있어야 합니다.)?",
-    "description": "List item, one of several things to check about the micro:bit"
+    "defaultMessage": "Calliope mini의 전원이 켜져 있는가(Calliope mini 뒷면의 빨간색 표시등이 켜져 있어야 합니다.)?",
+    "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bluetooth4": {
-    "defaultMessage": "micro:bit가 컴퓨터 가까이 있는가?",
-    "description": "List item, one of several things to check about the micro:bit"
+    "defaultMessage": "Calliope mini가 컴퓨터 가까이 있는가?",
+    "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bridge-heading": {
-    "defaultMessage": "라디오 링크 micro:bit 연결 끊어짐",
+    "defaultMessage": "라디오 링크 Calliope mini 연결 끊어짐",
     "description": "Connection error dialog"
   },
   "disconnected-warning-bridge1": {
-    "defaultMessage": "컴퓨터와 micro:bit의 연결이 끊어졌습니다.",
+    "defaultMessage": "컴퓨터와 Calliope mini의 연결이 끊어졌습니다.",
     "description": "Connection error dialog"
   },
   "disconnected-warning-remote-heading": {
-    "defaultMessage": "데이터 수집 micro:bit 연결 끊어짐",
+    "defaultMessage": "데이터 수집 Calliope mini 연결 끊어짐",
     "description": "Connection error dialog"
   },
   "disconnected-warning-remote1": {
-    "defaultMessage": "데이터 수집 micro:bit 연결이 끊어졌습니다.",
+    "defaultMessage": "데이터 수집 Calliope mini 연결이 끊어졌습니다.",
     "description": "Connection error dialog"
   },
   "dont-show-again": {
@@ -548,19 +548,19 @@
     "description": "Download action"
   },
   "download-project-choose-microbit-subtitle": {
-    "defaultMessage": "동일한 micro:bit에 프로젝트를 다운로드하면 micro:bit와 도구의 연결이 끊어집니다. 데이터 샘플을 더 많이 기록하려면 micro:bit를 다시 연결하세요.",
-    "description": "Download project choose micro:bit dialog subtitle"
+    "defaultMessage": "동일한 Calliope mini에 프로젝트를 다운로드하면 Calliope mini와 도구의 연결이 끊어집니다. 데이터 샘플을 더 많이 기록하려면 Calliope mini를 다시 연결하세요.",
+    "description": "Download project choose Calliope mini dialog subtitle"
   },
   "download-project-choose-microbit-title": {
-    "defaultMessage": "어느 micro:bit를 사용하시겠습니까?",
-    "description": "Download project choose micro:bit dialog title"
+    "defaultMessage": "어느 Calliope mini를 사용하시겠습니까?",
+    "description": "Download project choose Calliope mini dialog title"
   },
   "download-project-different-microbit-option": {
-    "defaultMessage": "다른 micro:bit",
-    "description": "Download project different micro:bit option"
+    "defaultMessage": "다른 Calliope mini",
+    "description": "Download project different Calliope mini option"
   },
   "download-project-intro-description": {
-    "defaultMessage": "프로그램에 사용자가 만든 기계 학습 모델이 포함되어 있습니다. 이 모델은 micro:bit에서 실행되므로 {appNameFull}에 연결하지 않아도 사용할 수 있습니다.",
+    "defaultMessage": "프로그램에 사용자가 만든 기계 학습 모델이 포함되어 있습니다. 이 모델은 Calliope mini에서 실행되므로 {appNameFull}에 연결하지 않아도 사용할 수 있습니다.",
     "description": "Download project intro dialog description"
   },
   "download-project-intro-title": {
@@ -568,15 +568,15 @@
     "description": "Download project intro dialog title"
   },
   "download-project-same-microbit-option": {
-    "defaultMessage": "동일한 micro:bit",
-    "description": "Download project same micro:bit option"
+    "defaultMessage": "동일한 Calliope mini",
+    "description": "Download project same Calliope mini option"
   },
   "downloading-data-collection-header": {
     "defaultMessage": "데이터 수집 프로그램 다운로드 중",
     "description": "Progress text"
   },
   "downloading-header": {
-    "defaultMessage": "micro:bit에 프로그램 다운로드 중",
+    "defaultMessage": "Calliope mini에 프로그램 다운로드 중",
     "description": "Progress text"
   },
   "downloading-radio-link-header": {
@@ -584,7 +584,7 @@
     "description": "Progress text"
   },
   "downloading-subtitle": {
-    "defaultMessage": "잠시만 기다리세요. micro:bit에 프로그램을 다운로드하는 중입니다.",
+    "defaultMessage": "잠시만 기다리세요. Calliope mini에 프로그램을 다운로드하는 중입니다.",
     "description": "Progress text"
   },
   "edit-in-makecode-action": {
@@ -708,11 +708,11 @@
     "description": "Tooltip for data feature of a recording"
   },
   "firmware-outdated-content1": {
-    "defaultMessage": "micro:bit 펌웨어가 너무 오래되어 연결에 실패했습니다.",
+    "defaultMessage": "Calliope mini 펌웨어가 너무 오래되어 연결에 실패했습니다.",
     "description": "Connection error dialog"
   },
   "firmware-outdated-content2": {
-    "defaultMessage": "이 micro:bit에 연결하기 전에 <link>펌웨어를 업데이트</link>해야 합니다.",
+    "defaultMessage": "이 Calliope mini에 연결하기 전에 <link>펌웨어를 업데이트</link>해야 합니다.",
     "description": "Connection error dialog"
   },
   "firmware-outdated-heading": {
@@ -789,11 +789,11 @@
     "description": "Link to home page"
   },
   "homepage-alt": {
-    "defaultMessage": "박수 치는 손이 겹쳐진 micro:bit 가속도계 데이터를 나타내는 x, y, z 그래프 선을 보여주는 그래프",
+    "defaultMessage": "박수 치는 손이 겹쳐진 Calliope mini 가속도계 데이터를 나타내는 x, y, z 그래프 선을 보여주는 그래프",
     "description": "Alt text for image in homepage"
   },
   "homepage-alt-graph": {
-    "defaultMessage": "micro:bit 가속도계 데이터를 나타내는 x, y, z 그래프 선을 보여주는 그래프",
+    "defaultMessage": "Calliope mini 가속도계 데이터를 나타내는 x, y, z 그래프 선을 보여주는 그래프",
     "description": "Alt text for image in homepage"
   },
   "homepage-alt-hands": {
@@ -801,7 +801,7 @@
     "description": "Alt text for image in homepage"
   },
   "homepage-description": {
-    "defaultMessage": "사용자의 움직임 데이터로 기계 학습 모델을 훈련하여 micro:bit에서 실행하세요.",
+    "defaultMessage": "사용자의 움직임 데이터로 기계 학습 모델을 훈련하여 Calliope mini에서 실행하세요.",
     "description": "Home page description"
   },
   "homepage-how-it-works": {
@@ -817,7 +817,7 @@
     "description": "Home page section heading"
   },
   "homepage-projects-more": {
-    "defaultMessage": "더 많은 <link>micro:bit와 AI 콘텐츠와 리소스</link>를 살펴보세요.",
+    "defaultMessage": "더 많은 <link>Calliope mini와 AI 콘텐츠와 리소스</link>를 살펴보세요.",
     "description": "Link back to AI landing page"
   },
   "homepage-step-by-step": {
@@ -825,7 +825,7 @@
     "description": "Home page section heading"
   },
   "homepage-subtitle": {
-    "defaultMessage": "움직임과 기계 학습을 사용하여 BBC micro:bit에서 AI를 만들어 보세요.",
+    "defaultMessage": "움직임과 기계 학습을 사용하여 BBC Calliope mini에서 AI를 만들어 보세요.",
     "description": "Home page subtitle"
   },
   "homepage-video-alt": {
@@ -845,11 +845,11 @@
     "description": "Title of import error dialog"
   },
   "incompatible-device-body-alt": {
-    "defaultMessage": "뒤로 돌아가 다른 micro:bit를 선택하거나,  <link>프로젝트 hex를 저장</link>하세요. 프로젝트 hex는 나중에 micro:bit V2에 다운로드할 수 있습니다.",
+    "defaultMessage": "뒤로 돌아가 다른 Calliope mini를 선택하거나,  <link>프로젝트 hex를 저장</link>하세요. 프로젝트 hex는 나중에 Calliope mini V2에 다운로드할 수 있습니다.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body1": {
-    "defaultMessage": "MakeCode로 계속 프로그램을 편집하면 micro:bit V2에 다운로드할 수 있는 프로젝트 hex를 저장할 수 있습니다.",
+    "defaultMessage": "MakeCode로 계속 프로그램을 편집하면 Calliope mini V2에 다운로드할 수 있는 프로젝트 hex를 저장할 수 있습니다.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body2": {
@@ -861,7 +861,7 @@
     "description": "Incompatible device dialog heading"
   },
   "incompatible-device-subtitle": {
-    "defaultMessage": "현재 micro:bit V1을 사용하고 있지만 기계 학습 프로젝트에는 더 빠른 프로세서가 탑재된 micro:bit V2가 필요합니다. <link>micro:bit 버전에 대해 자세히 알아보세요.</link>",
+    "defaultMessage": "현재 Calliope mini V1을 사용하고 있지만 기계 학습 프로젝트에는 더 빠른 프로세서가 탑재된 Calliope mini V2가 필요합니다. <link>Calliope mini 버전에 대해 자세히 알아보세요.</link>",
     "description": "Incompatible device dialog subtitle"
   },
   "insufficient-data-body": {
@@ -894,7 +894,7 @@
   },
   "language-supported-for": {
     "defaultMessage": "지원되는 번역:",
-    "description": "Text introducing list of translated areas for a given language (areas: Microsoft MakeCode, micro:bit CreateAI UI itself)"
+    "description": "Text introducing list of translated areas for a given language (areas: Microsoft MakeCode, Calliope mini ML-Machine UI itself)"
   },
   "language-toast-title": {
     "defaultMessage": "언어가 완전히 지원되지 않습니다",
@@ -1077,7 +1077,7 @@
     "description": "Heading for live graph"
   },
   "live-graph-tooltip": {
-    "defaultMessage": "이 그래프는 micro:bit 가속도계의 움직임 데이터를 실시간으로 보여줍니다. 데이터 수집 micro:bit을 움직여 X, Y, Z 축이 바뀌는 것을 확인해 보세요. 색깔 선은 micro:bit가 이동하는 각각의 방향(차원)을 나타냅니다.",
+    "defaultMessage": "이 그래프는 Calliope mini 가속도계의 움직임 데이터를 실시간으로 보여줍니다. 데이터 수집 Calliope mini을 움직여 X, Y, Z 축이 바뀌는 것을 확인해 보세요. 색깔 선은 Calliope mini가 이동하는 각각의 방향(차원)을 나타냅니다.",
     "description": "Tooltip for live graph heading"
   },
   "live-graph-tooltip-aria": {
@@ -1113,8 +1113,8 @@
     "description": "Title of MakeCode load error dialog"
   },
   "microbit-not-connected": {
-    "defaultMessage": "micro:bit가 연결되지 않았습니다.",
-    "description": "Live graph disconnected micro:bit status message"
+    "defaultMessage": "Calliope mini가 연결되지 않았습니다.",
+    "description": "Live graph disconnected Calliope mini status message"
   },
   "ml.onStart|block": {
     "defaultMessage": "ML $event 시작 시",
@@ -1125,7 +1125,7 @@
     "description": "Aria label for the additional actions menu to the right of the Edit in MakeCode button"
   },
   "name-action-hint": {
-    "defaultMessage": "micro:bit가 인식할 행동의 이름 지정하기",
+    "defaultMessage": "Calliope mini가 인식할 행동의 이름 지정하기",
     "description": "Hint shown when you have an unnamed action"
   },
   "name-project": {
@@ -1173,7 +1173,7 @@
     "description": "Open last session title"
   },
   "newpage-new-session-subtitle": {
-    "defaultMessage": "micro:bit를 연결하고 움직임 데이터를 수집하여 기계 학습 모델을 구축하세요.",
+    "defaultMessage": "Calliope mini를 연결하고 움직임 데이터를 수집하여 기계 학습 모델을 구축하세요.",
     "description": "Start new session subtitle"
   },
   "newpage-new-session-title": {
@@ -1202,11 +1202,11 @@
   },
   "not-create-ai-hex-import-dialog-content": {
     "defaultMessage": "이 프로젝트에는 데이터 샘플이 없어 코드만 공개되었습니다. 코드를 사용하기 전에 모델을 훈련해야 합니다.",
-    "description": "Content of import non-CreateAI hex dialog"
+    "description": "Content of import non-ML-Machine hex dialog"
   },
   "not-create-ai-hex-import-dialog-title": {
     "defaultMessage": "MakeCode 프로젝트를 가져왔습니다.",
-    "description": "Title of import non-CreateAI hex dialog"
+    "description": "Title of import non-ML-Machine hex dialog"
   },
   "not-found": {
     "defaultMessage": "{appNameFull} 홈페이지",
@@ -1241,23 +1241,23 @@
     "description": "Data preview description text"
   },
   "open-shared-project-description": {
-    "defaultMessage": "This is a Microsoft MakeCode shared project compatible with CreateAI.",
-    "description": "Import shared CreateAI project description"
+    "defaultMessage": "This is a Microsoft MakeCode shared project compatible with ML-Machine.",
+    "description": "Import shared ML-Machine project description"
   },
   "open-shared-project-error-description": {
     "defaultMessage": "Check the link you followed is correct, and make sure you are connected to the internet before trying again.",
-    "description": "Import shared CreateAI error description"
+    "description": "Import shared ML-Machine error description"
   },
   "open-shared-project-title": {
-    "defaultMessage": "Open shared CreateAI project",
-    "description": "Import shared CreateAI project title"
+    "defaultMessage": "Open shared ML-Machine project",
+    "description": "Import shared ML-Machine project title"
   },
   "other-tabs-body1": {
     "defaultMessage": "다른 프로세스가 이 장치에 연결되어 있습니다.",
     "description": "Connection error dialog"
   },
   "other-tabs-body2": {
-    "defaultMessage": "WebUSB를 사용하고 있는 다른 탭(예: MakeCode, Python Editor, {appNameShort})을 닫거나 micro:bit를 분리하여 다시 연결한 다음 재시도해 보세요.",
+    "defaultMessage": "WebUSB를 사용하고 있는 다른 탭(예: MakeCode, Python Editor, {appNameShort})을 닫거나 Calliope mini를 분리하여 다시 연결한 다음 재시도해 보세요.",
     "description": "Connection error dialog"
   },
   "other-tabs-heading": {
@@ -1277,11 +1277,11 @@
     "description": "Validation message for project name"
   },
   "radio-link-microbit": {
-    "defaultMessage": "라디오 링크 micro:bit",
-    "description": "Radio link micro:bit image caption"
+    "defaultMessage": "라디오 링크 Calliope mini",
+    "description": "Radio link Calliope mini image caption"
   },
   "radio-link-microbit-label": {
-    "defaultMessage": "라디오 링크 micro:bit가 컴퓨터에 연결된 것을 보여주는 다이어그램",
+    "defaultMessage": "라디오 링크 Calliope mini가 컴퓨터에 연결된 것을 보여주는 다이어그램",
     "description": "Aria label for radio link image"
   },
   "recognition-point-label": {
@@ -1290,34 +1290,34 @@
   },
   "reconnect-action": {
     "defaultMessage": "다시 연결",
-    "description": "Button text to reconnect a micro:bit over Bluetooth/radio"
+    "description": "Button text to reconnect a Calliope mini over Bluetooth/radio"
   },
   "reconnect-failed-bluetooth-heading": {
-    "defaultMessage": "데이터 수집 micro:bit에 다시 연결할 수 없습니다.",
+    "defaultMessage": "데이터 수집 Calliope mini에 다시 연결할 수 없습니다.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bluetooth1": {
-    "defaultMessage": "데이터 수집 micro:bit에 대한 연결을 다시 설정할 수 없습니다.",
+    "defaultMessage": "데이터 수집 Calliope mini에 대한 연결을 다시 설정할 수 없습니다.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bridge-heading": {
-    "defaultMessage": "라디오 링크 micro:bit를 다시 연결할 수 없습니다.",
+    "defaultMessage": "라디오 링크 Calliope mini를 다시 연결할 수 없습니다.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bridge1": {
-    "defaultMessage": "컴퓨터에 연결된 micro:bit에 대한 연결을 다시 설정할 수 없습니다.",
+    "defaultMessage": "컴퓨터에 연결된 Calliope mini에 대한 연결을 다시 설정할 수 없습니다.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-radio-heading": {
-    "defaultMessage": "micro:bit에 다시 연결할 수 없습니다.",
+    "defaultMessage": "Calliope mini에 다시 연결할 수 없습니다.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-remote-heading": {
-    "defaultMessage": "데이터 수집 micro:bit에 다시 연결할 수 없습니다.",
+    "defaultMessage": "데이터 수집 Calliope mini에 다시 연결할 수 없습니다.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-remote1": {
-    "defaultMessage": "데이터 수집 micro:bit에 대한 연결을 다시 설정할 수 없습니다.",
+    "defaultMessage": "데이터 수집 Calliope mini에 대한 연결을 다시 설정할 수 없습니다.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-subtitle": {
@@ -1341,8 +1341,8 @@
     "description": "Hint when you have named the first action but not recorded any data samples"
   },
   "record-hint-button-b": {
-    "defaultMessage": "눌러서 데이터 샘플을 기록하거나 데이터 수집 micro:bit의 B 버튼을 누르세요.",
-    "description": "Hint when you have named the first action but not recorded any data samples and have a micro:bit connected"
+    "defaultMessage": "눌러서 데이터 샘플을 기록하거나 데이터 수집 Calliope mini의 B 버튼을 누르세요.",
+    "description": "Hint when you have named the first action but not recorded any data samples and have a Calliope mini connected"
   },
   "record-samples": {
     "defaultMessage": "샘플 {numSamples}개 기록",
@@ -1377,11 +1377,11 @@
     "description": "Text in recording dialog"
   },
   "recording-fingerprint-label": {
-    "defaultMessage": "micro:bit x, y, z 가속도계 데이터 기록 1개를 보여주는 히트 맵",
+    "defaultMessage": "Calliope mini x, y, z 가속도계 데이터 기록 1개를 보여주는 히트 맵",
     "description": "Label for recording fingerprint heatmap"
   },
   "recording-graph-label": {
-    "defaultMessage": "micro:bit x, y, z 가속도계 데이터 기록 1개를 보여주는 그래프",
+    "defaultMessage": "Calliope mini x, y, z 가속도계 데이터 기록 1개를 보여주는 그래프",
     "description": "Label for recording graph"
   },
   "recording-options-aria": {
@@ -1533,7 +1533,7 @@
     "description": "Testing model page title"
   },
   "third-party-content-description": {
-    "defaultMessage": "The content above is provided by a third party, and is not endorsed by the Micro:bit Educational Foundation.",
+    "defaultMessage": "The content above is provided by a third party, and is not endorsed by the Calliope mini Educational Foundation.",
     "description": "Notify user of third party content"
   },
   "tour-action": {
@@ -1589,15 +1589,15 @@
     "description": "Tour step content"
   },
   "tour-dataSamples-connected-title": {
-    "defaultMessage": "데이터 수집 micro:bit가 연결되었습니다!",
+    "defaultMessage": "데이터 수집 Calliope mini가 연결되었습니다!",
     "description": "Tour step title"
   },
   "tour-dataSamples-liveGraph-content": {
-    "defaultMessage": "micro:bit 가속도계의 움직임 데이터를 보여주는 그래프입니다. 데이터 수집 micro:bit를 움직여서 그래프가 어떻게 바뀌는지 확인하세요.",
+    "defaultMessage": "Calliope mini 가속도계의 움직임 데이터를 보여주는 그래프입니다. 데이터 수집 Calliope mini를 움직여서 그래프가 어떻게 바뀌는지 확인하세요.",
     "description": "Tour step content"
   },
   "tour-makecode-intro-content1": {
-    "defaultMessage": "모델과 코드를 다운로드하여 micro:bit에서 프로젝트를 테스트하세요. 또한 코드 블록을 더 추가한 후 모델을 사용하여 나만의 프로그램을 만들 수 있습니다.",
+    "defaultMessage": "모델과 코드를 다운로드하여 Calliope mini에서 프로젝트를 테스트하세요. 또한 코드 블록을 더 추가한 후 모델을 사용하여 나만의 프로그램을 만들 수 있습니다.",
     "description": "Tour step description"
   },
   "tour-makecode-intro-content2": {
@@ -1617,7 +1617,7 @@
     "description": "Tour step title"
   },
   "tour-trainModel-afterTrain-content": {
-    "defaultMessage": "이제 기계 학습 모델을 테스트할 수 있습니다. 데이터 수집 micro:bit를 움직여 행동을 수행해 보세요. 모델이 행동을 정확하게 추정하나요?",
+    "defaultMessage": "이제 기계 학습 모델을 테스트할 수 있습니다. 데이터 수집 Calliope mini를 움직여 행동을 수행해 보세요. 모델이 행동을 정확하게 추정하나요?",
     "description": "Tour step description"
   },
   "tour-trainModel-afterTrain-delayedUntilConnected-title": {
@@ -1633,15 +1633,15 @@
     "description": "Tour step title"
   },
   "tour-trainModel-editInMakeCode-content": {
-    "defaultMessage": "MakeCode에서 프로젝트를 열어 프로그램과 기계 학습 모델을 micro:bit에 다운로드합니다. 블록을 더 추가한 후 모델을 사용하여 나만의 프로그램을 만들 수 있습니다.",
+    "defaultMessage": "MakeCode에서 프로젝트를 열어 프로그램과 기계 학습 모델을 Calliope mini에 다운로드합니다. 블록을 더 추가한 후 모델을 사용하여 나만의 프로그램을 만들 수 있습니다.",
     "description": "Tour step description"
   },
   "tour-trainModel-estimatedAction-content": {
-    "defaultMessage": "모델이 추정하는 사용자의 현재 행동은 해당 행동에 대한 micro:bit 아이콘 아래에 표시됩니다.",
+    "defaultMessage": "모델이 추정하는 사용자의 현재 행동은 해당 행동에 대한 Calliope mini 아이콘 아래에 표시됩니다.",
     "description": "Tour step description"
   },
   "tour-trainModel-makeCodeBlocks-content": {
-    "defaultMessage": "MakeCode 블록은 코드와 모델을 micro:bit로 전송할 때 감지된 각 행동에 대한 아이콘을 표시합니다.",
+    "defaultMessage": "MakeCode 블록은 코드와 모델을 Calliope mini로 전송할 때 감지된 각 행동에 대한 아이콘을 표시합니다.",
     "description": "Tour step description"
   },
   "tour-trainModel-makeCodeBlocks-title": {
@@ -1649,7 +1649,7 @@
     "description": "Tour step title"
   },
   "train-description": {
-    "defaultMessage": "컴퓨터 프로그램은 데이터 샘플의 패턴이나 차이점을 발견하고 이를 사용하여 micro:bit를 움직일 때 {appNameFull}이(가) 다른 동작을 인식할 수 있는 수학적 모델을 구축합니다.",
+    "defaultMessage": "컴퓨터 프로그램은 데이터 샘플의 패턴이나 차이점을 발견하고 이를 사용하여 Calliope mini를 움직일 때 {appNameFull}이(가) 다른 동작을 인식할 수 있는 수학적 모델을 구축합니다.",
     "description": "Explanation on training dialog"
   },
   "train-error-body": {
@@ -1677,11 +1677,11 @@
     "description": "Progress title"
   },
   "transfer-hex-alt": {
-    "defaultMessage": "다운로드 폴더의 hex 파일을 파일 탐색기에 나열된 기기 또는 micro:bit 드라이브에 드래그하는 애니메이션",
+    "defaultMessage": "다운로드 폴더의 hex 파일을 파일 탐색기에 나열된 기기 또는 Calliope mini 드라이브에 드래그하는 애니메이션",
     "description": "Alt text"
   },
   "transfer-hex-heading": {
-    "defaultMessage": "저장된 hex 파일을 micro:bit으로 전송",
+    "defaultMessage": "저장된 hex 파일을 Calliope mini으로 전송",
     "description": "Dialog shown when WebUSB fails"
   },
   "transfer-hex-manual-download": {
@@ -1689,7 +1689,7 @@
     "description": "Dialog shown when WebUSB fails"
   },
   "transfer-hex-message": {
-    "defaultMessage": "다운로드 폴더의 hex 파일을 MICROBIT 드라이브로 드래그하세요.",
+    "defaultMessage": "다운로드 폴더의 hex 파일을 MINI 드라이브로 드래그하세요.",
     "description": "Dialog shown when WebUSB fails"
   },
   "try-again-action": {
@@ -1701,31 +1701,31 @@
     "description": "Label for unknown ML event"
   },
   "unplug-radio-link-microbit-description": {
-    "defaultMessage": "컴퓨터에서 라디오 링크 micro:bit를 분리합니다. 데이터 샘플을 더 기록하려면 micro:bit를 다시 연결해야 합니다.",
-    "description": "Unplug radio link micro:bit dialog description"
+    "defaultMessage": "컴퓨터에서 라디오 링크 Calliope mini를 분리합니다. 데이터 샘플을 더 기록하려면 Calliope mini를 다시 연결해야 합니다.",
+    "description": "Unplug radio link Calliope mini dialog description"
   },
   "unplug-radio-link-microbit-label": {
-    "defaultMessage": "USB 케이블이 micro:bit 상단에서 분리되는 것을 보여주는 애니메이션",
-    "description": "Unplug radio link micro:bit dialog aria label"
+    "defaultMessage": "USB 케이블이 Calliope mini 상단에서 분리되는 것을 보여주는 애니메이션",
+    "description": "Unplug radio link Calliope mini dialog aria label"
   },
   "unplug-radio-link-microbit-title": {
-    "defaultMessage": "라디오 링크 micro:bit 분리",
-    "description": "Unplug radio link micro:bit dialog title"
+    "defaultMessage": "라디오 링크 Calliope mini 분리",
+    "description": "Unplug radio link Calliope mini dialog title"
   },
   "unsupported-device-explain": {
-    "defaultMessage": "아쉽게도 micro:bit 라디오로 연결 시 micro:bit V2만 지원합니다. <link>micro:bit V1</link>을 연결했습니다.",
+    "defaultMessage": "아쉽게도 Calliope mini 라디오로 연결 시 Calliope mini V2만 지원합니다. <link>Calliope mini V1</link>을 연결했습니다.",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-header": {
-    "defaultMessage": "micro:bit 라디오 연결은 micro:bit V1을 지원하지 않습니다.",
+    "defaultMessage": "Calliope mini 라디오 연결은 Calliope mini V1을 지원하지 않습니다.",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-with-bluetooth": {
-    "defaultMessage": "대신 Web Bluetooth를 사용하여 micro:bit V1에 연결하세요.",
+    "defaultMessage": "대신 Web Bluetooth를 사용하여 Calliope mini V1에 연결하세요.",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-without-bluetooth": {
-    "defaultMessage": "Web Bluetooth를 사용하여 micro:bit V1에 연결할 수 있지만, 이 브라우저 또는 기기의 Bluetooth가 활성화되어 있지 않습니다. <link>Bluetooth를 활성화하는 방법</link>.",
+    "defaultMessage": "Web Bluetooth를 사용하여 Calliope mini V1에 연결할 수 있지만, 이 브라우저 또는 기기의 Bluetooth가 활성화되어 있지 않습니다. <link>Bluetooth를 활성화하는 방법</link>.",
     "description": "Unsupported device dialog"
   },
   "user-guide": {
@@ -1733,8 +1733,8 @@
     "description": "Used for link to user guide page on microbit.org"
   },
   "webusb-retry-no-select": {
-    "defaultMessage": "micro:bit를 선택하지 않으셨습니다. 다시 시도하시겠습니까?",
-    "description": "Shown if the user fails to choose a micro:bit"
+    "defaultMessage": "Calliope mini를 선택하지 않으셨습니다. 다시 시도하시겠습니까?",
+    "description": "Shown if the user fails to choose a Calliope mini"
   },
   "webusb-retry-replug1": {
     "defaultMessage": "WebUSB 오류가 발생했습니다.",
@@ -1745,7 +1745,7 @@
     "description": "WebUSB error dialog"
   },
   "webusb-retry-replug3": {
-    "defaultMessage": "micro:bit에 배터리 팩이 연결되어 있지 않은지 확인하세요.",
+    "defaultMessage": "Calliope mini에 배터리 팩이 연결되어 있지 않은지 확인하세요.",
     "description": "WebUSB error dialog"
   },
   "webusb-retry-replug4": {

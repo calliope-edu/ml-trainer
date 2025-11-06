@@ -54,7 +54,7 @@ export class OpenSharedProjectPage {
   }
 
   expectTitle() {
-    return expect(this.page.getByText("Open shared CreateAI project"));
+    return expect(this.page.getByText("Open shared AI-trainer project"));
   }
 
   expectErrorMessage() {

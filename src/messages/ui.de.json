@@ -2,65 +2,65 @@
   "aarhus-university-alt": [
     {
       "type": 0,
-      "value": "オーフス大学"
+      "value": "Aarhus Universität"
     }
   ],
   "about": [
     {
       "type": 0,
-      "value": "Calliope miniについて"
+      "value": "Über"
     }
   ],
   "about-dialog-alt": [
     {
       "type": 0,
-      "value": "Calliope mini でLEDディスプレイにハートを表示する"
+      "value": "Calliope mini Board mit einem Herz auf dem LED-Display"
     }
   ],
   "about-dialog-title": [
     {
+      "type": 0,
+      "value": "Entwickelt in Partnerschaft mit "
+    },
+    {
       "children": [
         {
           "type": 0,
-          "value": "オーフス大学 Center for Computational Thinking and Design"
+          "value": "Center for Computational Thinking and Design, Universität Aarhus"
         }
       ],
       "type": 8,
       "value": "link"
-    },
-    {
-      "type": 0,
-      "value": "とのパートナーシップにより開発されています"
     }
   ],
   "accelerometer-image-alt": [
     {
       "type": 0,
-      "value": "Calliope miniでは、X軸が前面を横切る方向、Y軸が下から上方向、Z軸が裏面から前面の方向を示しています。"
+      "value": "Calliope mini zeigt die X-Achse quer über die Vorderseite, die Y-Achse nach unten und oben, die Z-Achse von hinten nach vorne"
     }
   ],
   "accessibility": [
     {
       "type": 0,
-      "value": "アクセシビリティ"
+      "value": "Barrierefreiheit"
     }
   ],
   "action-label": [
     {
       "type": 0,
-      "value": "アクション"
+      "value": "Aktion"
     }
   ],
   "action-label-tooltip-aria": [
     {
       "type": 0,
-      "value": "アクションのツールチップ"
+      "value": "Aktions-Tooltip"
     }
   ],
   "action-length-error": [
     {
       "type": 0,
-      "value": "アクション名は "
+      "value": "Aktionsnamen dürfen nicht länger als "
     },
     {
       "type": 1,
@@ -68,947 +68,19 @@
     },
     {
       "type": 0,
-      "value": " 文字より長くできません。"
+      "value": " Zeichen sein."
     }
   ],
   "action-name-placeholder": [
     {
       "type": 0,
-      "value": "アクション名"
+      "value": "Name der Aktion"
     }
   ],
   "action-region": [
     {
       "type": 0,
-      "value": "アクション「"
-    },
-    {
-      "type": 1,
-      "value": "action"
-    },
-    {
-      "type": 0,
-      "value": "」"
-    }
-  ],
-  "action-tooltip": [
-    {
-      "type": 1,
-      "value": "appNameFull"
-    },
-    {
-      "type": 0,
-      "value": " に認識させたい動きの種類(例: 手を振る、拍手する)"
-    }
-  ],
-  "actions-label": [
-    {
-      "type": 0,
-      "value": "アクション"
-    }
-  ],
-  "add-action-action": [
-    {
-      "type": 0,
-      "value": "アクションを追加"
-    }
-  ],
-  "ai-activity-timer-resource-title": [
-    {
-      "type": 0,
-      "value": "AI活動タイマー"
-    }
-  ],
-  "ai-storytelling-friend-resource-title": [
-    {
-      "type": 0,
-      "value": "AIストーリーテリングの友達"
-    }
-  ],
-  "back-action": [
-    {
-      "type": 0,
-      "value": "戻る"
-    }
-  ],
-  "back-to-data-samples-action": [
-    {
-      "type": 0,
-      "value": "データサンプルを編集"
-    }
-  ],
-  "blocks-preview-title": [
-    {
-      "type": 0,
-      "value": "Blocks preview"
-    }
-  ],
-  "bluetooth-unsupported-advice": [
-    {
-      "type": 0,
-      "value": "Calliope miniに直接接続できるように、Google ChromeまたはMicrosoft Edgeをお勧めします。"
-    }
-  ],
-  "bluetooth-unsupported-explain": [
-    {
-      "type": 0,
-      "value": "残念ながら、WebUSBとWeb Bluetoothはこのブラウザではサポートされていません。 これは、機械学習モデルを訓練するために必要なデータサンプルを記録するためにCalliope miniに接続できないことを意味します。"
-    }
-  ],
-  "bluetooth-unsupported-header": [
-    {
-      "type": 0,
-      "value": "お使いのブラウザーはサポートされていません。"
-    }
-  ],
-  "cancel-action": [
-    {
-      "type": 0,
-      "value": "キャンセル"
-    }
-  ],
-  "cancel-recording-action": [
-    {
-      "type": 0,
-      "value": "記録をキャンセル"
-    }
-  ],
-  "certainty-label": [
-    {
-      "type": 0,
-      "value": "確実性"
-    }
-  ],
-  "certainty-label-tooltip-aria": [
-    {
-      "type": 0,
-      "value": "確実性のツールチップ"
-    }
-  ],
-  "certainty-percentage-label": [
-    {
-      "type": 1,
-      "value": "action"
-    },
-    {
-      "type": 0,
-      "value": "の確実性: "
-    },
-    {
-      "type": 1,
-      "value": "currentConfidence"
-    },
-    {
-      "type": 0,
-      "value": "%"
-    }
-  ],
-  "certainty-tooltip": [
-    {
-      "type": 0,
-      "value": "現在各アクションを実行しているかどうかについて、モデルがどの程度確信を持っているか。"
-    }
-  ],
-  "click-to-reload-page-action": [
-    {
-      "type": 0,
-      "value": "ページをリロードするにはクリックします"
-    }
-  ],
-  "close-action": [
-    {
-      "type": 0,
-      "value": "閉じる"
-    }
-  ],
-  "code-download-error": [
-    {
-      "type": 0,
-      "value": "プロジェクトのプログラムのダウンロードに失敗しました"
-    }
-  ],
-  "code-label": [
-    {
-      "type": 0,
-      "value": "コードを書く"
-    }
-  ],
-  "code-label-tooltip-aria": [
-    {
-      "type": 0,
-      "value": "プログラムのツールチップ"
-    }
-  ],
-  "code-tooltip": [
-    {
-      "type": 0,
-      "value": "Calliope miniにMLモデルとプログラムを転送する際に検出されたアクションごとのMakeCodeブロックです。"
-    }
-  ],
-  "confirm-action": [
-    {
-      "type": 0,
-      "value": "確認"
-    }
-  ],
-  "confirm-save-action": [
-    {
-      "type": 0,
-      "value": "確認して保存"
-    }
-  ],
-  "connect-action": [
-    {
-      "type": 0,
-      "value": "接続"
-    }
-  ],
-  "connect-action-aria": [
-    {
-      "type": 0,
-      "value": "Calliope miniに接続中"
-    }
-  ],
-  "connect-battery-heading": [
-    {
-      "type": 0,
-      "value": "USBケーブルを外して、電池ボックスを繋げます"
-    }
-  ],
-  "connect-battery-holder": [
-    {
-      "type": 0,
-      "value": "電池ボックスホルダー"
-    }
-  ],
-  "connect-battery-link": [
-    {
-      "type": 0,
-      "value": "Calliope miniを手首や物に取り付けられます。。"
-    }
-  ],
-  "connect-battery-subtitle": [
-    {
-      "type": 0,
-      "value": "Calliope miniをコンピュータから取り外し、電池ボックスを繋げます。"
-    }
-  ],
-  "connect-bluetooth-cancelled-connection": [
-    {
-      "type": 0,
-      "value": "Calliope miniを選択していません。もう一度試しますか？"
-    }
-  ],
-  "connect-bluetooth-heading": [
-    {
-      "type": 0,
-      "value": "Web Bluetooth を使って繋げる"
-    }
-  ],
-  "connect-bluetooth-invalid-pattern": [
-    {
-      "type": 0,
-      "value": "描画したパターンは無効です。"
-    }
-  ],
-  "connect-bluetooth-start-heading": [
-    {
-      "type": 0,
-      "value": "Web Bluetooth で繋げるのに必要なもの"
-    }
-  ],
-  "connect-bluetooth-start-requirements1": [
-    {
-      "type": 0,
-      "value": "Calliope mini 1台"
-    }
-  ],
-  "connect-bluetooth-start-requirements2-subtitle": [
-    {
-      "type": 0,
-      "value": "インターネット、USB ポート、 Web  Bluetooth"
-    }
-  ],
-  "connect-bluetooth-start-switch-radio": [
-    {
-      "type": 0,
-      "value": "代わりにCalliope mini無線機能を使って接続"
-    }
-  ],
-  "connect-cable-alt": [
-    {
-      "type": 0,
-      "value": "Calliope miniの上部にUSBケーブルが繋げられていることを示すアニメーション"
-    }
-  ],
-  "connect-cable-download-project-subtitle": [
-    {
-      "type": 0,
-      "value": "Calliope miniをUSBケーブルでこのコンピュータに繋いで、機械学習MakeCodeプログラムをダウンロードします。"
-    }
-  ],
-  "connect-cable-heading": [
-    {
-      "type": 0,
-      "value": "USBケーブルをCalliope miniに繋げます"
-    }
-  ],
-  "connect-cable-skip": [
-    {
-      "type": 0,
-      "value": "スキップ: プログラムは既にダウンロードされていませんか？"
-    }
-  ],
-  "connect-cable-subtitle": [
-    {
-      "type": 0,
-      "value": "データ収集プログラムをダウンロードできるように、Calliope miniをUSBケーブルでこのコンピュータに繋げます。"
-    }
-  ],
-  "connect-computer": [
-    {
-      "type": 0,
-      "value": "コンピュータ"
-    }
-  ],
-  "connect-data-collection-heading": [
-    {
-      "type": 0,
-      "value": "USBケーブルをCalliope mini 1に繋げます"
-    }
-  ],
-  "connect-data-collection-subtitle": [
-    {
-      "type": 0,
-      "value": "最初のCalliope miniをUSBケーブルでコンピュータに繋げて、データ収集プログラムをダウンロードできます。 これは、データサンプルの収集に使うCalliope miniです。"
-    }
-  ],
-  "connect-failed-bluetooth-heading": [
-    {
-      "type": 0,
-      "value": "Calliope miniへの接続に失敗しました"
-    }
-  ],
-  "connect-failed-bluetooth1": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniへの接続を確立できませんでした。"
-    }
-  ],
-  "connect-failed-bridge-heading": [
-    {
-      "type": 0,
-      "value": "無線リンク用Calliope miniへの接続に失敗しました"
-    }
-  ],
-  "connect-failed-bridge1": [
-    {
-      "type": 0,
-      "value": "コンピューターに接続されたCalliope miniとの接続を確立できませんでした。"
-    }
-  ],
-  "connect-failed-remote-heading": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniへの接続に失敗しました"
-    }
-  ],
-  "connect-failed-remote1": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniへの接続を確立できませんでした。"
-    }
-  ],
-  "connect-help-alt": [
-    {
-      "type": 0,
-      "value": "「1」のラベルが付いたCalliope miniエントリと「2」のラベルが付いた接続ボタンを持つWebUSB接続ダイアログ"
-    }
-  ],
-  "connect-micro-usb-cable": [
-    {
-      "type": 0,
-      "value": "マイクロUSBケーブル"
-    }
-  ],
-  "connect-or-import": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "データ収集用Calliope miniを接続"
-        }
-      ],
-      "type": 8,
-      "value": "link1"
-    },
-    {
-      "type": 0,
-      "value": " または "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "データサンプルのインポート"
-        }
-      ],
-      "type": 8,
-      "value": "link2"
-    }
-  ],
-  "connect-pattern-heading": [
-    {
-      "type": 0,
-      "value": "パターンをコピー"
-    }
-  ],
-  "connect-pattern-input-label": [
-    {
-      "type": 1,
-      "value": "colNum"
-    },
-    {
-      "type": 0,
-      "value": " 列 - Calliope miniディスプレイで点灯したLEDの数"
-    }
-  ],
-  "connect-pattern-subtitle": [
-    {
-      "type": 0,
-      "value": "Calliope miniに表示されているパターンをコピーします。"
-    }
-  ],
-  "connect-popup": [
-    {
-      "type": 0,
-      "value": "Calliope miniを選択"
-    }
-  ],
-  "connect-popup-bluetooth-alt": [
-    {
-      "type": 0,
-      "value": "ラベル 1 で示している Calliope mini のエントリとラベル 2 で示しているペアリングボタンのあるWeb Bluetooth ダイアログ"
-    }
-  ],
-  "connect-popup-bluetooth-instruction2": [
-    {
-      "type": 0,
-      "value": "「ペアリング」(Pair)を選択"
-    }
-  ],
-  "connect-popup-bluetooth-title": [
-    {
-      "type": 0,
-      "value": "Web BluetoothでCalliope miniに接続"
-    }
-  ],
-  "connect-popup-instruction-heading": [
-    {
-      "type": 0,
-      "value": "次のポップアップ"
-    }
-  ],
-  "connect-popup-instruction1": [
-    {
-      "type": 0,
-      "value": "Calliope miniを選ぶ"
-    }
-  ],
-  "connect-popup-usb-bluetooth-data-collection-title": [
-    {
-      "type": 0,
-      "value": "データ収集プログラムをCalliope miniにダウンロード"
-    }
-  ],
-  "connect-popup-usb-radio-data-collection-title": [
-    {
-      "type": 0,
-      "value": "データ収集プログラムをCalliope mini 1にダウンロードする"
-    }
-  ],
-  "connect-popup-usb-radio-link-title": [
-    {
-      "type": 0,
-      "value": "Calliope mini 2に無線リンクプログラムをダウンロードする"
-    }
-  ],
-  "connect-popup-webusb-instruction2": [
-    {
-      "type": 0,
-      "value": "「接続」(Connect)を選択"
-    }
-  ],
-  "connect-radio-data-collection-microbit-description": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniをこのコンピュータに接続して、機械学習MakeCodeプログラムをダウンロードします。 データ収集用Calliope miniを身につけている場合は、取り外す必要があります。"
-    }
-  ],
-  "connect-radio-data-collection-microbit-title": [
-    {
-      "type": 0,
-      "value": "USBケーブルをデータ収集Calliope miniにつなぐ"
-    }
-  ],
-  "connect-radio-heading": [
-    {
-      "type": 0,
-      "value": "Calliope miniに接続中"
-    }
-  ],
-  "connect-radio-link-heading": [
-    {
-      "type": 0,
-      "value": "USBケーブルをCalliope mini 2に繋げます"
-    }
-  ],
-  "connect-radio-link-subtitle": [
-    {
-      "type": 0,
-      "value": "無線リンクプログラムをダウンロードできるように、2つ目のCalliope miniをUSBケーブルでこのコンピュータに繋ぎます。この無線リンクCalliope miniはデータ収集Calliope miniと通信します。"
-    }
-  ],
-  "connect-radio-start-heading": [
-    {
-      "type": 0,
-      "value": "Calliope mini無線機能で接続するために必要なもの"
-    }
-  ],
-  "connect-radio-start-requirements1": [
-    {
-      "type": 0,
-      "value": "Calliope mini 2個"
-    }
-  ],
-  "connect-radio-start-requirements1-subtitle": [
-    {
-      "type": 0,
-      "value": "V2のみ"
-    }
-  ],
-  "connect-radio-start-requirements2-subtitle": [
-    {
-      "type": 0,
-      "value": "インターネットとUSBポート"
-    }
-  ],
-  "connect-radio-start-switch-bluetooth": [
-    {
-      "type": 0,
-      "value": "Web Bluetooth で接続"
-    }
-  ],
-  "connect-to-record": [
-    {
-      "type": 0,
-      "value": "データサンプルを記録するための接続"
-    }
-  ],
-  "connect-to-record-body": [
-    {
-      "type": 0,
-      "value": "データサンプルを記録するためにCalliope miniを接続します。"
-    }
-  ],
-  "connect-to-test-model": [
-    {
-      "type": 0,
-      "value": "接続して MLモデルをテストする"
-    }
-  ],
-  "connect-to-tour-body": [
-    {
-      "type": 0,
-      "value": "ツアーを見るには、データ収集用Calliope miniを接続する必要があります。"
-    }
-  ],
-  "connect-troubleshoot": [
-    {
-      "type": 0,
-      "value": "Calliope mini接続時に発生する問題のトラブルシューティング"
-    }
-  ],
-  "connect-troubleshooting": [
-    {
-      "type": 0,
-      "value": "トラブルシューティング"
-    }
-  ],
-  "connect-with-batteries": [
-    {
-      "type": 0,
-      "value": "電池と"
-    }
-  ],
-  "connect-with-web-bluetooth": [
-    {
-      "type": 0,
-      "value": "Web Bluetooth で接続"
-    }
-  ],
-  "connecting": [
-    {
-      "type": 0,
-      "value": "接続中..."
-    }
-  ],
-  "continue-makecode-action": [
-    {
-      "type": 0,
-      "value": "MakeCodeに進む"
-    }
-  ],
-  "cookies-action": [
-    {
-      "type": 0,
-      "value": "Cookieについて"
-    }
-  ],
-  "copied": [
-    {
-      "type": 0,
-      "value": "コピーしました"
-    }
-  ],
-  "copy-action": [
-    {
-      "type": 0,
-      "value": "コピー"
-    }
-  ],
-  "data-actions-menu": [
-    {
-      "type": 0,
-      "value": "データアクション"
-    }
-  ],
-  "data-collection-microbit": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope mini"
-    }
-  ],
-  "data-collection-microbit-label": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniを人の手首につけていることを示す図"
-    }
-  ],
-  "data-connection-region": [
-    {
-      "type": 0,
-      "value": "Calliope miniデータ接続"
-    }
-  ],
-  "data-features-hide-action": [
-    {
-      "type": 0,
-      "value": "データ機能を隠す"
-    }
-  ],
-  "data-features-show-action": [
-    {
-      "type": 0,
-      "value": "データ機能を表示"
-    }
-  ],
-  "data-preview-title": [
-    {
-      "type": 0,
-      "value": "Data preview"
-    }
-  ],
-  "data-samples-actions-region": [
-    {
-      "type": 0,
-      "value": "データサンプルツールバー"
-    }
-  ],
-  "data-samples-label": [
-    {
-      "type": 0,
-      "value": "データサンプル"
-    }
-  ],
-  "data-samples-label-tooltip-aria": [
-    {
-      "type": 0,
-      "value": "データサンプルツールチップ"
-    }
-  ],
-  "data-samples-status-count": [
-    {
-      "type": 1,
-      "value": "numSamples"
-    },
-    {
-      "type": 0,
-      "value": " 個のサンプルを記録"
-    }
-  ],
-  "data-samples-status-not-enough": [
-    {
-      "type": 0,
-      "value": "少なくとも3個必要"
-    }
-  ],
-  "data-samples-title": [
-    {
-      "type": 0,
-      "value": "データサンプル"
-    }
-  ],
-  "data-samples-tooltip": [
-    {
-      "type": 0,
-      "value": "1秒間の短い動きデータを収集。あなたのデータサンプルはあなたのPCにのみ保存され、他の誰にも送信されません。"
-    }
-  ],
-  "default-project-name": [
-    {
-      "type": 0,
-      "value": "名称未設定"
-    }
-  ],
-  "delete-action-aria": [
-    {
-      "type": 0,
-      "value": "アクション \""
-    },
-    {
-      "type": 1,
-      "value": "action"
-    },
-    {
-      "type": 0,
-      "value": "\" を削除"
-    }
-  ],
-  "delete-action-confirm-heading": [
-    {
-      "type": 0,
-      "value": "アクション削除を確認"
-    }
-  ],
-  "delete-action-confirm-text": [
-    {
-      "type": 0,
-      "value": "アクション \""
-    },
-    {
-      "type": 1,
-      "value": "action"
-    },
-    {
-      "type": 0,
-      "value": "\" を削除してもよろしいですか？"
-    }
-  ],
-  "delete-data-samples-action": [
-    {
-      "type": 0,
-      "value": "すべてのデータサンプルを削除"
-    }
-  ],
-  "delete-data-samples-confirm-heading": [
-    {
-      "type": 0,
-      "value": "すべてのデータサンプル削除を確認"
-    }
-  ],
-  "delete-data-samples-confirm-text": [
-    {
-      "type": 0,
-      "value": "すべてのデータサンプルを削除してもよろしいですか？"
-    }
-  ],
-  "delete-recording-aria": [
-    {
-      "type": 0,
-      "value": "アクション \""
-    },
-    {
-      "type": 1,
-      "value": "action"
-    },
-    {
-      "type": 0,
-      "value": "\" の "
-    },
-    {
-      "type": 1,
-      "value": "numSamples"
-    },
-    {
-      "type": 0,
-      "value": " 個の記録 "
-    },
-    {
-      "type": 1,
-      "value": "sample"
-    },
-    {
-      "type": 0,
-      "value": " を削除"
-    }
-  ],
-  "disconnect-action": [
-    {
-      "type": 0,
-      "value": "切断"
-    }
-  ],
-  "disconnected-during-recording": [
-    {
-      "type": 0,
-      "value": "記録中にCalliope miniが切断されました"
-    }
-  ],
-  "disconnected-warning-bluetooth-heading": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniの接続が失われました"
-    }
-  ],
-  "disconnected-warning-bluetooth1": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniへの接続が失われました。"
-    }
-  ],
-  "disconnected-warning-bluetooth2": [
-    {
-      "type": 0,
-      "value": "Calliope miniを確認してください。"
-    }
-  ],
-  "disconnected-warning-bluetooth3": [
-    {
-      "type": 0,
-      "value": "電源が入っているか(Calliope mini の背面にある赤いライトが点灯している必要があります)"
-    }
-  ],
-  "disconnected-warning-bluetooth4": [
-    {
-      "type": 0,
-      "value": "PCが近くにあるか"
-    }
-  ],
-  "disconnected-warning-bridge-heading": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniの接続が失われました"
-    }
-  ],
-  "disconnected-warning-bridge1": [
-    {
-      "type": 0,
-      "value": "PCに接続されたCalliope miniへの接続が失われました。"
-    }
-  ],
-  "disconnected-warning-remote-heading": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniの接続が失われました"
-    }
-  ],
-  "disconnected-warning-remote1": [
-    {
-      "type": 0,
-      "value": "データ収集用Calliope miniへの接続が失われました。"
-    }
-  ],
-  "dont-show-again": [
-    {
-      "type": 0,
-      "value": "今後表示しない"
-    }
-  ],
-  "download-data-samples-action": [
-    {
-      "type": 0,
-      "value": "すべてのデータサンプルをダウンロード"
-    }
-  ],
-  "download-project-choose-microbit-subtitle": [
-    {
-      "type": 0,
-      "value": "プロジェクトを同じCalliope miniにダウンロードすると、Calliope miniがツールから切断されます。 データサンプルをもっと記録したい場合は、Calliope miniを再接続する必要があります。"
-    }
-  ],
-  "download-project-choose-microbit-title": [
-    {
-      "type": 0,
-      "value": "どのCalliope miniを使いますか？"
-    }
-  ],
-  "download-project-different-microbit-option": [
-    {
-      "type": 0,
-      "value": "別のCalliope mini"
-    }
-  ],
-  "download-project-intro-description": [
-    {
-      "type": 0,
-      "value": "プログラムには、作成した機械学習モデルが含まれます。 モデルはCalliope mini上で動作するので、 "
-    },
-    {
-      "type": 1,
-      "value": "appNameFull"
-    },
-    {
-      "type": 0,
-      "value": " に接続せずに使えます。"
-    }
-  ],
-  "download-project-intro-title": [
-    {
-      "type": 0,
-      "value": "機械学習のMakeCodeプロジェクトをダウンロード"
-    }
-  ],
-  "download-project-same-microbit-option": [
-    {
-      "type": 0,
-      "value": "同じCalliope mini"
-    }
-  ],
-  "downloading-data-collection-header": [
-    {
-      "type": 0,
-      "value": "データ収集プログラムのダウンロード"
-    }
-  ],
-  "downloading-header": [
-    {
-      "type": 0,
-      "value": "Calliope miniへのプログラムのダウンロード"
-    }
-  ],
-  "downloading-radio-link-header": [
-    {
-      "type": 0,
-      "value": "無線リンクプログラムのダウンロード"
-    }
-  ],
-  "downloading-subtitle": [
-    {
-      "type": 0,
-      "value": "しばらくお待ちください。Calliope miniにプログラムをダウンロードしています。"
-    }
-  ],
-  "edit-in-makecode-action": [
-    {
-      "type": 0,
-      "value": "MakeCodeで編集"
-    }
-  ],
-  "estimated-action-aria": [
-    {
-      "type": 0,
-      "value": "推定アクション: \""
+      "value": "Aktion \""
     },
     {
       "type": 1,
@@ -1019,436 +91,1386 @@
       "value": "\""
     }
   ],
-  "estimated-action-label": [
+  "action-tooltip": [
     {
       "type": 0,
-      "value": "推定アクション"
-    }
-  ],
-  "estimated-action-label-tooltip-aria": [
-    {
-      "type": 0,
-      "value": "推定アクションツールチップ"
-    }
-  ],
-  "estimated-action-tooltip": [
-    {
-      "type": 0,
-      "value": "これは、モデルが現在行っていると判断したアクションです。"
-    }
-  ],
-  "feedback": [
-    {
-      "type": 0,
-      "value": "フィードバック"
-    }
-  ],
-  "fingerprint-acc-x-tooltip": [
-    {
-      "type": 0,
-      "value": "X 方向データの合計"
-    }
-  ],
-  "fingerprint-acc-y-tooltip": [
-    {
-      "type": 0,
-      "value": "Y 方向データの合計"
-    }
-  ],
-  "fingerprint-acc-z-tooltip": [
-    {
-      "type": 0,
-      "value": "Z 方向データの合計"
-    }
-  ],
-  "fingerprint-max-x-tooltip": [
-    {
-      "type": 0,
-      "value": "すべての X 方向データポイントの最大値"
-    }
-  ],
-  "fingerprint-max-y-tooltip": [
-    {
-      "type": 0,
-      "value": "すべての Y 方向のデータポイントの最大値"
-    }
-  ],
-  "fingerprint-max-z-tooltip": [
-    {
-      "type": 0,
-      "value": "すべてのZ方向データポイントの最大値"
-    }
-  ],
-  "fingerprint-mean-x-tooltip": [
-    {
-      "type": 0,
-      "value": "X 方向データの平均値"
-    }
-  ],
-  "fingerprint-mean-y-tooltip": [
-    {
-      "type": 0,
-      "value": "Y 方向データの平均値"
-    }
-  ],
-  "fingerprint-mean-z-tooltip": [
-    {
-      "type": 0,
-      "value": "Z方向データの平均値"
-    }
-  ],
-  "fingerprint-min-x-tooltip": [
-    {
-      "type": 0,
-      "value": "すべての X 方向データポイントの最小値"
-    }
-  ],
-  "fingerprint-min-y-tooltip": [
-    {
-      "type": 0,
-      "value": "すべての Y 方向データポイントの最小値"
-    }
-  ],
-  "fingerprint-min-z-tooltip": [
-    {
-      "type": 0,
-      "value": "すべてのZ方向データポイントの最小値"
-    }
-  ],
-  "fingerprint-peaks-x-tooltip": [
-    {
-      "type": 0,
-      "value": "すべての X 方向データポイントの中の極値の数"
-    }
-  ],
-  "fingerprint-peaks-y-tooltip": [
-    {
-      "type": 0,
-      "value": "Y 方向のすべてのデータポイントの中の極値の数"
-    }
-  ],
-  "fingerprint-peaks-z-tooltip": [
-    {
-      "type": 0,
-      "value": "Z方向のすべてのデータポイント間の極値の数"
-    }
-  ],
-  "fingerprint-rms-x-tooltip": [
-    {
-      "type": 0,
-      "value": "すべての X 方向データポイントの二乗平均平方根値"
-    }
-  ],
-  "fingerprint-rms-y-tooltip": [
-    {
-      "type": 0,
-      "value": "すべての Y 方向データポイントの二乗平均平方根値"
-    }
-  ],
-  "fingerprint-rms-z-tooltip": [
-    {
-      "type": 0,
-      "value": "すべての Z 方向データポイントの二乗平均平方根値"
-    }
-  ],
-  "fingerprint-std-x-tooltip": [
-    {
-      "type": 0,
-      "value": "X方向のすべてのデータポイントの0からの平均偏差"
-    }
-  ],
-  "fingerprint-std-y-tooltip": [
-    {
-      "type": 0,
-      "value": "Y方向のすべてのデータポイントの0からの平均偏差"
-    }
-  ],
-  "fingerprint-std-z-tooltip": [
-    {
-      "type": 0,
-      "value": "Z方向のすべてのデータポイントの0からの平均偏差"
-    }
-  ],
-  "fingerprint-zcr-x-tooltip": [
-    {
-      "type": 0,
-      "value": "X方向のデータポイントの正と負の間で加速度が遷移するレート"
-    }
-  ],
-  "fingerprint-zcr-y-tooltip": [
-    {
-      "type": 0,
-      "value": "Y方向のデータポイントの正と負の間で加速度が遷移するレート"
-    }
-  ],
-  "fingerprint-zcr-z-tooltip": [
-    {
-      "type": 0,
-      "value": "Z方向のデータポイントの正と負の間で加速度が遷移するレート"
-    }
-  ],
-  "firmware-outdated-content1": [
-    {
-      "type": 0,
-      "value": "Calliope miniのファームウェアが古すぎるため、Calliope miniへの接続に失敗しました。"
-    }
-  ],
-  "firmware-outdated-content2": [
-    {
-      "type": 0,
-      "value": "このCalliope miniに接続するには、"
+      "value": "Die Art der Bewegung, die "
     },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "ファームウェアを更新する"
-        }
-      ],
-      "type": 8,
-      "value": "link"
-    },
-    {
-      "type": 0,
-      "value": "必要があります。"
-    }
-  ],
-  "firmware-outdated-heading": [
-    {
-      "type": 0,
-      "value": "ファームウェアの更新が必要です"
-    }
-  ],
-  "get-started-action": [
-    {
-      "type": 0,
-      "value": "はじめよう"
-    }
-  ],
-  "go-action": [
-    {
-      "type": 0,
-      "value": "実行"
-    }
-  ],
-  "graph-color-scheme": [
-    {
-      "type": 0,
-      "value": "グラフの配色設定"
-    }
-  ],
-  "graph-color-scheme-color-blind-1": [
-    {
-      "type": 0,
-      "value": "カラーブラインド代替案 1"
-    }
-  ],
-  "graph-color-scheme-color-blind-2": [
-    {
-      "type": 0,
-      "value": "カラーブラインド代替案 2"
-    }
-  ],
-  "graph-color-scheme-default": [
-    {
-      "type": 0,
-      "value": "デフォルト (赤、青、緑)"
-    }
-  ],
-  "graph-line-scheme": [
-    {
-      "type": 0,
-      "value": "グラフ線のスタイル"
-    }
-  ],
-  "graph-line-scheme-accessible": [
-    {
-      "type": 0,
-      "value": "利用できる線 (実線、破線、点線)"
-    }
-  ],
-  "graph-line-scheme-solid": [
-    {
-      "type": 0,
-      "value": "実線"
-    }
-  ],
-  "graph-line-weight": [
-    {
-      "type": 0,
-      "value": "グラフ線の太さ"
-    }
-  ],
-  "graph-line-weight-default": [
-    {
-      "type": 0,
-      "value": "初期値"
-    }
-  ],
-  "graph-line-weight-thick": [
-    {
-      "type": 0,
-      "value": "太い"
-    }
-  ],
-  "graph-preview": [
-    {
-      "type": 0,
-      "value": "グラフのプレビュー"
-    }
-  ],
-  "help-label": [
-    {
-      "type": 0,
-      "value": "ヘルプ"
-    }
-  ],
-  "help-support": [
-    {
-      "type": 0,
-      "value": "ヘルプとサポート"
-    }
-  ],
-  "help-translate": [
-    {
-      "type": 0,
-      "value": "翻訳を手伝う"
-    }
-  ],
-  "home-action": [
-    {
-      "type": 0,
-      "value": "ホーム"
-    }
-  ],
-  "homepage": [
-    {
-      "type": 0,
-      "value": "ホームページ"
-    }
-  ],
-  "homepage-alt": [
-    {
-      "type": 0,
-      "value": "Calliope miniの加速度センサーデータを表すx, y, zのグラフ線を示すグラフに拍手している様子を重ね合わせたもの"
-    }
-  ],
-  "homepage-alt-graph": [
-    {
-      "type": 0,
-      "value": "Calliope miniの加速度センサーデータを表すx, y, zのグラフ線を示すグラフ"
-    }
-  ],
-  "homepage-alt-hands": [
-    {
-      "type": 0,
-      "value": "拍手"
-    }
-  ],
-  "homepage-description": [
-    {
-      "type": 0,
-      "value": "自分の動作データで機械学習モデルをトレーニングし、Calliope miniで実行します。"
-    }
-  ],
-  "homepage-how-it-works": [
-    {
-      "type": 0,
-      "value": "動作の仕組み"
-    }
-  ],
-  "homepage-how-it-works-paragraph": [
-    {
-      "type": 0,
-      "value": "ビデオを見て、始めましょう。 "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "利用者ガイド"
-        }
-      ],
-      "type": 8,
-      "value": "link"
-    },
-    {
-      "type": 0,
-      "value": "で詳細をご覧ください。"
-    }
-  ],
-  "homepage-projects": [
-    {
-      "type": 0,
-      "value": "サンプルプロジェクト"
-    }
-  ],
-  "homepage-projects-more": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Calliope miniとAIに関するコンテンツとリソース"
-        }
-      ],
-      "type": 8,
-      "value": "link"
-    },
-    {
-      "type": 0,
-      "value": "を探る。"
-    }
-  ],
-  "homepage-step-by-step": [
-    {
-      "type": 0,
-      "value": "セットアップ手順"
-    }
-  ],
-  "homepage-subtitle": [
-    {
-      "type": 0,
-      "value": "動作と機械学習を使ってCalliope miniでAIを作ります。"
-    }
-  ],
-  "homepage-video-alt": [
-    {
-      "type": 0,
-      "value": "紹介動画"
-    }
-  ],
-  "import-data-samples-action": [
-    {
-      "type": 0,
-      "value": "データサンプルをインポート"
-    }
-  ],
-  "import-error-dialog-content": [
     {
       "type": 1,
       "value": "appNameFull"
     },
     {
       "type": 0,
-      "value": "で開くことができるのはMakeCodeのhexファイルまたはデータサンプルファイル(.json)だけです。"
+      "value": " erkennen soll, z.B. 'Winken' oder 'Klatschen'."
+    }
+  ],
+  "actions-label": [
+    {
+      "type": 0,
+      "value": "Aktionen"
+    }
+  ],
+  "add-action-action": [
+    {
+      "type": 0,
+      "value": "Aktion hinzufügen"
+    }
+  ],
+  "ai-activity-timer-resource-title": [
+    {
+      "type": 0,
+      "value": "KI-Aktivitäts-Timer"
+    }
+  ],
+  "ai-storytelling-friend-resource-title": [
+    {
+      "type": 0,
+      "value": "KI-Geschichtenerzähler-Freund"
+    }
+  ],
+  "back-action": [
+    {
+      "type": 0,
+      "value": "Zurück"
+    }
+  ],
+  "back-to-data-samples-action": [
+    {
+      "type": 0,
+      "value": "Datenproben bearbeiten"
+    }
+  ],
+  "blocks-preview-title": [
+    {
+      "type": 0,
+      "value": "Blocks-Vorschau"
+    }
+  ],
+  "bluetooth-unsupported-advice": [
+    {
+      "type": 0,
+      "value": "Wir empfehlen dir Google Chrome oder Microsoft Edge, damit du dich direkt mit deinem Calliope mini verbinden kannst."
+    }
+  ],
+  "bluetooth-unsupported-explain": [
+    {
+      "type": 0,
+      "value": "Leider werden WebUSB und Web Bluetooth von diesem Browser nicht unterstützt. Das bedeutet, du kannst dich nicht mit einem Calliope mini verbinden, um die Datenproben aufzuzeichnen, die zum Trainieren eines Machine-Learning-Modells benötigt werden."
+    }
+  ],
+  "bluetooth-unsupported-header": [
+    {
+      "type": 0,
+      "value": "Dieser Browser wird nicht unterstützt"
+    }
+  ],
+  "cancel-action": [
+    {
+      "type": 0,
+      "value": "Abbrechen"
+    }
+  ],
+  "cancel-recording-action": [
+    {
+      "type": 0,
+      "value": "Aufnahme abbrechen"
+    }
+  ],
+  "certainty-label": [
+    {
+      "type": 0,
+      "value": "Gewissheit"
+    }
+  ],
+  "certainty-label-tooltip-aria": [
+    {
+      "type": 0,
+      "value": "Gewissheits-Tooltip"
+    }
+  ],
+  "certainty-percentage-label": [
+    {
+      "type": 0,
+      "value": "Gewissheit für "
+    },
+    {
+      "type": 1,
+      "value": "action"
+    },
+    {
+      "type": 0,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "value": "currentConfidence"
+    },
+    {
+      "type": 0,
+      "value": " Prozent"
+    }
+  ],
+  "certainty-tooltip": [
+    {
+      "type": 0,
+      "value": "Wie sicher sich das Modell ist, dass du gerade jede Aktion ausführst."
+    }
+  ],
+  "click-to-reload-page-action": [
+    {
+      "type": 0,
+      "value": "Klicke hier, um die Seite neu zu laden"
+    }
+  ],
+  "close-action": [
+    {
+      "type": 0,
+      "value": "Schließen"
+    }
+  ],
+  "code-download-error": [
+    {
+      "type": 0,
+      "value": "Fehler beim Herunterladen des Projektcodes"
+    }
+  ],
+  "code-label": [
+    {
+      "type": 0,
+      "value": "Code"
+    }
+  ],
+  "code-label-tooltip-aria": [
+    {
+      "type": 0,
+      "value": "Code-Tooltip"
+    }
+  ],
+  "code-tooltip": [
+    {
+      "type": 0,
+      "value": "Dies sind die MakeCode-Blöcke für jede erkannte Aktion, wenn du dein ML-Modell und deinen Code auf einen Calliope mini überträgst"
+    }
+  ],
+  "confirm-action": [
+    {
+      "type": 0,
+      "value": "Bestätigen"
+    }
+  ],
+  "confirm-save-action": [
+    {
+      "type": 0,
+      "value": "Bestätigen und speichern"
+    }
+  ],
+  "connect-action": [
+    {
+      "type": 0,
+      "value": "Verbinden"
+    }
+  ],
+  "connect-action-aria": [
+    {
+      "type": 0,
+      "value": "Mit Calliope mini verbinden"
+    }
+  ],
+  "connect-battery-heading": [
+    {
+      "type": 0,
+      "value": "USB trennen und Batteriepack anschließen"
+    }
+  ],
+  "connect-battery-holder": [
+    {
+      "type": 0,
+      "value": "Batteriehalter"
+    }
+  ],
+  "connect-battery-link": [
+    {
+      "type": 0,
+      "value": " Du kannst den Calliope mini an deinem Handgelenk oder an einem Objekt befestigen"
+    }
+  ],
+  "connect-battery-subtitle": [
+    {
+      "type": 0,
+      "value": "Trenne den Calliope mini vom Computer und schließe das Batteriepack an."
+    }
+  ],
+  "connect-bluetooth-cancelled-connection": [
+    {
+      "type": 0,
+      "value": "Du hast keinen Calliope mini ausgewählt. Möchtest du es erneut versuchen?"
+    }
+  ],
+  "connect-bluetooth-heading": [
+    {
+      "type": 0,
+      "value": "Verbindung über Web Bluetooth herstellen"
+    }
+  ],
+  "connect-bluetooth-invalid-pattern": [
+    {
+      "type": 0,
+      "value": "Das von dir gezeichnete Muster ist ungültig."
+    }
+  ],
+  "connect-bluetooth-start-heading": [
+    {
+      "type": 0,
+      "value": "Was du brauchst, um dich über Web Bluetooth zu verbinden"
+    }
+  ],
+  "connect-bluetooth-start-requirements1": [
+    {
+      "type": 0,
+      "value": "1 Calliope mini"
+    }
+  ],
+  "connect-bluetooth-start-requirements2-subtitle": [
+    {
+      "type": 0,
+      "value": "mit Internet, einem USB-Anschluss & Web Bluetooth"
+    }
+  ],
+  "connect-bluetooth-start-switch-radio": [
+    {
+      "type": 0,
+      "value": "Stattdessen über Calliope mini mit Funk verbinden"
+    }
+  ],
+  "connect-cable-alt": [
+    {
+      "type": 0,
+      "value": "Animation, die zeigt, wie ein USB-Kabel an der Oberseite eines Calliope mini angeschlossen wird"
+    }
+  ],
+  "connect-cable-download-project-subtitle": [
+    {
+      "type": 0,
+      "value": "Verbinde einen Calliope mini mit einem USB-Kabel mit diesem Computer, um dein Machine-Learning-MakeCode-Programm darauf herunterzuladen."
+    }
+  ],
+  "connect-cable-heading": [
+    {
+      "type": 0,
+      "value": "USB-Kabel mit Calliope mini verbinden"
+    }
+  ],
+  "connect-cable-skip": [
+    {
+      "type": 0,
+      "value": "Überspringen: Programm bereits heruntergeladen?"
+    }
+  ],
+  "connect-cable-subtitle": [
+    {
+      "type": 0,
+      "value": "Verbinde den Calliope mini mit einem USB-Kabel mit diesem Computer, damit das Datenerfassungsprogramm darauf heruntergeladen werden kann."
+    }
+  ],
+  "connect-computer": [
+    {
+      "type": 0,
+      "value": "Computer"
+    }
+  ],
+  "connect-data-collection-heading": [
+    {
+      "type": 0,
+      "value": "USB-Kabel mit Calliope mini 1 verbinden"
+    }
+  ],
+  "connect-data-collection-subtitle": [
+    {
+      "type": 0,
+      "value": "Verbinde den ersten Calliope mini mit einem USB-Kabel mit diesem Computer, damit das Datenerfassungsprogramm darauf heruntergeladen werden kann. Dies ist der Calliope mini, den du zum Sammeln von Datenproben verwenden wirst."
+    }
+  ],
+  "connect-failed-bluetooth-heading": [
+    {
+      "type": 0,
+      "value": "Verbindung zum Calliope mini fehlgeschlagen"
+    }
+  ],
+  "connect-failed-bluetooth1": [
+    {
+      "type": 0,
+      "value": "Die Verbindung zum Datenerfassungs-Calliope mini konnte nicht hergestellt werden."
+    }
+  ],
+  "connect-failed-bridge-heading": [
+    {
+      "type": 0,
+      "value": "Verbindung zum Funk-Calliope mini fehlgeschlagen"
+    }
+  ],
+  "connect-failed-bridge1": [
+    {
+      "type": 0,
+      "value": "Die Verbindung zum mit deinem Computer verbundenen Calliope mini konnte nicht hergestellt werden."
+    }
+  ],
+  "connect-failed-remote-heading": [
+    {
+      "type": 0,
+      "value": "Verbindung zum Datenerfassungs-Calliope mini fehlgeschlagen"
+    }
+  ],
+  "connect-failed-remote1": [
+    {
+      "type": 0,
+      "value": "Die Verbindung zum Datenerfassungs-Calliope mini konnte nicht hergestellt werden."
+    }
+  ],
+  "connect-help-alt": [
+    {
+      "type": 0,
+      "value": "WebUSB-Verbindungsdialog mit Calliope mini Eintrag mit Bezeichnung 1 und Verbinden-Button mit Bezeichnung 2"
+    }
+  ],
+  "connect-micro-usb-cable": [
+    {
+      "type": 0,
+      "value": "USB-C-Kabel"
+    }
+  ],
+  "connect-or-import": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Verbinde einen Datenerfassungs-Calliope mini"
+        }
+      ],
+      "type": 8,
+      "value": "link1"
+    },
+    {
+      "type": 0,
+      "value": " oder "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "importiere Datenproben"
+        }
+      ],
+      "type": 8,
+      "value": "link2"
+    }
+  ],
+  "connect-pattern-heading": [
+    {
+      "type": 0,
+      "value": "Muster kopieren"
+    }
+  ],
+  "connect-pattern-input-label": [
+    {
+      "type": 0,
+      "value": "Spalte "
+    },
+    {
+      "type": 1,
+      "value": "colNum"
+    },
+    {
+      "type": 0,
+      "value": " - Anzahl der leuchtenden LEDs auf der Calliope mini Matrix"
+    }
+  ],
+  "connect-pattern-subtitle": [
+    {
+      "type": 0,
+      "value": "Kopiere das auf dem Calliope mini angezeigte Muster."
+    }
+  ],
+  "connect-popup": [
+    {
+      "type": 0,
+      "value": "Calliope mini auswählen"
+    }
+  ],
+  "connect-popup-bluetooth-alt": [
+    {
+      "type": 0,
+      "value": "Web Bluetooth-Verbindungsdialog mit Calliope mini Eintrag mit Bezeichnung 1 und Koppeln-Button mit Bezeichnung 2"
+    }
+  ],
+  "connect-popup-bluetooth-instruction2": [
+    {
+      "type": 0,
+      "value": "Wähle 'Koppeln'"
+    }
+  ],
+  "connect-popup-bluetooth-title": [
+    {
+      "type": 0,
+      "value": "Calliope mini über Web Bluetooth verbinden"
+    }
+  ],
+  "connect-popup-instruction-heading": [
+    {
+      "type": 0,
+      "value": "Im nächsten Popup"
+    }
+  ],
+  "connect-popup-instruction1": [
+    {
+      "type": 0,
+      "value": "Wähle deinen Calliope mini"
+    }
+  ],
+  "connect-popup-usb-bluetooth-data-collection-title": [
+    {
+      "type": 0,
+      "value": "Datenerfassungsprogramm auf Calliope mini herunterladen"
+    }
+  ],
+  "connect-popup-usb-radio-data-collection-title": [
+    {
+      "type": 0,
+      "value": "Datenerfassungsprogramm auf Calliope mini 1/2 herunterladen"
+    }
+  ],
+  "connect-popup-usb-radio-link-title": [
+    {
+      "type": 0,
+      "value": "Funk-Programm auf Calliope mini herunterladen"
+    }
+  ],
+  "connect-popup-webusb-instruction2": [
+    {
+      "type": 0,
+      "value": "Wähle 'Verbinden'"
+    }
+  ],
+  "connect-radio-data-collection-microbit-description": [
+    {
+      "type": 0,
+      "value": "Verbinde den Datenerfassungs-Calliope mini mit diesem Computer, um dein Machine-Learning-MakeCode-Programm darauf herunterzuladen. Wenn du den Datenerfassungs-Calliope mini trägst, musst du ihn möglicherweise abnehmen."
+    }
+  ],
+  "connect-radio-data-collection-microbit-title": [
+    {
+      "type": 0,
+      "value": "USB-Kabel mit dem Datenerfassungs-Calliope mini verbinden"
+    }
+  ],
+  "connect-radio-heading": [
+    {
+      "type": 0,
+      "value": "Calliope minis verbinden"
+    }
+  ],
+  "connect-radio-link-heading": [
+    {
+      "type": 0,
+      "value": "USB-C-Kabel mit Calliope mini 3 verbinden"
+    }
+  ],
+  "connect-radio-link-subtitle": [
+    {
+      "type": 0,
+      "value": "Verbinde einen zweiten Calliope mini mit einem USB-C-Kabel mit diesem Computer, damit das Funk-Programm darauf heruntergeladen werden kann. Dieser Funk-Calliope mini wird mit dem Datenerfassungs-Calliope mini kommunizieren."
+    }
+  ],
+  "connect-radio-start-heading": [
+    {
+      "type": 0,
+      "value": "Was du brauchst, um dich über Calliope mini per Funk zu verbinden"
+    }
+  ],
+  "connect-radio-start-requirements1": [
+    {
+      "type": 0,
+      "value": "2 Calliope minis"
+    }
+  ],
+  "connect-radio-start-requirements1-subtitle": [
+    {
+      "type": 0,
+      "value": "Nur V3"
+    }
+  ],
+  "connect-radio-start-requirements2-subtitle": [
+    {
+      "type": 0,
+      "value": "mit Internet & einem USB-C-Anschluss"
+    }
+  ],
+  "connect-radio-start-switch-bluetooth": [
+    {
+      "type": 0,
+      "value": "Stattdessen über Web Bluetooth verbinden"
+    }
+  ],
+  "connect-to-record": [
+    {
+      "type": 0,
+      "value": "Verbinden, um Datenproben aufzuzeichnen"
+    }
+  ],
+  "connect-to-record-body": [
+    {
+      "type": 0,
+      "value": "Verbinde einen Calliope mini, um eine Datenprobe aufzuzeichnen."
+    }
+  ],
+  "connect-to-test-model": [
+    {
+      "type": 0,
+      "value": "Verbinden, um dein ML-Modell zu testen"
+    }
+  ],
+  "connect-to-tour-body": [
+    {
+      "type": 0,
+      "value": "Du musst einen Datenerfassungs-Calliope mini verbinden, um die Tour anzusehen."
+    }
+  ],
+  "connect-troubleshoot": [
+    {
+      "type": 0,
+      "value": "Probleme bei der Verbindung mit deinem Calliope mini beheben"
+    }
+  ],
+  "connect-troubleshooting": [
+    {
+      "type": 0,
+      "value": "Fehlerbehebung"
+    }
+  ],
+  "connect-with-batteries": [
+    {
+      "type": 0,
+      "value": "mit Batterien"
+    }
+  ],
+  "connect-with-web-bluetooth": [
+    {
+      "type": 0,
+      "value": "Mit Web Bluetooth verbinden"
+    }
+  ],
+  "connecting": [
+    {
+      "type": 0,
+      "value": "Verbinde…"
+    }
+  ],
+  "continue-makecode-action": [
+    {
+      "type": 0,
+      "value": "Weiter zu MakeCode"
+    }
+  ],
+  "cookies-action": [
+    {
+      "type": 0,
+      "value": "Cookies"
+    }
+  ],
+  "copied": [
+    {
+      "type": 0,
+      "value": "Kopiert"
+    }
+  ],
+  "copy-action": [
+    {
+      "type": 0,
+      "value": "Kopieren"
+    }
+  ],
+  "data-actions-menu": [
+    {
+      "type": 0,
+      "value": "Daten-Aktionen"
+    }
+  ],
+  "data-collection-microbit": [
+    {
+      "type": 0,
+      "value": "Datenerfassungs-Calliope mini"
+    }
+  ],
+  "data-collection-microbit-label": [
+    {
+      "type": 0,
+      "value": "Diagramm zeigt Datenerfassungs-Calliope mini, der am Handgelenk einer Person befestigt ist"
+    }
+  ],
+  "data-connection-region": [
+    {
+      "type": 0,
+      "value": "Calliope mini Datenverbindung"
+    }
+  ],
+  "data-features-hide-action": [
+    {
+      "type": 0,
+      "value": "Datenmerkmale ausblenden"
+    }
+  ],
+  "data-features-show-action": [
+    {
+      "type": 0,
+      "value": "Datenmerkmale anzeigen"
+    }
+  ],
+  "data-preview-title": [
+    {
+      "type": 0,
+      "value": "Datenvorschau"
+    }
+  ],
+  "data-samples-actions-region": [
+    {
+      "type": 0,
+      "value": "Datenproben-Symbolleiste"
+    }
+  ],
+  "data-samples-label": [
+    {
+      "type": 0,
+      "value": "Datenproben"
+    }
+  ],
+  "data-samples-label-tooltip-aria": [
+    {
+      "type": 0,
+      "value": "Datenproben-Tooltip"
+    }
+  ],
+  "data-samples-status-count": [
+    {
+      "type": 1,
+      "value": "numSamples"
+    },
+    {
+      "type": 0,
+      "value": " Proben aufgezeichnet"
+    }
+  ],
+  "data-samples-status-not-enough": [
+    {
+      "type": 0,
+      "value": "Mindestens 3 erforderlich"
+    }
+  ],
+  "data-samples-title": [
+    {
+      "type": 0,
+      "value": "Datenproben"
+    }
+  ],
+  "data-samples-tooltip": [
+    {
+      "type": 0,
+      "value": "Kurze Sammlungen von Bewegungsdaten, die eine Sekunde dauern. Deine Datenproben werden nur auf deinem Computer gespeichert, sie werden an niemanden gesendet."
+    }
+  ],
+  "default-project-name": [
+    {
+      "type": 0,
+      "value": "Ohne Titel"
+    }
+  ],
+  "delete-action-aria": [
+    {
+      "type": 0,
+      "value": "Aktion löschen \""
+    },
+    {
+      "type": 1,
+      "value": "action"
+    },
+    {
+      "type": 0,
+      "value": "\""
+    }
+  ],
+  "delete-action-confirm-heading": [
+    {
+      "type": 0,
+      "value": "Löschen der Aktion bestätigen"
+    }
+  ],
+  "delete-action-confirm-text": [
+    {
+      "type": 0,
+      "value": "Bist du sicher, dass du die Aktion \""
+    },
+    {
+      "type": 1,
+      "value": "action"
+    },
+    {
+      "type": 0,
+      "value": "\" löschen möchtest?"
+    }
+  ],
+  "delete-data-samples-action": [
+    {
+      "type": 0,
+      "value": "Alle Datenproben löschen"
+    }
+  ],
+  "delete-data-samples-confirm-heading": [
+    {
+      "type": 0,
+      "value": "Löschen aller Datenproben bestätigen"
+    }
+  ],
+  "delete-data-samples-confirm-text": [
+    {
+      "type": 0,
+      "value": "Bist du sicher, dass du alle Datenproben löschen möchtest?"
+    }
+  ],
+  "delete-recording-aria": [
+    {
+      "type": 0,
+      "value": "Aufnahme löschen "
+    },
+    {
+      "type": 1,
+      "value": "sample"
+    },
+    {
+      "type": 0,
+      "value": " von "
+    },
+    {
+      "type": 1,
+      "value": "numSamples"
+    },
+    {
+      "type": 0,
+      "value": " für Aktion \""
+    },
+    {
+      "type": 1,
+      "value": "action"
+    },
+    {
+      "type": 0,
+      "value": "\""
+    }
+  ],
+  "disconnect-action": [
+    {
+      "type": 0,
+      "value": "Trennen"
+    }
+  ],
+  "disconnected-during-recording": [
+    {
+      "type": 0,
+      "value": "Calliope mini während der Aufnahme getrennt"
+    }
+  ],
+  "disconnected-warning-bluetooth-heading": [
+    {
+      "type": 0,
+      "value": "Verbindung zum Datenerfassungs-Calliope mini verloren"
+    }
+  ],
+  "disconnected-warning-bluetooth1": [
+    {
+      "type": 0,
+      "value": "Die Verbindung zum Datenerfassungs-Calliope mini wurde unterbrochen."
+    }
+  ],
+  "disconnected-warning-bluetooth2": [
+    {
+      "type": 0,
+      "value": "Bitte überprüfe, ob der Calliope mini:"
+    }
+  ],
+  "disconnected-warning-bluetooth3": [
+    {
+      "type": 0,
+      "value": "eingeschaltet ist (die rote LED des Calliope mini sollte leuchten)"
+    }
+  ],
+  "disconnected-warning-bluetooth4": [
+    {
+      "type": 0,
+      "value": "sich in der Nähe des Computers befindet"
+    }
+  ],
+  "disconnected-warning-bridge-heading": [
+    {
+      "type": 0,
+      "value": "Verbindung zum Funk-Link-Calliope mini verloren"
+    }
+  ],
+  "disconnected-warning-bridge1": [
+    {
+      "type": 0,
+      "value": "Die Verbindung zu dem mit deinem Computer verbundenen Calliope mini wurde unterbrochen."
+    }
+  ],
+  "disconnected-warning-remote-heading": [
+    {
+      "type": 0,
+      "value": "Verbindung zum Datenerfassungs-Calliope mini verloren"
+    }
+  ],
+  "disconnected-warning-remote1": [
+    {
+      "type": 0,
+      "value": "Die Verbindung zum Datenerfassungs-Calliope mini wurde unterbrochen."
+    }
+  ],
+  "dont-show-again": [
+    {
+      "type": 0,
+      "value": "Nicht mehr anzeigen"
+    }
+  ],
+  "download-data-samples-action": [
+    {
+      "type": 0,
+      "value": "Alle Datenproben herunterladen"
+    }
+  ],
+  "download-project-choose-microbit-subtitle": [
+    {
+      "type": 0,
+      "value": "Das Herunterladen deines Projekts auf denselben Calliope mini trennt die Verbindung zur Anwendung. Du musst den Calliope mini erneut verbinden, wenn du weitere Datenproben aufzeichnen möchtest."
+    }
+  ],
+  "download-project-choose-microbit-title": [
+    {
+      "type": 0,
+      "value": "Welchen Calliope mini möchtest du verwenden?"
+    }
+  ],
+  "download-project-different-microbit-option": [
+    {
+      "type": 0,
+      "value": "Anderer Calliope mini"
+    }
+  ],
+  "download-project-intro-description": [
+    {
+      "type": 0,
+      "value": "Dein Programm enthält das von dir erstellte Machine-Learning-Modell. Das Modell läuft auf dem Calliope mini, sodass du es ohne Verbindung zu "
+    },
+    {
+      "type": 1,
+      "value": "appNameFull"
+    },
+    {
+      "type": 0,
+      "value": " verwenden kannst."
+    }
+  ],
+  "download-project-intro-title": [
+    {
+      "type": 0,
+      "value": "Lade dein Machine-Learning-MakeCode-Projekt herunter"
+    }
+  ],
+  "download-project-same-microbit-option": [
+    {
+      "type": 0,
+      "value": "Derselbe Calliope mini"
+    }
+  ],
+  "downloading-data-collection-header": [
+    {
+      "type": 0,
+      "value": "Herunterladen des Datenerfassungsprogramms"
+    }
+  ],
+  "downloading-header": [
+    {
+      "type": 0,
+      "value": "Programm auf Calliope mini herunterladen"
+    }
+  ],
+  "downloading-radio-link-header": [
+    {
+      "type": 0,
+      "value": "Herunterladen des Funk-Programms"
+    }
+  ],
+  "downloading-subtitle": [
+    {
+      "type": 0,
+      "value": "Bitte warten. Programm wird auf Calliope mini heruntergeladen."
+    }
+  ],
+  "edit-in-makecode-action": [
+    {
+      "type": 0,
+      "value": "Bearbeiten in MakeCode"
+    }
+  ],
+  "estimated-action-aria": [
+    {
+      "type": 0,
+      "value": "Geschätzte Aktion: \""
+    },
+    {
+      "type": 1,
+      "value": "Aktion"
+    },
+    {
+      "type": 0,
+      "value": "\""
+    }
+  ],
+  "estimated-action-label": [
+    {
+      "type": 0,
+      "value": "Geschätzte Aktion"
+    }
+  ],
+  "estimated-action-label-tooltip-aria": [
+    {
+      "type": 0,
+      "value": "Geschätzte Aktion Tooltip"
+    }
+  ],
+  "estimated-action-tooltip": [
+    {
+      "type": 0,
+      "value": "Dies ist die Aktion, von der das Modell glaubt, dass du sie gerade ausführst."
+    }
+  ],
+  "feedback": [
+    {
+      "type": 0,
+      "value": "Feedback"
+    }
+  ],
+
+  
+ "fingerprint-acc-x-tooltip": [
+    {
+      "type": 0,
+      "value": "Summe der Daten in x-Richtung"
+    }
+  ],
+  "fingerprint-acc-y-tooltip": [
+    {
+      "type": 0,
+      "value": "Summe der Daten in y-Richtung"
+    }
+  ],
+  "fingerprint-acc-z-tooltip": [
+    {
+      "type": 0,
+      "value": "Summe der Daten in z-Richtung"
+    }
+  ],
+  "fingerprint-max-x-tooltip": [
+    {
+      "type": 0,
+      "value": "Maximaler Punkt unter allen Datenpunkten in x-Richtung"
+    }
+  ],
+  "fingerprint-max-y-tooltip": [
+    {
+      "type": 0,
+      "value": "Maximaler Punkt unter allen Datenpunkten in y-Richtung"
+    }
+  ],
+  "fingerprint-max-z-tooltip": [
+    {
+      "type": 0,
+      "value": "Maximaler Punkt unter allen Datenpunkten in z-Richtung"
+    }
+  ],
+  "fingerprint-mean-x-tooltip": [
+    {
+      "type": 0,
+      "value": "Mittelwert für Daten in x-Richtung"
+    }
+  ],
+  "fingerprint-mean-y-tooltip": [
+    {
+      "type": 0,
+      "value": "Mittelwert für Daten in y-Richtung"
+    }
+  ],
+  "fingerprint-mean-z-tooltip": [
+    {
+      "type": 0,
+      "value": "Mittelwert für Daten in z-Richtung"
+    }
+  ],
+  "fingerprint-min-x-tooltip": [
+    {
+      "type": 0,
+      "value": "Minimaler Punkt unter allen Datenpunkten in x-Richtung"
+    }
+  ],
+  "fingerprint-min-y-tooltip": [
+    {
+      "type": 0,
+      "value": "Minimaler Punkt unter allen Datenpunkten in y-Richtung"
+    }
+  ],
+  "fingerprint-min-z-tooltip": [
+    {
+      "type": 0,
+      "value": "Minimaler Punkt unter allen Datenpunkten in z-Richtung"
+    }
+  ],
+  "fingerprint-peaks-x-tooltip": [
+    {
+      "type": 0,
+      "value": "Anzahl der Extremwerte unter allen Datenpunkten in x-Richtung"
+    }
+  ],
+  "fingerprint-peaks-y-tooltip": [
+    {
+      "type": 0,
+      "value": "Anzahl der Extremwerte unter allen Datenpunkten in y-Richtung"
+    }
+  ],
+  "fingerprint-peaks-z-tooltip": [
+    {
+      "type": 0,
+      "value": "Anzahl der Extremwerte unter allen Datenpunkten in z-Richtung"
+    }
+  ],
+  "fingerprint-rms-x-tooltip": [
+    {
+      "type": 0,
+      "value": "Effektivwert für alle Datenpunkte in x-Richtung"
+    }
+  ],
+  "fingerprint-rms-y-tooltip": [
+    {
+      "type": 0,
+      "value": "Quadratischer Mittelwert für alle Datenpunkte in y-Richtung"
+    }
+  ],
+  "fingerprint-rms-z-tooltip": [
+    {
+      "type": 0,
+      "value": "Quadratischer Mittelwert für alle Datenpunkte in z-Richtung"
+    }
+  ],
+  "fingerprint-std-x-tooltip": [
+    {
+      "type": 0,
+      "value": "Durchschnittliche Abweichung von 0 unter allen Datenpunkten in x-Richtung"
+    }
+  ],
+  "fingerprint-std-y-tooltip": [
+    {
+      "type": 0,
+      "value": "Durchschnittliche Abweichung von 0 unter allen Datenpunkten in y-Richtung"
+    }
+  ],
+  "fingerprint-std-z-tooltip": [
+    {
+      "type": 0,
+      "value": "Durchschnittliche Abweichung von 0 unter allen Datenpunkten in z-Richtung"
+    }
+  ],
+  "fingerprint-zcr-x-tooltip": [
+    {
+      "type": 0,
+      "value": "Rate, mit der die Beschleunigung zwischen positiven und negativen Werten für Datenpunkte in x-Richtung wechselt"
+    }
+  ],
+  "fingerprint-zcr-y-tooltip": [
+    {
+      "type": 0,
+      "value": "Rate, mit der die Beschleunigung zwischen positiven und negativen Werten für Datenpunkte in y-Richtung wechselt"
+    }
+  ],
+  "fingerprint-zcr-z-tooltip": [
+    {
+      "type": 0,
+      "value": "Rate, mit der die Beschleunigung zwischen positiven und negativen Werten für Datenpunkte in z-Richtung wechselt"
+    }
+  ],
+  "firmware-outdated-content1": [
+    {
+      "type": 0,
+      "value": "Die Verbindung zum Calliope mini konnte nicht hergestellt werden, da die Firmware auf Ihrem Calliope mini zu alt ist."
+    }
+  ],
+  "firmware-outdated-content2": [
+    {
+      "type": 0,
+      "value": "Du musst "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Die Firmware aktualisieren"
+        }
+      ],
+      "type": 8,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " bevor du eine Verbindung zu diesem Calliope mini herstellen kannst."
+    }
+  ],
+  "firmware-outdated-heading": [
+    {
+      "type": 0,
+      "value": "Firmware-Update erforderlich"
+    }
+  ],
+  "get-started-action": [
+    {
+      "type": 0,
+      "value": "Los geht's"
+    }
+  ],
+  "go-action": [
+    {
+      "type": 0,
+      "value": "Los"
+    }
+  ],
+  "graph-color-scheme": [
+    {
+      "type": 0,
+      "value": "Farbschema für das Diagramm"
+    }
+  ],
+  "graph-color-scheme-color-blind-1": [
+    {
+      "type": 0,
+      "value": "Alternative mit anderen Farben/Kontrasten 1"
+    }
+  ],
+  "graph-color-scheme-color-blind-2": [
+    {
+      "type": 0,
+      "value": "Alternative mit anderen Farben/Kontrasten 2"
+    }
+  ],
+  "graph-color-scheme-default": [
+    {
+      "type": 0,
+      "value": "Standard (rot, blau, grün)"
+    }
+  ],
+  "graph-line-scheme": [
+    {
+      "type": 0,
+      "value": "Linienstil des Diagramms"
+    }
+  ],
+  "graph-line-scheme-accessible": [
+    {
+      "type": 0,
+      "value": "Alternative Linien (durchgehend, gestrichelt, gepunktet)"
+    }
+  ],
+  "graph-line-scheme-solid": [
+    {
+      "type": 0,
+      "value": "Durchgezogene Linien"
+    }
+  ],
+  "graph-line-weight": [
+    {
+      "type": 0,
+      "value": "Dicke der Linien"
+    }
+  ],
+  "graph-line-weight-default": [
+    {
+      "type": 0,
+      "value": "Standard"
+    }
+  ],
+  "graph-line-weight-thick": [
+    {
+      "type": 0,
+      "value": "Dick"
+    }
+  ],
+  "graph-preview": [
+    {
+      "type": 0,
+      "value": "Diagrammvorschau"
+    }
+  ],
+  "help-label": [
+    {
+      "type": 0,
+      "value": "Hilfe"
+    }
+  ],
+  "help-support": [
+    {
+      "type": 0,
+      "value": "Hilfe & Support"
+    }
+  ],
+  "help-translate": [
+    {
+      "type": 0,
+      "value": "Hilf mit übersetzen"
+    }
+  ],
+  "home-action": [
+    {
+      "type": 0,
+      "value": "Start"
+    }
+  ],
+  "homepage": [
+    {
+      "type": 0,
+      "value": "Startseite"
+    }
+  ],
+  "homepage-alt": [
+    {
+      "type": 0,
+      "value": "Grafik mit x-, y- und z-Achsen, die die Daten des Calliope mini-Beschleunigungsmessers mit überlagerten Klatschgeräuschen darstellen"
+    }
+  ],
+  "homepage-alt-graph": [
+    {
+      "type": 0,
+      "value": "Grafik mit x-, y- und z-Achsen, die die Daten des Calliope mini-Beschleunigungsmessers darstellen"
+    }
+  ],
+  "homepage-alt-hands": [
+    {
+      "type": 0,
+      "value": "Händeklatschen"
+    }
+  ],
+  "homepage-description": [
+    {
+      "type": 0,
+      "value": "Trainiere ein maschinelles Lernmodell anhand der eigenen Bewegungsdaten und führe es auf deinem Calliope mini aus."
+    }
+  ],
+  "homepage-how-it-works": [
+    {
+      "type": 0,
+      "value": "KI – so sieht ein neuronales Netz aus"
+    }
+  ],
+  "homepage-how-it-works-paragraph": [
+    {
+      "type": 0,
+      "value": "Erfahre mehr in der "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Anleitung"
+        }
+      ],
+      "type": 8,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "homepage-projects": [
+    {
+      "type": 0,
+      "value": "Projekte"
+    }
+  ],
+  "homepage-projects-more": [
+    {
+      "type": 0,
+      "value": "Entdecke mehr "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Inhalte und Ressourcen zum Calliope mini und KI"
+        }
+      ],
+      "type": 8,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "homepage-step-by-step": [
+    {
+      "type": 0,
+      "value": "Schritt für Schritt"
+    }
+  ],
+  "homepage-subtitle": [
+    {
+      "type": 0,
+      "value": "Nutze KI auf deinem Calliope mini mithilfe von Bewegung und maschinellem Lernen."
+    }
+  ],
+  "homepage-video-alt": [
+    {
+      "type": 0,
+      "value": "Einführungsvideo"
+    }
+  ],
+  "import-data-samples-action": [
+    {
+      "type": 0,
+      "value": "Datenbeispiele importieren"
+    }
+  ],
+  "import-error-dialog-content": [
+    {
+      "type": 0,
+      "value": "Nur MakeCode-Hex-Dateien oder Datendateien (.json) können geöffnet werden durch "
+    },
+    {
+      "type": 1,
+      "value": "appNameFull"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "import-error-dialog-title": [
     {
       "type": 0,
-      "value": "対応していないファイル形式です"
+      "value": "Nicht unterstützter Dateityp"
     }
   ],
   "incompatible-device-body-alt": [
     {
       "type": 0,
-      "value": "戻って別のCalliope miniを選ぶか、"
+      "value": "Zurück, um einen anderen Calliope mini auszuwählen, oder "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "プロジェクトのhexを保存して"
+          "value": "Speichere die Projekt Hex-Datei"
         }
       ],
       "type": 8,
@@ -1456,25 +1478,25 @@
     },
     {
       "type": 0,
-      "value": "、Calliope mini V2にダウンロードしてください。"
+      "value": " die später auf einen Calliope mini 3 geladen werden kann."
     }
   ],
   "incompatible-device-body1": [
     {
       "type": 0,
-      "value": "プログラムを編集するには、MakeCodeに進んでください。その後、Calliope mini V2にダウンロードできるプロジェクトのhexファイルを保存できます。"
+      "value": "Fahre mit MakeCode fort, um das Programm zu bearbeiten. Anschließend kann das Projekt als Hex-Datei gespeichert werden, um dann auf einen Calliope mini 3 überspielt zu werden."
     }
   ],
   "incompatible-device-body2": [
     {
       "type": 0,
-      "value": "別の方法として、 "
+      "value": "Alternativ, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "MakeCode を使用せずにプロジェクトの hex"
+          "value": "speichere die Projekt Hex-Datei"
         }
       ],
       "type": 8,
@@ -1482,25 +1504,25 @@
     },
     {
       "type": 0,
-      "value": " を保存します。"
+      "value": " ohne MakeCode zu verwenden."
     }
   ],
   "incompatible-device-heading": [
     {
       "type": 0,
-      "value": "互換性のないデバイス"
+      "value": "Inkompatibles Gerät"
     }
   ],
   "incompatible-device-subtitle": [
     {
       "type": 0,
-      "value": "Calliope mini V1を使っていますが、機械学習プロジェクトでは Calliope mini V2 に載っている、より速いプロセッサが必要となります。 "
+      "value": "Du verwendest einen Calliope mini 1/2, aber für Machine-Learning-Projekte ist der schnellere Prozessor eines Calliope mini 3 erforderlich. "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Calliope miniのバージョンについてもっと調べる。"
+          "value": "Erfahre mehr über die Calliope-mini-Versionen."
         }
       ],
       "type": 8,
@@ -1510,361 +1532,361 @@
   "insufficient-data-body": [
     {
       "type": 0,
-      "value": "モデルをトレーニングするには、少なくとも 2 個のアクションと、それぞれのアクションに対して 3 個のデータサンプルが必要です。"
+      "value": "Du benötigst mindestens 3 Datenproben und 2 Aktionen, um das Modell zu trainieren."
     }
   ],
   "insufficient-data-title": [
     {
       "type": 0,
-      "value": "十分なデータがありません"
+      "value": "Du hast nicht genügend Daten."
     }
   ],
   "language": [
     {
       "type": 0,
-      "value": "言語"
+      "value": "Sprache"
     }
   ],
   "language-fully-supported-heading": [
     {
       "type": 0,
-      "value": "完全に対応"
+      "value": "Vollständig unterstützt"
     }
   ],
   "language-partially-supported-heading": [
     {
       "type": 0,
-      "value": "部分的に対応"
+      "value": "Teilweise unterstützt"
     }
   ],
   "language-support-checked": [
     {
       "type": 0,
-      "value": "対応"
+      "value": "Unterstützt"
     }
   ],
   "language-support-unchecked": [
     {
       "type": 0,
-      "value": "非対応"
+      "value": "Nicht unterstützt"
     }
   ],
   "language-supported-for": [
     {
       "type": 0,
-      "value": "サポートされている翻訳:"
+      "value": "Übersetzungen unterstützt für:"
     }
   ],
   "language-toast-title": [
     {
       "type": 0,
-      "value": "言語が完全にサポートされていません"
+      "value": "Sprache wird nicht vollständig unterstützt"
     }
   ],
   "learn-about-firewall-requirements-action": [
     {
       "type": 0,
-      "value": "ファイアウォール要件について調べる"
+      "value": "Erfahre mehr über Firewall-Anforderungen"
     }
   ],
   "led-icon-option-angry": [
     {
       "type": 0,
-      "value": "おこり顔"
+      "value": "Angry"
     }
   ],
   "led-icon-option-asleep": [
     {
       "type": 0,
-      "value": "ねてる顔"
+      "value": "Asleep"
     }
   ],
   "led-icon-option-butterfly": [
     {
       "type": 0,
-      "value": "ちょうちょ"
+      "value": "Butterfly"
     }
   ],
   "led-icon-option-chessboard": [
     {
       "type": 0,
-      "value": "チェスボード"
+      "value": "Chessboard"
     }
   ],
   "led-icon-option-confused": [
     {
       "type": 0,
-      "value": "こまり顔"
+      "value": "Confused"
     }
   ],
   "led-icon-option-cow": [
     {
       "type": 0,
-      "value": "うし"
+      "value": "Cow"
     }
   ],
   "led-icon-option-diamond": [
     {
       "type": 0,
-      "value": "ダイアモンド"
+      "value": "Diamond"
     }
   ],
   "led-icon-option-duck": [
     {
       "type": 0,
-      "value": "あひる"
+      "value": "Duck"
     }
   ],
   "led-icon-option-eighthnote": [
     {
       "type": 0,
-      "value": "８分音符"
+      "value": "Eighth Note"
     }
   ],
   "led-icon-option-fabulous": [
     {
       "type": 0,
-      "value": "すばらしい"
+      "value": "Fabulous"
     }
   ],
   "led-icon-option-ghost": [
     {
       "type": 0,
-      "value": "おばけ"
+      "value": "Ghost"
     }
   ],
   "led-icon-option-giraffe": [
     {
       "type": 0,
-      "value": "きりん"
+      "value": "Giraffe"
     }
   ],
   "led-icon-option-happy": [
     {
       "type": 0,
-      "value": "うれしい顔"
+      "value": "Happy"
     }
   ],
   "led-icon-option-heart": [
     {
       "type": 0,
-      "value": "ハート"
+      "value": "Heart"
     }
   ],
   "led-icon-option-house": [
     {
       "type": 0,
-      "value": "家"
+      "value": "House"
     }
   ],
   "led-icon-option-lefttriangle": [
     {
       "type": 0,
-      "value": "左向き三角"
+      "value": "Left Triangle"
     }
   ],
   "led-icon-option-meh": [
     {
       "type": 0,
-      "value": "ふーん"
+      "value": "Meh"
     }
   ],
   "led-icon-option-no": [
     {
       "type": 0,
-      "value": "いいえ"
+      "value": "No"
     }
   ],
   "led-icon-option-off": [
     {
       "type": 0,
-      "value": "オフ"
+      "value": "Off"
     }
   ],
   "led-icon-option-pitchfork": [
     {
       "type": 0,
-      "value": "くまで"
+      "value": "Pitchfork"
     }
   ],
   "led-icon-option-quarternote": [
     {
       "type": 0,
-      "value": "４分音符"
+      "value": "Quarter Note"
     }
   ],
   "led-icon-option-rabbit": [
     {
       "type": 0,
-      "value": "うさぎ"
+      "value": "Rabbit"
     }
   ],
   "led-icon-option-rollerskate": [
     {
       "type": 0,
-      "value": "ローラースケート"
+      "value": "Rollerskate"
     }
   ],
   "led-icon-option-sad": [
     {
       "type": 0,
-      "value": "かなしい顔"
+      "value": "Sad"
     }
   ],
   "led-icon-option-scissors": [
     {
       "type": 0,
-      "value": "はさみ"
+      "value": "Scissors"
     }
   ],
   "led-icon-option-silly": [
     {
       "type": 0,
-      "value": "へん顔"
+      "value": "Silly"
     }
   ],
   "led-icon-option-skull": [
     {
       "type": 0,
-      "value": "がいこつ"
+      "value": "Skull"
     }
   ],
   "led-icon-option-smalldiamond": [
     {
       "type": 0,
-      "value": "小さいダイアモンド"
+      "value": "Small Diamond"
     }
   ],
   "led-icon-option-smallheart": [
     {
       "type": 0,
-      "value": "小さいハート"
+      "value": "Small Heart"
     }
   ],
   "led-icon-option-smallsquare": [
     {
       "type": 0,
-      "value": "小さいしかく"
+      "value": "Small Square"
     }
   ],
   "led-icon-option-snake": [
     {
       "type": 0,
-      "value": "へび"
+      "value": "Snake"
     }
   ],
   "led-icon-option-square": [
     {
       "type": 0,
-      "value": "しかく"
+      "value": "Square"
     }
   ],
   "led-icon-option-stickfigure": [
     {
       "type": 0,
-      "value": "棒人間"
+      "value": "Stick Figure"
     }
   ],
   "led-icon-option-surprised": [
     {
       "type": 0,
-      "value": "びっくり顔"
+      "value": "Surprised"
     }
   ],
   "led-icon-option-sword": [
     {
       "type": 0,
-      "value": "剣"
+      "value": "Sword"
     }
   ],
   "led-icon-option-target": [
     {
       "type": 0,
-      "value": "まと"
+      "value": "Target"
     }
   ],
   "led-icon-option-tortoise": [
     {
       "type": 0,
-      "value": "かめ"
+      "value": "Tortoise"
     }
   ],
   "led-icon-option-triangle": [
     {
       "type": 0,
-      "value": "三角"
+      "value": "Triangle"
     }
   ],
   "led-icon-option-tshirt": [
     {
       "type": 0,
-      "value": "Tシャツ"
+      "value": "T-Shirt"
     }
   ],
   "led-icon-option-umbrella": [
     {
       "type": 0,
-      "value": "かさ"
+      "value": "Umbrella"
     }
   ],
   "led-icon-option-yes": [
     {
       "type": 0,
-      "value": "はい"
+      "value": "Yes"
     }
   ],
   "live-data-graph": [
     {
       "type": 0,
-      "value": "ライブデータグラフ"
+      "value": "Live-Datendiagramm"
     }
   ],
   "live-graph": [
     {
       "type": 0,
-      "value": "ライブグラフ"
+      "value": "Live-Diagramm"
     }
   ],
   "live-graph-tooltip": [
     {
       "type": 0,
-      "value": "このグラフは、Calliope miniの加速度センサーの動きデータをリアルタイムで表示しています。 データ収集用Calliope miniを動かして、X、Y、Z軸の変化を見てみましょう。 各色の線は、Calliope miniを動かしている方向(軸)を表します。"
+      "value": "Dieses Diagramm zeigt Bewegungsdaten vom Beschleunigungsmesser des Calliope mini in Echtzeit. Versuche, den Calliope mini zur Datenerfassung zu bewegen, um zu sehen, wie sich die X-, Y- und Z-Achse verändern. Jede farbige Linie steht für eine andere Richtung (Dimension), in welche du den Calliope mini bewegst."
     }
   ],
   "live-graph-tooltip-aria": [
     {
       "type": 0,
-      "value": "ライブグラフツールチップ"
+      "value": "Live-Diagramm-Tooltip"
     }
   ],
   "loading": [
     {
       "type": 0,
-      "value": "読み込み中"
+      "value": "Laden"
     }
   ],
   "main-menu": [
     {
       "type": 0,
-      "value": "メインメニュー"
+      "value": "Hauptmenü"
     }
   ],
   "makecode-back-alt": [
     {
       "type": 0,
-      "value": "MakeCodeを戻すための左矢印アイコン"
+      "value": "Pfeil-Symbol nach links, um zu MakeCode zurückzukehren"
     }
   ],
   "makecode-block-alt-prefix": [
     {
       "type": 0,
-      "value": "MakeCodeブロック:"
+      "value": "MakeCode Block:"
     }
   ],
   "makecode-block-show-icon": [
     {
       "type": 0,
-      "value": "アイコンを表示"
+      "value": "Symbol anzeigen"
     }
   ],
   "makecode-load-error-dialog-body": [
@@ -1874,67 +1896,67 @@
     },
     {
       "type": 0,
-      "value": " は MakeCode の読み込みに失敗しました。インターネット接続を確認し、ページを更新してからもう一度お試しください。"
+      "value": " MakeCode konnte nicht geladen werden. Bitte überprüfe die Internetverbindung, lade die Seite neu und versuche es erneut."
     }
   ],
   "makecode-load-error-dialog-title": [
     {
       "type": 0,
-      "value": "Microsoft MakeCode を読み込めませんでした"
+      "value": "MakeCode konnte nicht geladen werden."
     }
   ],
   "microbit-not-connected": [
     {
       "type": 0,
-      "value": "Calliope miniが接続されていません"
+      "value": "Calliope mini ist nicht verbunden."
     }
   ],
   "ml.onStart|block": [
     {
       "type": 0,
-      "value": "ML の $event が開始したとき"
+      "value": "bei ML $event start"
     }
   ],
   "more-edit-in-makecode-options": [
     {
       "type": 0,
-      "value": "MakeCodeのオプションをさらに編集する"
+      "value": "Weitere Bearbeitungsmöglichkeiten in den MakeCode-Optionen"
     }
   ],
   "name-action-hint": [
     {
       "type": 0,
-      "value": "Calliope miniに認識させたいアクションに名前を付けてください"
+      "value": "Nenne eine Aktion, die der Calliope mini erkennen soll."
     }
   ],
   "name-project": [
     {
       "type": 0,
-      "value": "プロジェクトに名前を付ける"
+      "value": "Benenne dein Projekt"
     }
   ],
   "name-text": [
     {
       "type": 0,
-      "value": "名前"
+      "value": "Name"
     }
   ],
   "name-used-when": [
     {
       "type": 0,
-      "value": "この名前は hex ファイルを保存するときに使用されます。"
+      "value": "Der Name wird verwendet, wenn du eine Datei speicherst."
     }
   ],
   "new-session-setup-description": [
     {
       "type": 0,
-      "value": "新しいセッションを開始すると、既存のセッションを上書きすることになります。"
+      "value": "Wenn du eine neue Sitzung startest, wird die bestehende Sitzung überschrieben. Möglicherweise möchten du die "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "既存のセッションを保存"
+          "value": "aktuelle Session zuerst noch hier"
         }
       ],
       "type": 8,
@@ -1942,25 +1964,25 @@
     },
     {
       "type": 0,
-      "value": "することもできますよ。"
+      "value": " speichern."
     }
   ],
   "new-session-setup-title": [
     {
       "type": 0,
-      "value": "新しいセッションの設定"
+      "value": "Neue Session einrichten"
     }
   ],
   "newpage-continue-session-subtitle": [
     {
       "type": 0,
-      "value": "セッションを続行するには、コンピュータに保存したhexファイルまたはデータサンプルファイルを使います。"
+      "value": "Verwende eine Hex-Datei oder eine Datei mit Datenbeispielen, die du auf dem Computer gespeichert hast, um eine Session fortzusetzen."
     }
   ],
   "newpage-continue-session-title": [
     {
       "type": 0,
-      "value": "保存したセッションを続ける"
+      "value": "Eine gespeicherte Session fortsetzen"
     }
   ],
   "newpage-last-session-date": [
@@ -1968,7 +1990,7 @@
       "children": [
         {
           "type": 0,
-          "value": "日付:"
+          "value": "Datum:"
         }
       ],
       "type": 8,
@@ -1988,7 +2010,7 @@
       "children": [
         {
           "type": 0,
-          "value": "名前:"
+          "value": "Name:"
         }
       ],
       "type": 8,
@@ -2006,67 +2028,67 @@
   "newpage-last-session-none": [
     {
       "type": 0,
-      "value": "セッションが見つかりませんでした"
+      "value": "Keine Session gefunden"
     }
   ],
   "newpage-last-session-title": [
     {
       "type": 0,
-      "value": "最後のセッションを開く"
+      "value": "Letzte Session öffnen"
     }
   ],
   "newpage-new-session-subtitle": [
     {
       "type": 0,
-      "value": "Calliope miniに接続し、動作データを収集して機械学習モデルを構築します。"
+      "value": "Verbinde deinen Calliope mini und zeichne Bewegungsdaten auf, um ein maschinelles Lernmodell zu erstellen."
     }
   ],
   "newpage-new-session-title": [
     {
       "type": 0,
-      "value": "新規セッション"
+      "value": "Neue Session"
     }
   ],
   "newpage-section-one-title": [
     {
       "type": 0,
-      "value": "前に終了したところから再開する"
+      "value": "Mache dort weiter, wo du aufgehört hast."
     }
   ],
   "newpage-section-two-title": [
     {
       "type": 0,
-      "value": "新しく始める"
+      "value": "Ein neues Projekt beginnen"
     }
   ],
   "newpage-title": [
     {
       "type": 0,
-      "value": "新規セッション"
+      "value": "Neue Session"
     }
   ],
   "next-action": [
     {
       "type": 0,
-      "value": "次"
+      "value": "Weiter"
     }
   ],
   "no-data-samples": [
     {
       "type": 0,
-      "value": "データサンプルがありません"
+      "value": "Keine Datenbeispiele"
     }
   ],
   "not-create-ai-hex-import-dialog-content": [
     {
       "type": 0,
-      "value": "このプロジェクトにはデータサンプルが含まれていないため、プログラムだけが開かれています。 プログラムを使う前に、モデルを訓練する必要があります。"
+      "value": "Dieses Projekt enthielt keine Datenbeispiele, daher wurde nur der Code veröffentlicht. Du musst ein Modell trainieren, bevor du den Code verwenden kannst."
     }
   ],
   "not-create-ai-hex-import-dialog-title": [
     {
       "type": 0,
-      "value": "MakeCodeプロジェクトがインポートされました"
+      "value": "Dein MakeCode-Projekt wurde importiert."
     }
   ],
   "not-found": [
@@ -2076,43 +2098,43 @@
     },
     {
       "type": 0,
-      "value": " ホームページ"
+      "value": " Startseite"
     }
   ],
   "not-found-title": [
     {
       "type": 0,
-      "value": "ページが見つかりません"
+      "value": "Seite nicht gefunden"
     }
   ],
   "open-file-action": [
     {
       "type": 0,
-      "value": "開く…"
+      "value": "Öffnen…"
     }
   ],
   "open-file-dropped": [
     {
       "type": 0,
-      "value": "ドロップ時にファイルを開く"
+      "value": "Datei öffnen, wenn sie hier abgelegt wird"
     }
   ],
   "open-project-action": [
     {
       "type": 0,
-      "value": "Open project"
+      "value": "Projekt öffnen"
     }
   ],
   "open-project-setup-description": [
     {
       "type": 0,
-      "value": "Opening this project will overwrite any existing session. You may want to "
+      "value": "Durch das Öffnen dieses Projekts werden alle bestehenden Sessions überschrieben. Möglicherweise möchtest du "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "save your existing session"
+          "value": "deine aktuelle Session zuerst"
         }
       ],
       "type": 8,
@@ -2120,49 +2142,49 @@
     },
     {
       "type": 0,
-      "value": " first."
+      "value": " speichern."
     }
   ],
   "open-shared-project-blocks-preview-description": [
     {
       "type": 0,
-      "value": "Preview of the MakeCode code contained within this project."
+      "value": "Vorschau des in diesem Projekt enthaltenen MakeCode-Codes."
     }
   ],
   "open-shared-project-data-preview-description": [
     {
       "type": 0,
-      "value": "Preview of the actions and data contained within this project."
+      "value": "Vorschau der in diesem Projekt enthaltenen Aktionen und Daten."
     }
   ],
   "open-shared-project-description": [
     {
       "type": 0,
-      "value": "This is a Microsoft MakeCode shared project compatible with ML-Machine."
+      "value": "Dies ist ein MakeCode-Shared-Projekt, das mit der ML-Machine kompatibel ist."
     }
   ],
   "open-shared-project-error-description": [
     {
       "type": 0,
-      "value": "Check the link you followed is correct, and make sure you are connected to the internet before trying again."
+      "value": "Überprüfe, ob der Link, dem du gefolgt bist, korrekt ist, und stelle sicher, dass du mit dem Internet verbunden bist, bevor du es erneut versuchst."
     }
   ],
   "open-shared-project-title": [
     {
       "type": 0,
-      "value": "Open shared ML-Machine project"
+      "value": "Gemeinsames ML-Machine-Projekt öffnen"
     }
   ],
   "other-tabs-body1": [
     {
       "type": 0,
-      "value": "別のプロセスがこのデバイスに接続されています。"
+      "value": "Ein anderer Prozess ist mit diesem Gerät bereits verbunden."
     }
   ],
   "other-tabs-body2": [
     {
       "type": 0,
-      "value": "WebUSBを使っている他のタブ(例: MakeCode、Pythonエディター、 "
+      "value": "Schließe alle anderen Tabs, die möglicherweise WebUSB verwenden könnten (z. B. MakeCode, Python Editor, "
     },
     {
       "type": 1,
@@ -2170,121 +2192,121 @@
     },
     {
       "type": 0,
-      "value": ")を閉じるか、Calliope miniを抜き差ししてやり直してください。"
+      "value": "), oder ziehe das Kabel des Calliope mini ab und stecke es erneut ein, bevor du es erneut versuchst."
     }
   ],
   "other-tabs-heading": [
     {
       "type": 0,
-      "value": "WebUSBで接続"
+      "value": "Über WebUSB verbinden"
     }
   ],
   "privacy": [
     {
       "type": 0,
-      "value": "プライバシーポリシー"
+      "value": "Datenschutz"
     }
   ],
   "project-loaded": [
     {
       "type": 0,
-      "value": "プロジェクトが読み込まれました"
+      "value": "Projekt geladen"
     }
   ],
   "project-name-not-empty": [
     {
       "type": 0,
-      "value": "プロジェクト名は空にできません"
+      "value": "Der Projektname darf nicht leer sein."
     }
   ],
   "radio-link-microbit": [
     {
       "type": 0,
-      "value": "無線リンク用Calliope mini"
+      "value": "Funk verbindung mit dem Calliope mini"
     }
   ],
   "radio-link-microbit-label": [
     {
       "type": 0,
-      "value": "無線リンク用Calliope miniがPCに接続しているところを示す図"
+      "value": "Diagramm, das die Verbindung des Funk-Calliope mini mit einem Computer zeigt"
     }
   ],
   "recognition-point-label": [
     {
       "type": 0,
-      "value": "認識ポイント:"
+      "value": "Erkennungspunkt:"
     }
   ],
   "reconnect-action": [
     {
       "type": 0,
-      "value": "再接続"
+      "value": "Wieder verbinden"
     }
   ],
   "reconnect-failed-bluetooth-heading": [
     {
       "type": 0,
-      "value": "データ収集用Calliope miniへの接続に失敗しました"
+      "value": "Die Wiederherstellung der Verbindung zum Datenerfassungs-Calliope mini ist fehlgeschlagen."
     }
   ],
   "reconnect-failed-bluetooth1": [
     {
       "type": 0,
-      "value": "データ収集用Calliope miniへの接続を確立できませんでした。"
+      "value": "Die Verbindung zum Datenerfassungs-Calliope mini konnte nicht wiederhergestellt werden."
     }
   ],
   "reconnect-failed-bridge-heading": [
     {
       "type": 0,
-      "value": "無線リンク用Calliope miniへの接続に失敗しました"
+      "value": "Die Wiederherstellung der Verbindung zum Funk-Calliope mini ist fehlgeschlagen."
     }
   ],
   "reconnect-failed-bridge1": [
     {
       "type": 0,
-      "value": "コンピューターに接続されたCalliope miniとの接続を再確立できませんでした。"
+      "value": "Die Verbindung zum Calliope mini, der an dem Computer angeschlossen ist, konnte nicht wiederhergestellt werden."
     }
   ],
   "reconnect-failed-radio-heading": [
     {
       "type": 0,
-      "value": "Calliope miniへの接続に失敗しました"
+      "value": "Die Wiederverbindung zum Calliope mini ist fehlgeschlagen."
     }
   ],
   "reconnect-failed-remote-heading": [
     {
       "type": 0,
-      "value": "データ収集用Calliope miniへの接続に失敗しました"
+      "value": "Die Wiederherstellung der Verbindung zum Datenerfassungs-Calliope mini ist fehlgeschlagen."
     }
   ],
   "reconnect-failed-remote1": [
     {
       "type": 0,
-      "value": "データ収集用Calliope miniへの接続を確立できませんでした。"
+      "value": "Die Verbindung zum Datenerfassungs-Calliope mini konnte nicht wiederhergestellt werden.."
     }
   ],
   "reconnect-failed-subtitle": [
     {
       "type": 0,
-      "value": "接続プロセスを再起動するには、次の手順に従ってください。"
+      "value": "Befolge diese Anweisungen, um den Verbindungsvorgang neu zu starten."
     }
   ],
   "reconnecting": [
     {
       "type": 0,
-      "value": "再接続中…"
+      "value": "Wieder verbinden…"
     }
   ],
   "record-action": [
     {
       "type": 0,
-      "value": "記録"
+      "value": "Aufzeichnen"
     }
   ],
   "record-action-aria": [
     {
       "type": 0,
-      "value": "アクション「"
+      "value": "Daten für Aktionen aufzeichnen \""
     },
     {
       "type": 1,
@@ -2292,73 +2314,85 @@
     },
     {
       "type": 0,
-      "value": "」のデータを記録"
+      "value": "\""
     }
   ],
   "record-hint": [
     {
       "type": 0,
-      "value": "データサンプルを記録するためのボタン押し。"
+      "value": "Drücke, um eine Datenprobe aufzuzeichnen."
     }
   ],
   "record-hint-button-b": [
     {
       "type": 0,
-      "value": "データサンプルを記録するには、データ収集用Calliope miniのボタンBを押します。"
+      "value": "Drücke, um eine Datenprobe aufzuzeichnen, oder drücke die Taste B auf dem Datenerfassungs-Calliope mini."
     }
   ],
   "record-samples": [
+    {
+      "type": 0,
+      "value": "Aufzeichnen "
+    },
     {
       "type": 1,
       "value": "numSamples"
     },
     {
       "type": 0,
-      "value": " サンプルを記録"
+      "value": " Proben"
     }
   ],
   "record-samples-help": [
     {
       "type": 0,
-      "value": "各サンプルにはそれぞれにカウントダウンがあります"
+      "value": "Jede Probe hat ihren eigenen Countdown."
     }
   ],
   "record-seconds": [
+    {
+      "type": 0,
+      "value": "Zeichne für "
+    },
     {
       "type": 1,
       "value": "numSeconds"
     },
     {
       "type": 0,
-      "value": " 秒の記録"
+      "value": " sekunden auf"
     }
   ],
   "record-seconds-help": [
+    {
+      "type": 0,
+      "value": "Bewegen, um "
+    },
     {
       "type": 1,
       "value": "numSamples"
     },
     {
       "type": 0,
-      "value": " サンプルを取得するには、動き続けてください"
+      "value": " Proben"
     }
   ],
   "recording": [
     {
       "type": 0,
-      "value": "記録中"
+      "value": "aufzuzeichnen"
     }
   ],
   "recording-complete": [
     {
       "type": 0,
-      "value": "完了"
+      "value": "Fertig"
     }
   ],
   "recording-data-for": [
     {
       "type": 0,
-      "value": "アクション「"
+      "value": "Daten für Aktionen aufzeichnen \""
     },
     {
       "type": 1,
@@ -2366,29 +2400,13 @@
     },
     {
       "type": 0,
-      "value": "」のデータを記録"
+      "value": "\""
     }
   ],
   "recording-data-for-numbered": [
     {
       "type": 0,
-      "value": "アクション「"
-    },
-    {
-      "type": 1,
-      "value": "action"
-    },
-    {
-      "type": 0,
-      "value": "」の "
-    },
-    {
-      "type": 1,
-      "value": "numSamples"
-    },
-    {
-      "type": 0,
-      "value": " 個の "
+      "value": "Zeichne die "
     },
     {
       "type": 1,
@@ -2396,25 +2414,15 @@
     },
     {
       "type": 0,
-      "value": " を記録"
-    }
-  ],
-  "recording-fingerprint-label": [
+      "value": " der "
+    },
+    {
+      "type": 1,
+      "value": "numSamples"
+    },
     {
       "type": 0,
-      "value": "記録について、Calliope miniのx、y、z加速度センサーデータ特性を表示するヒートマップ"
-    }
-  ],
-  "recording-graph-label": [
-    {
-      "type": 0,
-      "value": "Calliope mini の加速度センサーのx軸、y軸、z軸の各データを示しているグラフ"
-    }
-  ],
-  "recording-options-aria": [
-    {
-      "type": 0,
-      "value": "アクション「"
+      "value": " für die Aktion \""
     },
     {
       "type": 1,
@@ -2422,67 +2430,93 @@
     },
     {
       "type": 0,
-      "value": "」の他の記録オプション"
+      "value": " auf.\""
+    }
+  ],
+  "recording-fingerprint-label": [
+    {
+      "type": 0,
+      "value": "Heatmap mit den Datenmerkmalen des Calliope mini x, y, z-Beschleunigungsmessers für eine Aufzeichnung"
+    }
+  ],
+  "recording-graph-label": [
+    {
+      "type": 0,
+      "value": "Grafik mit den Daten des Calliope mini X, Y, Z-Beschleunigungsmessers für eine Aufzeichnung"
+    }
+  ],
+  "recording-options-aria": [
+    {
+      "type": 0,
+      "value": "Weitere Aufnahmeoptionen für Aktion \""
+    },
+    {
+      "type": 1,
+      "value": "action"
+    },
+    {
+      "type": 0,
+      "value": "\""
     }
   ],
   "reload-action": [
     {
       "type": 0,
-      "value": "再読み込み"
+      "value": "Neu laden"
     }
   ],
   "reset-to-default-action": [
     {
       "type": 0,
-      "value": "初期ブロックにリセット"
+      "value": "Auf Standardblöcke zurücksetzen"
     }
   ],
   "restore-defaults-action": [
     {
       "type": 0,
-      "value": "すべての設定を初期値に復元"
+      "value": "Standardwerte für alle Einstellungen wiederherstellen"
     }
   ],
   "restore-defaults-confirm-action": [
     {
       "type": 0,
-      "value": "初期値に復元"
+      "value": "Standardeinstellungen wiederherstellen"
     }
   ],
   "restore-defaults-confirm-body": [
     {
       "type": 0,
-      "value": "すべての設定を初期値に復元してもよろしいですか？"
+      "value": "Möchtest du wirklich die Standardwerte für alle Einstellungen wiederherstellen?"
     }
   ],
   "restore-defaults-confirm-heading": [
     {
       "type": 0,
-      "value": "初期設定に復元"
+      "value": "Standardeinstellungen wiederherstellen"
     }
   ],
   "restore-defaults-helper": [
     {
       "type": 0,
-      "value": "以前に却下されたヘルプコンテンツが再び表示される場合があります。"
+      "value": "Zuvor abgelehnte Hilfeinhalte können erneut angezeigt werden."
     }
   ],
   "save-action": [
     {
       "type": 0,
-      "value": "保存"
+      "value": "Speichern"
     }
   ],
   "save-hex-dialog-heading": [
     {
       "type": 0,
-      "value": "プロジェクトをhexファイルとして保存"
+      "value": "Projekt als Hex-Datei speichern"
     }
   ],
   "save-hex-dialog-message1": [
     {
       "type": 0,
-      "value": "ダウンロードには、アクション、データサンプル、MakeCodeプロジェクトが含まれています。作業を続けるには "
+      "value": "Der Download enthält deine Aktionen, Datenbeispiele und das MakeCode-Projekt. Öffnen es in "
     },
     {
       "type": 1,
@@ -2490,37 +2524,37 @@
     },
     {
       "type": 0,
-      "value": " で開いてください。"
+      "value": " um daran weiterzuarbeiten."
     }
   ],
   "save-hex-dialog-message2": [
     {
       "type": 0,
-      "value": "アクションとデータサンプルを変更する必要がない場合は、Microsoft MakeCode で開くこともできます。"
+      "value": "Du kannst es auch mit MakeCode öffnen, wenn du die Aktionen und Datenbeispiele nicht ändern musst."
     }
   ],
   "saving-description": [
     {
       "type": 0,
-      "value": "ダウンロードはまもなく完了します。"
+      "value": "Der Download ist in Kürze verfügbar."
     }
   ],
   "saving-title": [
     {
       "type": 0,
-      "value": "保存中…"
+      "value": "Speichern..."
     }
   ],
   "saving-toast-title": [
     {
       "type": 0,
-      "value": "hexファイルをダウンロードしました"
+      "value": "Deine Hex-Datei wurde heruntergeladen."
     }
   ],
   "select-icon-action-aria": [
     {
       "type": 0,
-      "value": "アクション「"
+      "value": "Symbol für eine Aktion auswählen \""
     },
     {
       "type": 1,
@@ -2528,19 +2562,19 @@
     },
     {
       "type": 0,
-      "value": "」のアイコンを選択"
+      "value": "\""
     }
   ],
   "select-icon-action-untitled-aria": [
     {
       "type": 0,
-      "value": "無題アクションのアイコンを選択"
+      "value": "Symbol für unbenannte Aktion auswählen"
     }
   ],
   "select-icon-option-action-aria": [
     {
       "type": 0,
-      "value": "「"
+      "value": "Auswählen \""
     },
     {
       "type": 1,
@@ -2548,105 +2582,109 @@
     },
     {
       "type": 0,
-      "value": "」アイコンを選択"
+      "value": "\" icon"
     }
   ],
   "settings": [
     {
       "type": 0,
-      "value": "設定"
+      "value": "Einstellungen"
     }
   ],
   "settings-menu-action": [
     {
       "type": 0,
-      "value": "設定アクションメニュー"
+      "value": "Einstellungen-Aktionsmenü"
     }
   ],
   "show-graphs-checkbox-label-text": [
     {
       "type": 0,
-      "value": "グラフを表示"
+      "value": "Diagramm anzeigen"
     }
   ],
   "simple-ai-exercise-timer-resource-title": [
     {
       "type": 0,
-      "value": "簡単なAI運動タイマー"
+      "value": "Einfacher KI-Übungstimer"
     }
   ],
   "skip-tour-action": [
     {
       "type": 0,
-      "value": "ツアーをスキップ"
+      "value": "Tour überspringen"
     }
   ],
   "software-versions": [
     {
       "type": 0,
-      "value": "ソフトウェアのバージョン"
+      "value": "Softwareversionen"
     }
   ],
   "start-session-action": [
     {
       "type": 0,
-      "value": "セッションを開始"
+      "value": "Session starten"
     }
   ],
   "start-training-action": [
     {
       "type": 0,
-      "value": "トレーニング開始"
+      "value": "Training starten"
     }
   ],
   "steps-alt": [
     {
       "type": 0,
-      "value": "最終的にモデルを使ってコーディングする前に、データ収集、モデルのトレーニング、モデルのテスト、収集データを改善することでモデルを改善することを繰り返すプロセスを示す図。"
+      "value": "Diagramm, das den iterativen Prozess der Datenerfassung, des Trainings eines Modells, des Testens des Modells und der Verbesserung des Modells durch die Verbesserung der erfassten Daten zeigt, bevor schließlich unter Verwendung des Modells programmiert wird."
     }
   ],
   "steps-code": [
     {
       "type": 0,
-      "value": "コードを書く"
+      "value": "Code"
     }
   ],
   "steps-collect-data": [
     {
       "type": 0,
-      "value": "データを集める"
+      "value": "Daten sammeln"
     }
   ],
   "steps-improve": [
     {
       "type": 0,
-      "value": "改善する"
+      "value": "Verbessern"
     }
   ],
   "steps-test-model": [
     {
       "type": 0,
-      "value": "モデルのテスト"
+      "value": "Modell testen"
     }
   ],
   "steps-train": [
     {
       "type": 0,
-      "value": "トレーニング"
+      "value": "Trainieren"
     }
   ],
   "stop-recording-action": [
     {
       "type": 0,
-      "value": "記録の停止"
+      "value": "Aufnahme stoppen"
     }
   ],
   "support-request": [
     {
+      "type": 0,
+      "value": "Überlege, ob du"
+    },
+    {
       "children": [
         {
           "type": 0,
-          "value": "サポートリクエストの提出"
+          "value": "eine Supportanfrage stellst"
         }
       ],
       "type": 8,
@@ -2654,61 +2692,75 @@
     },
     {
       "type": 0,
-      "value": " を検討してください。"
+      "value": "."
     }
   ],
   "terms": [
     {
       "type": 0,
-      "value": "利用規約"
+      "value": "Nutzungsbedingungen"
     }
   ],
   "testing-model-actions-region": [
     {
       "type": 0,
-      "value": "モデルツールバーのテスト"
+      "value": "Testmodell-Symbolleiste"
     }
   ],
   "testing-model-title": [
     {
       "type": 0,
-      "value": "モデルのテスト"
+      "value": "Modell testen"
     }
   ],
   "third-party-content-description": [
     {
       "type": 0,
-      "value": "The content above is provided by a third party, and is not endorsed by the Calliope mini Educational Foundation."
+      "value": "Dieses Projekt wird von einem Benutzer bereitgestellt. Besuche das "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "geteilte MakeCode Projekt"
+        }
+      ],
+      "type": 8,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " Melde Missbrauch an MakeCode, wenn du der Meinung bist, dass etwas unangemessen ist."
     }
   ],
   "tour-action": [
     {
       "type": 0,
-      "value": "ツアー"
+      "value": "Tour"
     }
   ],
   "tour-collect-addActions-content": [
     {
       "type": 0,
-      "value": "他のアクションとその名前を決めてください。モデルをトレーニングするには、少なくとも2個のアクションと3個のデータサンプルが必要です。データサンプルはPCにのみ保存され、他の人に送信されることはありません。"
+      "value": "Entscheide, welche weiteren Aktionen du durchführen möchtest und wie diese benannt werden sollen. Du benötigst mindestens zwei Aktionen mit drei Datenbeispielen, um das Modell zu trainieren. Die Datenbeispiele werden nur auf deinem Computer gespeichert und nicht an Dritte weitergeleitet."
     }
   ],
   "tour-collect-addActions-title": [
     {
       "type": 0,
-      "value": "さらにアクションを追加"
+      "value": "Weitere Aktionen hinzufügen"
     }
   ],
   "tour-collect-afterFirst-content": [
     {
       "type": 0,
-      "value": "機械学習モデルを訓練するには、少なくとも２つの異なるアクションと、アクションそれぞれについて少なくとも3つのデータサンプルが必要となります。"
+      "value": "Um das maschinelle Lernmodell zu trainieren, benötigdtn du mindestens 3 Datenbeispiele für 2 verschiedene Aktionen."
     }
   ],
   "tour-collect-afterFirst-title": [
     {
       "type": 0,
-      "value": "最初の"
+      "value": "Aufnahme der ersten "
     },
     {
       "offset": 0,
@@ -2717,7 +2769,7 @@
           "value": [
             {
               "type": 0,
-              "value": "サンプル"
+              "value": "Probe"
             }
           ]
         },
@@ -2725,7 +2777,7 @@
           "value": [
             {
               "type": 0,
-              "value": "サンプル"
+              "value": "Proben"
             }
           ]
         }
@@ -2736,151 +2788,151 @@
     },
     {
       "type": 0,
-      "value": "を記録しました！"
+      "value": "!"
     }
   ],
   "tour-collect-collectMore-explanation-content": [
     {
       "type": 0,
-      "value": "さらにデータサンプルを収集すると、より良い機械学習モデルになります。"
+      "value": "Das Sammeln weiterer Proben sollte zu einem besseren maschinellen Lernmodell führen."
     }
   ],
   "tour-collect-collectMore-hasRecordings-content": [
     {
       "type": 0,
-      "value": "アクションのデータサンプルを記録します。"
+      "value": "Datenproben für deine Aktionen aufzeichnen."
     }
   ],
   "tour-collect-collectMore-noRecordings-content": [
     {
       "type": 0,
-      "value": "アクションのデータサンプルを記録。"
+      "value": "Weitere Proben für diese Aktion aufzeichnen."
     }
   ],
   "tour-collect-collectMore-title": [
     {
       "type": 0,
-      "value": "さらにデータサンプルを収集"
+      "value": "Mehr Datenproben sammeln"
     }
   ],
   "tour-collect-trainModel-content": [
     {
       "type": 0,
-      "value": "十分なデータサンプルを収集したら、機械学習モデルのトレーニングができます。 後でもう一度、データを削除またはさらに追加し、モデルの信頼性を高めるためにトレーニングを続けられます。"
+      "value": "Wenn du genügend Datenproben gesammelt hast, kannst du das maschinelle Lernmodell trainieren. Du kannst später zurückkommen, um weitere Daten zu entfernen oder hinzuzufügen und das Modell erneut zu trainieren, um es zuverlässiger zu machen."
     }
   ],
   "tour-dataSamples-actions-common-content": [
     {
       "type": 0,
-      "value": "アクションは、機械学習モデルに認識させたい動きの種類です。たとえば、「手を振る」や「手をたたく」などです。"
+      "value": "Eine Aktion ist die Art von Bewegung, die das maschinelle Lernmodell erkennen soll, z. B. „Winken“ oder „Klatschen“."
     }
   ],
   "tour-dataSamples-actions-noRecordings-content": [
     {
       "type": 0,
-      "value": "最初のアクションを決め、名前を付けてから、データサンプルの記録を開始します。"
+      "value": "Entscheide, was die erste Aktion sein wird, benenne sie und beginne dann mit der Aufzeichnung von Datenproben."
     }
   ],
   "tour-dataSamples-connected-content": [
     {
       "type": 0,
-      "value": "データサンプルの収集を開始して、さまざまな動きや行動を認識する機械学習(ML)モデルをトレーニングしましょう。"
+      "value": "Jetzt kannst du damit beginnen, Datenproben zu sammeln, um ein Machine-Learning-Modell (ML) zu trainieren, damit es verschiedene Bewegungen oder Aktionen erkennen kann."
     }
   ],
   "tour-dataSamples-connected-title": [
     {
       "type": 0,
-      "value": "データ収集用Calliope miniが接続されています！"
+      "value": "Dein Datenerfassungs-Calliope mini ist verbunden!"
     }
   ],
   "tour-dataSamples-liveGraph-content": [
     {
       "type": 0,
-      "value": "グラフはCalliope miniの加速度センサーからの動きのデータを示しています。データ収集用Calliope miniを動かして、グラフがどのように変化するか見てください。"
+      "value": "Das Diagramm zeigt Bewegungsdaten vom Beschleunigungsmesser des Calliope mini. Bewege den Calliope mini zur Datenerfassung und beobachte, wie sich die Grafik verändert."
     }
   ],
   "tour-makecode-intro-content1": [
     {
       "type": 0,
-      "value": "Calliope miniでプロジェクトをテストするために、モデルとコードをダウンロードします。 さらにコードブロックを追加して、モデルを使った独自のプログラムを作ることもできます。"
+      "value": "Lade das Modell und den Code herunter, um dein Projekt auf einem Calliope mini zu testen. Du kannst auch weitere Codeblöcke hinzufügen, um mit dem Modell eigene Programme zu erstellen."
     }
   ],
   "tour-makecode-intro-content2": [
     {
       "type": 0,
-      "value": "MLモデルを改善する必要がありますか？ "
+      "value": "Muss das ML-Modell verbessert werden? "
     }
   ],
   "tour-makecode-intro-content3": [
     {
       "type": 0,
-      "value": "左上にあるこの戻るボタンを使ってください。"
+      "value": "Verwende den Zurück Button oben links."
     }
   ],
   "tour-makecode-intro-title": [
     {
       "type": 0,
-      "value": "Microsoft MakeCode"
+      "value": "MakeCode"
     }
   ],
   "tour-trainModel-afterTrain-alreadyConnected-title": [
     {
       "type": 0,
-      "value": "MLモデルをトレーニングしました！"
+      "value": "Du hast ein ML-Modell trainiert!"
     }
   ],
   "tour-trainModel-afterTrain-content": [
     {
       "type": 0,
-      "value": "では、機械学習モデルをテストしましょう。データ収集用Calliope miniを動かして、それぞれのアクションを試してみましょう。モデルはそれぞれのアクションを正しく推定しますか？"
+      "value": "Testen nun das maschinelle Lernmodell. Probiere jede Aktion aus, indem du den Datenerfassungs-Calliope mini bewegst. Schätzt das Modell jede Aktion korrekt ein?"
     }
   ],
   "tour-trainModel-afterTrain-delayedUntilConnected-title": [
     {
       "type": 0,
-      "value": "MLモデルをテスト"
+      "value": "Teste das ML-Modell"
     }
   ],
   "tour-trainModel-certaintyRecognition-content": [
     {
       "type": 0,
-      "value": "棒グラフは、モデルが各アクションを実行していることを示しています。スライダーを動かして認識ポイントまたはしきい値を調整します。"
+      "value": "Das Balkendiagramm zeigt, wie sicher das Modell ist, dass du die jeweilige Aktion ausführst. Verschiebe den Schieberegler, um den Erkennungspunkt oder Schwellenwert anzupassen."
     }
   ],
   "tour-trainModel-certaintyRecognition-title": [
     {
       "type": 0,
-      "value": "確実性と認識ポイント"
+      "value": "Sicherheit und Erkennungspunkt"
     }
   ],
   "tour-trainModel-editInMakeCode-content": [
     {
       "type": 0,
-      "value": "プログラムと機械学習モデルをCalliope miniにダウンロードするには、MakeCodeでプロジェクトを開きます。 さらにブロックを追加して、モデルを使った独自のプログラムを作れます。"
+      "value": "Öffne dein Projekt in MakeCode, um das Programm und dein maschinelles Lernmodell auf einen Calliope mini herunterzuladen. Du kannst auch weitere Blöcke hinzufügen, um mit dem Modell eigene Programme zu erstellen."
     }
   ],
   "tour-trainModel-estimatedAction-content": [
     {
       "type": 0,
-      "value": "現在あなたが実行しているとモデルが推定しているアクションは、そのアクションのCalliope miniアイコンの下に表示されます。"
+      "value": "Die Aktion, die das Modell deiner aktuellen Tätigkeit einschätzt, wird unter dem Calliope-mini-Symbol für diese Aktion angezeigt."
     }
   ],
   "tour-trainModel-makeCodeBlocks-content": [
     {
       "type": 0,
-      "value": "これらのMakeCodeブロックは、プログラムとモデルをCalliope miniに転送すると検出されるようになるアクションのアイコンを表示します。"
+      "value": "Diese MakeCode-Blöcke zeigen Symbole für jede Aktion an, die erkannt wird, wenn du deinen Code und dein Modell auf einen Calliope mini übertragen hast."
     }
   ],
   "tour-trainModel-makeCodeBlocks-title": [
     {
       "type": 0,
-      "value": "Microsoft MakeCode ブロック"
+      "value": "MakeCode Blöcke"
     }
   ],
   "train-description": [
     {
       "type": 0,
-      "value": "コンピュータプログラムは、データサンプルのパターンや違いを特定します。 そしてこれらを使って、 "
+      "value": "Das Programm erkennt Muster oder Unterschiede in deinen Datenproben und verwendet diese, um ein mathematisches Modell zu erstellen, das es ermöglicht, "
     },
     {
       "type": 1,
@@ -2888,67 +2940,67 @@
     },
     {
       "type": 0,
-      "value": " がCalliope miniを動かすときに異なる動きを認識できる数学モデルを構築します。"
+      "value": " verschiedene Aktionen zu erkennen, wenn du deinen Calliope mini bewegst."
     }
   ],
   "train-error-body": [
     {
       "type": 0,
-      "value": "トレーニングの結果、モデルは使用可能になりませんでした。その理由は、トレーニングに使われたデータにある可能性が高いです。 異なるアクションのデータサンプルがあまりにも類似している場合、トレーニングの処理に問題が生じる可能性があります。"
+      "value": "Das Training hat kein brauchbares Modell hervorgebracht. Der Grund dafür liegt höchstwahrscheinlich in den für das Training verwendeten Daten. Wenn die Datenproben für verschiedene Aktionen zu ähnlich sind, kann dies zu Problemen im Trainingsprozess führen."
     }
   ],
   "train-error-header": [
     {
       "type": 0,
-      "value": "トレーニングが失敗しました"
+      "value": "Training fehlgeschlagen"
     }
   ],
   "train-error-todo": [
     {
       "type": 0,
-      "value": "データ追加のページに戻り、データを変更してください。"
+      "value": "Kehre zur Seite „Daten hinzufügen“ zurück und ändere die Daten."
     }
   ],
   "train-header": [
     {
       "type": 0,
-      "value": "モデルのトレーニング"
+      "value": "Modell trainieren"
     }
   ],
   "train-model": [
     {
       "type": 0,
-      "value": "モデルのトレーニング"
+      "value": "Modell trainieren"
     }
   ],
   "training-model": [
     {
       "type": 0,
-      "value": "モデルをトレーニング中..."
+      "value": "Modell wird trainiert…"
     }
   ],
   "transfer-hex-alt": [
     {
       "type": 0,
-      "value": "ダウンロードフォルダからCalliope miniドライブまたはファイルエクスプローラにリストされているデバイスにhexファイルをドラッグするアニメーション"
+      "value": "Animation des Ziehens einer Hex-Datei aus dem Download-Ordner auf das Calliope-mini-Laufwerk oder das im Datei-Explorer aufgeführte Gerät"
     }
   ],
   "transfer-hex-heading": [
     {
       "type": 0,
-      "value": "保存された hex ファイルをCalliope miniに転送する"
+      "value": "Gespeicherte Hex-Datei auf Calliope mini übertragen"
     }
   ],
   "transfer-hex-manual-download": [
     {
       "type": 0,
-      "value": "ファイルが自動でダウンロードされない場合は"
+      "value": "Wenn die Datei nicht automatisch heruntergeladen wurde, dann "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "ここにファイルをダウンロードしてください"
+          "value": "bitte die Datei hier herunterladen"
         }
       ],
       "type": 8,
@@ -2956,55 +3008,55 @@
     },
     {
       "type": 0,
-      "value": "。"
+      "value": "."
     }
   ],
   "transfer-hex-message": [
     {
       "type": 0,
-      "value": "hex ファイルをダウンロードフォルダからMICROBITドライブへドラッグします。"
+      "value": "Ziehe die Hex-Datei aus deinem Download-Ordner auf das MINI-Laufwerk."
     }
   ],
   "try-again-action": [
     {
       "type": 0,
-      "value": "もう一度やり直す"
+      "value": "Erneut probieren"
     }
   ],
   "unknown": [
     {
       "type": 0,
-      "value": "不明"
+      "value": "unbekannt"
     }
   ],
   "unplug-radio-link-microbit-description": [
     {
       "type": 0,
-      "value": "無線リンク用Calliope miniをPCから取り外します。データサンプルをもっと記録したい場合は、Calliope miniを再接続する必要があります。"
+      "value": "Trenne den Funk-Calliope mini vom Computer. Du musst den Calliope mini erneut anschließen, wenn du weitere Datenproben aufzeichnen möchtest."
     }
   ],
   "unplug-radio-link-microbit-label": [
     {
       "type": 0,
-      "value": "Calliope mini上部からUSBケーブルが取り外されていることを示すアニメーション"
+      "value": "Animation, die zeigt, wie ein USB-C-Kabel von der Oberseite eines Calliope mini getrennt wird"
     }
   ],
   "unplug-radio-link-microbit-title": [
     {
       "type": 0,
-      "value": "無線リンク用Calliope miniを外す"
+      "value": "Trenne den Funk-Calliope mini."
     }
   ],
   "unsupported-device-explain": [
     {
       "type": 0,
-      "value": "残念ながら、Calliope mini 無線を使った接続は Calliope mini V2 だけでサポートされています。接続されているのは "
+      "value": "Leider unterstützen wir nur die Verwendung vom Calliope mini 3 bei einer Verbindung über Funk. Du hast einen "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Calliope mini V1"
+          "value": "Calliope mini 1 oder 2"
         }
       ],
       "type": 8,
@@ -3012,31 +3064,31 @@
     },
     {
       "type": 0,
-      "value": " です。 "
+      "value": "."
     }
   ],
   "unsupported-device-header": [
     {
       "type": 0,
-      "value": "Calliope mini無線接続はCalliope mini V1をサポートしていません"
+      "value": "Calliope mini Funkverbindungen werden nicht vom Calliope mini 1 oder 2 unterstüzt."
     }
   ],
   "unsupported-device-with-bluetooth": [
     {
       "type": 0,
-      "value": "代わりにWeb Bluetoothを使ってCalliope miniに接続してください。"
+      "value": "Bitte verwende Web Bluetooth, um eine Verbindung zu deinem Calliope mini 1 oder 2 herzustellen."
     }
   ],
   "unsupported-device-without-bluetooth": [
     {
       "type": 0,
-      "value": "Web Bluetoothを使ってCalliope mini V1に接続できますが、このブラウザやデバイスはBluetoothを有効にしていません。 "
+      "value": "Du kannst über Web Bluetooth eine Verbindung zum Calliope mini 1 oder 2 herstellen, jedoch ist Bluetooth in diesem Browser oder Gerät nicht aktiviert. "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Bluetooth を有効にする方法"
+          "value": "So aktivierst du Bluetooth"
         }
       ],
       "type": 8,
@@ -3044,43 +3096,43 @@
     },
     {
       "type": 0,
-      "value": "。"
+      "value": "."
     }
   ],
   "user-guide": [
     {
       "type": 0,
-      "value": "ユーザーガイド"
+      "value": "Anleitung"
     }
   ],
   "webusb-retry-no-select": [
     {
       "type": 0,
-      "value": "Calliope miniが選択されていません。もう一度試しますか？"
+      "value": "Du hast keinen Calliope mini ausgewählt. Möchtest du es erneut versuchen?"
     }
   ],
   "webusb-retry-replug1": [
     {
       "type": 0,
-      "value": "WebUSBエラーが発生しました。"
+      "value": "Ein WebUSB-Fehler ist aufgetreten."
     }
   ],
   "webusb-retry-replug2": [
     {
       "type": 0,
-      "value": "次のことを行ってください:"
+      "value": "Bitte:"
     }
   ],
   "webusb-retry-replug3": [
     {
       "type": 0,
-      "value": "このCalliope miniにバッテリーパックが接続されていないことを確認"
+      "value": "überprüfe, ob an diesem Calliope mini keine Batterie angeschlossen ist."
     }
   ],
   "webusb-retry-replug4": [
     {
       "type": 0,
-      "value": "USBケーブルを抜いて再接続"
+      "value": "USB-Kabel abziehen und wieder einstecken"
     }
   ]
 }

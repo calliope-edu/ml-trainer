@@ -2034,7 +2034,7 @@
   "open-shared-project-description": [
     {
       "type": 0,
-      "value": "This is a Microsoft MakeCode shared project compatible with CreateAI."
+      "value": "This is a Microsoft MakeCode shared project compatible with ML-Machine."
     }
   ],
   "open-shared-project-error-description": [
@@ -2046,7 +2046,7 @@
   "open-shared-project-title": [
     {
       "type": 0,
-      "value": "Open shared CreateAI project"
+      "value": "Open shared ML-Machine project"
     }
   ],
   "other-tabs-body1": [

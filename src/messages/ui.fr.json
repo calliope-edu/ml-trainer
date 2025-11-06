@@ -14,7 +14,7 @@
   "about-dialog-alt": [
     {
       "type": 0,
-      "value": "carte micro:bit montrant un cœur sur l'écran LED"
+      "value": "carte Calliope mini montrant un cœur sur l'écran LED"
     }
   ],
   "about-dialog-title": [
@@ -36,7 +36,7 @@
   "accelerometer-image-alt": [
     {
       "type": 0,
-      "value": "micro:bit montrant l’axe X passant devant, l’axe Y descendant de haut en bas et l’axe Z allant de l’arrière vers l’avant"
+      "value": "Calliope mini montrant l’axe X passant devant, l’axe Y descendant de haut en bas et l’axe Z allant de l’arrière vers l’avant"
     }
   ],
   "accessibility": [
@@ -144,13 +144,13 @@
   "bluetooth-unsupported-advice": [
     {
       "type": 0,
-      "value": "Nous recommandons Google Chrome ou Microsoft Edge pour que vous puissiez vous connecter directement à votre micro:bit."
+      "value": "Nous recommandons Google Chrome ou Microsoft Edge pour que vous puissiez vous connecter directement à votre Calliope mini."
     }
   ],
   "bluetooth-unsupported-explain": [
     {
       "type": 0,
-      "value": "Malheureusement, WebUSB et Web Bluetooth ne sont pas pris en charge par ce navigateur. Cela signifie que vous ne pouvez pas vous connecter à un micro:bit pour enregistrer les échantillons de données nécessaires à l'entraînement d'un modèle d'apprentissage automatique."
+      "value": "Malheureusement, WebUSB et Web Bluetooth ne sont pas pris en charge par ce navigateur. Cela signifie que vous ne pouvez pas vous connecter à un Calliope mini pour enregistrer les échantillons de données nécessaires à l'entraînement d'un modèle d'apprentissage automatique."
     }
   ],
   "bluetooth-unsupported-header": [
@@ -244,7 +244,7 @@
   "code-tooltip": [
     {
       "type": 0,
-      "value": "Ce sont les blocs MakeCode pour chaque action détectée lorsque vous transférez votre modèle ML et votre code sur un micro:bit"
+      "value": "Ce sont les blocs MakeCode pour chaque action détectée lorsque vous transférez votre modèle ML et votre code sur un Calliope mini"
     }
   ],
   "confirm-action": [
@@ -268,7 +268,7 @@
   "connect-action-aria": [
     {
       "type": 0,
-      "value": "Se connecter au micro:bit"
+      "value": "Se connecter au Calliope mini"
     }
   ],
   "connect-battery-heading": [
@@ -286,19 +286,19 @@
   "connect-battery-link": [
     {
       "type": 0,
-      "value": "Vous pouvez attacher le micro:bit à votre poignet ou à un objet"
+      "value": "Vous pouvez attacher le Calliope mini à votre poignet ou à un objet"
     }
   ],
   "connect-battery-subtitle": [
     {
       "type": 0,
-      "value": "Déconnectez le micro:bit de l'ordinateur et connectez le coupleur de piles."
+      "value": "Déconnectez le Calliope mini de l'ordinateur et connectez le coupleur de piles."
     }
   ],
   "connect-bluetooth-cancelled-connection": [
     {
       "type": 0,
-      "value": "Vous n'avez pas choisi de micro:bit. Voulez-vous réessayer ?"
+      "value": "Vous n'avez pas choisi de Calliope mini. Voulez-vous réessayer ?"
     }
   ],
   "connect-bluetooth-heading": [
@@ -322,7 +322,7 @@
   "connect-bluetooth-start-requirements1": [
     {
       "type": 0,
-      "value": "1 micro:bit"
+      "value": "1 Calliope mini"
     }
   ],
   "connect-bluetooth-start-requirements2-subtitle": [
@@ -334,25 +334,25 @@
   "connect-bluetooth-start-switch-radio": [
     {
       "type": 0,
-      "value": "Se connecter via la radio micro:bit à la place"
+      "value": "Se connecter via la radio Calliope mini à la place"
     }
   ],
   "connect-cable-alt": [
     {
       "type": 0,
-      "value": "animation montrant un câble USB connecté en haut d'un micro:bit"
+      "value": "animation montrant un câble USB connecté en haut d'un Calliope mini"
     }
   ],
   "connect-cable-download-project-subtitle": [
     {
       "type": 0,
-      "value": "Connectez un micro:bit à cet ordinateur à l'aide d'un câble USB pour y télécharger votre programme MakeCode d'apprentissage automatique."
+      "value": "Connectez un Calliope mini à cet ordinateur à l'aide d'un câble USB pour y télécharger votre programme MakeCode d'apprentissage automatique."
     }
   ],
   "connect-cable-heading": [
     {
       "type": 0,
-      "value": "Connecter le câble USB au micro:bit"
+      "value": "Connecter le câble USB au Calliope mini"
     }
   ],
   "connect-cable-skip": [
@@ -364,7 +364,7 @@
   "connect-cable-subtitle": [
     {
       "type": 0,
-      "value": "Connectez le micro:bit à cet ordinateur à l'aide d'un câble USB afin que le programme de collecte de données puisse y être téléchargé."
+      "value": "Connectez le Calliope mini à cet ordinateur à l'aide d'un câble USB afin que le programme de collecte de données puisse y être téléchargé."
     }
   ],
   "connect-computer": [
@@ -376,55 +376,55 @@
   "connect-data-collection-heading": [
     {
       "type": 0,
-      "value": "Connecter le câble USB au micro:bit 1"
+      "value": "Connecter le câble USB au Calliope mini 1"
     }
   ],
   "connect-data-collection-subtitle": [
     {
       "type": 0,
-      "value": "Connectez le premier micro:bit à cet ordinateur à l'aide d'un câble USB afin que le programme de collecte de données puisse y être téléchargé. C'est ce micro:bit que vous utiliserez pour collecter les échantillons de données."
+      "value": "Connectez le premier Calliope mini à cet ordinateur à l'aide d'un câble USB afin que le programme de collecte de données puisse y être téléchargé. C'est ce Calliope mini que vous utiliserez pour collecter les échantillons de données."
     }
   ],
   "connect-failed-bluetooth-heading": [
     {
       "type": 0,
-      "value": "Impossible de se connecter au micro:bit"
+      "value": "Impossible de se connecter au Calliope mini"
     }
   ],
   "connect-failed-bluetooth1": [
     {
       "type": 0,
-      "value": "La connexion au micro:bit de collecte de données n'a pas pu être établie."
+      "value": "La connexion au Calliope mini de collecte de données n'a pas pu être établie."
     }
   ],
   "connect-failed-bridge-heading": [
     {
       "type": 0,
-      "value": "Impossible de se connecter au micro:bit de liaison radio"
+      "value": "Impossible de se connecter au Calliope mini de liaison radio"
     }
   ],
   "connect-failed-bridge1": [
     {
       "type": 0,
-      "value": "La connexion avec le micro:bit connecté à votre ordinateur n'a pas pu être établie."
+      "value": "La connexion avec le Calliope mini connecté à votre ordinateur n'a pas pu être établie."
     }
   ],
   "connect-failed-remote-heading": [
     {
       "type": 0,
-      "value": "Impossible de se connecter au micro:bit de collecte de données"
+      "value": "Impossible de se connecter au Calliope mini de collecte de données"
     }
   ],
   "connect-failed-remote1": [
     {
       "type": 0,
-      "value": "La connexion au micro:bit de collecte de données n'a pas pu être établie."
+      "value": "La connexion au Calliope mini de collecte de données n'a pas pu être établie."
     }
   ],
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "Boîte de dialogue de connexion WebUSB avec une entrée pour le BBC micro:bit étiquetée avec le numéro 1 et le bouton Connexion étiqueté avec le numéro 2"
+      "value": "Boîte de dialogue de connexion WebUSB avec une entrée pour le Calliope mini étiquetée avec le numéro 1 et le bouton Connexion étiqueté avec le numéro 2"
     }
   ],
   "connect-micro-usb-cable": [
@@ -438,7 +438,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Connecter un micro:bit de collecte de données"
+          "value": "Connecter un Calliope mini de collecte de données"
         }
       ],
       "type": 8,
@@ -476,25 +476,25 @@
     },
     {
       "type": 0,
-      "value": " : nombre de LED allumées sur l'écran micro:bit"
+      "value": " : nombre de LED allumées sur l'écran Calliope mini"
     }
   ],
   "connect-pattern-subtitle": [
     {
       "type": 0,
-      "value": "Copiez le motif affiché sur le micro:bit."
+      "value": "Copiez le motif affiché sur le Calliope mini."
     }
   ],
   "connect-popup": [
     {
       "type": 0,
-      "value": "Sélectionner le micro:bit"
+      "value": "Sélectionner le Calliope mini"
     }
   ],
   "connect-popup-bluetooth-alt": [
     {
       "type": 0,
-      "value": "Dialogue de connexion Web Bluetooth avec l'élément BBC micro:bit étiqueté 1 et le bouton Associer étiqueté 2"
+      "value": "Dialogue de connexion Web Bluetooth avec l'élément Calliope mini étiqueté 1 et le bouton Associer étiqueté 2"
     }
   ],
   "connect-popup-bluetooth-instruction2": [
@@ -506,7 +506,7 @@
   "connect-popup-bluetooth-title": [
     {
       "type": 0,
-      "value": "Se connecter au micro:bit via Web Bluetooth"
+      "value": "Se connecter au Calliope mini via Web Bluetooth"
     }
   ],
   "connect-popup-instruction-heading": [
@@ -518,25 +518,25 @@
   "connect-popup-instruction1": [
     {
       "type": 0,
-      "value": "Sélectionnez votre micro:bit"
+      "value": "Sélectionnez votre Calliope mini"
     }
   ],
   "connect-popup-usb-bluetooth-data-collection-title": [
     {
       "type": 0,
-      "value": "Téléchargez le programme de collecte de données vers micro:bit"
+      "value": "Téléchargez le programme de collecte de données vers Calliope mini"
     }
   ],
   "connect-popup-usb-radio-data-collection-title": [
     {
       "type": 0,
-      "value": "Téléchargez le programme de collecte de données vers micro:bit 1"
+      "value": "Téléchargez le programme de collecte de données vers Calliope mini 1"
     }
   ],
   "connect-popup-usb-radio-link-title": [
     {
       "type": 0,
-      "value": "Téléchargez le programme de liaison radio vers micro:bit 2"
+      "value": "Téléchargez le programme de liaison radio vers Calliope mini 2"
     }
   ],
   "connect-popup-webusb-instruction2": [
@@ -548,43 +548,43 @@
   "connect-radio-data-collection-microbit-description": [
     {
       "type": 0,
-      "value": "Connectez le micro:bit de collecte de données à cet ordinateur pour y télécharger votre programme MakeCode d'apprentissage automatique. Si vous portez le micro:bit de collecte de données, vous devrez peut-être le retirer."
+      "value": "Connectez le Calliope mini de collecte de données à cet ordinateur pour y télécharger votre programme MakeCode d'apprentissage automatique. Si vous portez le Calliope mini de collecte de données, vous devrez peut-être le retirer."
     }
   ],
   "connect-radio-data-collection-microbit-title": [
     {
       "type": 0,
-      "value": "Connecter le câble USB au micro:bit de collecte de données"
+      "value": "Connecter le câble USB au Calliope mini de collecte de données"
     }
   ],
   "connect-radio-heading": [
     {
       "type": 0,
-      "value": "Connexion des micro:bits"
+      "value": "Connexion des Calliope minis"
     }
   ],
   "connect-radio-link-heading": [
     {
       "type": 0,
-      "value": "Connecter le câble USB au micro:bit 2"
+      "value": "Connecter le câble USB au Calliope mini 2"
     }
   ],
   "connect-radio-link-subtitle": [
     {
       "type": 0,
-      "value": "Connectez un deuxième micro:bit à cet ordinateur à l'aide d'un câble USB afin que le programme de liaison radio puisse y être téléchargé. Ce micro:bit de liaison radio communiquera avec le micro:bit de collecte de données."
+      "value": "Connectez un deuxième Calliope mini à cet ordinateur à l'aide d'un câble USB afin que le programme de liaison radio puisse y être téléchargé. Ce Calliope mini de liaison radio communiquera avec le Calliope mini de collecte de données."
     }
   ],
   "connect-radio-start-heading": [
     {
       "type": 0,
-      "value": "Ce dont vous avez besoin pour vous connecter via la radio micro:bit"
+      "value": "Ce dont vous avez besoin pour vous connecter via la radio Calliope mini"
     }
   ],
   "connect-radio-start-requirements1": [
     {
       "type": 0,
-      "value": "2 micro:bits"
+      "value": "2 Calliope minis"
     }
   ],
   "connect-radio-start-requirements1-subtitle": [
@@ -614,7 +614,7 @@
   "connect-to-record-body": [
     {
       "type": 0,
-      "value": "Connectez un micro:bit pour enregistrer un échantillon de données."
+      "value": "Connectez un Calliope mini pour enregistrer un échantillon de données."
     }
   ],
   "connect-to-test-model": [
@@ -626,13 +626,13 @@
   "connect-to-tour-body": [
     {
       "type": 0,
-      "value": "Vous devez connecter un micro:bit de collecte de données pour voir la visite."
+      "value": "Vous devez connecter un Calliope mini de collecte de données pour voir la visite."
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "Dépannage des problèmes de connexion à votre micro:bit"
+      "value": "Dépannage des problèmes de connexion à votre Calliope mini"
     }
   ],
   "connect-troubleshooting": [
@@ -692,19 +692,19 @@
   "data-collection-microbit": [
     {
       "type": 0,
-      "value": "micro:bit de collecte de données"
+      "value": "Calliope mini de collecte de données"
     }
   ],
   "data-collection-microbit-label": [
     {
       "type": 0,
-      "value": "diagramme montrant le micro:bit de collecte de données connecté au poignet d'une personne"
+      "value": "diagramme montrant le Calliope mini de collecte de données connecté au poignet d'une personne"
     }
   ],
   "data-connection-region": [
     {
       "type": 0,
-      "value": "micro:bit de connexion de données"
+      "value": "Calliope mini de connexion de données"
     }
   ],
   "data-features-hide-action": [
@@ -866,31 +866,31 @@
   "disconnected-during-recording": [
     {
       "type": 0,
-      "value": "micro:bit déconnecté pendant l'enregistrement"
+      "value": "Calliope mini déconnecté pendant l'enregistrement"
     }
   ],
   "disconnected-warning-bluetooth-heading": [
     {
       "type": 0,
-      "value": "Connexion micro:bit de collecte de données perdue"
+      "value": "Connexion Calliope mini de collecte de données perdue"
     }
   ],
   "disconnected-warning-bluetooth1": [
     {
       "type": 0,
-      "value": "La connexion avec le micro:bit de collecte de données a été perdue."
+      "value": "La connexion avec le Calliope mini de collecte de données a été perdue."
     }
   ],
   "disconnected-warning-bluetooth2": [
     {
       "type": 0,
-      "value": "Veuillez vérifier que le micro:bit :"
+      "value": "Veuillez vérifier que le Calliope mini :"
     }
   ],
   "disconnected-warning-bluetooth3": [
     {
       "type": 0,
-      "value": "est allumé (la lumière rouge à l'arrière du micro:bit devrait être allumée)"
+      "value": "est allumé (la lumière rouge à l'arrière du Calliope mini devrait être allumée)"
     }
   ],
   "disconnected-warning-bluetooth4": [
@@ -902,25 +902,25 @@
   "disconnected-warning-bridge-heading": [
     {
       "type": 0,
-      "value": "Connexion micro:bit de liaison radio perdue"
+      "value": "Connexion Calliope mini de liaison radio perdue"
     }
   ],
   "disconnected-warning-bridge1": [
     {
       "type": 0,
-      "value": "La connexion avec le micro:bit connecté à votre ordinateur a été perdue."
+      "value": "La connexion avec le Calliope mini connecté à votre ordinateur a été perdue."
     }
   ],
   "disconnected-warning-remote-heading": [
     {
       "type": 0,
-      "value": "Connexion micro:bit de collecte de données perdue"
+      "value": "Connexion Calliope mini de collecte de données perdue"
     }
   ],
   "disconnected-warning-remote1": [
     {
       "type": 0,
-      "value": "La connexion avec le micro:bit de collecte de données a été perdue."
+      "value": "La connexion avec le Calliope mini de collecte de données a été perdue."
     }
   ],
   "dont-show-again": [
@@ -938,25 +938,25 @@
   "download-project-choose-microbit-subtitle": [
     {
       "type": 0,
-      "value": "Le téléchargement de votre projet sur le même micro:bit déconnectera le micro:bit de l'outil. Vous devrez reconnecter le micro:bit si vous souhaitez enregistrer d'autres échantillons de données."
+      "value": "Le téléchargement de votre projet sur le même Calliope mini déconnectera le Calliope mini de l'outil. Vous devrez reconnecter le Calliope mini si vous souhaitez enregistrer d'autres échantillons de données."
     }
   ],
   "download-project-choose-microbit-title": [
     {
       "type": 0,
-      "value": "Quel micro:bit voulez-vous utiliser ?"
+      "value": "Quel Calliope mini voulez-vous utiliser ?"
     }
   ],
   "download-project-different-microbit-option": [
     {
       "type": 0,
-      "value": "micro:bit différent"
+      "value": "Calliope mini différent"
     }
   ],
   "download-project-intro-description": [
     {
       "type": 0,
-      "value": "Votre programme comprend le modèle d'apprentissage automatique que vous avez créé. Le modèle fonctionne sur le micro:bit pour que vous puissiez l'utiliser sans être connecté à "
+      "value": "Votre programme comprend le modèle d'apprentissage automatique que vous avez créé. Le modèle fonctionne sur le Calliope mini pour que vous puissiez l'utiliser sans être connecté à "
     },
     {
       "type": 1,
@@ -976,7 +976,7 @@
   "download-project-same-microbit-option": [
     {
       "type": 0,
-      "value": "Même micro:bit"
+      "value": "Même Calliope mini"
     }
   ],
   "downloading-data-collection-header": [
@@ -988,7 +988,7 @@
   "downloading-header": [
     {
       "type": 0,
-      "value": "Téléchargement du programme vers micro:bit"
+      "value": "Téléchargement du programme vers Calliope mini"
     }
   ],
   "downloading-radio-link-header": [
@@ -1000,7 +1000,7 @@
   "downloading-subtitle": [
     {
       "type": 0,
-      "value": "Veuillez patienter. Téléchargement du programme sur le micro:bit."
+      "value": "Veuillez patienter. Téléchargement du programme sur le Calliope mini."
     }
   ],
   "edit-in-makecode-action": [
@@ -1194,7 +1194,7 @@
   "firmware-outdated-content1": [
     {
       "type": 0,
-      "value": "La connexion au micro:bit a échoué car le micrologiciel sur votre micro:bit est trop ancien."
+      "value": "La connexion au Calliope mini a échoué car le micrologiciel sur votre Calliope mini est trop ancien."
     }
   ],
   "firmware-outdated-content2": [
@@ -1214,7 +1214,7 @@
     },
     {
       "type": 0,
-      "value": " avant de pouvoir vous connecter à ce micro:bit."
+      "value": " avant de pouvoir vous connecter à ce Calliope mini."
     }
   ],
   "firmware-outdated-heading": [
@@ -1334,13 +1334,13 @@
   "homepage-alt": [
     {
       "type": 0,
-      "value": "graphique montrant les lignes x, y, z du graphique représentant les données de l'accéléromètre micro:bit avec le tapement des mains superposées"
+      "value": "graphique montrant les lignes x, y, z du graphique représentant les données de l'accéléromètre Calliope mini avec le tapement des mains superposées"
     }
   ],
   "homepage-alt-graph": [
     {
       "type": 0,
-      "value": "graphique montrant les lignes graphiques x, y, z représentant les données de l'accéléromètre micro:bit"
+      "value": "graphique montrant les lignes graphiques x, y, z représentant les données de l'accéléromètre Calliope mini"
     }
   ],
   "homepage-alt-hands": [
@@ -1352,7 +1352,7 @@
   "homepage-description": [
     {
       "type": 0,
-      "value": "Entraînez un modèle d'apprentissage automatique sur vos propres données de mouvement et exécutez-le sur votre micro:bit."
+      "value": "Entraînez un modèle d'apprentissage automatique sur vos propres données de mouvement et exécutez-le sur votre Calliope mini."
     }
   ],
   "homepage-how-it-works": [
@@ -1396,7 +1396,7 @@
       "children": [
         {
           "type": 0,
-          "value": "contenu et de ressources à propos du micro:bit et de l'IA"
+          "value": "contenu et de ressources à propos du Calliope mini et de l'IA"
         }
       ],
       "type": 8,
@@ -1416,7 +1416,7 @@
   "homepage-subtitle": [
     {
       "type": 0,
-      "value": "Créez une IA sur votre BBC micro:bit en utilisant le mouvement et l'apprentissage automatique."
+      "value": "Créez une IA sur votre Calliope mini en utilisant le mouvement et l'apprentissage automatique."
     }
   ],
   "homepage-video-alt": [
@@ -1454,7 +1454,7 @@
   "incompatible-device-body-alt": [
     {
       "type": 0,
-      "value": "Revenez en arrière pour sélectionner un autre micro:bit, ou "
+      "value": "Revenez en arrière pour sélectionner un autre Calliope mini, ou "
     },
     {
       "children": [
@@ -1468,13 +1468,13 @@
     },
     {
       "type": 0,
-      "value": " qui pourra être téléchargé ultérieurement sur un micro:bit V2."
+      "value": " qui pourra être téléchargé ultérieurement sur un Calliope mini V2."
     }
   ],
   "incompatible-device-body1": [
     {
       "type": 0,
-      "value": "Continuez vers MakeCode pour modifier le programme. Vous pouvez ensuite enregistrer le projet hex qui peut être téléchargé sur un micro:bit V2."
+      "value": "Continuez vers MakeCode pour modifier le programme. Vous pouvez ensuite enregistrer le projet hex qui peut être téléchargé sur un Calliope mini V2."
     }
   ],
   "incompatible-device-body2": [
@@ -1506,13 +1506,13 @@
   "incompatible-device-subtitle": [
     {
       "type": 0,
-      "value": "Vous utilisez un micro:bit V1, mais les projets d'apprentissage automatique ont besoin du processeur plus rapide sur un micro:bit V2. "
+      "value": "Vous utilisez un Calliope mini V1, mais les projets d'apprentissage automatique ont besoin du processeur plus rapide sur un Calliope mini V2. "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "En savoir plus sur les versions de micro:bit."
+          "value": "En savoir plus sur les versions de Calliope mini."
         }
       ],
       "type": 8,
@@ -1840,7 +1840,7 @@
   "live-graph-tooltip": [
     {
       "type": 0,
-      "value": "Ce graphique montre les données de mouvement de l'accéléromètre du micro:bit en temps réel. Essayez de déplacer votre micro:bit de collecte de données pour voir le changement des axes X, Y et Z. Chaque ligne colorée représente une direction différente (dimension) dans laquelle vous déplacez le micro:bit."
+      "value": "Ce graphique montre les données de mouvement de l'accéléromètre du Calliope mini en temps réel. Essayez de déplacer votre Calliope mini de collecte de données pour voir le changement des axes X, Y et Z. Chaque ligne colorée représente une direction différente (dimension) dans laquelle vous déplacez le Calliope mini."
     }
   ],
   "live-graph-tooltip-aria": [
@@ -1898,7 +1898,7 @@
   "microbit-not-connected": [
     {
       "type": 0,
-      "value": "Votre micro:bit n'est pas connecté"
+      "value": "Votre Calliope mini n'est pas connecté"
     }
   ],
   "ml.onStart|block": [
@@ -1916,7 +1916,7 @@
   "name-action-hint": [
     {
       "type": 0,
-      "value": "Nommez une action que vous voulez que le micro:bit reconnaisse"
+      "value": "Nommez une action que vous voulez que le Calliope mini reconnaisse"
     }
   ],
   "name-project": [
@@ -2030,7 +2030,7 @@
   "newpage-new-session-subtitle": [
     {
       "type": 0,
-      "value": "Connectez votre micro:bit et collectez des données de mouvement pour créer un modèle d'apprentissage automatique."
+      "value": "Connectez votre Calliope mini et collectez des données de mouvement pour créer un modèle d'apprentissage automatique."
     }
   ],
   "newpage-new-session-title": [
@@ -2126,7 +2126,7 @@
     },
     {
       "type": 0,
-      "value": "), ou débranchez et rebranchez le micro:bit avant de réessayer."
+      "value": "), ou débranchez et rebranchez le Calliope mini avant de réessayer."
     }
   ],
   "other-tabs-heading": [
@@ -2156,13 +2156,13 @@
   "radio-link-microbit": [
     {
       "type": 0,
-      "value": "micro:bit de liaison radio"
+      "value": "Calliope mini de liaison radio"
     }
   ],
   "radio-link-microbit-label": [
     {
       "type": 0,
-      "value": "diagramme montrant le micro:bit de liaison radio connecté à un ordinateur"
+      "value": "diagramme montrant le Calliope mini de liaison radio connecté à un ordinateur"
     }
   ],
   "recognition-point-label": [
@@ -2180,43 +2180,43 @@
   "reconnect-failed-bluetooth-heading": [
     {
       "type": 0,
-      "value": "Impossible de se reconnecter au micro:bit de collecte de données"
+      "value": "Impossible de se reconnecter au Calliope mini de collecte de données"
     }
   ],
   "reconnect-failed-bluetooth1": [
     {
       "type": 0,
-      "value": "La connexion au micro:bit de collecte de données n'a pas pu être rétablie."
+      "value": "La connexion au Calliope mini de collecte de données n'a pas pu être rétablie."
     }
   ],
   "reconnect-failed-bridge-heading": [
     {
       "type": 0,
-      "value": "Impossible de se reconnecter au micro:bit de liaison radio"
+      "value": "Impossible de se reconnecter au Calliope mini de liaison radio"
     }
   ],
   "reconnect-failed-bridge1": [
     {
       "type": 0,
-      "value": "La connexion avec le micro:bit connecté à votre ordinateur n'a pas pu être rétablie."
+      "value": "La connexion avec le Calliope mini connecté à votre ordinateur n'a pas pu être rétablie."
     }
   ],
   "reconnect-failed-radio-heading": [
     {
       "type": 0,
-      "value": "Impossible de se reconnecter au micro:bit"
+      "value": "Impossible de se reconnecter au Calliope mini"
     }
   ],
   "reconnect-failed-remote-heading": [
     {
       "type": 0,
-      "value": "Impossible de se reconnecter au micro:bit de collecte de données"
+      "value": "Impossible de se reconnecter au Calliope mini de collecte de données"
     }
   ],
   "reconnect-failed-remote1": [
     {
       "type": 0,
-      "value": "La connexion au micro:bit de collecte de données n'a pas pu être rétablie."
+      "value": "La connexion au Calliope mini de collecte de données n'a pas pu être rétablie."
     }
   ],
   "reconnect-failed-subtitle": [
@@ -2260,7 +2260,7 @@
   "record-hint-button-b": [
     {
       "type": 0,
-      "value": "Appuyez pour enregistrer un échantillon de données ou appuyez sur le bouton B de votre micro:bit de collecte de données."
+      "value": "Appuyez pour enregistrer un échantillon de données ou appuyez sur le bouton B de votre Calliope mini de collecte de données."
     }
   ],
   "record-samples": [
@@ -2370,13 +2370,13 @@
   "recording-fingerprint-label": [
     {
       "type": 0,
-      "value": "carte thermique montrant les fonctionnalités des données de l'accéléromètre micro:bit x, y, z pour un enregistrement"
+      "value": "carte thermique montrant les fonctionnalités des données de l'accéléromètre Calliope mini x, y, z pour un enregistrement"
     }
   ],
   "recording-graph-label": [
     {
       "type": 0,
-      "value": "graphique montrant les données de l'accéléromètre micro:bit x, y z pour un enregistrement"
+      "value": "graphique montrant les données de l'accéléromètre Calliope mini x, y z pour un enregistrement"
     }
   ],
   "recording-options-aria": [
@@ -2756,19 +2756,19 @@
   "tour-dataSamples-connected-title": [
     {
       "type": 0,
-      "value": "Votre micro:bit de collecte de données est connecté !"
+      "value": "Votre Calliope mini de collecte de données est connecté !"
     }
   ],
   "tour-dataSamples-liveGraph-content": [
     {
       "type": 0,
-      "value": "Le graphique montre les données de mouvement de l'accéléromètre du micro:bit. Déplacez votre micro:bit de collecte de données et voyez comment le graphique change."
+      "value": "Le graphique montre les données de mouvement de l'accéléromètre du Calliope mini. Déplacez votre Calliope mini de collecte de données et voyez comment le graphique change."
     }
   ],
   "tour-makecode-intro-content1": [
     {
       "type": 0,
-      "value": "Téléchargez le modèle et le code pour tester votre projet sur un micro:bit. Vous pouvez également ajouter plus de blocs de code pour créer vos propres programmes en utilisant votre modèle."
+      "value": "Téléchargez le modèle et le code pour tester votre projet sur un Calliope mini. Vous pouvez également ajouter plus de blocs de code pour créer vos propres programmes en utilisant votre modèle."
     }
   ],
   "tour-makecode-intro-content2": [
@@ -2798,7 +2798,7 @@
   "tour-trainModel-afterTrain-content": [
     {
       "type": 0,
-      "value": "Testez maintenant votre modèle d'apprentissage automatique. Essayez chaque action en déplaçant votre micro:bit de collecte de données. Le modèle estime-t-il correctement chaque action ?"
+      "value": "Testez maintenant votre modèle d'apprentissage automatique. Essayez chaque action en déplaçant votre Calliope mini de collecte de données. Le modèle estime-t-il correctement chaque action ?"
     }
   ],
   "tour-trainModel-afterTrain-delayedUntilConnected-title": [
@@ -2822,19 +2822,19 @@
   "tour-trainModel-editInMakeCode-content": [
     {
       "type": 0,
-      "value": "Ouvrez votre projet dans MakeCode pour télécharger le programme et votre modèle d'apprentissage automatique sur un micro:bit. Vous pouvez ajouter plus de blocs pour créer vos propres programmes en utilisant votre modèle."
+      "value": "Ouvrez votre projet dans MakeCode pour télécharger le programme et votre modèle d'apprentissage automatique sur un Calliope mini. Vous pouvez ajouter plus de blocs pour créer vos propres programmes en utilisant votre modèle."
     }
   ],
   "tour-trainModel-estimatedAction-content": [
     {
       "type": 0,
-      "value": "L'action que le modèle estime que vous êtes en train d'effectuer est indiquée sous l'icône micro:bit correspondant à cette action."
+      "value": "L'action que le modèle estime que vous êtes en train d'effectuer est indiquée sous l'icône Calliope mini correspondant à cette action."
     }
   ],
   "tour-trainModel-makeCodeBlocks-content": [
     {
       "type": 0,
-      "value": "Ces blocs MakeCode afficheront des icônes pour chaque action détectée lorsque vous transférez votre code et votre modèle sur un micro:bit."
+      "value": "Ces blocs MakeCode afficheront des icônes pour chaque action détectée lorsque vous transférez votre code et votre modèle sur un Calliope mini."
     }
   ],
   "tour-trainModel-makeCodeBlocks-title": [
@@ -2854,7 +2854,7 @@
     },
     {
       "type": 0,
-      "value": " de reconnaître différentes actions lorsque vous déplacez votre micro:bit."
+      "value": " de reconnaître différentes actions lorsque vous déplacez votre Calliope mini."
     }
   ],
   "train-error-body": [
@@ -2896,13 +2896,13 @@
   "transfer-hex-alt": [
     {
       "type": 0,
-      "value": "animation du glissement d'un fichier hex depuis le dossier téléchargements vers le lecteur micro:bit ou le périphérique listé dans l'explorateur de fichiers"
+      "value": "animation du glissement d'un fichier hex depuis le dossier téléchargements vers le lecteur Calliope mini ou le périphérique listé dans l'explorateur de fichiers"
     }
   ],
   "transfer-hex-heading": [
     {
       "type": 0,
-      "value": "Transférer le fichier hex enregistré vers le micro:bit"
+      "value": "Transférer le fichier hex enregistré vers le Calliope mini"
     }
   ],
   "transfer-hex-manual-download": [
@@ -2946,31 +2946,31 @@
   "unplug-radio-link-microbit-description": [
     {
       "type": 0,
-      "value": "Débranchez le micro:bit de liaison radio de l'ordinateur. Vous devrez reconnecter le micro:bit si vous voulez enregistrer plus d'échantillons de données."
+      "value": "Débranchez le Calliope mini de liaison radio de l'ordinateur. Vous devrez reconnecter le Calliope mini si vous voulez enregistrer plus d'échantillons de données."
     }
   ],
   "unplug-radio-link-microbit-label": [
     {
       "type": 0,
-      "value": "animation montrant le débranchement d'un câble USB sur le dessus d'un micro:bit"
+      "value": "animation montrant le débranchement d'un câble USB sur le dessus d'un Calliope mini"
     }
   ],
   "unplug-radio-link-microbit-title": [
     {
       "type": 0,
-      "value": "Débrancher le micro:bit de liaison radio"
+      "value": "Débrancher le Calliope mini de liaison radio"
     }
   ],
   "unsupported-device-explain": [
     {
       "type": 0,
-      "value": "Malheureusement, nous ne prenons en charge l'utilisation de micro:bit V2 que lors de la connexion avec la radio micro:bit. Vous avez connecté un "
+      "value": "Malheureusement, nous ne prenons en charge l'utilisation de Calliope mini V2 que lors de la connexion avec la radio Calliope mini. Vous avez connecté un "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V1"
+          "value": "Calliope mini V1"
         }
       ],
       "type": 8,
@@ -2984,19 +2984,19 @@
   "unsupported-device-header": [
     {
       "type": 0,
-      "value": "les connexions radio micro:bit ne prennent pas en charge le micro:bit V1"
+      "value": "les connexions radio Calliope mini ne prennent pas en charge le Calliope mini V1"
     }
   ],
   "unsupported-device-with-bluetooth": [
     {
       "type": 0,
-      "value": "Veuillez utiliser Web Bluetooth pour vous connecter à votre micro:bit V1."
+      "value": "Veuillez utiliser Web Bluetooth pour vous connecter à votre Calliope mini V1."
     }
   ],
   "unsupported-device-without-bluetooth": [
     {
       "type": 0,
-      "value": "Vous pouvez vous connecter au micro:bit V1 en utilisant Web Bluetooth, mais ce navigateur ou appareil n'a pas activé le Bluetooth. "
+      "value": "Vous pouvez vous connecter au Calliope mini V1 en utilisant Web Bluetooth, mais ce navigateur ou appareil n'a pas activé le Bluetooth. "
     },
     {
       "children": [
@@ -3022,7 +3022,7 @@
   "webusb-retry-no-select": [
     {
       "type": 0,
-      "value": "Vous n'avez pas sélectionné de micro:bit. Voulez-vous réessayer ?"
+      "value": "Vous n'avez pas sélectionné de Calliope mini. Voulez-vous réessayer ?"
     }
   ],
   "webusb-retry-replug1": [
@@ -3040,7 +3040,7 @@
   "webusb-retry-replug3": [
     {
       "type": 0,
-      "value": "vérifier que ce micro:bit n'a pas de coupleur de piles connecté"
+      "value": "vérifier que ce Calliope mini n'a pas de coupleur de piles connecté"
     }
   ],
   "webusb-retry-replug4": [

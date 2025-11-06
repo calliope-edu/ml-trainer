@@ -430,7 +430,7 @@
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "Diàleg de connexió WebUSB amb l'entrada de BBC micro:bit etiquetada com 1 i el botó de connexió etiquetat com 2"
+      "value": "Diàleg de connexió WebUSB amb l'entrada de Calliope mini etiquetada com 1 i el botó de connexió etiquetat com 2"
     }
   ],
   "connect-micro-usb-cable": [
@@ -2144,7 +2144,7 @@
   "open-shared-project-description": [
     {
       "type": 0,
-      "value": "This is a Microsoft MakeCode shared project compatible with CreateAI."
+      "value": "This is a Microsoft MakeCode shared project compatible with ML-Machine."
     }
   ],
   "open-shared-project-error-description": [
@@ -2156,7 +2156,7 @@
   "open-shared-project-title": [
     {
       "type": 0,
-      "value": "Open shared CreateAI project"
+      "value": "Open shared ML-Machine project"
     }
   ],
   "other-tabs-body1": [

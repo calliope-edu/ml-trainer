@@ -14,7 +14,7 @@
   "about-dialog-alt": [
     {
       "type": 0,
-      "value": "LED 화면에 하트를 표시하고 있는 micro:bit"
+      "value": "LED 화면에 하트를 표시하고 있는 Calliope mini"
     }
   ],
   "about-dialog-title": [
@@ -36,7 +36,7 @@
   "accelerometer-image-alt": [
     {
       "type": 0,
-      "value": "micro:bit은 X축을 앞으로 이동, Y축을 위 아래로 이동, Z축을 뒤에서 앞으로 표시합니다."
+      "value": "Calliope mini은 X축을 앞으로 이동, Y축을 위 아래로 이동, Z축을 뒤에서 앞으로 표시합니다."
     }
   ],
   "accessibility": [
@@ -146,13 +146,13 @@
   "bluetooth-unsupported-advice": [
     {
       "type": 0,
-      "value": "micro:bit에 바로 연결하려면 Google Chrome 또는 Microsoft Edge를 사용하는 것이 좋습니다."
+      "value": "Calliope mini에 바로 연결하려면 Google Chrome 또는 Microsoft Edge를 사용하는 것이 좋습니다."
     }
   ],
   "bluetooth-unsupported-explain": [
     {
       "type": 0,
-      "value": "아쉽게도 이 브라우저는 WebUSB와 Web Bluetooth를 지원하지 않습니다. 따라서 micro:bit에 연결할 수 없어 기계 학습 모델을 훈련하는 데 필요한 데이터 샘플을 기록할 수 없습니다."
+      "value": "아쉽게도 이 브라우저는 WebUSB와 Web Bluetooth를 지원하지 않습니다. 따라서 Calliope mini에 연결할 수 없어 기계 학습 모델을 훈련하는 데 필요한 데이터 샘플을 기록할 수 없습니다."
     }
   ],
   "bluetooth-unsupported-header": [
@@ -242,7 +242,7 @@
   "code-tooltip": [
     {
       "type": 0,
-      "value": "ML 모델과 코드를 micro:bit로 전송할 때 감지된 각 행동에 대한 MakeCode 블록입니다."
+      "value": "ML 모델과 코드를 Calliope mini로 전송할 때 감지된 각 행동에 대한 MakeCode 블록입니다."
     }
   ],
   "confirm-action": [
@@ -284,19 +284,19 @@
   "connect-battery-link": [
     {
       "type": 0,
-      "value": "micro:bit를 손목에 착용하거나 물체에 부착할 수 있습니다."
+      "value": "Calliope mini를 손목에 착용하거나 물체에 부착할 수 있습니다."
     }
   ],
   "connect-battery-subtitle": [
     {
       "type": 0,
-      "value": "컴퓨터에서 micro:bit를 분리한 후 배터리 팩을 연결하세요."
+      "value": "컴퓨터에서 Calliope mini를 분리한 후 배터리 팩을 연결하세요."
     }
   ],
   "connect-bluetooth-cancelled-connection": [
     {
       "type": 0,
-      "value": "micro:bit를 선택하지 않으셨습니다. 다시 시도하시겠습니까? "
+      "value": "Calliope mini를 선택하지 않으셨습니다. 다시 시도하시겠습니까? "
     }
   ],
   "connect-bluetooth-heading": [
@@ -320,7 +320,7 @@
   "connect-bluetooth-start-requirements1": [
     {
       "type": 0,
-      "value": "micro:bit 1대"
+      "value": "Calliope mini 1대"
     }
   ],
   "connect-bluetooth-start-requirements2-subtitle": [
@@ -332,25 +332,25 @@
   "connect-bluetooth-start-switch-radio": [
     {
       "type": 0,
-      "value": "대신 micro:bit 라디오를 사용하여 연결하기"
+      "value": "대신 Calliope mini 라디오를 사용하여 연결하기"
     }
   ],
   "connect-cable-alt": [
     {
       "type": 0,
-      "value": "micro:bit 상단에 연결된 USB 케이블을 보여주는 애니메이션"
+      "value": "Calliope mini 상단에 연결된 USB 케이블을 보여주는 애니메이션"
     }
   ],
   "connect-cable-download-project-subtitle": [
     {
       "type": 0,
-      "value": "USB 케이블로 micro:bit를 이 컴퓨터에 연결하여 기계 학습 MakeCode 프로그램을 micro:bit에 다운로드합니다."
+      "value": "USB 케이블로 Calliope mini를 이 컴퓨터에 연결하여 기계 학습 MakeCode 프로그램을 Calliope mini에 다운로드합니다."
     }
   ],
   "connect-cable-heading": [
     {
       "type": 0,
-      "value": "USB 케이블을 micro:bit에 연결하기"
+      "value": "USB 케이블을 Calliope mini에 연결하기"
     }
   ],
   "connect-cable-skip": [
@@ -362,7 +362,7 @@
   "connect-cable-subtitle": [
     {
       "type": 0,
-      "value": "데이터 수집 프로그램을 micro:bit에 다운로드할 수 있도록 USB 케이블로 micro:bit를 이 컴퓨터에 연결합니다."
+      "value": "데이터 수집 프로그램을 Calliope mini에 다운로드할 수 있도록 USB 케이블로 Calliope mini를 이 컴퓨터에 연결합니다."
     }
   ],
   "connect-computer": [
@@ -374,55 +374,55 @@
   "connect-data-collection-heading": [
     {
       "type": 0,
-      "value": "USB 케이블을 micro:bit 1에 연결하기"
+      "value": "USB 케이블을 Calliope mini 1에 연결하기"
     }
   ],
   "connect-data-collection-subtitle": [
     {
       "type": 0,
-      "value": "데이터 수집 프로그램을 micro:bit에 다운로드할 수 있도록 USB 케이블로 첫 번째 micro:bit를 이 컴퓨터에 연결합니다. 이 micro:bit를 사용하여 데이터 샘플을 수집하게 됩니다."
+      "value": "데이터 수집 프로그램을 Calliope mini에 다운로드할 수 있도록 USB 케이블로 첫 번째 Calliope mini를 이 컴퓨터에 연결합니다. 이 Calliope mini를 사용하여 데이터 샘플을 수집하게 됩니다."
     }
   ],
   "connect-failed-bluetooth-heading": [
     {
       "type": 0,
-      "value": "micro:bit에 연결하지 못했습니다."
+      "value": "Calliope mini에 연결하지 못했습니다."
     }
   ],
   "connect-failed-bluetooth1": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit에 연결할 수 없습니다."
+      "value": "데이터 수집 Calliope mini에 연결할 수 없습니다."
     }
   ],
   "connect-failed-bridge-heading": [
     {
       "type": 0,
-      "value": "라디오 링크 micro:bit에 연결할 수 없습니다."
+      "value": "라디오 링크 Calliope mini에 연결할 수 없습니다."
     }
   ],
   "connect-failed-bridge1": [
     {
       "type": 0,
-      "value": "컴퓨터에 연결된 micro:bit에 대한 연결을 설정할 수 없습니다."
+      "value": "컴퓨터에 연결된 Calliope mini에 대한 연결을 설정할 수 없습니다."
     }
   ],
   "connect-failed-remote-heading": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit에 연결할 수 없습니다."
+      "value": "데이터 수집 Calliope mini에 연결할 수 없습니다."
     }
   ],
   "connect-failed-remote1": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit에 연결할 수 없습니다."
+      "value": "데이터 수집 Calliope mini에 연결할 수 없습니다."
     }
   ],
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "BBC micro:bit entry 레이블 1 및 연결 버튼 레이블 2의 WebUSB 연결 대화 상자 "
+      "value": "Calliope mini entry 레이블 1 및 연결 버튼 레이블 2의 WebUSB 연결 대화 상자 "
     }
   ],
   "connect-micro-usb-cable": [
@@ -436,7 +436,7 @@
       "children": [
         {
           "type": 0,
-          "value": "데이터 수집 micro:bit에 연결하기"
+          "value": "데이터 수집 Calliope mini에 연결하기"
         }
       ],
       "type": 8,
@@ -474,25 +474,25 @@
     },
     {
       "type": 0,
-      "value": "열 - micro:bit 디스플레이에 켜진 LED 개수"
+      "value": "열 - Calliope mini 디스플레이에 켜진 LED 개수"
     }
   ],
   "connect-pattern-subtitle": [
     {
       "type": 0,
-      "value": "micro:bit에 표시된 패턴을 복사합니다."
+      "value": "Calliope mini에 표시된 패턴을 복사합니다."
     }
   ],
   "connect-popup": [
     {
       "type": 0,
-      "value": "micro:bit을 선택하세요"
+      "value": "Calliope mini을 선택하세요"
     }
   ],
   "connect-popup-bluetooth-alt": [
     {
       "type": 0,
-      "value": "BBC micro:bit entry 레이블 1 및 페어링 버튼 레이블 2의 Web Bluetooth 연결 대화 상자"
+      "value": "Calliope mini entry 레이블 1 및 페어링 버튼 레이블 2의 Web Bluetooth 연결 대화 상자"
     }
   ],
   "connect-popup-bluetooth-instruction2": [
@@ -504,7 +504,7 @@
   "connect-popup-bluetooth-title": [
     {
       "type": 0,
-      "value": "Web Bluetooth를 사용하여 micro:bit에 연결하기"
+      "value": "Web Bluetooth를 사용하여 Calliope mini에 연결하기"
     }
   ],
   "connect-popup-instruction-heading": [
@@ -516,25 +516,25 @@
   "connect-popup-instruction1": [
     {
       "type": 0,
-      "value": "micro:bit를 선택하세요"
+      "value": "Calliope mini를 선택하세요"
     }
   ],
   "connect-popup-usb-bluetooth-data-collection-title": [
     {
       "type": 0,
-      "value": "micro:bit에 데이터 수집 프로그램 다운로드하기"
+      "value": "Calliope mini에 데이터 수집 프로그램 다운로드하기"
     }
   ],
   "connect-popup-usb-radio-data-collection-title": [
     {
       "type": 0,
-      "value": "micro:bit 1에 데이터 수집 프로그램 다운로드하기"
+      "value": "Calliope mini 1에 데이터 수집 프로그램 다운로드하기"
     }
   ],
   "connect-popup-usb-radio-link-title": [
     {
       "type": 0,
-      "value": "micro:bit 2에 라디오 링크 프로그램 다운로드하기"
+      "value": "Calliope mini 2에 라디오 링크 프로그램 다운로드하기"
     }
   ],
   "connect-popup-webusb-instruction2": [
@@ -546,43 +546,43 @@
   "connect-radio-data-collection-microbit-description": [
     {
       "type": 0,
-      "value": "기계 학습 MakeCode 프로그램을 데이터 수집 micro:bit에 다운로드하려면 해당 micro:bit를 컴퓨터에 연결하세요. 데이터 수집 micro:bit을 착용하고 있다면 벗어야 합니다."
+      "value": "기계 학습 MakeCode 프로그램을 데이터 수집 Calliope mini에 다운로드하려면 해당 Calliope mini를 컴퓨터에 연결하세요. 데이터 수집 Calliope mini을 착용하고 있다면 벗어야 합니다."
     }
   ],
   "connect-radio-data-collection-microbit-title": [
     {
       "type": 0,
-      "value": "USB 케이블을 데이터 수집 micro:bit에 연결하기"
+      "value": "USB 케이블을 데이터 수집 Calliope mini에 연결하기"
     }
   ],
   "connect-radio-heading": [
     {
       "type": 0,
-      "value": "micro:bit 연결 중"
+      "value": "Calliope mini 연결 중"
     }
   ],
   "connect-radio-link-heading": [
     {
       "type": 0,
-      "value": "USB 케이블을 micro:bit 2에 연결하기"
+      "value": "USB 케이블을 Calliope mini 2에 연결하기"
     }
   ],
   "connect-radio-link-subtitle": [
     {
       "type": 0,
-      "value": "USB 케이블로 두 번째 micro:bit를 이 컴퓨터에 연결하여 라디오 링크 프로그램을 다운로드합니다. 이 라디오 링크 micro:bit는 데이터 수집 micro:bit와 통신하게 됩니다."
+      "value": "USB 케이블로 두 번째 Calliope mini를 이 컴퓨터에 연결하여 라디오 링크 프로그램을 다운로드합니다. 이 라디오 링크 Calliope mini는 데이터 수집 Calliope mini와 통신하게 됩니다."
     }
   ],
   "connect-radio-start-heading": [
     {
       "type": 0,
-      "value": "micro:bit 라디오를 사용하여 연결하는 데 필요한 것"
+      "value": "Calliope mini 라디오를 사용하여 연결하는 데 필요한 것"
     }
   ],
   "connect-radio-start-requirements1": [
     {
       "type": 0,
-      "value": "micro:bit 2대"
+      "value": "Calliope mini 2대"
     }
   ],
   "connect-radio-start-requirements1-subtitle": [
@@ -612,7 +612,7 @@
   "connect-to-record-body": [
     {
       "type": 0,
-      "value": "데이터 샘플을 기록하려면 micro:bit 연결하기"
+      "value": "데이터 샘플을 기록하려면 Calliope mini 연결하기"
     }
   ],
   "connect-to-test-model": [
@@ -624,13 +624,13 @@
   "connect-to-tour-body": [
     {
       "type": 0,
-      "value": "투어를 보려면 데이터 수집 micro:bit를 연결해야 합니다."
+      "value": "투어를 보려면 데이터 수집 Calliope mini를 연결해야 합니다."
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "micro:bit 연결 문제 해결"
+      "value": "Calliope mini 연결 문제 해결"
     }
   ],
   "connect-troubleshooting": [
@@ -690,19 +690,19 @@
   "data-collection-microbit": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit"
+      "value": "데이터 수집 Calliope mini"
     }
   ],
   "data-collection-microbit-label": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit가 사람의 손목에 연결되는 것을 보여주는 다이어그램"
+      "value": "데이터 수집 Calliope mini가 사람의 손목에 연결되는 것을 보여주는 다이어그램"
     }
   ],
   "data-connection-region": [
     {
       "type": 0,
-      "value": "micro:bit 데이터 연결"
+      "value": "Calliope mini 데이터 연결"
     }
   ],
   "data-features-hide-action": [
@@ -866,19 +866,19 @@
   "disconnected-during-recording": [
     {
       "type": 0,
-      "value": "기록 중에 micro:bit 연결이 끊어짐"
+      "value": "기록 중에 Calliope mini 연결이 끊어짐"
     }
   ],
   "disconnected-warning-bluetooth-heading": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit 연결 끊어짐"
+      "value": "데이터 수집 Calliope mini 연결 끊어짐"
     }
   ],
   "disconnected-warning-bluetooth1": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit 연결이 끊어졌습니다."
+      "value": "데이터 수집 Calliope mini 연결이 끊어졌습니다."
     }
   ],
   "disconnected-warning-bluetooth2": [
@@ -890,37 +890,37 @@
   "disconnected-warning-bluetooth3": [
     {
       "type": 0,
-      "value": "micro:bit의 전원이 켜져 있는가(micro:bit 뒷면의 빨간색 표시등이 켜져 있어야 합니다.)?"
+      "value": "Calliope mini의 전원이 켜져 있는가(Calliope mini 뒷면의 빨간색 표시등이 켜져 있어야 합니다.)?"
     }
   ],
   "disconnected-warning-bluetooth4": [
     {
       "type": 0,
-      "value": "micro:bit가 컴퓨터 가까이 있는가?"
+      "value": "Calliope mini가 컴퓨터 가까이 있는가?"
     }
   ],
   "disconnected-warning-bridge-heading": [
     {
       "type": 0,
-      "value": "라디오 링크 micro:bit 연결 끊어짐"
+      "value": "라디오 링크 Calliope mini 연결 끊어짐"
     }
   ],
   "disconnected-warning-bridge1": [
     {
       "type": 0,
-      "value": "컴퓨터와 micro:bit의 연결이 끊어졌습니다."
+      "value": "컴퓨터와 Calliope mini의 연결이 끊어졌습니다."
     }
   ],
   "disconnected-warning-remote-heading": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit 연결 끊어짐"
+      "value": "데이터 수집 Calliope mini 연결 끊어짐"
     }
   ],
   "disconnected-warning-remote1": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit 연결이 끊어졌습니다."
+      "value": "데이터 수집 Calliope mini 연결이 끊어졌습니다."
     }
   ],
   "dont-show-again": [
@@ -938,25 +938,25 @@
   "download-project-choose-microbit-subtitle": [
     {
       "type": 0,
-      "value": "동일한 micro:bit에 프로젝트를 다운로드하면 micro:bit와 도구의 연결이 끊어집니다. 데이터 샘플을 더 많이 기록하려면 micro:bit를 다시 연결하세요."
+      "value": "동일한 Calliope mini에 프로젝트를 다운로드하면 Calliope mini와 도구의 연결이 끊어집니다. 데이터 샘플을 더 많이 기록하려면 Calliope mini를 다시 연결하세요."
     }
   ],
   "download-project-choose-microbit-title": [
     {
       "type": 0,
-      "value": "어느 micro:bit를 사용하시겠습니까?"
+      "value": "어느 Calliope mini를 사용하시겠습니까?"
     }
   ],
   "download-project-different-microbit-option": [
     {
       "type": 0,
-      "value": "다른 micro:bit"
+      "value": "다른 Calliope mini"
     }
   ],
   "download-project-intro-description": [
     {
       "type": 0,
-      "value": "프로그램에 사용자가 만든 기계 학습 모델이 포함되어 있습니다. 이 모델은 micro:bit에서 실행되므로 "
+      "value": "프로그램에 사용자가 만든 기계 학습 모델이 포함되어 있습니다. 이 모델은 Calliope mini에서 실행되므로 "
     },
     {
       "type": 1,
@@ -976,7 +976,7 @@
   "download-project-same-microbit-option": [
     {
       "type": 0,
-      "value": "동일한 micro:bit"
+      "value": "동일한 Calliope mini"
     }
   ],
   "downloading-data-collection-header": [
@@ -988,7 +988,7 @@
   "downloading-header": [
     {
       "type": 0,
-      "value": "micro:bit에 프로그램 다운로드 중"
+      "value": "Calliope mini에 프로그램 다운로드 중"
     }
   ],
   "downloading-radio-link-header": [
@@ -1000,7 +1000,7 @@
   "downloading-subtitle": [
     {
       "type": 0,
-      "value": "잠시만 기다리세요. micro:bit에 프로그램을 다운로드하는 중입니다."
+      "value": "잠시만 기다리세요. Calliope mini에 프로그램을 다운로드하는 중입니다."
     }
   ],
   "edit-in-makecode-action": [
@@ -1194,13 +1194,13 @@
   "firmware-outdated-content1": [
     {
       "type": 0,
-      "value": "micro:bit 펌웨어가 너무 오래되어 연결에 실패했습니다."
+      "value": "Calliope mini 펌웨어가 너무 오래되어 연결에 실패했습니다."
     }
   ],
   "firmware-outdated-content2": [
     {
       "type": 0,
-      "value": "이 micro:bit에 연결하기 전에 "
+      "value": "이 Calliope mini에 연결하기 전에 "
     },
     {
       "children": [
@@ -1334,13 +1334,13 @@
   "homepage-alt": [
     {
       "type": 0,
-      "value": "박수 치는 손이 겹쳐진 micro:bit 가속도계 데이터를 나타내는 x, y, z 그래프 선을 보여주는 그래프"
+      "value": "박수 치는 손이 겹쳐진 Calliope mini 가속도계 데이터를 나타내는 x, y, z 그래프 선을 보여주는 그래프"
     }
   ],
   "homepage-alt-graph": [
     {
       "type": 0,
-      "value": "micro:bit 가속도계 데이터를 나타내는 x, y, z 그래프 선을 보여주는 그래프"
+      "value": "Calliope mini 가속도계 데이터를 나타내는 x, y, z 그래프 선을 보여주는 그래프"
     }
   ],
   "homepage-alt-hands": [
@@ -1352,7 +1352,7 @@
   "homepage-description": [
     {
       "type": 0,
-      "value": "사용자의 움직임 데이터로 기계 학습 모델을 훈련하여 micro:bit에서 실행하세요."
+      "value": "사용자의 움직임 데이터로 기계 학습 모델을 훈련하여 Calliope mini에서 실행하세요."
     }
   ],
   "homepage-how-it-works": [
@@ -1396,7 +1396,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit와 AI 콘텐츠와 리소스"
+          "value": "Calliope mini와 AI 콘텐츠와 리소스"
         }
       ],
       "type": 8,
@@ -1416,7 +1416,7 @@
   "homepage-subtitle": [
     {
       "type": 0,
-      "value": "움직임과 기계 학습을 사용하여 BBC micro:bit에서 AI를 만들어 보세요."
+      "value": "움직임과 기계 학습을 사용하여 Calliope mini에서 AI를 만들어 보세요."
     }
   ],
   "homepage-video-alt": [
@@ -1450,7 +1450,7 @@
   "incompatible-device-body-alt": [
     {
       "type": 0,
-      "value": "뒤로 돌아가 다른 micro:bit를 선택하거나,  "
+      "value": "뒤로 돌아가 다른 Calliope mini를 선택하거나,  "
     },
     {
       "children": [
@@ -1464,13 +1464,13 @@
     },
     {
       "type": 0,
-      "value": "하세요. 프로젝트 hex는 나중에 micro:bit V2에 다운로드할 수 있습니다."
+      "value": "하세요. 프로젝트 hex는 나중에 Calliope mini V2에 다운로드할 수 있습니다."
     }
   ],
   "incompatible-device-body1": [
     {
       "type": 0,
-      "value": "MakeCode로 계속 프로그램을 편집하면 micro:bit V2에 다운로드할 수 있는 프로젝트 hex를 저장할 수 있습니다."
+      "value": "MakeCode로 계속 프로그램을 편집하면 Calliope mini V2에 다운로드할 수 있는 프로젝트 hex를 저장할 수 있습니다."
     }
   ],
   "incompatible-device-body2": [
@@ -1502,13 +1502,13 @@
   "incompatible-device-subtitle": [
     {
       "type": 0,
-      "value": "현재 micro:bit V1을 사용하고 있지만 기계 학습 프로젝트에는 더 빠른 프로세서가 탑재된 micro:bit V2가 필요합니다. "
+      "value": "현재 Calliope mini V1을 사용하고 있지만 기계 학습 프로젝트에는 더 빠른 프로세서가 탑재된 Calliope mini V2가 필요합니다. "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "micro:bit 버전에 대해 자세히 알아보세요."
+          "value": "Calliope mini 버전에 대해 자세히 알아보세요."
         }
       ],
       "type": 8,
@@ -1836,7 +1836,7 @@
   "live-graph-tooltip": [
     {
       "type": 0,
-      "value": "이 그래프는 micro:bit 가속도계의 움직임 데이터를 실시간으로 보여줍니다. 데이터 수집 micro:bit을 움직여 X, Y, Z 축이 바뀌는 것을 확인해 보세요. 색깔 선은 micro:bit가 이동하는 각각의 방향(차원)을 나타냅니다."
+      "value": "이 그래프는 Calliope mini 가속도계의 움직임 데이터를 실시간으로 보여줍니다. 데이터 수집 Calliope mini을 움직여 X, Y, Z 축이 바뀌는 것을 확인해 보세요. 색깔 선은 Calliope mini가 이동하는 각각의 방향(차원)을 나타냅니다."
     }
   ],
   "live-graph-tooltip-aria": [
@@ -1894,7 +1894,7 @@
   "microbit-not-connected": [
     {
       "type": 0,
-      "value": "micro:bit가 연결되지 않았습니다."
+      "value": "Calliope mini가 연결되지 않았습니다."
     }
   ],
   "ml.onStart|block": [
@@ -1912,7 +1912,7 @@
   "name-action-hint": [
     {
       "type": 0,
-      "value": "micro:bit가 인식할 행동의 이름 지정하기"
+      "value": "Calliope mini가 인식할 행동의 이름 지정하기"
     }
   ],
   "name-project": [
@@ -2026,7 +2026,7 @@
   "newpage-new-session-subtitle": [
     {
       "type": 0,
-      "value": "micro:bit를 연결하고 움직임 데이터를 수집하여 기계 학습 모델을 구축하세요."
+      "value": "Calliope mini를 연결하고 움직임 데이터를 수집하여 기계 학습 모델을 구축하세요."
     }
   ],
   "newpage-new-session-title": [
@@ -2146,7 +2146,7 @@
   "open-shared-project-description": [
     {
       "type": 0,
-      "value": "This is a Microsoft MakeCode shared project compatible with CreateAI."
+      "value": "This is a Microsoft MakeCode shared project compatible with ML-Machine."
     }
   ],
   "open-shared-project-error-description": [
@@ -2158,7 +2158,7 @@
   "open-shared-project-title": [
     {
       "type": 0,
-      "value": "Open shared CreateAI project"
+      "value": "Open shared ML-Machine project"
     }
   ],
   "other-tabs-body1": [
@@ -2178,7 +2178,7 @@
     },
     {
       "type": 0,
-      "value": ")을 닫거나 micro:bit를 분리하여 다시 연결한 다음 재시도해 보세요."
+      "value": ")을 닫거나 Calliope mini를 분리하여 다시 연결한 다음 재시도해 보세요."
     }
   ],
   "other-tabs-heading": [
@@ -2208,13 +2208,13 @@
   "radio-link-microbit": [
     {
       "type": 0,
-      "value": "라디오 링크 micro:bit"
+      "value": "라디오 링크 Calliope mini"
     }
   ],
   "radio-link-microbit-label": [
     {
       "type": 0,
-      "value": "라디오 링크 micro:bit가 컴퓨터에 연결된 것을 보여주는 다이어그램"
+      "value": "라디오 링크 Calliope mini가 컴퓨터에 연결된 것을 보여주는 다이어그램"
     }
   ],
   "recognition-point-label": [
@@ -2232,43 +2232,43 @@
   "reconnect-failed-bluetooth-heading": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit에 다시 연결할 수 없습니다."
+      "value": "데이터 수집 Calliope mini에 다시 연결할 수 없습니다."
     }
   ],
   "reconnect-failed-bluetooth1": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit에 대한 연결을 다시 설정할 수 없습니다."
+      "value": "데이터 수집 Calliope mini에 대한 연결을 다시 설정할 수 없습니다."
     }
   ],
   "reconnect-failed-bridge-heading": [
     {
       "type": 0,
-      "value": "라디오 링크 micro:bit를 다시 연결할 수 없습니다."
+      "value": "라디오 링크 Calliope mini를 다시 연결할 수 없습니다."
     }
   ],
   "reconnect-failed-bridge1": [
     {
       "type": 0,
-      "value": "컴퓨터에 연결된 micro:bit에 대한 연결을 다시 설정할 수 없습니다."
+      "value": "컴퓨터에 연결된 Calliope mini에 대한 연결을 다시 설정할 수 없습니다."
     }
   ],
   "reconnect-failed-radio-heading": [
     {
       "type": 0,
-      "value": "micro:bit에 다시 연결할 수 없습니다."
+      "value": "Calliope mini에 다시 연결할 수 없습니다."
     }
   ],
   "reconnect-failed-remote-heading": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit에 다시 연결할 수 없습니다."
+      "value": "데이터 수집 Calliope mini에 다시 연결할 수 없습니다."
     }
   ],
   "reconnect-failed-remote1": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit에 대한 연결을 다시 설정할 수 없습니다."
+      "value": "데이터 수집 Calliope mini에 대한 연결을 다시 설정할 수 없습니다."
     }
   ],
   "reconnect-failed-subtitle": [
@@ -2312,7 +2312,7 @@
   "record-hint-button-b": [
     {
       "type": 0,
-      "value": "눌러서 데이터 샘플을 기록하거나 데이터 수집 micro:bit의 B 버튼을 누르세요."
+      "value": "눌러서 데이터 샘플을 기록하거나 데이터 수집 Calliope mini의 B 버튼을 누르세요."
     }
   ],
   "record-samples": [
@@ -2418,13 +2418,13 @@
   "recording-fingerprint-label": [
     {
       "type": 0,
-      "value": "micro:bit x, y, z 가속도계 데이터 기록 1개를 보여주는 히트 맵"
+      "value": "Calliope mini x, y, z 가속도계 데이터 기록 1개를 보여주는 히트 맵"
     }
   ],
   "recording-graph-label": [
     {
       "type": 0,
-      "value": "micro:bit x, y, z 가속도계 데이터 기록 1개를 보여주는 그래프"
+      "value": "Calliope mini x, y, z 가속도계 데이터 기록 1개를 보여주는 그래프"
     }
   ],
   "recording-options-aria": [
@@ -2694,7 +2694,7 @@
   "third-party-content-description": [
     {
       "type": 0,
-      "value": "The content above is provided by a third party, and is not endorsed by the Micro:bit Educational Foundation."
+      "value": "The content above is provided by a third party, and is not endorsed by the Calliope mini Educational Foundation."
     }
   ],
   "tour-action": [
@@ -2798,19 +2798,19 @@
   "tour-dataSamples-connected-title": [
     {
       "type": 0,
-      "value": "데이터 수집 micro:bit가 연결되었습니다!"
+      "value": "데이터 수집 Calliope mini가 연결되었습니다!"
     }
   ],
   "tour-dataSamples-liveGraph-content": [
     {
       "type": 0,
-      "value": "micro:bit 가속도계의 움직임 데이터를 보여주는 그래프입니다. 데이터 수집 micro:bit를 움직여서 그래프가 어떻게 바뀌는지 확인하세요."
+      "value": "Calliope mini 가속도계의 움직임 데이터를 보여주는 그래프입니다. 데이터 수집 Calliope mini를 움직여서 그래프가 어떻게 바뀌는지 확인하세요."
     }
   ],
   "tour-makecode-intro-content1": [
     {
       "type": 0,
-      "value": "모델과 코드를 다운로드하여 micro:bit에서 프로젝트를 테스트하세요. 또한 코드 블록을 더 추가한 후 모델을 사용하여 나만의 프로그램을 만들 수 있습니다."
+      "value": "모델과 코드를 다운로드하여 Calliope mini에서 프로젝트를 테스트하세요. 또한 코드 블록을 더 추가한 후 모델을 사용하여 나만의 프로그램을 만들 수 있습니다."
     }
   ],
   "tour-makecode-intro-content2": [
@@ -2840,7 +2840,7 @@
   "tour-trainModel-afterTrain-content": [
     {
       "type": 0,
-      "value": "이제 기계 학습 모델을 테스트할 수 있습니다. 데이터 수집 micro:bit를 움직여 행동을 수행해 보세요. 모델이 행동을 정확하게 추정하나요?"
+      "value": "이제 기계 학습 모델을 테스트할 수 있습니다. 데이터 수집 Calliope mini를 움직여 행동을 수행해 보세요. 모델이 행동을 정확하게 추정하나요?"
     }
   ],
   "tour-trainModel-afterTrain-delayedUntilConnected-title": [
@@ -2864,19 +2864,19 @@
   "tour-trainModel-editInMakeCode-content": [
     {
       "type": 0,
-      "value": "MakeCode에서 프로젝트를 열어 프로그램과 기계 학습 모델을 micro:bit에 다운로드합니다. 블록을 더 추가한 후 모델을 사용하여 나만의 프로그램을 만들 수 있습니다."
+      "value": "MakeCode에서 프로젝트를 열어 프로그램과 기계 학습 모델을 Calliope mini에 다운로드합니다. 블록을 더 추가한 후 모델을 사용하여 나만의 프로그램을 만들 수 있습니다."
     }
   ],
   "tour-trainModel-estimatedAction-content": [
     {
       "type": 0,
-      "value": "모델이 추정하는 사용자의 현재 행동은 해당 행동에 대한 micro:bit 아이콘 아래에 표시됩니다."
+      "value": "모델이 추정하는 사용자의 현재 행동은 해당 행동에 대한 Calliope mini 아이콘 아래에 표시됩니다."
     }
   ],
   "tour-trainModel-makeCodeBlocks-content": [
     {
       "type": 0,
-      "value": "MakeCode 블록은 코드와 모델을 micro:bit로 전송할 때 감지된 각 행동에 대한 아이콘을 표시합니다."
+      "value": "MakeCode 블록은 코드와 모델을 Calliope mini로 전송할 때 감지된 각 행동에 대한 아이콘을 표시합니다."
     }
   ],
   "tour-trainModel-makeCodeBlocks-title": [
@@ -2888,7 +2888,7 @@
   "train-description": [
     {
       "type": 0,
-      "value": "컴퓨터 프로그램은 데이터 샘플의 패턴이나 차이점을 발견하고 이를 사용하여 micro:bit를 움직일 때 "
+      "value": "컴퓨터 프로그램은 데이터 샘플의 패턴이나 차이점을 발견하고 이를 사용하여 Calliope mini를 움직일 때 "
     },
     {
       "type": 1,
@@ -2938,13 +2938,13 @@
   "transfer-hex-alt": [
     {
       "type": 0,
-      "value": "다운로드 폴더의 hex 파일을 파일 탐색기에 나열된 기기 또는 micro:bit 드라이브에 드래그하는 애니메이션"
+      "value": "다운로드 폴더의 hex 파일을 파일 탐색기에 나열된 기기 또는 Calliope mini 드라이브에 드래그하는 애니메이션"
     }
   ],
   "transfer-hex-heading": [
     {
       "type": 0,
-      "value": "저장된 hex 파일을 micro:bit으로 전송"
+      "value": "저장된 hex 파일을 Calliope mini으로 전송"
     }
   ],
   "transfer-hex-manual-download": [
@@ -2988,31 +2988,31 @@
   "unplug-radio-link-microbit-description": [
     {
       "type": 0,
-      "value": "컴퓨터에서 라디오 링크 micro:bit를 분리합니다. 데이터 샘플을 더 기록하려면 micro:bit를 다시 연결해야 합니다."
+      "value": "컴퓨터에서 라디오 링크 Calliope mini를 분리합니다. 데이터 샘플을 더 기록하려면 Calliope mini를 다시 연결해야 합니다."
     }
   ],
   "unplug-radio-link-microbit-label": [
     {
       "type": 0,
-      "value": "USB 케이블이 micro:bit 상단에서 분리되는 것을 보여주는 애니메이션"
+      "value": "USB 케이블이 Calliope mini 상단에서 분리되는 것을 보여주는 애니메이션"
     }
   ],
   "unplug-radio-link-microbit-title": [
     {
       "type": 0,
-      "value": "라디오 링크 micro:bit 분리"
+      "value": "라디오 링크 Calliope mini 분리"
     }
   ],
   "unsupported-device-explain": [
     {
       "type": 0,
-      "value": "아쉽게도 micro:bit 라디오로 연결 시 micro:bit V2만 지원합니다. "
+      "value": "아쉽게도 Calliope mini 라디오로 연결 시 Calliope mini V2만 지원합니다. "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V1"
+          "value": "Calliope mini V1"
         }
       ],
       "type": 8,
@@ -3026,19 +3026,19 @@
   "unsupported-device-header": [
     {
       "type": 0,
-      "value": "micro:bit 라디오 연결은 micro:bit V1을 지원하지 않습니다."
+      "value": "Calliope mini 라디오 연결은 Calliope mini V1을 지원하지 않습니다."
     }
   ],
   "unsupported-device-with-bluetooth": [
     {
       "type": 0,
-      "value": "대신 Web Bluetooth를 사용하여 micro:bit V1에 연결하세요."
+      "value": "대신 Web Bluetooth를 사용하여 Calliope mini V1에 연결하세요."
     }
   ],
   "unsupported-device-without-bluetooth": [
     {
       "type": 0,
-      "value": "Web Bluetooth를 사용하여 micro:bit V1에 연결할 수 있지만, 이 브라우저 또는 기기의 Bluetooth가 활성화되어 있지 않습니다. "
+      "value": "Web Bluetooth를 사용하여 Calliope mini V1에 연결할 수 있지만, 이 브라우저 또는 기기의 Bluetooth가 활성화되어 있지 않습니다. "
     },
     {
       "children": [
@@ -3064,7 +3064,7 @@
   "webusb-retry-no-select": [
     {
       "type": 0,
-      "value": "micro:bit를 선택하지 않으셨습니다. 다시 시도하시겠습니까?"
+      "value": "Calliope mini를 선택하지 않으셨습니다. 다시 시도하시겠습니까?"
     }
   ],
   "webusb-retry-replug1": [
@@ -3082,7 +3082,7 @@
   "webusb-retry-replug3": [
     {
       "type": 0,
-      "value": "micro:bit에 배터리 팩이 연결되어 있지 않은지 확인하세요."
+      "value": "Calliope mini에 배터리 팩이 연결되어 있지 않은지 확인하세요."
     }
   ],
   "webusb-retry-replug4": [

@@ -1,1755 +1,1757 @@
 {
   "aarhus-university-alt": {
-    "defaultMessage": "オーフス大学",
-    "description": "Alt text for Aarhus University logo in about dialog"
+    "defaultMessage": "Aarhus University"
   },
-  "about": {
-    "defaultMessage": "Calliope miniについて",
-    "description": "Menu item link to view information about app"
+   "about": {
+  "defaultMessage": "Über",
+  "description": "Menu item link to view information about app"
   },
   "about-dialog-alt": {
-    "defaultMessage": "Calliope mini でLEDディスプレイにハートを表示する",
-    "description": "Alt text for image in about dialog"
+  "defaultMessage": "Calliope mini Platine mit einem Herz auf der LED-Matrix",
+  "description": "Alt text for image in about dialog"
   },
   "about-dialog-title": {
-    "defaultMessage": "<link>オーフス大学 Center for Computational Thinking and Design</link>とのパートナーシップにより開発されています",
-    "description": "Title of about dialog"
+  "defaultMessage": "Entwickelt in Partnerschaft mit <link>Center for Computational Thinking and Design, Aarhus University</link>",
+  "description": "Title of about dialog"
   },
   "accelerometer-image-alt": {
-    "defaultMessage": "Calliope miniでは、X軸が前面を横切る方向、Y軸が下から上方向、Z軸が裏面から前面の方向を示しています。",
-    "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the Calliope mini accelerometer"
+  "defaultMessage": "Calliope mini mit X-Achse quer über die Vorderseite, Y-Achse nach unten und oben, Z-Achse von hinten nach vorne",
+  "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the Calliope mini accelerometer"
   },
   "accessibility": {
-    "defaultMessage": "アクセシビリティ",
-    "description": "Menu item for link to accessibility site"
+  "defaultMessage": "Barrierefreiheit",
+  "description": "Menu item for link to accessibility site"
   },
   "action-label": {
-    "defaultMessage": "アクション",
-    "description": "Label for a movement-related action, e.g. clapping"
+  "defaultMessage": "Aktion",
+  "description": "Label for a movement-related action, e.g. clapping"
   },
   "action-label-tooltip-aria": {
-    "defaultMessage": "アクションのツールチップ",
-    "description": "Aria label for action tooltip icon"
+  "defaultMessage": "Aktions-Tooltip",
+  "description": "Aria label for action tooltip icon"
   },
   "action-length-error": {
-    "defaultMessage": "アクション名は {maxLen} 文字より長くできません。",
-    "description": "Error message shown when an action name is too long"
+  "defaultMessage": "Aktionsnamen dürfen nicht länger als {maxLen} Zeichen sein.",
+  "description": "Error message shown when an action name is too long"
   },
   "action-name-placeholder": {
-    "defaultMessage": "アクション名",
-    "description": "Placeholder text for user supplied name of a movement-related action, e.g. clapping"
+  "defaultMessage": "Name der Aktion",
+  "description": "Placeholder text for user supplied name of a movement-related action, e.g. clapping"
   },
   "action-region": {
-    "defaultMessage": "アクション「{action}」",
-    "description": "Region label for action row"
+  "defaultMessage": "Aktion \"{action}\"",
+  "description": "Region label for action row"
   },
   "action-tooltip": {
-    "defaultMessage": "{appNameFull} に認識させたい動きの種類(例: 手を振る、拍手する)",
-    "description": "Tooltip explaining action"
+  "defaultMessage": "Die Art der Bewegung, die {appNameFull} erkennen soll, z.B. 'Winken' oder 'Klatschen'.",
+  "description": "Tooltip explaining action"
   },
   "actions-label": {
-    "defaultMessage": "アクション",
-    "description": "Label for Actions"
+  "defaultMessage": "Aktionen",
+  "description": "Label for Actions"
   },
   "add-action-action": {
-    "defaultMessage": "アクションを追加",
-    "description": "Button to add an action (movement related, e.g. clapping)"
+  "defaultMessage": "Aktion hinzufügen",
+  "description": "Button to add an action (movement related, e.g. clapping)"
   },
   "ai-activity-timer-resource-title": {
-    "defaultMessage": "AI活動タイマー",
-    "description": "Home page resource card title"
+  "defaultMessage": "KI-Aktivitäts-Timer",
+  "description": "Home page resource card title"
   },
   "ai-storytelling-friend-resource-title": {
-    "defaultMessage": "AIストーリーテリングの友達",
-    "description": "Home page resource card title"
+  "defaultMessage": "KI-Geschichten-Freund",
+  "description": "Home page resource card title"
   },
   "back-action": {
-    "defaultMessage": "戻る",
-    "description": "Back button text"
+  "defaultMessage": "Zurück",
+  "description": "Back button text"
   },
   "back-to-data-samples-action": {
-    "defaultMessage": "データサンプルを編集",
-    "description": "Back button text"
+  "defaultMessage": "Datenbeispiele bearbeiten",
+  "description": "Back button text"
   },
   "blocks-preview-title": {
-    "defaultMessage": "Blocks preview",
-    "description": "Blocks preview heading text"
+  "defaultMessage": "Blockvorschau",
+  "description": "Blocks preview heading text"
   },
   "bluetooth-unsupported-advice": {
-    "defaultMessage": "Calliope miniに直接接続できるように、Google ChromeまたはMicrosoft Edgeをお勧めします。",
-    "description": "Note on supported browsers"
+  "defaultMessage": "Wir empfehlen Google Chrome oder  Edge, damit du dich direkt mit deinem Calliope mini verbinden kannst.",
+  "description": "Note on supported browsers"
   },
   "bluetooth-unsupported-explain": {
-    "defaultMessage": "残念ながら、WebUSBとWeb Bluetoothはこのブラウザではサポートされていません。 これは、機械学習モデルを訓練するために必要なデータサンプルを記録するためにCalliope miniに接続できないことを意味します。",
-    "description": "Note on supported browsers"
+  "defaultMessage": "Leider werden WebUSB und Web Bluetooth von diesem Browser nicht unterstützt. Das bedeutet, dass du dich nicht mit einem Calliope mini verbinden kannst, um die Datenbeispiele aufzuzeichnen, die zum Trainieren des maschinellen Lernmodells benötigt werden.",
+  "description": "Note on supported browsers"
   },
   "bluetooth-unsupported-header": {
-    "defaultMessage": "お使いのブラウザーはサポートされていません。",
-    "description": "Heading for browser support dialog"
+  "defaultMessage": "Dieser Browser wird nicht unterstützt",
+  "description": "Heading for browser support dialog"
   },
   "cancel-action": {
-    "defaultMessage": "キャンセル",
-    "description": "Cancel button text"
+  "defaultMessage": "Abbrechen",
+  "description": "Cancel button text"
   },
   "cancel-recording-action": {
-    "defaultMessage": "記録をキャンセル",
-    "description": "Button label to cancel a movement data recording"
+  "defaultMessage": "Aufnahme abbrechen",
+  "description": "Button label to cancel a movement data recording"
   },
   "certainty-label": {
-    "defaultMessage": "確実性",
-    "description": "Heading for certainty column"
+  "defaultMessage": "Sicherheit",
+  "description": "Heading for certainty column"
   },
   "certainty-label-tooltip-aria": {
-    "defaultMessage": "確実性のツールチップ",
+    "defaultMessage": "Sicherheits-Tooltip",
     "description": "Aria label for code certainty icon"
   },
   "certainty-percentage-label": {
-    "defaultMessage": "{action}の確実性: {currentConfidence}%",
+    "defaultMessage": "Sicherheit für {action}: {currentConfidence} Prozent",
     "description": "Label for certainty of an action"
   },
   "certainty-tooltip": {
-    "defaultMessage": "現在各アクションを実行しているかどうかについて、モデルがどの程度確信を持っているか。",
+    "defaultMessage": "Wie sicher sich das Modell ist, dass Sie gerade jede Aktion ausführen.",
     "description": "Tooltip for certainty column"
   },
   "click-to-reload-page-action": {
-    "defaultMessage": "ページをリロードするにはクリックします",
+    "defaultMessage": "Klicken, um die Seite neu zu laden",
     "description": "Reload page button text"
   },
   "close-action": {
-    "defaultMessage": "閉じる",
+    "defaultMessage": "Schließen",
     "description": "Close button text or label"
   },
   "code-download-error": {
-    "defaultMessage": "プロジェクトのプログラムのダウンロードに失敗しました",
+    "defaultMessage": "Fehler beim Herunterladen des Projektcodes",
     "description": "Title for error message relating to project loading"
   },
   "code-label": {
-    "defaultMessage": "コードを書く",
+    "defaultMessage": "Code",
     "description": "Code column heading"
   },
   "code-label-tooltip-aria": {
-    "defaultMessage": "プログラムのツールチップ",
+    "defaultMessage": "Code-Tooltip",
     "description": "Aria label for code tooltip icon"
   },
   "code-tooltip": {
-    "defaultMessage": "Calliope miniにMLモデルとプログラムを転送する際に検出されたアクションごとのMakeCodeブロックです。",
+    "defaultMessage": "Dies sind die MakeCode-Blöcke für jede erkannte Aktion, wenn du dein Modell und den Code auf einen Calliope mini überträgst",
     "description": "Code column heading tooltip"
   },
   "confirm-action": {
-    "defaultMessage": "確認",
+    "defaultMessage": "Bestätigen",
     "description": "Confirm button text"
   },
   "confirm-save-action": {
-    "defaultMessage": "確認して保存",
+    "defaultMessage": "Bestätigen und speichern",
     "description": "Confirm and save action label"
   },
   "connect-action": {
-    "defaultMessage": "接続",
+    "defaultMessage": "Verbinden",
     "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-action-aria": {
-    "defaultMessage": "Calliope miniに接続中",
+    "defaultMessage": "Mit Calliope mini verbinden",
     "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-battery-heading": {
-    "defaultMessage": "USBケーブルを外して、電池ボックスを繋げます",
+    "defaultMessage": "USB trennen und Batteriepack anschließen",
     "description": "Battery connection dialog "
   },
   "connect-battery-holder": {
-    "defaultMessage": "電池ボックスホルダー",
+    "defaultMessage": "Batteriehalter",
     "description": "Label for battery holder icon"
   },
   "connect-battery-link": {
-    "defaultMessage": "Calliope miniを手首や物に取り付けられます。。",
+    "defaultMessage": " Du kannst den Calliope mini an deinem Handgelenk oder an einem Objekt befestigen",
     "description": "Battery connection dialog"
   },
   "connect-battery-subtitle": {
-    "defaultMessage": "Calliope miniをコンピュータから取り外し、電池ボックスを繋げます。",
+    "defaultMessage": "Trenne den Calliope mini vom Computer und schließe das Batteriepack an.",
     "description": "Battery connection dialog"
   },
   "connect-bluetooth-cancelled-connection": {
-    "defaultMessage": "Calliope miniを選択していません。もう一度試しますか？",
+    "defaultMessage": "Sie haben keinen Calliope mini ausgewählt. Möchtest du es erneut versuchen?",
     "description": "Error when the user cancelled the Web Bluetooth permission/device selection dialog"
   },
   "connect-bluetooth-heading": {
-    "defaultMessage": "Web Bluetooth を使って繋げる",
+    "defaultMessage": "Verbindung über Web Bluetooth herstellen",
     "description": "Connection dialogs"
   },
   "connect-bluetooth-invalid-pattern": {
-    "defaultMessage": "描画したパターンは無効です。",
+    "defaultMessage": "Das von dir gezeichnete Muster ist ungültig.",
     "description": "Error when the bluetooth pattern is incomplete "
   },
   "connect-bluetooth-start-heading": {
-    "defaultMessage": "Web Bluetooth で繋げるのに必要なもの",
+    "defaultMessage": "Was du benötigst, um dich über Web Bluetooth zu verbinden",
     "description": "Connection dialog heading"
   },
   "connect-bluetooth-start-requirements1": {
-    "defaultMessage": "Calliope mini 1台",
+    "defaultMessage": "1 Calliope mini",
     "description": "Label for icon of single Calliope mini"
   },
   "connect-bluetooth-start-requirements2-subtitle": {
-    "defaultMessage": "インターネット、USB ポート、 Web  Bluetooth",
+    "defaultMessage": "mit Internet, einem USB-Anschluss und Web Bluetooth",
     "description": "Under heading 'Computer' this lists the features the computer needs"
   },
   "connect-bluetooth-start-switch-radio": {
-    "defaultMessage": "代わりにCalliope mini無線機能を使って接続",
+    "defaultMessage": "Stattdessen über Calliope mini Funk verbinden",
     "description": "Link to alternative connection method"
   },
   "connect-cable-alt": {
-    "defaultMessage": "Calliope miniの上部にUSBケーブルが繋げられていることを示すアニメーション",
+    "defaultMessage": "Animation zeigt ein USB-Kabel, das oben an einen Calliope mini angeschlossen wird",
     "description": "Alt text"
   },
   "connect-cable-download-project-subtitle": {
-    "defaultMessage": "Calliope miniをUSBケーブルでこのコンピュータに繋いで、機械学習MakeCodeプログラムをダウンロードします。",
+    "defaultMessage": "Verbinde einen Calliope mini mit diesem Computer über ein USB-Kabel, um ein maschinelles Lern-MakeCode-Programm darauf herunterzuladen.",
     "description": "Download project dialog"
   },
   "connect-cable-heading": {
-    "defaultMessage": "USBケーブルをCalliope miniに繋げます",
+    "defaultMessage": "USB-Kabel mit Calliope mini verbinden",
     "description": "Connect cable dialog heading"
   },
   "connect-cable-skip": {
-    "defaultMessage": "スキップ: プログラムは既にダウンロードされていませんか？",
+    "defaultMessage": "Überspringen: Programm bereits heruntergeladen?",
     "description": "Link to skip"
   },
   "connect-cable-subtitle": {
-    "defaultMessage": "データ収集プログラムをダウンロードできるように、Calliope miniをUSBケーブルでこのコンピュータに繋げます。",
+    "defaultMessage": "Verbinde den Calliope mini mit diesem Computer über ein USB-Kabel, damit das Datenerfassungsprogramm darauf heruntergeladen werden kann.",
     "description": "Project download instructions"
   },
   "connect-computer": {
-    "defaultMessage": "コンピュータ",
+    "defaultMessage": "Computer",
     "description": "Label for computer icon in connection dialog"
   },
   "connect-data-collection-heading": {
-    "defaultMessage": "USBケーブルをCalliope mini 1に繋げます",
+    "defaultMessage": "USB-Kabel mit Calliope mini 1 verbinden",
     "description": "Connection dialog heading"
   },
   "connect-data-collection-subtitle": {
-    "defaultMessage": "最初のCalliope miniをUSBケーブルでコンピュータに繋げて、データ収集プログラムをダウンロードできます。 これは、データサンプルの収集に使うCalliope miniです。",
+    "defaultMessage": "Verbinde den ersten Calliope mini mit diesem Computer über ein USB-Kabel, damit das Datenerfassungsprogramm darauf heruntergeladen werden kann. Dies ist der Calliope mini, den du zum Sammeln von Datenbeispielen verwenden wirst.",
     "description": "Connection dialog subtitle"
   },
   "connect-failed-bluetooth-heading": {
-    "defaultMessage": "Calliope miniへの接続に失敗しました",
+    "defaultMessage": "Verbindung zu Calliope mini fehlgeschlagen",
     "description": "Bluetooth connection error message"
   },
   "connect-failed-bluetooth1": {
-    "defaultMessage": "データ収集用Calliope miniへの接続を確立できませんでした。",
+    "defaultMessage": "Die Verbindung zum Datenerfassungs-Calliope mini konnte nicht hergestellt werden.",
     "description": "Bluetooth connection error message"
   },
   "connect-failed-bridge-heading": {
-    "defaultMessage": "無線リンク用Calliope miniへの接続に失敗しました",
+    "defaultMessage": "Verbindung zu Funkverbindungs-Calliope mini fehlgeschlagen",
     "description": "Calliope mini radio connection error message"
   },
   "connect-failed-bridge1": {
-    "defaultMessage": "コンピューターに接続されたCalliope miniとの接続を確立できませんでした。",
+    "defaultMessage": "Die Verbindung zu dem mit deinem Computer verbundenen Calliope mini konnte nicht hergestellt werden.",
     "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote-heading": {
-    "defaultMessage": "データ収集用Calliope miniへの接続に失敗しました",
+    "defaultMessage": "Verbindung zu Datenerfassungs-Calliope mini fehlgeschlagen",
     "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote1": {
-    "defaultMessage": "データ収集用Calliope miniへの接続を確立できませんでした。",
+    "defaultMessage": "Die Verbindung zum Datenerfassungs-Calliope mini konnte nicht hergestellt werden.",
     "description": "Calliope mini radio connection error message"
   },
   "connect-help-alt": {
-    "defaultMessage": "「1」のラベルが付いたBBC Calliope miniエントリと「2」のラベルが付いた接続ボタンを持つWebUSB接続ダイアログ",
+    "defaultMessage": "WebUSB-Verbindungsdialog mit Calliope mini-Eintrag mit Beschriftung 1 und Verbinden-Schaltfläche mit Beschriftung 2",
     "description": "Alt text for image in connect help dialog"
   },
   "connect-micro-usb-cable": {
-    "defaultMessage": "マイクロUSBケーブル",
+    "defaultMessage": "USB-C-Kabel",
     "description": "Label for cable icon in list of requirements"
   },
   "connect-or-import": {
-    "defaultMessage": "<link1>データ収集用Calliope miniを接続</link1> または <link2>データサンプルのインポート</link2>",
+    "defaultMessage": "<link1>Einen Datenerfassungs-Calliope mini verbinden</link1> oder <link2>Datenbeispiele importieren</link2>",
     "description": "Empty data samples page text"
   },
   "connect-pattern-heading": {
-    "defaultMessage": "パターンをコピー",
+    "defaultMessage": "Muster kopieren",
     "description": "Heading for Bluetooth pattern connection dialog"
   },
   "connect-pattern-input-label": {
-    "defaultMessage": "{colNum} 列 - Calliope miniディスプレイで点灯したLEDの数",
+    "defaultMessage": "Spalte {colNum} - Anzahl der leuchtenden LEDs auf dem Calliope mini Display",
     "description": "Screen reader text for numeric pattern input"
   },
   "connect-pattern-subtitle": {
-    "defaultMessage": "Calliope miniに表示されているパターンをコピーします。",
+    "defaultMessage": "Kopieren Sie das auf dem Calliope mini angezeigte Muster.",
     "description": "Instruction for bluetooth pattern dialog"
   },
   "connect-popup": {
-    "defaultMessage": "Calliope miniを選択",
+    "defaultMessage": "Calliope mini auswählen",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-bluetooth-alt": {
-    "defaultMessage": "ラベル 1 で示している BBC Calliope mini のエントリとラベル 2 で示しているペアリングボタンのあるWeb Bluetooth ダイアログ",
+    "defaultMessage": "Web Bluetooth-Verbindungsdialog mit Calliope mini-Eintrag mit Beschriftung 1 und Koppeln-Schaltfläche mit Beschriftung 2",
     "description": "Alt text"
   },
   "connect-popup-bluetooth-instruction2": {
-    "defaultMessage": "「ペアリング」(Pair)を選択",
+    "defaultMessage": "Wählen Sie 'Koppeln'",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-bluetooth-title": {
-    "defaultMessage": "Web BluetoothでCalliope miniに接続",
+    "defaultMessage": "Mit Calliope mini über Web Bluetooth verbinden",
     "description": "Instruction for dialog that previews the Bluetooth permission dialog"
   },
   "connect-popup-instruction-heading": {
-    "defaultMessage": "次のポップアップ",
+    "defaultMessage": "Im nächsten Popup",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-instruction1": {
-    "defaultMessage": "Calliope miniを選ぶ",
+    "defaultMessage": "Wähle deinen Calliope mini",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-usb-bluetooth-data-collection-title": {
-    "defaultMessage": "データ収集プログラムをCalliope miniにダウンロード",
+    "defaultMessage": "Datenerfassungsprogramm auf Calliope mini herunterladen",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-data-collection-title": {
-    "defaultMessage": "データ収集プログラムをCalliope mini 1にダウンロードする",
+    "defaultMessage": "Datenerfassungsprogramm auf Calliope mini V1/V2/V3 herunterladen",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-link-title": {
-    "defaultMessage": "Calliope mini 2に無線リンクプログラムをダウンロードする",
+    "defaultMessage": "Funkverbindungsprogramm auf Calliope mini V3 herunterladen",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-webusb-instruction2": {
-    "defaultMessage": "「接続」(Connect)を選択",
+    "defaultMessage": "Wähle 'Verbinden'",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-radio-data-collection-microbit-description": {
-    "defaultMessage": "データ収集用Calliope miniをこのコンピュータに接続して、機械学習MakeCodeプログラムをダウンロードします。 データ収集用Calliope miniを身につけている場合は、取り外す必要があります。",
+    "defaultMessage": "Verbinde den Datenerfassungs-Calliope mini mit diesem Computer, um dein maschinelles Lern-MakeCode-Programm darauf herunterzuladen. Wenn du den Datenerfassungs-Calliope mini trägst, musst du ihn möglicherweise abnehmen.",
     "description": "Connect radio data collection Calliope mini dialog description"
   },
   "connect-radio-data-collection-microbit-title": {
-    "defaultMessage": "USBケーブルをデータ収集Calliope miniにつなぐ",
+    "defaultMessage": "Verbinde das USB-Kabel mit dem Datenerfassungs-Calliope mini",
     "description": "Connect radio data collection Calliope mini dialog title"
   },
   "connect-radio-heading": {
-    "defaultMessage": "Calliope miniに接続中",
+    "defaultMessage": "Calliope minis werden verbunden",
     "description": "Text shown while radio link and data connection Calliope mini are being connected"
   },
   "connect-radio-link-heading": {
-    "defaultMessage": "USBケーブルをCalliope mini 2に繋げます",
+    "defaultMessage": "Verbinde das USB-Kabel mit Calliope mini 2",
     "description": "Heading for connecting radio link Calliope mini cable"
   },
   "connect-radio-link-subtitle": {
-    "defaultMessage": "無線リンクプログラムをダウンロードできるように、2つ目のCalliope miniをUSBケーブルでこのコンピュータに繋ぎます。この無線リンクCalliope miniはデータ収集Calliope miniと通信します。",
+    "defaultMessage": "Verbinde einen zweiten Calliope mini mit diesem Computer über ein USB-Kabel, damit das Funkverbindungsprogramm darauf heruntergeladen werden kann. Dieser Funkverbindungs-Calliope mini wird mit dem Datenerfassungs-Calliope mini kommunizieren.",
     "description": "Instruction for connecting radio link Calliope mini cable"
   },
   "connect-radio-start-heading": {
-    "defaultMessage": "Calliope mini無線機能で接続するために必要なもの",
+    "defaultMessage": "Was du benötigst, um über Calliope mini Funk zu verbinden",
     "description": "Connection dialog heading"
   },
   "connect-radio-start-requirements1": {
-    "defaultMessage": "Calliope mini 2個",
+    "defaultMessage": "2 Calliope minis",
     "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
-    "defaultMessage": "V2のみ",
+    "defaultMessage": "Nur V3",
     "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
-    "defaultMessage": "インターネットとUSBポート",
+    "defaultMessage": "mit Internet und einem USB-Anschluss",
     "description": "Shown below 'Computer' heading listing additional requirements"
   },
   "connect-radio-start-switch-bluetooth": {
-    "defaultMessage": "Web Bluetooth で接続",
+    "defaultMessage": "Stattdessen über Web Bluetooth verbinden",
     "description": "Link to alternative connection method"
   },
   "connect-to-record": {
-    "defaultMessage": "データサンプルを記録するための接続",
+    "defaultMessage": "Verbinde, um Datenbeispiele aufzuzeichnen",
     "description": "Live graph disconnected Calliope mini status message for data samples page"
   },
   "connect-to-record-body": {
-    "defaultMessage": "データサンプルを記録するためにCalliope miniを接続します。",
+    "defaultMessage": "Verbinde einen Calliope mini, um ein Datenbeispiel aufzuzeichnen.",
     "description": "Insufficient data modal content"
   },
   "connect-to-test-model": {
-    "defaultMessage": "接続して MLモデルをテストする",
+    "defaultMessage": "Verbinde, um dein ML-Modell zu testen",
     "description": "Live graph disconnected Calliope mini status message for test model page"
   },
   "connect-to-tour-body": {
-    "defaultMessage": "ツアーを見るには、データ収集用Calliope miniを接続する必要があります。",
+    "defaultMessage": "Du musst einen Datenerfassungs-Calliope mini verbinden, um die Tour anzusehen.",
     "description": "Prompt to connect the app to a Calliope mini"
   },
   "connect-troubleshoot": {
-    "defaultMessage": "Calliope mini接続時に発生する問題のトラブルシューティング",
+    "defaultMessage": "Probleme beim Verbinden mit deinem Calliope mini beheben",
     "description": "Link to support article for troubleshooting"
   },
   "connect-troubleshooting": {
-    "defaultMessage": "トラブルシューティング",
+    "defaultMessage": "Fehlerbehebung",
     "description": "Troubleshooting heading"
   },
   "connect-with-batteries": {
-    "defaultMessage": "電池と",
+    "defaultMessage": "mit Batterien",
     "description": "Under header 'Battery holder' this notes that batteries are required"
   },
   "connect-with-web-bluetooth": {
-    "defaultMessage": "Web Bluetooth で接続",
+    "defaultMessage": "Mit Web Bluetooth verbinden",
     "description": "Connection dialog title"
   },
   "connecting": {
-    "defaultMessage": "接続中...",
+    "defaultMessage": "Verbinde…",
     "description": "Text shown while waiting for bluetooth/radio connection"
   },
   "continue-makecode-action": {
-    "defaultMessage": "MakeCodeに進む",
+    "defaultMessage": "Weiter zu MakeCode",
     "description": "Continue to MakeCode editor button text"
   },
   "cookies-action": {
-    "defaultMessage": "Cookieについて",
+    "defaultMessage": "Cookies",
     "description": "Action to show dialog to choose website cookie preferences"
   },
   "copied": {
-    "defaultMessage": "コピーしました",
+    "defaultMessage": "Kopiert",
     "description": "Displayed as copy button text briefly after successful copy action"
   },
   "copy-action": {
-    "defaultMessage": "コピー",
+    "defaultMessage": "Kopieren",
     "description": "Copy button text"
   },
   "data-actions-menu": {
-    "defaultMessage": "データアクション",
+    "defaultMessage": "Datenaktionen",
     "description": "Aria label for menu"
   },
   "data-collection-microbit": {
-    "defaultMessage": "データ収集用Calliope mini",
+    "defaultMessage": "Datenerfassungs-Calliope mini",
     "description": "Data collection Calliope mini image caption"
   },
   "data-collection-microbit-label": {
-    "defaultMessage": "データ収集用Calliope miniを人の手首につけていることを示す図",
+    "defaultMessage": "Diagramm zeigt Datenerfassungs-Calliope mini am Handgelenk einer Person",
     "description": "Aria label for data collection image"
   },
   "data-connection-region": {
-    "defaultMessage": "Calliope miniデータ接続",
+    "defaultMessage": "Calliope mini Datenverbindung",
     "description": "Region label for data connection area"
   },
   "data-features-hide-action": {
-    "defaultMessage": "データ機能を隠す",
+    "defaultMessage": "Datenmerkmale ausblenden",
     "description": "Hide data features button text"
   },
   "data-features-show-action": {
-    "defaultMessage": "データ機能を表示",
+    "defaultMessage": "Datenmerkmale anzeigen",
     "description": "Show data features button text"
   },
   "data-preview-title": {
-    "defaultMessage": "Data preview",
+    "defaultMessage": "Datenvorschau",
     "description": "Data preview heading text"
   },
   "data-samples-actions-region": {
-    "defaultMessage": "データサンプルツールバー",
+    "defaultMessage": "Datenbeispiele-Symbolleiste",
     "description": "Region label for data samples actions"
   },
   "data-samples-label": {
-    "defaultMessage": "データサンプル",
+    "defaultMessage": "Datenbeispiele",
     "description": "Heading for data samples column"
   },
   "data-samples-label-tooltip-aria": {
-    "defaultMessage": "データサンプルツールチップ",
+    "defaultMessage": "Datenbeispiele-Tooltip",
     "description": "Aria label for data samples tooltip icon"
   },
   "data-samples-status-count": {
-    "defaultMessage": "{numSamples} 個のサンプルを記録",
+    "defaultMessage": "{numSamples} Beispiele aufgezeichnet",
     "description": "Data samples status text"
   },
   "data-samples-status-not-enough": {
-    "defaultMessage": "少なくとも3個必要",
+    "defaultMessage": "Mindestens 3 erforderlich",
     "description": "Data samples status text"
   },
   "data-samples-title": {
-    "defaultMessage": "データサンプル",
+    "defaultMessage": "Datenbeispiele",
     "description": "Data samples page title"
   },
   "data-samples-tooltip": {
-    "defaultMessage": "1秒間の短い動きデータを収集。あなたのデータサンプルはあなたのPCにのみ保存され、他の誰にも送信されません。",
+    "defaultMessage": "Kurze Sammlungen von Bewegungsdaten mit einer Dauer von 1 Sekunde. Deine Datenbeispiele werden nur auf deinem Computer gespeichert, sie werden nicht an andere gesendet.",
     "description": "Tooltip for data samples heading"
   },
   "default-project-name": {
-    "defaultMessage": "名称未設定",
+    "defaultMessage": "Unbenannt",
     "description": "Default project name"
   },
   "delete-action-aria": {
-    "defaultMessage": "アクション \"{action}\" を削除",
+    "defaultMessage": "Aktion \"{action}\" löschen",
     "description": "Aria label for action delete icon"
   },
   "delete-action-confirm-heading": {
-    "defaultMessage": "アクション削除を確認",
+    "defaultMessage": "Löschen der Aktion bestätigen",
     "description": "Confirmation dialog heading"
   },
   "delete-action-confirm-text": {
-    "defaultMessage": "アクション \"{action}\" を削除してもよろしいですか？",
+    "defaultMessage": "Bist du sicher, dass du die Aktion \"{action}\" löschen möchtest?",
     "description": "Confirmation dialog text"
   },
   "delete-data-samples-action": {
-    "defaultMessage": "すべてのデータサンプルを削除",
+    "defaultMessage": "Alle Datenbeispiele löschen",
     "description": "Menu item to delete data samples"
   },
   "delete-data-samples-confirm-heading": {
-    "defaultMessage": "すべてのデータサンプル削除を確認",
+    "defaultMessage": "Löschen aller Datenbeispiele bestätigen",
     "description": "Confirmation dialog heading"
   },
   "delete-data-samples-confirm-text": {
-    "defaultMessage": "すべてのデータサンプルを削除してもよろしいですか？",
+    "defaultMessage": "Bist du sicher, dass du alle Datenbeispiele löschen möchtest?",
     "description": "Confirmation dialog text"
   },
   "delete-recording-aria": {
-    "defaultMessage": "アクション \"{action}\" の {numSamples} 個の記録 {sample} を削除",
+    "defaultMessage": "Aufzeichnung {sample} von {numSamples} für Aktion \"{action}\" löschen",
     "description": "Aria label for data sample delete action"
   },
   "disconnect-action": {
-    "defaultMessage": "切断",
+    "defaultMessage": "Trennen",
     "description": "Disconnect (from bluetooth/radio) action"
   },
   "disconnected-during-recording": {
-    "defaultMessage": "記録中にCalliope miniが切断されました",
+    "defaultMessage": "Calliope mini während der Aufzeichnung getrennt",
     "description": "Error when the Calliope mini is disconnected during recording"
   },
   "disconnected-warning-bluetooth-heading": {
-    "defaultMessage": "データ収集用Calliope miniの接続が失われました",
+    "defaultMessage": "Verbindung zum Datenerfassungs-Calliope mini verloren",
     "description": "Dialog heading"
   },
   "disconnected-warning-bluetooth1": {
-    "defaultMessage": "データ収集用Calliope miniへの接続が失われました。",
+    "defaultMessage": "Die Verbindung zum Datenerfassungs-Calliope mini wurde unterbrochen.",
     "description": "Dialog text"
   },
   "disconnected-warning-bluetooth2": {
-    "defaultMessage": "Calliope miniを確認してください。",
+    "defaultMessage": "Bitte überprüfe, ob der Calliope mini:",
     "description": "Heading for list of things to check"
   },
   "disconnected-warning-bluetooth3": {
-    "defaultMessage": "電源が入っているか(Calliope mini の背面にある赤いライトが点灯している必要があります)",
+    "defaultMessage": "eingeschaltet ist (das rote Licht auf der Rückseite des Calliope mini sollte leuchten)",
     "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bluetooth4": {
-    "defaultMessage": "PCが近くにあるか",
+    "defaultMessage": "sich in der Nähe des Computers befindet",
     "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bridge-heading": {
-    "defaultMessage": "データ収集用Calliope miniの接続が失われました",
+    "defaultMessage": "Verbindung zum Funkverbindungs-Calliope mini verloren",
     "description": "Connection error dialog"
   },
   "disconnected-warning-bridge1": {
-    "defaultMessage": "PCに接続されたCalliope miniへの接続が失われました。",
+    "defaultMessage": "Die Verbindung zum mit deinem Computer verbundenen Calliope mini wurde unterbrochen.",
     "description": "Connection error dialog"
   },
   "disconnected-warning-remote-heading": {
-    "defaultMessage": "データ収集用Calliope miniの接続が失われました",
+    "defaultMessage": "Verbindung zum Datenerfassungs-Calliope mini verloren",
     "description": "Connection error dialog"
   },
   "disconnected-warning-remote1": {
-    "defaultMessage": "データ収集用Calliope miniへの接続が失われました。",
+    "defaultMessage": "Die Verbindung zum Datenerfassungs-Calliope mini wurde unterbrochen.",
     "description": "Connection error dialog"
   },
   "dont-show-again": {
-    "defaultMessage": "今後表示しない",
+    "defaultMessage": "Nicht mehr anzeigen",
     "description": "Text to never show a dialog again"
   },
   "download-data-samples-action": {
-    "defaultMessage": "すべてのデータサンプルをダウンロード",
+    "defaultMessage": "Alle Datenbeispiele herunterladen",
     "description": "Download action"
   },
   "download-project-choose-microbit-subtitle": {
-    "defaultMessage": "プロジェクトを同じCalliope miniにダウンロードすると、Calliope miniがツールから切断されます。 データサンプルをもっと記録したい場合は、Calliope miniを再接続する必要があります。",
+    "defaultMessage": "Wenn du dein Projekt auf denselben Calliope mini herunterlädst, wird der Calliope mini vom Tool getrennt. Du musst den Calliope mini erneut verbinden, wenn du weitere Datenbeispiele aufzeichnen möchtest.",
     "description": "Download project choose Calliope mini dialog subtitle"
   },
   "download-project-choose-microbit-title": {
-    "defaultMessage": "どのCalliope miniを使いますか？",
+    "defaultMessage": "Welchen Calliope mini möchtest du verwenden?",
     "description": "Download project choose Calliope mini dialog title"
   },
   "download-project-different-microbit-option": {
-    "defaultMessage": "別のCalliope mini",
+    "defaultMessage": "Anderer Calliope mini",
     "description": "Download project different Calliope mini option"
   },
   "download-project-intro-description": {
-    "defaultMessage": "プログラムには、作成した機械学習モデルが含まれます。 モデルはCalliope mini上で動作するので、 {appNameFull} に接続せずに使えます。",
+    "defaultMessage": "Dein Programm enthält das maschinelle Lernmodell, das du erstellt hast. Das Modell läuft auf dem Calliope mini, sodass du es ohne Verbindung zu {appNameFull} verwenden kannst.",
     "description": "Download project intro dialog description"
   },
   "download-project-intro-title": {
-    "defaultMessage": "機械学習のMakeCodeプロジェクトをダウンロード",
+    "defaultMessage": "Lade dein maschinelles Lern-MakeCode-Projekt herunter",
     "description": "Download project intro dialog title"
   },
   "download-project-same-microbit-option": {
-    "defaultMessage": "同じCalliope mini",
+    "defaultMessage": "Derselbe Calliope mini",
     "description": "Download project same Calliope mini option"
   },
   "downloading-data-collection-header": {
-    "defaultMessage": "データ収集プログラムのダウンロード",
+    "defaultMessage": "Datenerfassungsprogramm wird heruntergeladen",
     "description": "Progress text"
   },
   "downloading-header": {
-    "defaultMessage": "Calliope miniへのプログラムのダウンロード",
+    "defaultMessage": "Programm wird auf Calliope mini heruntergeladen",
     "description": "Progress text"
   },
   "downloading-radio-link-header": {
-    "defaultMessage": "無線リンクプログラムのダウンロード",
+    "defaultMessage": "Funkverbindungsprogramm wird heruntergeladen",
     "description": "Progress text"
   },
   "downloading-subtitle": {
-    "defaultMessage": "しばらくお待ちください。Calliope miniにプログラムをダウンロードしています。",
+    "defaultMessage": "Bitte warte. Programm wird auf Calliope mini heruntergeladen.",
     "description": "Progress text"
   },
   "edit-in-makecode-action": {
-    "defaultMessage": "MakeCodeで編集",
+    "defaultMessage": "In MakeCode bearbeiten",
     "description": "Edit in MakeCode button text"
   },
   "estimated-action-aria": {
-    "defaultMessage": "推定アクション: \"{action}\"",
+    "defaultMessage": "Geschätzte Aktion: \"{action}\"",
     "description": "Aria live text for the current estimated action"
   },
   "estimated-action-label": {
-    "defaultMessage": "推定アクション",
+    "defaultMessage": "Geschätzte Aktion",
     "description": "Heading for estimated action area next to the live graph"
   },
   "estimated-action-label-tooltip-aria": {
-    "defaultMessage": "推定アクションツールチップ",
+    "defaultMessage": "Geschätzte Aktion-Tooltip",
     "description": "Aria label for estimated action tooltip icon"
   },
   "estimated-action-tooltip": {
-    "defaultMessage": "これは、モデルが現在行っていると判断したアクションです。",
+    "defaultMessage": "Dies ist die Aktion, von der das Modell denkt, dass du sie gerade ausführst.",
     "description": "Tooltip for the estimated action heading"
   },
   "feedback": {
-    "defaultMessage": "フィードバック",
+    "defaultMessage": "Feedback",
     "description": "Action to open a feedback dialog"
   },
   "fingerprint-acc-x-tooltip": {
-    "defaultMessage": "X 方向データの合計",
+    "defaultMessage": "Summe der x-Richtungsdaten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-acc-y-tooltip": {
-    "defaultMessage": "Y 方向データの合計",
+    "defaultMessage": "Summe der y-Richtungsdaten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-acc-z-tooltip": {
-    "defaultMessage": "Z 方向データの合計",
+    "defaultMessage": "Summe der z-Richtungsdaten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-max-x-tooltip": {
-    "defaultMessage": "すべての X 方向データポイントの最大値",
+    "defaultMessage": "Maximaler Punkt unter allen x-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-max-y-tooltip": {
-    "defaultMessage": "すべての Y 方向のデータポイントの最大値",
+    "defaultMessage": "Maximaler Punkt unter allen y-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-max-z-tooltip": {
-    "defaultMessage": "すべてのZ方向データポイントの最大値",
+    "defaultMessage": "Maximaler Punkt unter allen z-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-mean-x-tooltip": {
-    "defaultMessage": "X 方向データの平均値",
+    "defaultMessage": "Durchschnittswert für x-Richtungsdaten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-mean-y-tooltip": {
-    "defaultMessage": "Y 方向データの平均値",
+    "defaultMessage": "Durchschnittswert für y-Richtungsdaten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-mean-z-tooltip": {
-    "defaultMessage": "Z方向データの平均値",
+    "defaultMessage": "Durchschnittswert für z-Richtungsdaten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-min-x-tooltip": {
-    "defaultMessage": "すべての X 方向データポイントの最小値",
+    "defaultMessage": "Minimaler Punkt unter allen x-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-min-y-tooltip": {
-    "defaultMessage": "すべての Y 方向データポイントの最小値",
+    "defaultMessage": "Minimaler Punkt unter allen y-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-min-z-tooltip": {
-    "defaultMessage": "すべてのZ方向データポイントの最小値",
+    "defaultMessage": "Minimaler Punkt unter allen z-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-peaks-x-tooltip": {
-    "defaultMessage": "すべての X 方向データポイントの中の極値の数",
+    "defaultMessage": "Anzahl der Extremwerte unter allen x-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-peaks-y-tooltip": {
-    "defaultMessage": "Y 方向のすべてのデータポイントの中の極値の数",
+    "defaultMessage": "Anzahl der Extremwerte unter allen y-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-peaks-z-tooltip": {
-    "defaultMessage": "Z方向のすべてのデータポイント間の極値の数",
+    "defaultMessage": "Anzahl der Extremwerte unter allen z-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-rms-x-tooltip": {
-    "defaultMessage": "すべての X 方向データポイントの二乗平均平方根値",
+    "defaultMessage": "Effektivwert für alle x-Richtungsdatenpunkte",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-rms-y-tooltip": {
-    "defaultMessage": "すべての Y 方向データポイントの二乗平均平方根値",
+    "defaultMessage": "Effektivwert für alle y-Richtungsdatenpunkte",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-rms-z-tooltip": {
-    "defaultMessage": "すべての Z 方向データポイントの二乗平均平方根値",
+    "defaultMessage": "Effektivwert für alle z-Richtungsdatenpunkte",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-std-x-tooltip": {
-    "defaultMessage": "X方向のすべてのデータポイントの0からの平均偏差",
+    "defaultMessage": "Durchschnittliche Abweichung von 0 unter allen x-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-std-y-tooltip": {
-    "defaultMessage": "Y方向のすべてのデータポイントの0からの平均偏差",
+    "defaultMessage": "Durchschnittliche Abweichung von 0 unter allen y-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-std-z-tooltip": {
-    "defaultMessage": "Z方向のすべてのデータポイントの0からの平均偏差",
+    "defaultMessage": "Durchschnittliche Abweichung von 0 unter allen z-Richtungsdatenpunkten",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-zcr-x-tooltip": {
-    "defaultMessage": "X方向のデータポイントの正と負の間で加速度が遷移するレート",
+    "defaultMessage": "Rate, mit der die Beschleunigung zwischen positiv und negativ für x-Richtungsdatenpunkte wechselt",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-zcr-y-tooltip": {
-    "defaultMessage": "Y方向のデータポイントの正と負の間で加速度が遷移するレート",
+    "defaultMessage": "Rate, mit der die Beschleunigung zwischen positiv und negativ für y-Richtungsdatenpunkte wechselt",
     "description": "Tooltip for data feature of a recording"
   },
   "fingerprint-zcr-z-tooltip": {
-    "defaultMessage": "Z方向のデータポイントの正と負の間で加速度が遷移するレート",
+    "defaultMessage": "Rate, mit der die Beschleunigung zwischen positiv und negativ für z-Richtungsdatenpunkte wechselt",
     "description": "Tooltip for data feature of a recording"
   },
   "firmware-outdated-content1": {
-    "defaultMessage": "Calliope miniのファームウェアが古すぎるため、Calliope miniへの接続に失敗しました。",
+    "defaultMessage": "Die Verbindung zum Calliope mini ist fehlgeschlagen, da die Firmware auf deinem Calliope mini zu alt ist.",
     "description": "Connection error dialog"
   },
   "firmware-outdated-content2": {
-    "defaultMessage": "このCalliope miniに接続するには、<link>ファームウェアを更新する</link>必要があります。",
+    "defaultMessage": "Du musst <link>deine Firmware aktualisieren</link>, bevor du dich mit diesem Calliope mini verbinden kannst.",
     "description": "Connection error dialog"
   },
   "firmware-outdated-heading": {
-    "defaultMessage": "ファームウェアの更新が必要です",
+    "defaultMessage": "Firmware-Update erforderlich",
     "description": "Connection error dialog"
   },
   "get-started-action": {
-    "defaultMessage": "はじめよう",
+    "defaultMessage": "Erste Schritte",
     "description": "Get started action"
   },
-  "go-action": { "defaultMessage": "実行", "description": "Go action" },
+  "go-action": { 
+    "defaultMessage": "Los", 
+    "description": "Go action" 
+  },
   "graph-color-scheme": {
-    "defaultMessage": "グラフの配色設定",
+    "defaultMessage": "Grafik-Farbschema",
     "description": "Graph colour scheme setting label"
   },
   "graph-color-scheme-color-blind-1": {
-    "defaultMessage": "カラーブラインド代替案 1",
+    "defaultMessage": "Farbenblind-Alternative 1",
     "description": "Graph colour scheme option"
   },
   "graph-color-scheme-color-blind-2": {
-    "defaultMessage": "カラーブラインド代替案 2",
+    "defaultMessage": "Farbenblind-Alternative 2",
     "description": "Graph colour scheme option"
   },
   "graph-color-scheme-default": {
-    "defaultMessage": "デフォルト (赤、青、緑)",
+    "defaultMessage": "Standard (rot, blau, grün)",
     "description": "Graph colour scheme option"
   },
   "graph-line-scheme": {
-    "defaultMessage": "グラフ線のスタイル",
+    "defaultMessage": "Grafik-Linienstil",
     "description": "Graph line scheme setting label"
   },
   "graph-line-scheme-accessible": {
-    "defaultMessage": "利用できる線 (実線、破線、点線)",
+    "defaultMessage": "Barrierefreie Linien (durchgezogen, gestrichelt, gepunktet)",
     "description": "Graph line scheme option"
   },
   "graph-line-scheme-solid": {
-    "defaultMessage": "実線",
+    "defaultMessage": "Durchgezogene Linien",
     "description": "Graph line scheme option"
   },
   "graph-line-weight": {
-    "defaultMessage": "グラフ線の太さ",
+    "defaultMessage": "Grafik-Liniendicke",
     "description": "Graph line weight setting label"
   },
-  "graph-line-weight-default": {
-    "defaultMessage": "初期値",
+    "graph-line-weight-default": {
+    "defaultMessage": "Standard",
     "description": "Graph line weight option"
   },
   "graph-line-weight-thick": {
-    "defaultMessage": "太い",
+    "defaultMessage": "Dick",
     "description": "Graph line weight option"
   },
   "graph-preview": {
-    "defaultMessage": "グラフのプレビュー",
+    "defaultMessage": "Grafikvorschau",
     "description": "Label for preview of the graph shown in the settings dialog"
   },
   "help-label": {
-    "defaultMessage": "ヘルプ",
+    "defaultMessage": "Hilfe",
     "description": "Help icon aria label"
   },
   "help-support": {
-    "defaultMessage": "ヘルプとサポート",
+    "defaultMessage": "Hilfe & Support",
     "description": "Link or menu item link to support site"
   },
   "help-translate": {
-    "defaultMessage": "翻訳を手伝う",
+    "defaultMessage": "Beim Übersetzen helfen",
     "description": "Help translate  menu option text"
   },
   "home-action": {
-    "defaultMessage": "ホーム",
+    "defaultMessage": "Start",
     "description": "Home button text"
   },
   "homepage": {
-    "defaultMessage": "ホームページ",
+    "defaultMessage": "Startseite",
     "description": "Link to home page"
   },
   "homepage-alt": {
-    "defaultMessage": "Calliope miniの加速度センサーデータを表すx, y, zのグラフ線を示すグラフに拍手している様子を重ね合わせたもの",
+    "defaultMessage": "Grafik mit x-, y-, z-Grafiklinien, die Calliope mini Beschleunigungssensordaten darstellen, mit darüber liegenden klatschenden Händen",
     "description": "Alt text for image in homepage"
   },
   "homepage-alt-graph": {
-    "defaultMessage": "Calliope miniの加速度センサーデータを表すx, y, zのグラフ線を示すグラフ",
+    "defaultMessage": "Grafik mit x-, y-, z-Grafiklinien, die Calliope mini Beschleunigungssensordaten darstellen",
     "description": "Alt text for image in homepage"
   },
   "homepage-alt-hands": {
-    "defaultMessage": "拍手",
+    "defaultMessage": "klatschende Hände",
     "description": "Alt text for image in homepage"
   },
   "homepage-description": {
-    "defaultMessage": "自分の動作データで機械学習モデルをトレーニングし、Calliope miniで実行します。",
+    "defaultMessage": "Trainiere ein maschinelles Lernmodell mit deinen eigenen Bewegungsdaten und führe es auf deinem Calliope mini aus.",
     "description": "Home page description"
   },
   "homepage-how-it-works": {
-    "defaultMessage": "動作の仕組み",
+    "defaultMessage": "So funktioniert's",
     "description": "Home page section heading"
   },
   "homepage-how-it-works-paragraph": {
-    "defaultMessage": "ビデオを見て、始めましょう。 <link>利用者ガイド</link>で詳細をご覧ください。",
+    "defaultMessage": "Schaue dir das Video an, um loszulegen. Erfahre mehr im <link>Benutzerhandbuch</link>.",
     "description": "Home page content under the video"
   },
   "homepage-projects": {
-    "defaultMessage": "サンプルプロジェクト",
+    "defaultMessage": "Projekte",
     "description": "Home page section heading"
   },
   "homepage-projects-more": {
-    "defaultMessage": "<link>Calliope miniとAIに関するコンテンツとリソース</link>を探る。",
+    "defaultMessage": "Entdecke weitere <link>Inhalte und Ressourcen über Calliope mini und KI</link>.",
     "description": "Link back to AI landing page"
   },
   "homepage-step-by-step": {
-    "defaultMessage": "セットアップ手順",
+    "defaultMessage": "Schritt für Schritt",
     "description": "Home page section heading"
   },
   "homepage-subtitle": {
-    "defaultMessage": "動作と機械学習を使ってBBC Calliope miniでAIを作ります。",
+    "defaultMessage": "Erstelle KI auf deinem Calliope mini mit Bewegung und maschinellem Lernen.",
     "description": "Home page subtitle"
   },
   "homepage-video-alt": {
-    "defaultMessage": "紹介動画",
+    "defaultMessage": "Einführungsvideo",
     "description": "Home page video alt text"
   },
   "import-data-samples-action": {
-    "defaultMessage": "データサンプルをインポート",
+    "defaultMessage": "Datenbeispiele importieren",
     "description": "Data samples action"
   },
   "import-error-dialog-content": {
-    "defaultMessage": "{appNameFull}で開くことができるのはMakeCodeのhexファイルまたはデータサンプルファイル(.json)だけです。",
+    "defaultMessage": "Nur MakeCode-Hex-Dateien oder Datenbeispieldateien (.json) können von {appNameFull} geöffnet werden.",
     "description": "Content of import error dialog"
   },
   "import-error-dialog-title": {
-    "defaultMessage": "対応していないファイル形式です",
+    "defaultMessage": "Nicht unterstützter Dateityp",
     "description": "Title of import error dialog"
   },
   "incompatible-device-body-alt": {
-    "defaultMessage": "戻って別のCalliope miniを選ぶか、<link>プロジェクトのhexを保存して</link>、Calliope mini V2にダウンロードしてください。",
+    "defaultMessage": "Gehe zurück, um einen anderen Calliope mini auszuwählen, oder <link>speichere die Projekt-Hex-Datei</link>, die später auf einen Calliope mini V3 heruntergeladen werden kann.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body1": {
-    "defaultMessage": "プログラムを編集するには、MakeCodeに進んでください。その後、Calliope mini V2にダウンロードできるプロジェクトのhexファイルを保存できます。",
+    "defaultMessage": "Fahre mit MakeCode fort, um das Programm zu bearbeiten. Du kannst dann die Projekt-Hex-Datei speichern, die auf einen Calliope mini V3 heruntergeladen werden kann.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body2": {
-    "defaultMessage": "別の方法として、 <link>MakeCode を使用せずにプロジェクトの hex</link> を保存します。",
+    "defaultMessage": "Alternativ kannst du <link>die Projekt-Hex-Datei speichern</link>, ohne MakeCode zu verwenden.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-heading": {
-    "defaultMessage": "互換性のないデバイス",
+    "defaultMessage": "Inkompatibles Gerät",
     "description": "Incompatible device dialog heading"
   },
   "incompatible-device-subtitle": {
-    "defaultMessage": "Calliope mini V1を使っていますが、機械学習プロジェクトでは Calliope mini V2 に載っている、より速いプロセッサが必要となります。 <link>Calliope miniのバージョンについてもっと調べる。</link>",
+    "defaultMessage": "Du verwendest einen Calliope mini V1/V2/V3, aber maschinelle Lernprojekte benötigen den schnelleren Prozessor eines Calliope mini V3. <link>Erfahre mehr über Calliope mini Versionen.</link>",
     "description": "Incompatible device dialog subtitle"
   },
   "insufficient-data-body": {
-    "defaultMessage": "モデルをトレーニングするには、少なくとも 2 個のアクションと、それぞれのアクションに対して 3 個のデータサンプルが必要です。",
+    "defaultMessage": "Du benötigst mindestens 3 Datenbeispiele für 2 Aktionen, um das Modell zu trainieren.",
     "description": "Insufficient data modal content"
   },
   "insufficient-data-title": {
-    "defaultMessage": "十分なデータがありません",
+    "defaultMessage": "Du hast nicht genug Daten",
     "description": "Insufficient data modal title"
   },
   "language": {
-    "defaultMessage": "言語",
+    "defaultMessage": "Sprache",
     "description": "Language option text"
   },
   "language-fully-supported-heading": {
-    "defaultMessage": "完全に対応",
+    "defaultMessage": "Vollständig unterstützt",
     "description": "Fully supported languages heading text"
   },
   "language-partially-supported-heading": {
-    "defaultMessage": "部分的に対応",
+    "defaultMessage": "Teilweise unterstützt",
     "description": "Partially supported languages heading text"
   },
   "language-support-checked": {
-    "defaultMessage": "対応",
+    "defaultMessage": "Unterstützt",
     "description": "Aria label for ticked checkbox for language support"
   },
   "language-support-unchecked": {
-    "defaultMessage": "非対応",
+    "defaultMessage": "Nicht unterstützt",
     "description": "Aria label for unticked checkbox for language support"
   },
   "language-supported-for": {
-    "defaultMessage": "サポートされている翻訳:",
-    "description": "Text introducing list of translated areas for a given language (areas: Microsoft MakeCode, Calliope mini ML-Machine UI itself)"
+    "defaultMessage": "Übersetzungen unterstützt für:",
+    "description": "Text introducing list of translated areas for a given language (areas:  MakeCode, Calliope mini ML-Machine UI itself)"
   },
   "language-toast-title": {
-    "defaultMessage": "言語が完全にサポートされていません",
+    "defaultMessage": "Sprache nicht vollständig unterstützt",
     "description": "Language support toast notification title"
   },
   "learn-about-firewall-requirements-action": {
-    "defaultMessage": "ファイアウォール要件について調べる",
+    "defaultMessage": "Über die Firewall-Anforderungen",
     "description": "Link to support article for firewall requirements"
   },
   "led-icon-option-angry": {
-    "defaultMessage": "おこり顔",
+    "defaultMessage": "Wütend",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-asleep": {
-    "defaultMessage": "ねてる顔",
+    "defaultMessage": "Schlafend",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-butterfly": {
-    "defaultMessage": "ちょうちょ",
+    "defaultMessage": "Schmetterling",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-chessboard": {
-    "defaultMessage": "チェスボード",
+    "defaultMessage": "Schachbrett",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-confused": {
-    "defaultMessage": "こまり顔",
+    "defaultMessage": "Verwirrt",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-cow": {
-    "defaultMessage": "うし",
+    "defaultMessage": "Kuh",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-diamond": {
-    "defaultMessage": "ダイアモンド",
+    "defaultMessage": "Diamant",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-duck": {
-    "defaultMessage": "あひる",
+    "defaultMessage": "Ente",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-eighthnote": {
-    "defaultMessage": "８分音符",
+    "defaultMessage": "Achtelnote",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-fabulous": {
-    "defaultMessage": "すばらしい",
+    "defaultMessage": "Fabelhaft",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-ghost": {
-    "defaultMessage": "おばけ",
+    "defaultMessage": "Geist",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-giraffe": {
-    "defaultMessage": "きりん",
+    "defaultMessage": "Giraffe",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-happy": {
-    "defaultMessage": "うれしい顔",
+    "defaultMessage": "Glücklich",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-heart": {
-    "defaultMessage": "ハート",
+    "defaultMessage": "Herz",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-house": {
-    "defaultMessage": "家",
+    "defaultMessage": "Haus",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-lefttriangle": {
-    "defaultMessage": "左向き三角",
+    "defaultMessage": "Linkes Dreieck",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-meh": {
-    "defaultMessage": "ふーん",
+    "defaultMessage": "Na ja",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-no": {
-    "defaultMessage": "いいえ",
+    "defaultMessage": "Nein",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-off": {
-    "defaultMessage": "オフ",
+    "defaultMessage": "Aus",
     "description": "Icon option."
   },
   "led-icon-option-pitchfork": {
-    "defaultMessage": "くまで",
+    "defaultMessage": "Heugabel",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-quarternote": {
-    "defaultMessage": "４分音符",
+    "defaultMessage": "Viertelnote",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-rabbit": {
-    "defaultMessage": "うさぎ",
+    "defaultMessage": "Hase",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-rollerskate": {
-    "defaultMessage": "ローラースケート",
+    "defaultMessage": "Rollschuh",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-sad": {
-    "defaultMessage": "かなしい顔",
+    "defaultMessage": "Traurig",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-scissors": {
-    "defaultMessage": "はさみ",
+    "defaultMessage": "Schere",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-silly": {
-    "defaultMessage": "へん顔",
+    "defaultMessage": "Albern",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-skull": {
-    "defaultMessage": "がいこつ",
+    "defaultMessage": "Totenkopf",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-smalldiamond": {
-    "defaultMessage": "小さいダイアモンド",
+    "defaultMessage": "Kleiner Diamant",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-smallheart": {
-    "defaultMessage": "小さいハート",
+    "defaultMessage": "Kleines Herz",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-smallsquare": {
-    "defaultMessage": "小さいしかく",
+    "defaultMessage": "Kleines Quadrat",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-snake": {
-    "defaultMessage": "へび",
+    "defaultMessage": "Schlange",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-square": {
-    "defaultMessage": "しかく",
+    "defaultMessage": "Quadrat",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-stickfigure": {
-    "defaultMessage": "棒人間",
+    "defaultMessage": "Strichmännchen",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-surprised": {
-    "defaultMessage": "びっくり顔",
+    "defaultMessage": "Überrascht",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-sword": {
-    "defaultMessage": "剣",
+    "defaultMessage": "Schwert",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-target": {
-    "defaultMessage": "まと",
+    "defaultMessage": "Zielscheibe",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-tortoise": {
-    "defaultMessage": "かめ",
+    "defaultMessage": "Schildkröte",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-triangle": {
-    "defaultMessage": "三角",
+    "defaultMessage": "Dreieck",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-tshirt": {
-    "defaultMessage": "Tシャツ",
+    "defaultMessage": "T-Shirt",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-umbrella": {
-    "defaultMessage": "かさ",
+    "defaultMessage": "Regenschirm",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "led-icon-option-yes": {
-    "defaultMessage": "はい",
+    "defaultMessage": "Ja",
     "description": "Makecode icon option. The translation should match MakeCode translations."
   },
   "live-data-graph": {
-    "defaultMessage": "ライブデータグラフ",
+    "defaultMessage": "Live-Datengrafik",
     "description": "Title for live data graph"
   },
   "live-graph": {
-    "defaultMessage": "ライブグラフ",
+    "defaultMessage": "Live-Grafik",
     "description": "Heading for live graph"
   },
   "live-graph-tooltip": {
-    "defaultMessage": "このグラフは、Calliope miniの加速度センサーの動きデータをリアルタイムで表示しています。 データ収集用Calliope miniを動かして、X、Y、Z軸の変化を見てみましょう。 各色の線は、Calliope miniを動かしている方向(軸)を表します。",
+    "defaultMessage": "Diese Grafik zeigt Bewegungsdaten vom Beschleunigungssensor des Calliope mini in Echtzeit. Versuche, deinen Datenerfassungs-Calliope mini zu bewegen, um zu sehen, wie sich die X-, Y- und Z-Achsen ändern. Jede farbige Linie repräsentiert eine andere Richtung (Dimension), in die du den Calliope mini bewegst.",
     "description": "Tooltip for live graph heading"
   },
   "live-graph-tooltip-aria": {
-    "defaultMessage": "ライブグラフツールチップ",
+    "defaultMessage": "Live-Grafik-Tooltip",
     "description": "Aria label for live graph tooltip icon"
   },
   "loading": {
-    "defaultMessage": "読み込み中",
+    "defaultMessage": "Lädt",
     "description": "Aria label for loading spinner"
   },
   "main-menu": {
-    "defaultMessage": "メインメニュー",
+    "defaultMessage": "Hauptmenü",
     "description": "Main menu label"
   },
   "makecode-back-alt": {
-    "defaultMessage": "MakeCodeを戻すための左矢印アイコン",
+    "defaultMessage": "Linkes Pfeilsymbol für MakeCode Zurück",
     "description": "Testing model page title"
   },
   "makecode-block-alt-prefix": {
-    "defaultMessage": "MakeCodeブロック:",
+    "defaultMessage": "MakeCode-Block:",
     "description": "Makecode block alt text prefix"
   },
   "makecode-block-show-icon": {
-    "defaultMessage": "アイコンを表示",
+    "defaultMessage": "zeige Symbol",
     "description": "Makecode block text. The translation should match MakeCode translations."
   },
   "makecode-load-error-dialog-body": {
-    "defaultMessage": "{appNameFull} は MakeCode の読み込みに失敗しました。インターネット接続を確認し、ページを更新してからもう一度お試しください。",
+    "defaultMessage": "{appNameFull} konnte MakeCode nicht laden. Bitte überprüfe deine Internetverbindung, lade die Seite neu und versuche es erneut.",
     "description": "Content of MakeCode load error dialog"
   },
   "makecode-load-error-dialog-title": {
-    "defaultMessage": "Microsoft MakeCode を読み込めませんでした",
+    "defaultMessage": " MakeCode konnte nicht geladen werden",
     "description": "Title of MakeCode load error dialog"
   },
   "microbit-not-connected": {
-    "defaultMessage": "Calliope miniが接続されていません",
+    "defaultMessage": "Dein Calliope mini ist nicht verbunden",
     "description": "Live graph disconnected Calliope mini status message"
   },
   "ml.onStart|block": {
-    "defaultMessage": "ML の $event が開始したとき",
+    "defaultMessage": "wenn ML $event startet",
     "description": "This string should be a Crowdin duplicate of the MakeCode extension block with the same text and use the same translation."
   },
   "more-edit-in-makecode-options": {
-    "defaultMessage": "MakeCodeのオプションをさらに編集する",
+    "defaultMessage": "Weitere Optionen für In MakeCode bearbeiten",
     "description": "Aria label for the additional actions menu to the right of the Edit in MakeCode button"
   },
   "name-action-hint": {
-    "defaultMessage": "Calliope miniに認識させたいアクションに名前を付けてください",
+    "defaultMessage": "Benenne eine Aktion, die der Calliope mini erkennen soll",
     "description": "Hint shown when you have an unnamed action"
   },
   "name-project": {
-    "defaultMessage": "プロジェクトに名前を付ける",
+    "defaultMessage": "Benenne dein Projekt",
     "description": "Name your project header"
   },
   "name-text": {
-    "defaultMessage": "名前",
+    "defaultMessage": "Name",
     "description": "Header for name field"
   },
   "name-used-when": {
-    "defaultMessage": "この名前は hex ファイルを保存するときに使用されます。",
+    "defaultMessage": "Der Name wird verwendet, wenn du eine Datei speicherst.",
     "description": "Text under project name field"
   },
   "new-session-setup-description": {
-    "defaultMessage": "新しいセッションを開始すると、既存のセッションを上書きすることになります。<link>既存のセッションを保存</link>することもできますよ。",
+    "defaultMessage": "Das Starten einer neuen Sitzung überschreibt deine bestehende Sitzung. Du möchtest vielleicht zuerst <link>deine bestehende Sitzung speichern</link>.",
     "description": "New session setup description"
   },
   "new-session-setup-title": {
-    "defaultMessage": "新しいセッションの設定",
+    "defaultMessage": "Neue Sitzung einrichten",
     "description": "New session setup title"
   },
   "newpage-continue-session-subtitle": {
-    "defaultMessage": "セッションを続行するには、コンピュータに保存したhexファイルまたはデータサンプルファイルを使います。",
+    "defaultMessage": "Verwende eine Hex-Datei oder Datenbeispieldatei, die du auf deinem Computer gespeichert hast, um eine Sitzung fortzusetzen.",
     "description": "Continue session subtitle"
   },
-  "newpage-continue-session-title": {
-    "defaultMessage": "保存したセッションを続ける",
+    "newpage-continue-session-title": {
+    "defaultMessage": "Gespeicherte Sitzung fortsetzen",
     "description": "Continue session title"
   },
   "newpage-last-session-date": {
-    "defaultMessage": "<strong>日付:</strong> {date}",
+    "defaultMessage": "<strong>Datum:</strong> {date}",
     "description": "Last session date label"
   },
   "newpage-last-session-name": {
-    "defaultMessage": "<strong>名前:</strong> {name}",
+    "defaultMessage": "<strong>Name:</strong> {name}",
     "description": "Last session name label"
   },
   "newpage-last-session-none": {
-    "defaultMessage": "セッションが見つかりませんでした",
+    "defaultMessage": "Keine Sitzung gefunden",
     "description": "Last session not found text"
   },
   "newpage-last-session-title": {
-    "defaultMessage": "最後のセッションを開く",
+    "defaultMessage": "Letzte Sitzung öffnen",
     "description": "Open last session title"
   },
   "newpage-new-session-subtitle": {
-    "defaultMessage": "Calliope miniに接続し、動作データを収集して機械学習モデルを構築します。",
+    "defaultMessage": "Verbinde deinen Calliope mini und sammle Bewegungsdaten, um ein maschinelles Lernmodell zu erstellen.",
     "description": "Start new session subtitle"
   },
   "newpage-new-session-title": {
-    "defaultMessage": "新規セッション",
+    "defaultMessage": "Neue Sitzung",
     "description": "Start new session title"
   },
   "newpage-section-one-title": {
-    "defaultMessage": "前に終了したところから再開する",
+    "defaultMessage": "Mach da weiter, wo du aufgehört hast",
     "description": "Homepage section one title"
   },
   "newpage-section-two-title": {
-    "defaultMessage": "新しく始める",
+    "defaultMessage": "Starte etwas Neues",
     "description": "Homepage section two title"
   },
   "newpage-title": {
-    "defaultMessage": "新規セッション",
+    "defaultMessage": "Neue Sitzung",
     "description": "New page title"
   },
   "next-action": {
-    "defaultMessage": "次",
+    "defaultMessage": "Weiter",
     "description": "Next button text for dialogs and similar"
   },
   "no-data-samples": {
-    "defaultMessage": "データサンプルがありません",
+    "defaultMessage": "Keine Datenbeispiele",
     "description": "Empty data samples page status text"
   },
   "not-create-ai-hex-import-dialog-content": {
-    "defaultMessage": "このプロジェクトにはデータサンプルが含まれていないため、プログラムだけが開かれています。 プログラムを使う前に、モデルを訓練する必要があります。",
+    "defaultMessage": "Dieses Projekt enthielt keine Datenbeispiele, daher wurde nur der Code geöffnet. Du musst ein Modell trainieren, bevor du den Code verwenden kannst.",
     "description": "Content of import non-ML-Machine hex dialog"
   },
   "not-create-ai-hex-import-dialog-title": {
-    "defaultMessage": "MakeCodeプロジェクトがインポートされました",
+    "defaultMessage": "Dein MakeCode-Projekt wurde importiert",
     "description": "Title of import non-ML-Machine hex dialog"
   },
   "not-found": {
-    "defaultMessage": "{appNameFull} ホームページ",
+    "defaultMessage": "{appNameFull} Startseite",
     "description": "Page not found link text"
   },
   "not-found-title": {
-    "defaultMessage": "ページが見つかりません",
+    "defaultMessage": "Seite nicht gefunden",
     "description": "Page not found page title"
   },
   "open-file-action": {
-    "defaultMessage": "開く…",
+    "defaultMessage": "Öffnen…",
     "description": "Open file button text"
   },
   "open-file-dropped": {
-    "defaultMessage": "ドロップ時にファイルを開く",
+    "defaultMessage": "Datei beim Ablegen öffnen",
     "description": "Aria label for file drop target"
   },
   "open-project-action": {
-    "defaultMessage": "Open project",
+    "defaultMessage": "Projekt öffnen",
     "description": "Open project button text"
   },
   "open-project-setup-description": {
-    "defaultMessage": "Opening this project will overwrite any existing session. You may want to <link>save your existing session</link> first.",
+    "defaultMessage": "Das Öffnen dieses Projekts überschreibt jede bestehende Sitzung. Du möchtest vielleicht zuerst <link>deine bestehende Sitzung speichern</link>.",
     "description": "Open project setup description"
   },
   "open-shared-project-blocks-preview-description": {
-    "defaultMessage": "Preview of the MakeCode code contained within this project.",
+    "defaultMessage": "Vorschau des MakeCode-Codes, der in diesem Projekt enthalten ist.",
     "description": "Blocks preview description text"
   },
   "open-shared-project-data-preview-description": {
-    "defaultMessage": "Preview of the actions and data contained within this project.",
+    "defaultMessage": "Vorschau der Aktionen und Daten, die in diesem Projekt enthalten sind.",
     "description": "Data preview description text"
   },
   "open-shared-project-description": {
-    "defaultMessage": "This is a Microsoft MakeCode shared project compatible with ML-Machine.",
+    "defaultMessage": "Dies ist ein mit ML-Machine kompatibles MakeCode-Gemeinschaftsprojekt.",
     "description": "Import shared ML-Machine project description"
   },
   "open-shared-project-error-description": {
-    "defaultMessage": "Check the link you followed is correct, and make sure you are connected to the internet before trying again.",
+    "defaultMessage": "Überprüfe, ob der Link, dem du gefolgt bist, korrekt ist, und stelle sicher, dass du mit dem Internet verbunden bist, bevor du es erneut versuchst.",
     "description": "Import shared ML-Machine error description"
   },
   "open-shared-project-title": {
-    "defaultMessage": "Open shared ML-Machine project",
+    "defaultMessage": "Geteiltes ML-Machine-Projekt öffnen",
     "description": "Import shared ML-Machine project title"
   },
   "other-tabs-body1": {
-    "defaultMessage": "別のプロセスがこのデバイスに接続されています。",
+    "defaultMessage": "Ein anderer Prozess ist mit diesem Gerät verbunden.",
     "description": "Connection error dialog"
   },
   "other-tabs-body2": {
-    "defaultMessage": "WebUSBを使っている他のタブ(例: MakeCode、Pythonエディター、 {appNameShort})を閉じるか、Calliope miniを抜き差ししてやり直してください。",
+    "defaultMessage": "Schließe alle anderen Tabs, die möglicherweise WebUSB verwenden (z.B. MakeCode, Python Editor, {appNameShort}), oder ziehe den Calliope mini ab und stecke ihn wieder ein, bevor du es erneut versuchst.",
     "description": "Connection error dialog"
   },
   "other-tabs-heading": {
-    "defaultMessage": "WebUSBで接続",
+    "defaultMessage": "Verbindung über WebUSB herstellen",
     "description": "Connection error dialog"
   },
   "privacy": {
-    "defaultMessage": "プライバシーポリシー",
+    "defaultMessage": "Datenschutzerklärung",
     "description": "Link to view privacy policy"
   },
   "project-loaded": {
-    "defaultMessage": "プロジェクトが読み込まれました",
+    "defaultMessage": "Projekt geladen",
     "description": "Toast when a new project is loaded"
   },
   "project-name-not-empty": {
-    "defaultMessage": "プロジェクト名は空にできません",
+    "defaultMessage": "Der Projektname darf nicht leer sein",
     "description": "Validation message for project name"
   },
   "radio-link-microbit": {
-    "defaultMessage": "無線リンク用Calliope mini",
+    "defaultMessage": "Funkverbindungs-Calliope mini",
     "description": "Radio link Calliope mini image caption"
   },
   "radio-link-microbit-label": {
-    "defaultMessage": "無線リンク用Calliope miniがPCに接続しているところを示す図",
+    "defaultMessage": "Diagramm zeigt Funkverbindungs-Calliope mini, der mit einem Computer verbunden wird",
     "description": "Aria label for radio link image"
   },
   "recognition-point-label": {
-    "defaultMessage": "認識ポイント:",
+    "defaultMessage": "Erkennungspunkt:",
     "description": "Label for the slider for the recognition point"
   },
   "reconnect-action": {
-    "defaultMessage": "再接続",
+    "defaultMessage": "Erneut verbinden",
     "description": "Button text to reconnect a Calliope mini over Bluetooth/radio"
   },
   "reconnect-failed-bluetooth-heading": {
-    "defaultMessage": "データ収集用Calliope miniへの接続に失敗しました",
+    "defaultMessage": "Erneute Verbindung zu Datenerfassungs-Calliope mini fehlgeschlagen",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bluetooth1": {
-    "defaultMessage": "データ収集用Calliope miniへの接続を確立できませんでした。",
+    "defaultMessage": "Die Verbindung zum Datenerfassungs-Calliope mini konnte nicht wiederhergestellt werden.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bridge-heading": {
-    "defaultMessage": "無線リンク用Calliope miniへの接続に失敗しました",
+    "defaultMessage": "Erneute Verbindung zu Funkverbindungs-Calliope mini fehlgeschlagen",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bridge1": {
-    "defaultMessage": "コンピューターに接続されたCalliope miniとの接続を再確立できませんでした。",
+    "defaultMessage": "Die Verbindung zum mit deinem Computer verbundenen Calliope mini konnte nicht wiederhergestellt werden.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-radio-heading": {
-    "defaultMessage": "Calliope miniへの接続に失敗しました",
+    "defaultMessage": "Erneute Verbindung zu Calliope minis fehlgeschlagen",
     "description": "Connection error dialog"
   },
   "reconnect-failed-remote-heading": {
-    "defaultMessage": "データ収集用Calliope miniへの接続に失敗しました",
+    "defaultMessage": "Erneute Verbindung zu Datenerfassungs-Calliope mini fehlgeschlagen",
     "description": "Connection error dialog"
   },
   "reconnect-failed-remote1": {
-    "defaultMessage": "データ収集用Calliope miniへの接続を確立できませんでした。",
+    "defaultMessage": "Die Verbindung zum Datenerfassungs-Calliope mini konnte nicht wiederhergestellt werden.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-subtitle": {
-    "defaultMessage": "接続プロセスを再起動するには、次の手順に従ってください。",
+    "defaultMessage": "Folge diesen Anweisungen, um den Verbindungsprozess neu zu starten.",
     "description": "Connection error dialog"
   },
   "reconnecting": {
-    "defaultMessage": "再接続中…",
+    "defaultMessage": "Verbinde erneut…",
     "description": "Shown while reconnecting"
   },
   "record-action": {
-    "defaultMessage": "記録",
+    "defaultMessage": "Aufnehmen",
     "description": "Record button text"
   },
   "record-action-aria": {
-    "defaultMessage": "アクション「{action}」のデータを記録",
+    "defaultMessage": "Daten für Aktion \"{action}\" aufnehmen",
     "description": "Aria label for record button"
   },
   "record-hint": {
-    "defaultMessage": "データサンプルを記録するためのボタン押し。",
+    "defaultMessage": "Drücke, um ein Datenbeispiel aufzunehmen.",
     "description": "Hint when you have named the first action but not recorded any data samples"
   },
   "record-hint-button-b": {
-    "defaultMessage": "データサンプルを記録するには、データ収集用Calliope miniのボタンBを押します。",
+    "defaultMessage": "Drücke, um ein Datenbeispiel aufzunehmen, oder drücke Taste B auf deinem Datenerfassungs-Calliope mini.",
     "description": "Hint when you have named the first action but not recorded any data samples and have a Calliope mini connected"
   },
   "record-samples": {
-    "defaultMessage": "{numSamples} サンプルを記録",
+    "defaultMessage": "{numSamples} Beispiele aufnehmen",
     "description": "Additional recording action text"
   },
   "record-samples-help": {
-    "defaultMessage": "各サンプルにはそれぞれにカウントダウンがあります",
+    "defaultMessage": "Jedes Beispiel hat seinen eigenen Countdown",
     "description": "Help text for additional recording action"
   },
   "record-seconds": {
-    "defaultMessage": "{numSeconds} 秒の記録",
+    "defaultMessage": "{numSeconds} Sekunden lang aufnehmen",
     "description": "Additional recording action text"
   },
   "record-seconds-help": {
-    "defaultMessage": "{numSamples} サンプルを取得するには、動き続けてください",
+    "defaultMessage": "Bewege dich, um {numSamples} Proben zu erhalten",
     "description": "Help text for additional recording action"
   },
   "recording": {
-    "defaultMessage": "記録中",
+    "defaultMessage": "Aufnahme läuft",
     "description": "Shown during recording"
   },
   "recording-complete": {
-    "defaultMessage": "完了",
+    "defaultMessage": "Fertig",
     "description": "Text shown when data recording complete"
   },
   "recording-data-for": {
-    "defaultMessage": "アクション「{action}」のデータを記録",
+    "defaultMessage": "Daten für Aktion \"{action}\" aufnehmen",
     "description": "Text in recording dialog"
   },
   "recording-data-for-numbered": {
-    "defaultMessage": "アクション「{action}」の {numSamples} 個の {sample} を記録",
+    "defaultMessage": "Nehme {sample} von {numSamples} für Aktion \"{action}\" auf",
     "description": "Text in recording dialog"
   },
   "recording-fingerprint-label": {
-    "defaultMessage": "記録について、Calliope miniのx、y、z加速度センサーデータ特性を表示するヒートマップ",
+    "defaultMessage": "Heatmap zeigt Calliope mini x-, y-, z-Beschleunigungssensordatenmerkmale für eine Aufzeichnung",
     "description": "Label for recording fingerprint heatmap"
   },
   "recording-graph-label": {
-    "defaultMessage": "Calliope mini の加速度センサーのx軸、y軸、z軸の各データを示しているグラフ",
+    "defaultMessage": "Grafik zeigt Calliope mini x-, y-, z-Beschleunigungssensordaten für eine Aufzeichnung",
     "description": "Label for recording graph"
   },
   "recording-options-aria": {
-    "defaultMessage": "アクション「{action}」の他の記録オプション",
+    "defaultMessage": "Weitere Aufnahmeoptionen für Aktion \"{action}\"",
     "description": "Aria label for more recording options button"
   },
   "reload-action": {
-    "defaultMessage": "再読み込み",
+    "defaultMessage": "Neu laden",
     "description": "Reload button text"
   },
   "reset-to-default-action": {
-    "defaultMessage": "初期ブロックにリセット",
+    "defaultMessage": "Auf Standardblöcke zurücksetzen",
     "description": "Reset to default blocks button text"
   },
   "restore-defaults-action": {
-    "defaultMessage": "すべての設定を初期値に復元",
+    "defaultMessage": "Standardwerte für alle Einstellungen wiederherstellen",
     "description": "Restore default button text"
   },
   "restore-defaults-confirm-action": {
-    "defaultMessage": "初期値に復元",
+    "defaultMessage": "Standardwerte wiederherstellen",
     "description": "Restore default settings confirm button text"
   },
   "restore-defaults-confirm-body": {
-    "defaultMessage": "すべての設定を初期値に復元してもよろしいですか？",
+    "defaultMessage": "Bist du sicher, dass du die Standardwerte für alle Einstellungen wiederherstellen möchtest?",
     "description": "Restore default settings confirmation dialog body text"
   },
   "restore-defaults-confirm-heading": {
-    "defaultMessage": "初期設定に復元",
+    "defaultMessage": "Standardeinstellungen wiederherstellen",
     "description": "Restore default settings confirmation dialog title"
   },
   "restore-defaults-helper": {
-    "defaultMessage": "以前に却下されたヘルプコンテンツが再び表示される場合があります。",
+    "defaultMessage": "Zuvor ausgeblendete Hilfeinhalte werden möglicherweise wieder angezeigt.",
     "description": "Restore default settings helper text"
   },
   "save-action": {
-    "defaultMessage": "保存",
+    "defaultMessage": "Speichern",
     "description": "Label for action that saves the project as a file the user downloads"
   },
   "save-hex-dialog-heading": {
-    "defaultMessage": "プロジェクトをhexファイルとして保存",
+    "defaultMessage": "Projekt als Hex-Datei speichern",
     "description": "Heading for the dialog shown when saving a hex file"
   },
   "save-hex-dialog-message1": {
-    "defaultMessage": "ダウンロードには、アクション、データサンプル、MakeCodeプロジェクトが含まれています。作業を続けるには {appNameFull} で開いてください。",
+    "defaultMessage": "Der Download enthält deine Aktionen, Datenbeispiele und dein MakeCode-Projekt. Öffne es in {appNameFull}, um weiterzuarbeiten.",
     "description": "Text in the dialog shown when saving a hex file"
   },
   "save-hex-dialog-message2": {
-    "defaultMessage": "アクションとデータサンプルを変更する必要がない場合は、Microsoft MakeCode で開くこともできます。",
+    "defaultMessage": "Du kannst es auch mit MakeCode öffnen, wenn du die Aktionen und Datenbeispiele nicht ändern musst.",
     "description": "Text in the dialog shown when saving a hex file"
   },
   "saving-description": {
-    "defaultMessage": "ダウンロードはまもなく完了します。",
+    "defaultMessage": "Dein Download wird bald bereit sein.",
     "description": "Saving progress dialog text"
   },
   "saving-title": {
-    "defaultMessage": "保存中…",
+    "defaultMessage": "Speichere…",
     "description": "Saving progress title"
   },
   "saving-toast-title": {
-    "defaultMessage": "hexファイルをダウンロードしました",
+    "defaultMessage": "Deine Hex-Datei wurde heruntergeladen",
     "description": "Notification after a hex file has been downloaded"
   },
   "select-icon-action-aria": {
-    "defaultMessage": "アクション「{action}」のアイコンを選択",
+    "defaultMessage": "Symbol für Aktion \"{action}\" auswählen",
     "description": "Aria label for pick icon button"
   },
   "select-icon-action-untitled-aria": {
-    "defaultMessage": "無題アクションのアイコンを選択",
+    "defaultMessage": "Symbol für unbenannte Aktion auswählen",
     "description": "Aria label for pick icon button"
   },
   "select-icon-option-action-aria": {
-    "defaultMessage": "「{iconName}」アイコンを選択",
+    "defaultMessage": "Symbol \"{iconName}\" auswählen",
     "description": "Aria label for icon option"
   },
   "settings": {
-    "defaultMessage": "設定",
+    "defaultMessage": "Einstellungen",
     "description": "Text for settings dialog header and menu item"
   },
   "settings-menu-action": {
-    "defaultMessage": "設定アクションメニュー",
+    "defaultMessage": "Einstellungsaktionsmenü",
     "description": "Label for settings actions menu button"
   },
   "show-graphs-checkbox-label-text": {
-    "defaultMessage": "グラフを表示",
+    "defaultMessage": "Grafiken anzeigen",
     "description": "Show graphs checkbox label text"
   },
   "simple-ai-exercise-timer-resource-title": {
-    "defaultMessage": "簡単なAI運動タイマー",
+    "defaultMessage": "Einfacher KI-Übungstimer",
     "description": "Home page resource card title"
   },
   "skip-tour-action": {
-    "defaultMessage": "ツアーをスキップ",
+    "defaultMessage": "Tour überspringen",
     "description": "Skip tour button text"
   },
   "software-versions": {
-    "defaultMessage": "ソフトウェアのバージョン",
+    "defaultMessage": "Softwareversionen",
     "description": "Software versions text"
   },
   "start-session-action": {
-    "defaultMessage": "セッションを開始",
+    "defaultMessage": "Sitzung starten",
     "description": "Start session button text"
   },
   "start-training-action": {
-    "defaultMessage": "トレーニング開始",
+    "defaultMessage": "Training starten",
     "description": "Start training button text"
   },
   "steps-alt": {
-    "defaultMessage": "最終的にモデルを使ってコーディングする前に、データ収集、モデルのトレーニング、モデルのテスト、収集データを改善することでモデルを改善することを繰り返すプロセスを示す図。",
+    "defaultMessage": "Diagramm zeigt den iterativen Prozess des Sammelns von Daten, Trainierens eines Modells, Testens des Modells und Verbesserns des Modells durch Verbesserung der gesammelten Daten, bevor schließlich mit dem Modell codiert wird.",
     "description": "Alt text for the step-by-step home page diagram"
   },
   "steps-code": {
-    "defaultMessage": "コードを書く",
+    "defaultMessage": "Codieren",
     "description": "Step in home page diagram"
   },
   "steps-collect-data": {
-    "defaultMessage": "データを集める",
+    "defaultMessage": "Daten sammeln",
     "description": "Step in home page diagram"
   },
   "steps-improve": {
-    "defaultMessage": "改善する",
+    "defaultMessage": "Verbessern",
     "description": "Step in home page diagram"
   },
   "steps-test-model": {
-    "defaultMessage": "モデルのテスト",
+    "defaultMessage": "Modell testen",
     "description": "Step in home page diagram"
   },
   "steps-train": {
-    "defaultMessage": "トレーニング",
+    "defaultMessage": "Trainieren",
     "description": "Step in home page diagram"
   },
   "stop-recording-action": {
-    "defaultMessage": "記録の停止",
+    "defaultMessage": "Aufnahme stoppen",
     "description": "Button label to stop recording movement data while recording multiple samples"
   },
   "support-request": {
-    "defaultMessage": "<link>サポートリクエストの提出</link> を検討してください。",
+    "defaultMessage": "Bitte erwäge, <link>eine Supportanfrage zu stellen</link>.",
     "description": "Support request link text"
   },
   "terms": {
-    "defaultMessage": "利用規約",
+    "defaultMessage": "Nutzungsbedingungen",
     "description": "Link or menu item link to view terms of use"
   },
   "testing-model-actions-region": {
-    "defaultMessage": "モデルツールバーのテスト",
+    "defaultMessage": "Modelltest-Symbolleiste",
     "description": "Region label for testing model actions"
   },
   "testing-model-title": {
-    "defaultMessage": "モデルのテスト",
+    "defaultMessage": "Modell testen",
     "description": "Testing model page title"
   },
   "third-party-content-description": {
-    "defaultMessage": "The content above is provided by a third party, and is not endorsed by the Calliope mini Educational Foundation.",
+    "defaultMessage": "Dieses Projekt wurde von einem Benutzer bereitgestellt und ist nicht von oder der Calliope mini Educational Foundation unterstützt. Besuche das <link>MakeCode-Gemeinschaftsprojekt</link>, um Missbrauch an MakeCode zu melden, wenn du denkst, dass es nicht angemessen ist.",
     "description": "Notify user of third party content"
   },
   "tour-action": {
-    "defaultMessage": "ツアー",
+    "defaultMessage": "Tour",
     "description": "Button label that starts a tour of the app's features"
   },
   "tour-collect-addActions-content": {
-    "defaultMessage": "他のアクションとその名前を決めてください。モデルをトレーニングするには、少なくとも2個のアクションと3個のデータサンプルが必要です。データサンプルはPCにのみ保存され、他の人に送信されることはありません。",
+    "defaultMessage": "Entscheide, was deine anderen Aktionen sein werden und wie du sie benennen wirst. Du benötigst mindestens 2 Aktionen mit 3 Datenbeispielen, um das Modell zu trainieren. Deine Datenbeispiele werden nur auf deinem Computer gespeichert, sie werden nicht an andere gesendet.",
     "description": "Tour step description"
   },
   "tour-collect-addActions-title": {
-    "defaultMessage": "さらにアクションを追加",
+    "defaultMessage": "Weitere Aktionen hinzufügen",
     "description": "Tour step title"
   },
   "tour-collect-afterFirst-content": {
-    "defaultMessage": "機械学習モデルを訓練するには、少なくとも２つの異なるアクションと、アクションそれぞれについて少なくとも3つのデータサンプルが必要となります。",
+    "defaultMessage": "Um das maschinelle Lernmodell zu trainieren, benötigst du mindestens 3 Datenbeispiele für 2 verschiedene Aktionen.",
     "description": "Tour step description"
   },
   "tour-collect-afterFirst-title": {
-    "defaultMessage": "最初の{recordingCount, plural, one {サンプル} other {サンプル}}を記録しました！",
+    "defaultMessage": "Du hast dein erstes {recordingCount, plural, one {Beispiel} other {Beispiele}} aufgenommen!",
     "description": "Tour step title. Uses ICU syntax for pluralisation: https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format."
   },
   "tour-collect-collectMore-explanation-content": {
-    "defaultMessage": "さらにデータサンプルを収集すると、より良い機械学習モデルになります。",
+    "defaultMessage": "Das Sammeln weiterer Beispiele sollte zu einem besseren maschinellen Lernmodell führen.",
     "description": "Tour step description"
   },
   "tour-collect-collectMore-hasRecordings-content": {
-    "defaultMessage": "アクションのデータサンプルを記録します。",
+    "defaultMessage": "Nehme Datenbeispiele für deine Aktionen auf.",
     "description": "Tour step description"
   },
   "tour-collect-collectMore-noRecordings-content": {
-    "defaultMessage": "アクションのデータサンプルを記録。",
+    "defaultMessage": "Nehme weitere Beispiele für diese Aktion auf.",
     "description": "Tour step description"
   },
   "tour-collect-collectMore-title": {
-    "defaultMessage": "さらにデータサンプルを収集",
+    "defaultMessage": "Weitere Datenbeispiele sammeln",
     "description": "Tour step title"
   },
   "tour-collect-trainModel-content": {
-    "defaultMessage": "十分なデータサンプルを収集したら、機械学習モデルのトレーニングができます。 後でもう一度、データを削除またはさらに追加し、モデルの信頼性を高めるためにトレーニングを続けられます。",
+    "defaultMessage": "Wenn du genug Datenbeispiele gesammelt hast, kannst du das maschinelle Lernmodell trainieren. Du kannst später zurückkommen, um mehr Daten zu entfernen oder hinzuzufügen und erneut zu trainieren, um das Modell zuverlässiger zu machen.",
     "description": "Tour step description"
   },
   "tour-dataSamples-actions-common-content": {
-    "defaultMessage": "アクションは、機械学習モデルに認識させたい動きの種類です。たとえば、「手を振る」や「手をたたく」などです。",
+    "defaultMessage": "Eine Aktion ist die Art der Bewegung, die das maschinelle Lernmodell erkennen soll, z.B. 'Winken' oder 'Klatschen'.",
     "description": "Tour step content"
   },
   "tour-dataSamples-actions-noRecordings-content": {
-    "defaultMessage": "最初のアクションを決め、名前を付けてから、データサンプルの記録を開始します。",
+    "defaultMessage": "Entscheide, was deine erste Aktion sein wird, benenne sie und beginne dann mit der Aufzeichnung von Datenbeispielen.",
     "description": "Tour step content"
   },
   "tour-dataSamples-connected-content": {
-    "defaultMessage": "データサンプルの収集を開始して、さまざまな動きや行動を認識する機械学習(ML)モデルをトレーニングしましょう。",
+    "defaultMessage": "Jetzt kannst du mit dem Sammeln von Datenbeispielen beginnen, um ein maschinelles Lern-Modell (ML) zu trainieren, das verschiedene Bewegungen oder Aktionen erkennt.",
     "description": "Tour step content"
   },
   "tour-dataSamples-connected-title": {
-    "defaultMessage": "データ収集用Calliope miniが接続されています！",
+    "defaultMessage": "Dein Datenerfassungs-Calliope mini ist verbunden!",
     "description": "Tour step title"
   },
   "tour-dataSamples-liveGraph-content": {
-    "defaultMessage": "グラフはCalliope miniの加速度センサーからの動きのデータを示しています。データ収集用Calliope miniを動かして、グラフがどのように変化するか見てください。",
+    "defaultMessage": "Die Grafik zeigt Bewegungsdaten vom Beschleunigungssensor des Calliope mini. Bewege deinen Datenerfassungs-Calliope mini und sieh, wie sich die Grafik verändert.",
     "description": "Tour step content"
   },
   "tour-makecode-intro-content1": {
-    "defaultMessage": "Calliope miniでプロジェクトをテストするために、モデルとコードをダウンロードします。 さらにコードブロックを追加して、モデルを使った独自のプログラムを作ることもできます。",
+    "defaultMessage": "Lade das Modell und den Code herunter, um dein Projekt auf einem Calliope mini zu testen. Du kannst auch weitere Codeblöcke hinzufügen, um deine eigenen Programme mit deinem Modell zu erstellen.",
     "description": "Tour step description"
   },
   "tour-makecode-intro-content2": {
-    "defaultMessage": "MLモデルを改善する必要がありますか？ ",
+    "defaultMessage": "Musst du das ML-Modell verbessern? ",
     "description": "Tour step description"
   },
   "tour-makecode-intro-content3": {
-    "defaultMessage": "左上にあるこの戻るボタンを使ってください。",
+    "defaultMessage": "Verwende diese Zurück-Schaltfläche oben links.",
     "description": "Tour step description"
   },
   "tour-makecode-intro-title": {
-    "defaultMessage": "Microsoft MakeCode",
+    "defaultMessage": " MakeCode",
     "description": "Tour step title"
   },
   "tour-trainModel-afterTrain-alreadyConnected-title": {
-    "defaultMessage": "MLモデルをトレーニングしました！",
+    "defaultMessage": "Du hast ein ML-Modell trainiert!",
     "description": "Tour step title"
   },
   "tour-trainModel-afterTrain-content": {
-    "defaultMessage": "では、機械学習モデルをテストしましょう。データ収集用Calliope miniを動かして、それぞれのアクションを試してみましょう。モデルはそれぞれのアクションを正しく推定しますか？",
+    "defaultMessage": "Teste jetzt dein maschinelles Lernmodell. Probiere jede Aktion aus, indem du deinen Datenerfassungs-Calliope mini bewegst. Schätzt das Modell jede Aktion richtig ein?",
     "description": "Tour step description"
   },
   "tour-trainModel-afterTrain-delayedUntilConnected-title": {
-    "defaultMessage": "MLモデルをテスト",
+    "defaultMessage": "Teste dein ML-Modell",
     "description": "Tour step title"
   },
   "tour-trainModel-certaintyRecognition-content": {
-    "defaultMessage": "棒グラフは、モデルが各アクションを実行していることを示しています。スライダーを動かして認識ポイントまたはしきい値を調整します。",
+    "defaultMessage": "Das Balkendiagramm zeigt, wie sicher sich das Modell ist, dass du jede Aktion ausführst. Bewege den Schieberegler, um den Erkennungspunkt oder Schwellenwert anzupassen.",
     "description": "Tour step description"
   },
   "tour-trainModel-certaintyRecognition-title": {
-    "defaultMessage": "確実性と認識ポイント",
+    "defaultMessage": "Sicherheit und Erkennungspunkt",
     "description": "Tour step title"
   },
   "tour-trainModel-editInMakeCode-content": {
-    "defaultMessage": "プログラムと機械学習モデルをCalliope miniにダウンロードするには、MakeCodeでプロジェクトを開きます。 さらにブロックを追加して、モデルを使った独自のプログラムを作れます。",
+    "defaultMessage": "Öffne dein Projekt in MakeCode, um das Programm und dein maschinelles Lernmodell auf einen Calliope mini herunterzuladen. Du kannst weitere Blöcke hinzufügen, um deine eigenen Programme mit deinem Modell zu erstellen.",
     "description": "Tour step description"
   },
   "tour-trainModel-estimatedAction-content": {
-    "defaultMessage": "現在あなたが実行しているとモデルが推定しているアクションは、そのアクションのCalliope miniアイコンの下に表示されます。",
+    "defaultMessage": "Die Aktion, die das Modell schätzt, dass du sie gerade ausführst, wird unter dem Calliope mini-Symbol für diese Aktion angezeigt.",
     "description": "Tour step description"
   },
   "tour-trainModel-makeCodeBlocks-content": {
-    "defaultMessage": "これらのMakeCodeブロックは、プログラムとモデルをCalliope miniに転送すると検出されるようになるアクションのアイコンを表示します。",
+    "defaultMessage": "Diese MakeCode-Blöcke zeigen Symbole für jede erkannte Aktion an, wenn du deinen Code und dein Modell auf einen Calliope mini überträgst.",
     "description": "Tour step description"
   },
   "tour-trainModel-makeCodeBlocks-title": {
-    "defaultMessage": "Microsoft MakeCode ブロック",
+    "defaultMessage": " MakeCode-Blöcke",
     "description": "Tour step title"
   },
   "train-description": {
-    "defaultMessage": "コンピュータプログラムは、データサンプルのパターンや違いを特定します。 そしてこれらを使って、 {appNameFull} がCalliope miniを動かすときに異なる動きを認識できる数学モデルを構築します。",
+    "defaultMessage": "Das Computerprogramm erkennt Muster oder Unterschiede in deinen Datenbeispielen und verwendet diese, um ein mathematisches Modell zu erstellen, das {appNameFull} ermöglicht, verschiedene Aktionen zu erkennen, wenn du deinen Calliope mini bewegst.",
     "description": "Explanation on training dialog"
   },
   "train-error-body": {
-    "defaultMessage": "トレーニングの結果、モデルは使用可能になりませんでした。その理由は、トレーニングに使われたデータにある可能性が高いです。 異なるアクションのデータサンプルがあまりにも類似している場合、トレーニングの処理に問題が生じる可能性があります。",
+    "defaultMessage": "Das Training hat nicht zu einem verwendbaren Modell geführt. Der Grund dafür sind höchstwahrscheinlich die zum Training verwendeten Daten. Wenn die Datenbeispiele für verschiedene Aktionen zu ähnlich sind, kann dies zu Problemen im Trainingsprozess führen.",
     "description": "Training error dialog"
   },
   "train-error-header": {
-    "defaultMessage": "トレーニングが失敗しました",
+    "defaultMessage": "Training fehlgeschlagen",
     "description": "Training error dialog"
   },
   "train-error-todo": {
-    "defaultMessage": "データ追加のページに戻り、データを変更してください。",
+    "defaultMessage": "Kehre zur Seite Daten hinzufügen zurück und ändere deine Daten.",
     "description": "Training error dialog"
   },
   "train-header": {
-    "defaultMessage": "モデルのトレーニング",
+    "defaultMessage": "Ein Modell trainieren",
     "description": "Training dialog"
   },
   "train-model": {
-    "defaultMessage": "モデルのトレーニング",
+    "defaultMessage": "Modell trainieren",
     "description": "Action to train a model"
   },
   "training-model": {
-    "defaultMessage": "モデルをトレーニング中...",
+    "defaultMessage": "Modell wird trainiert…",
     "description": "Progress title"
   },
   "transfer-hex-alt": {
-    "defaultMessage": "ダウンロードフォルダからCalliope miniドライブまたはファイルエクスプローラにリストされているデバイスにhexファイルをドラッグするアニメーション",
+    "defaultMessage": "Animation des Ziehens einer Hex-Datei aus dem Download-Ordner auf das Calliope mini-Laufwerk oder -Gerät, das im Datei-Explorer aufgeführt ist",
     "description": "Alt text"
   },
   "transfer-hex-heading": {
-    "defaultMessage": "保存された hex ファイルをCalliope miniに転送する",
+    "defaultMessage": "Gespeicherte Hex-Datei auf Calliope mini übertragen",
     "description": "Dialog shown when WebUSB fails"
   },
   "transfer-hex-manual-download": {
-    "defaultMessage": "ファイルが自動でダウンロードされない場合は<link>ここにファイルをダウンロードしてください</link>。",
+    "defaultMessage": "Wenn die Datei nicht automatisch heruntergeladen wurde, <link>lade bitte die Datei hier herunter</link>.",
     "description": "Dialog shown when WebUSB fails"
   },
   "transfer-hex-message": {
-    "defaultMessage": "hex ファイルをダウンロードフォルダからMINIドライブへドラッグします。",
+    "defaultMessage": "Ziehe die Hex-Datei aus deinem Download-Ordner auf das MINI-Laufwerk.",
     "description": "Dialog shown when WebUSB fails"
   },
   "try-again-action": {
-    "defaultMessage": "もう一度やり直す",
+    "defaultMessage": "Erneut versuchen",
     "description": "Button label"
   },
   "unknown": {
-    "defaultMessage": "不明",
+    "defaultMessage": "unbekannt",
     "description": "Label for unknown ML event"
   },
   "unplug-radio-link-microbit-description": {
-    "defaultMessage": "無線リンク用Calliope miniをPCから取り外します。データサンプルをもっと記録したい場合は、Calliope miniを再接続する必要があります。",
+    "defaultMessage": "Trenne den Funkverbindungs-Calliope mini vom Computer. Du musst den Calliope mini erneut verbinden, wenn du weitere Datenbeispiele aufzeichnen möchtest.",
     "description": "Unplug radio link Calliope mini dialog description"
   },
   "unplug-radio-link-microbit-label": {
-    "defaultMessage": "Calliope mini上部からUSBケーブルが取り外されていることを示すアニメーション",
+    "defaultMessage": "Animation zeigt ein USB-Kabel, das oben von einem Calliope mini getrennt wird",
     "description": "Unplug radio link Calliope mini dialog aria label"
   },
   "unplug-radio-link-microbit-title": {
-    "defaultMessage": "無線リンク用Calliope miniを外す",
+    "defaultMessage": "Trenne den Funkverbindungs-Calliope mini",
     "description": "Unplug radio link Calliope mini dialog title"
   },
   "unsupported-device-explain": {
-    "defaultMessage": "残念ながら、Calliope mini 無線を使った接続は Calliope mini V2 だけでサポートされています。接続されているのは <link>Calliope mini V1</link> です。 ",
+    "defaultMessage": "Leider unterstützen wir nur die Verwendung von Calliope mini V3 beim Verbinden über Calliope mini Funk. Du hast einen <link>Calliope mini V1/V2/V3/V3</link> verbunden.",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-header": {
-    "defaultMessage": "Calliope mini無線接続はCalliope mini V1をサポートしていません",
+    "defaultMessage": "Calliope mini Funkverbindungen unterstützen Calliope mini V1/V2/V3/V3 nicht",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-with-bluetooth": {
-    "defaultMessage": "代わりにWeb Bluetoothを使ってCalliope miniに接続してください。",
+    "defaultMessage": "Bitte verwende stattdessen Web Bluetooth, um dich mit deinem Calliope mini zu verbinden.",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-without-bluetooth": {
-    "defaultMessage": "Web Bluetoothを使ってCalliope mini V1に接続できますが、このブラウザやデバイスはBluetoothを有効にしていません。 <link>Bluetooth を有効にする方法</link>。",
+    "defaultMessage": "Du kannst dich mit dem Calliope mini über Web Bluetooth verbinden, allerdings hat dieser Browser oder dieses Gerät kein Bluetooth aktiviert. <link>Wie man Bluetooth aktiviert</link>.",
     "description": "Unsupported device dialog"
   },
   "user-guide": {
-    "defaultMessage": "ユーザーガイド",
-    "description": "Used for link to user guide page on microbit.org"
+    "defaultMessage": "Benutzerhandbuch",
+    "description": "Used for link to user guide page on calliope.cc"
   },
   "webusb-retry-no-select": {
-    "defaultMessage": "Calliope miniが選択されていません。もう一度試しますか？",
+    "defaultMessage": "Du hast keinen Calliope mini ausgewählt. Möchtest du es erneut versuchen?",
     "description": "Shown if the user fails to choose a Calliope mini"
   },
   "webusb-retry-replug1": {
-    "defaultMessage": "WebUSBエラーが発生しました。",
+    "defaultMessage": "Ein WebUSB-Fehler ist aufgetreten.",
     "description": "WebUSB error dialog"
   },
   "webusb-retry-replug2": {
-    "defaultMessage": "次のことを行ってください:",
+    "defaultMessage": "Bitte:",
     "description": "WebUSB error dialog"
   },
   "webusb-retry-replug3": {
-    "defaultMessage": "このCalliope miniにバッテリーパックが接続されていないことを確認",
-    "description": "WebUSB error dialog"
-  },
-  "webusb-retry-replug4": {
-    "defaultMessage": "USBケーブルを抜いて再接続",
-    "description": "WebUSB error dialog"
-  }
+    "defaultMessage": "überprüfe, dass dieser Calliope mini kein angeschaltetes Betteriefach hat.",
+      "description": "WebUSB error dialog"
+    },
+    "webusb-retry-replug4": {
+      "defaultMessage": "ziehe das Kabel ab und stecke es erneut an den Calliope mini",
+      "description": "WebUSB error dialog"
+    }
 }

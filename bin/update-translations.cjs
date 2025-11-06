@@ -18,6 +18,7 @@ const errExitStatus = 2;
 const languages = [
   "ca",
   "en",
+  "de",
   "es-ES",
   "fr",
   "ja",

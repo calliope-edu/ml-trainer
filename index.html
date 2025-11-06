@@ -18,20 +18,18 @@
     <% if (ogDescription) { %>
     <meta property="og:description" content="<%= ogDescription %>" />
     <% } %>
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@microbit_edu" />
-    <% if (metaDescription) { %>
+   <% if (metaDescription) { %>
     <meta name="description" content="<%= metaDescription %>" />
     <% } %>
     <meta property="og:image" content="%VITE_FULL_URL%social.png" />
     <link rel="shortcut icon" href="%VITE_FULL_URL%imgs/favicon.ico" />
     <script
-      src="https://shared-assets.microbit.org/common/v2/common.js"
+      src="https://ml-machine.calliope.cc/common.js"
       async
     ></script>
     <link
       rel="stylesheet"
-      href="https://shared-assets.microbit.org/common/v2/main.css"
+      href="https://ml-machine.calliope.cc/main.css"
     />
     <script>
       // GA config itself is via the common assets config depending on consent.

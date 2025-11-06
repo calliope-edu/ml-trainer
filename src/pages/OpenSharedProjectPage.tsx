@@ -140,7 +140,7 @@ const OpenSharedProjectPage = () => {
                           <Link
                             color="brand.600"
                             textDecoration="underline"
-                            href={`https://makecode.microbit.org/${encodeURIComponent(
+                            href={`https://makecode.calliope.cc/${encodeURIComponent(
                               shortId!
                             )}`}
                           >

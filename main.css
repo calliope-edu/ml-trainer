@@ -1,0 +1,286 @@
+.shared-assets-cookies .shared-assets-button-row {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 470px) {
+  .shared-assets-cookies .shared-assets-button-row {
+    flex-direction: column-reverse;
+  }
+}
+
+.shared-assets-modal.shared-assets-cookies > section {
+  max-width: 600px;
+}
+
+.shared-assets-cookies p,
+.shared-assets-manage-cookies p {
+  font-size: 0.9375rem;
+  line-height: 1.3;
+}
+
+.shared-assets-manage-cookies p {
+  margin: 0;
+}
+
+.shared-assets-cookies h2,
+.shared-assets-manage-cookies h2 {
+  font-size: clamp(1.5rem, 5vw, 1.875rem);
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 0.75em;
+  line-height: normal;
+}
+
+.shared-assets-modal.shared-assets-manage-cookies > section {
+  max-width: 800px;
+  overflow: unset;
+  display: flex;
+  flex-direction: column;
+}
+
+.shared-assets-manage-cookies .shared-assets-button-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shared-assets-manage-cookies table {
+  border-collapse: collapse;
+  margin-top: 10px;
+
+  font-size: 0.9375rem;
+}
+
+.shared-assets-manage-cookies th,
+.shared-assets-manage-cookies td {
+  border: 1px solid lightgrey;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+  .shared-assets-manage-cookies th,
+  .shared-assets-manage-cookies td {
+    padding: 0.1em 0.2em;
+  }
+}
+
+.shared-assets-scrollable {
+  overflow: auto;
+}
+
+.shared-assets-scrollable > div {
+  padding: 4px;
+}
+
+.shared-assets-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  flex: 1 1 auto;
+}
+
+.shared-assets-form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: stretch;
+}
+
+.shared-assets-form summary {
+  padding-block: 0.5em;
+  cursor: pointer;
+}
+
+.shared-assets-form summary span {
+  margin-left: 8px;
+  user-select: none;
+  line-height: 1.3;
+  font-size: 0.9375rem;
+}
+
+.shared-assets-form label {
+  user-select: none;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: normal;
+}
+
+.shared-assets-form input[type="checkbox"] {
+  transform: scale(1.3);
+  /* Ensure margin even if reset */
+  margin: 3px 3px 3px 4px;
+}
+
+.audience-survey > section .shared-assets-button-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.audience-survey > section button {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.audience-survey
+  > section
+  .shared-assets-button-row
+  > button:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .audience-survey > section .shared-assets-button-row {
+    margin-top: 15px;
+  }
+}
+
+.audience-survey h2,
+.external-survey h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 0.83em;
+}
+
+.external-survey h2 {
+  margin-top: 0;
+}
+
+.external-survey .close-button {
+  margin-top: -15px;
+  margin-right: -15px;
+  padding: 10px;
+}
+
+.external-survey > section .shared-assets-button-row {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.shared-assets-modal {
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica Now", "Segoe UI", "Segoe WP", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+}
+
+.shared-assets-modal > section > h2 {
+  font-size: 1.875rem;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  font-family: "GT Walsheim", "Segoe UI", "Segoe WP", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-weight: bold;
+}
+
+.shared-assets-modal > section > p {
+  font-size: 0.9375rem;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  margin: 10px 0 0 0;
+}
+
+.shared-assets-modal > section {
+  /* This needs to be configured per dialog, as does control over where scrolls */
+  max-width: 400px;
+  width: 80vw;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
+  max-height: calc(100vh - 80px);
+  overflow: auto;
+}
+
+.shared-assets-modal.external-survey > section {
+  max-width: 460px;
+  box-sizing: border-box;
+}
+
+.shared-assets-modal > section button {
+  padding: 10px 15px;
+  color: black;
+  background: white;
+  display: inline-block;
+  border-radius: 23px;
+  border: 2px solid black;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 0.9375rem;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
+
+.shared-assets-modal > section button.primary {
+  color: white;
+  background: black;
+}
+
+.shared-assets-modal > section button:focus-visible,
+.shared-assets-modal > section input:focus-visible,
+.shared-assets-modal > section summary:focus-visible,
+.shared-assets-modal > section a:focus-visible {
+  box-shadow: 0 0 0 4px rgba(66, 153, 225, 0.6);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.shared-assets-modal > section a {
+  color: #6c4bc1;
+}
+
+.shared-assets-modal > section .close-button {
+  float: right;
+  border: none;
+  border-radius: unset;
+  width: auto;
+  line-height: 0;
+}
+
+.shared-assets-modal > section .close-button img {
+  width: 18px;
+  height: 18px;
+}
+
+.shared-assets-modal .s-full-client-width {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .shared-assets-modal > section {
+    padding: 25px;
+    max-height: calc(100vh - 70px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .shared-assets-modal > section {
+    padding: 15px;
+    max-height: calc(100vh - 50px);
+  }
+}
+

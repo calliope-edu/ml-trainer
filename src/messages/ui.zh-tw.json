@@ -14,7 +14,7 @@
   "about-dialog-alt": [
     {
       "type": 0,
-      "value": "micro:bit 開發板在 LED 顯示器上顯示一顆心"
+      "value": "Calliope mini 開發板在 LED 顯示器上顯示一顆心"
     }
   ],
   "about-dialog-title": [
@@ -40,7 +40,7 @@
   "accelerometer-image-alt": [
     {
       "type": 0,
-      "value": "micro:bit 會顯示 X 軸穿過前方，Y 軸向下和向上，Z 軸回到前方"
+      "value": "Calliope mini 會顯示 X 軸穿過前方，Y 軸向下和向上，Z 軸回到前方"
     }
   ],
   "accessibility": [
@@ -154,13 +154,13 @@
   "bluetooth-unsupported-advice": [
     {
       "type": 0,
-      "value": "我們建議您使用 Google Chrome 或 Microsoft Edge，以便您能夠直接連線到您的 micro:bit。"
+      "value": "我們建議您使用 Google Chrome 或 Microsoft Edge，以便您能夠直接連線到您的 Calliope mini。"
     }
   ],
   "bluetooth-unsupported-explain": [
     {
       "type": 0,
-      "value": "很遺憾，此瀏覽器不支援 WebUSB 和 Web 藍牙。這表示您無法連線到 micro:bit 來記錄訓練機器學習模型所需要的數據樣本。"
+      "value": "很遺憾，此瀏覽器不支援 WebUSB 和 Web 藍牙。這表示您無法連線到 Calliope mini 來記錄訓練機器學習模型所需要的數據樣本。"
     }
   ],
   "bluetooth-unsupported-header": [
@@ -250,7 +250,7 @@
   "code-tooltip": [
     {
       "type": 0,
-      "value": "這些是對於當您將您的 ML 模型和程式碼傳輸到 micro:bit 時，各個偵測動作 MakeCode 區塊"
+      "value": "這些是對於當您將您的 ML 模型和程式碼傳輸到 Calliope mini 時，各個偵測動作 MakeCode 區塊"
     }
   ],
   "confirm-action": [
@@ -274,7 +274,7 @@
   "connect-action-aria": [
     {
       "type": 0,
-      "value": "連結到 micro:bit"
+      "value": "連結到 Calliope mini"
     }
   ],
   "connect-battery-heading": [
@@ -292,19 +292,19 @@
   "connect-battery-link": [
     {
       "type": 0,
-      "value": "您可以將 micro:bit 連接到您的手腕或物件上"
+      "value": "您可以將 Calliope mini 連接到您的手腕或物件上"
     }
   ],
   "connect-battery-subtitle": [
     {
       "type": 0,
-      "value": "中斷 micro:bit 與電腦的連線並連接電池組。"
+      "value": "中斷 Calliope mini 與電腦的連線並連接電池組。"
     }
   ],
   "connect-bluetooth-cancelled-connection": [
     {
       "type": 0,
-      "value": "您沒有選擇 micro:bit。您想再試一次嗎？"
+      "value": "您沒有選擇 Calliope mini。您想再試一次嗎？"
     }
   ],
   "connect-bluetooth-heading": [
@@ -328,7 +328,7 @@
   "connect-bluetooth-start-requirements1": [
     {
       "type": 0,
-      "value": "一個 micro:bit"
+      "value": "一個 Calliope mini"
     }
   ],
   "connect-bluetooth-start-requirements2-subtitle": [
@@ -340,25 +340,25 @@
   "connect-bluetooth-start-switch-radio": [
     {
       "type": 0,
-      "value": "改用 micro:bit 無線電來連線"
+      "value": "改用 Calliope mini 無線電來連線"
     }
   ],
   "connect-cable-alt": [
     {
       "type": 0,
-      "value": "顯示將 USB 纜線連接至 micro:bit 頂部的動畫"
+      "value": "顯示將 USB 纜線連接至 Calliope mini 頂部的動畫"
     }
   ],
   "connect-cable-download-project-subtitle": [
     {
       "type": 0,
-      "value": "使用 USB 纜線將 micro:bit 連線到這台電腦以將機器學習 MakeCode 程式下載到其中。"
+      "value": "使用 USB 纜線將 Calliope mini 連線到這台電腦以將機器學習 MakeCode 程式下載到其中。"
     }
   ],
   "connect-cable-heading": [
     {
       "type": 0,
-      "value": "將 USB 纜線連接至 micro:bit"
+      "value": "將 USB 纜線連接至 Calliope mini"
     }
   ],
   "connect-cable-skip": [
@@ -370,7 +370,7 @@
   "connect-cable-subtitle": [
     {
       "type": 0,
-      "value": "使用 USB 纜線將 micro:bit 連線到這台電腦，以便將數據收集程式下載到其中。"
+      "value": "使用 USB 纜線將 Calliope mini 連線到這台電腦，以便將數據收集程式下載到其中。"
     }
   ],
   "connect-computer": [
@@ -382,55 +382,55 @@
   "connect-data-collection-heading": [
     {
       "type": 0,
-      "value": "將 USB 纜線連接至 micro:bit 1"
+      "value": "將 USB 纜線連接至 Calliope mini 1"
     }
   ],
   "connect-data-collection-subtitle": [
     {
       "type": 0,
-      "value": "利用 USB 纜線將第一台 micro:bit 連線到這台電腦，以便將數據收集程式下載到其上。這是您將用來收集數據樣本的 micro:bit。"
+      "value": "利用 USB 纜線將第一台 Calliope mini 連線到這台電腦，以便將數據收集程式下載到其上。這是您將用來收集數據樣本的 Calliope mini。"
     }
   ],
   "connect-failed-bluetooth-heading": [
     {
       "type": 0,
-      "value": "無法連線到 micro:bit"
+      "value": "無法連線到 Calliope mini"
     }
   ],
   "connect-failed-bluetooth1": [
     {
       "type": 0,
-      "value": "無法建立與數據收集 micro:bit 的連線。"
+      "value": "無法建立與數據收集 Calliope mini 的連線。"
     }
   ],
   "connect-failed-bridge-heading": [
     {
       "type": 0,
-      "value": "無法連線到無線電連結 micro:bit"
+      "value": "無法連線到無線電連結 Calliope mini"
     }
   ],
   "connect-failed-bridge1": [
     {
       "type": 0,
-      "value": "無法建立與您的電腦連線的 micro:bit 的連線。"
+      "value": "無法建立與您的電腦連線的 Calliope mini 的連線。"
     }
   ],
   "connect-failed-remote-heading": [
     {
       "type": 0,
-      "value": "無法連線至數據收集 micro:bit"
+      "value": "無法連線至數據收集 Calliope mini"
     }
   ],
   "connect-failed-remote1": [
     {
       "type": 0,
-      "value": "無法建立與數據收集 micro:bit 的連線。"
+      "value": "無法建立與數據收集 Calliope mini 的連線。"
     }
   ],
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "WebUSB 連線對話框，帶有標記為 1 的 BBC micro:bit 項目和標記為 2 的「連線」按鈕"
+      "value": "WebUSB 連線對話框，帶有標記為 1 的 Calliope mini 項目和標記為 2 的「連線」按鈕"
     }
   ],
   "connect-micro-usb-cable": [
@@ -444,7 +444,7 @@
       "children": [
         {
           "type": 0,
-          "value": "連線數據收集用的 micro:bit"
+          "value": "連線數據收集用的 Calliope mini"
         }
       ],
       "type": 8,
@@ -482,25 +482,25 @@
     },
     {
       "type": 0,
-      "value": " 欄 - micro:bit 顯示器上亮起的 LED 數量"
+      "value": " 欄 - Calliope mini 顯示器上亮起的 LED 數量"
     }
   ],
   "connect-pattern-subtitle": [
     {
       "type": 0,
-      "value": "複製 micro:bit 上顯示的圖案。"
+      "value": "複製 Calliope mini 上顯示的圖案。"
     }
   ],
   "connect-popup": [
     {
       "type": 0,
-      "value": "選擇 micro:bit"
+      "value": "選擇 Calliope mini"
     }
   ],
   "connect-popup-bluetooth-alt": [
     {
       "type": 0,
-      "value": "網路藍牙連線對話框，帶有標記為 1 的 BBC micro:bit 項目和標記為 2 的「配對」按鈕"
+      "value": "網路藍牙連線對話框，帶有標記為 1 的 Calliope mini 項目和標記為 2 的「配對」按鈕"
     }
   ],
   "connect-popup-bluetooth-instruction2": [
@@ -512,7 +512,7 @@
   "connect-popup-bluetooth-title": [
     {
       "type": 0,
-      "value": "使用網路藍牙連線至 micro:bit"
+      "value": "使用網路藍牙連線至 Calliope mini"
     }
   ],
   "connect-popup-instruction-heading": [
@@ -524,25 +524,25 @@
   "connect-popup-instruction1": [
     {
       "type": 0,
-      "value": "選擇您的 micro:bit"
+      "value": "選擇您的 Calliope mini"
     }
   ],
   "connect-popup-usb-bluetooth-data-collection-title": [
     {
       "type": 0,
-      "value": "將數據收集程式下載至 micro:bit"
+      "value": "將數據收集程式下載至 Calliope mini"
     }
   ],
   "connect-popup-usb-radio-data-collection-title": [
     {
       "type": 0,
-      "value": "將數據收集程式下載至 micro:bit 1"
+      "value": "將數據收集程式下載至 Calliope mini 1"
     }
   ],
   "connect-popup-usb-radio-link-title": [
     {
       "type": 0,
-      "value": "將無線電連結程式下載至 micro:bit 2"
+      "value": "將無線電連結程式下載至 Calliope mini 2"
     }
   ],
   "connect-popup-webusb-instruction2": [
@@ -554,43 +554,43 @@
   "connect-radio-data-collection-microbit-description": [
     {
       "type": 0,
-      "value": "將數據收集用的 micro:bit 連線至這台電腦，以將您的機器學習 MakeCode 程式下載到其中。如果您正在配戴數據收集 micro:bit，則可能需要將其移除。"
+      "value": "將數據收集用的 Calliope mini 連線至這台電腦，以將您的機器學習 MakeCode 程式下載到其中。如果您正在配戴數據收集 Calliope mini，則可能需要將其移除。"
     }
   ],
   "connect-radio-data-collection-microbit-title": [
     {
       "type": 0,
-      "value": "將 USB 纜線連線至數據收集用的 micro:bit"
+      "value": "將 USB 纜線連線至數據收集用的 Calliope mini"
     }
   ],
   "connect-radio-heading": [
     {
       "type": 0,
-      "value": "連線到 micro:bits"
+      "value": "連線到 Calliope minis"
     }
   ],
   "connect-radio-link-heading": [
     {
       "type": 0,
-      "value": "將 USB 纜線連接至 micro:bit 2"
+      "value": "將 USB 纜線連接至 Calliope mini 2"
     }
   ],
   "connect-radio-link-subtitle": [
     {
       "type": 0,
-      "value": "使用 USB 電纜將第二個 micro:bit 連線至這台電腦，以下載無線電連結程式。此無線電連結 micro:bit 將與數據收集 micro:bit 通訊。"
+      "value": "使用 USB 電纜將第二個 Calliope mini 連線至這台電腦，以下載無線電連結程式。此無線電連結 Calliope mini 將與數據收集 Calliope mini 通訊。"
     }
   ],
   "connect-radio-start-heading": [
     {
       "type": 0,
-      "value": "使用 micro:bit 無線電連線所需的條件"
+      "value": "使用 Calliope mini 無線電連線所需的條件"
     }
   ],
   "connect-radio-start-requirements1": [
     {
       "type": 0,
-      "value": "2 片micro:bit"
+      "value": "2 片Calliope mini"
     }
   ],
   "connect-radio-start-requirements1-subtitle": [
@@ -620,7 +620,7 @@
   "connect-to-record-body": [
     {
       "type": 0,
-      "value": "連線 micro:bit 以記錄數據樣本。"
+      "value": "連線 Calliope mini 以記錄數據樣本。"
     }
   ],
   "connect-to-test-model": [
@@ -632,13 +632,13 @@
   "connect-to-tour-body": [
     {
       "type": 0,
-      "value": "您需要連線數據收集用的 micro:bit 才能檢視導覽內容。"
+      "value": "您需要連線數據收集用的 Calliope mini 才能檢視導覽內容。"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "疑難排解連線至 micro:bit 的問題"
+      "value": "疑難排解連線至 Calliope mini 的問題"
     }
   ],
   "connect-troubleshooting": [
@@ -698,19 +698,19 @@
   "data-collection-microbit": [
     {
       "type": 0,
-      "value": "數據收集用的 micro:bit"
+      "value": "數據收集用的 Calliope mini"
     }
   ],
   "data-collection-microbit-label": [
     {
       "type": 0,
-      "value": "圖表顯示數據收集用的 micro:bit 被連線到一個人的手腕上"
+      "value": "圖表顯示數據收集用的 Calliope mini 被連線到一個人的手腕上"
     }
   ],
   "data-connection-region": [
     {
       "type": 0,
-      "value": "micro:bit 數據連線"
+      "value": "Calliope mini 數據連線"
     }
   ],
   "data-features-hide-action": [
@@ -874,31 +874,31 @@
   "disconnected-during-recording": [
     {
       "type": 0,
-      "value": "micro:bit 在錄製過程中已斷線"
+      "value": "Calliope mini 在錄製過程中已斷線"
     }
   ],
   "disconnected-warning-bluetooth-heading": [
     {
       "type": 0,
-      "value": "數據收集 micro:bit 連線遺失"
+      "value": "數據收集 Calliope mini 連線遺失"
     }
   ],
   "disconnected-warning-bluetooth1": [
     {
       "type": 0,
-      "value": "與數據收集 micro:bit 的連線已遺失。"
+      "value": "與數據收集 Calliope mini 的連線已遺失。"
     }
   ],
   "disconnected-warning-bluetooth2": [
     {
       "type": 0,
-      "value": "請檢查 micro:bit："
+      "value": "請檢查 Calliope mini："
     }
   ],
   "disconnected-warning-bluetooth3": [
     {
       "type": 0,
-      "value": "已開機（micro:bit 背面的紅燈應亮起）"
+      "value": "已開機（Calliope mini 背面的紅燈應亮起）"
     }
   ],
   "disconnected-warning-bluetooth4": [
@@ -910,25 +910,25 @@
   "disconnected-warning-bridge-heading": [
     {
       "type": 0,
-      "value": "無線電連結 micro:bit 連線遺失"
+      "value": "無線電連結 Calliope mini 連線遺失"
     }
   ],
   "disconnected-warning-bridge1": [
     {
       "type": 0,
-      "value": "與您的電腦連線的 micro:bit 的連線已遺失。"
+      "value": "與您的電腦連線的 Calliope mini 的連線已遺失。"
     }
   ],
   "disconnected-warning-remote-heading": [
     {
       "type": 0,
-      "value": "數據收集 micro:bit 連線遺失"
+      "value": "數據收集 Calliope mini 連線遺失"
     }
   ],
   "disconnected-warning-remote1": [
     {
       "type": 0,
-      "value": "與數據收集 micro:bit 的連線已遺失。"
+      "value": "與數據收集 Calliope mini 的連線已遺失。"
     }
   ],
   "dont-show-again": [
@@ -946,25 +946,25 @@
   "download-project-choose-microbit-subtitle": [
     {
       "type": 0,
-      "value": "將您的專案下載到相同的 micro:bit 將會中斷 micro:bit 與工具的連線。如果您想要記錄更多數據樣本，則您需要重新連線 micro:bit。"
+      "value": "將您的專案下載到相同的 Calliope mini 將會中斷 Calliope mini 與工具的連線。如果您想要記錄更多數據樣本，則您需要重新連線 Calliope mini。"
     }
   ],
   "download-project-choose-microbit-title": [
     {
       "type": 0,
-      "value": "您想使用哪一個 micro:bit？"
+      "value": "您想使用哪一個 Calliope mini？"
     }
   ],
   "download-project-different-microbit-option": [
     {
       "type": 0,
-      "value": "不同的 micro:bit"
+      "value": "不同的 Calliope mini"
     }
   ],
   "download-project-intro-description": [
     {
       "type": 0,
-      "value": "您的程式包含您建立的機器學習模型。模型在 micro:bit 上運行，因此您無需連線到 "
+      "value": "您的程式包含您建立的機器學習模型。模型在 Calliope mini 上運行，因此您無需連線到 "
     },
     {
       "type": 1,
@@ -984,7 +984,7 @@
   "download-project-same-microbit-option": [
     {
       "type": 0,
-      "value": "相同的 micro:bit"
+      "value": "相同的 Calliope mini"
     }
   ],
   "downloading-data-collection-header": [
@@ -996,7 +996,7 @@
   "downloading-header": [
     {
       "type": 0,
-      "value": "將程式下載至 micro:bit"
+      "value": "將程式下載至 Calliope mini"
     }
   ],
   "downloading-radio-link-header": [
@@ -1008,7 +1008,7 @@
   "downloading-subtitle": [
     {
       "type": 0,
-      "value": "請稍等。正在將程式下載至 micro:bit。"
+      "value": "請稍等。正在將程式下載至 Calliope mini。"
     }
   ],
   "edit-in-makecode-action": [
@@ -1202,13 +1202,13 @@
   "firmware-outdated-content1": [
     {
       "type": 0,
-      "value": "您 micro:bit 上的韌體過舊，無法連線至 micro:bit。"
+      "value": "您 Calliope mini 上的韌體過舊，無法連線至 Calliope mini。"
     }
   ],
   "firmware-outdated-content2": [
     {
       "type": 0,
-      "value": "在連線至 micro:bit 前，您必須"
+      "value": "在連線至 Calliope mini 前，您必須"
     },
     {
       "children": [
@@ -1342,13 +1342,13 @@
   "homepage-alt": [
     {
       "type": 0,
-      "value": "顯示代表 micro:bit 加速計數據的 x、y、z 圖線的圖表，並重疊拍手圖示"
+      "value": "顯示代表 Calliope mini 加速計數據的 x、y、z 圖線的圖表，並重疊拍手圖示"
     }
   ],
   "homepage-alt-graph": [
     {
       "type": 0,
-      "value": "顯示代表 micro:bit 加速計數據的 x、y、z 圖線的圖表"
+      "value": "顯示代表 Calliope mini 加速計數據的 x、y、z 圖線的圖表"
     }
   ],
   "homepage-alt-hands": [
@@ -1360,7 +1360,7 @@
   "homepage-description": [
     {
       "type": 0,
-      "value": "以您自己的移動數據來訓練機器學習模型並且在您的 micro:bit 上運行它。"
+      "value": "以您自己的移動數據來訓練機器學習模型並且在您的 Calliope mini 上運行它。"
     }
   ],
   "homepage-how-it-works": [
@@ -1404,7 +1404,7 @@
       "children": [
         {
           "type": 0,
-          "value": "有關於 micro:bit 和 AI 的內容及資源"
+          "value": "有關於 Calliope mini 和 AI 的內容及資源"
         }
       ],
       "type": 8,
@@ -1424,7 +1424,7 @@
   "homepage-subtitle": [
     {
       "type": 0,
-      "value": "利用移動和機器學習在您的 BBC micro:bit 上建立 AI。"
+      "value": "利用移動和機器學習在您的 Calliope mini 上建立 AI。"
     }
   ],
   "homepage-video-alt": [
@@ -1458,7 +1458,7 @@
   "incompatible-device-body-alt": [
     {
       "type": 0,
-      "value": "返回選擇不同的 micro:bit，或"
+      "value": "返回選擇不同的 Calliope mini，或"
     },
     {
       "children": [
@@ -1472,13 +1472,13 @@
     },
     {
       "type": 0,
-      "value": "，稍後可以將其下載到 micro:bit V2 上。"
+      "value": "，稍後可以將其下載到 Calliope mini V2 上。"
     }
   ],
   "incompatible-device-body1": [
     {
       "type": 0,
-      "value": "繼續 MakeCode 來編輯程式。然後，您可以儲存專案十六進位檔案，並將其下載到 micro:bit V2 上。"
+      "value": "繼續 MakeCode 來編輯程式。然後，您可以儲存專案十六進位檔案，並將其下載到 Calliope mini V2 上。"
     }
   ],
   "incompatible-device-body2": [
@@ -1510,13 +1510,13 @@
   "incompatible-device-subtitle": [
     {
       "type": 0,
-      "value": "您使用的是 micro:bit V1，但是機器學習專案需要 micro:bit V2 上更快的處理器。 "
+      "value": "您使用的是 Calliope mini V1，但是機器學習專案需要 Calliope mini V2 上更快的處理器。 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "瞭解有關 micro:bit 版本的更多資訊。"
+          "value": "瞭解有關 Calliope mini 版本的更多資訊。"
         }
       ],
       "type": 8,
@@ -1844,7 +1844,7 @@
   "live-graph-tooltip": [
     {
       "type": 0,
-      "value": "這張圖表即時顯示來自 micro:bit 加速計的運動數據。嘗試移動您的數據收集用的 micro:bit 以查看 X、Y 和 Z 軸的變更。每條彩色線條代表您在 micro:bit 移動的不同方向 (維度)。"
+      "value": "這張圖表即時顯示來自 Calliope mini 加速計的運動數據。嘗試移動您的數據收集用的 Calliope mini 以查看 X、Y 和 Z 軸的變更。每條彩色線條代表您在 Calliope mini 移動的不同方向 (維度)。"
     }
   ],
   "live-graph-tooltip-aria": [
@@ -1902,7 +1902,7 @@
   "microbit-not-connected": [
     {
       "type": 0,
-      "value": "您的 micro:bit 未連線"
+      "value": "您的 Calliope mini 未連線"
     }
   ],
   "ml.onStart|block": [
@@ -1920,7 +1920,7 @@
   "name-action-hint": [
     {
       "type": 0,
-      "value": "命名您希望 micro:bit 辨識的動作"
+      "value": "命名您希望 Calliope mini 辨識的動作"
     }
   ],
   "name-project": [
@@ -2034,7 +2034,7 @@
   "newpage-new-session-subtitle": [
     {
       "type": 0,
-      "value": "連線您的 micro:bit 並收集移動數據以建立機器學習模型。"
+      "value": "連線您的 Calliope mini 並收集移動數據以建立機器學習模型。"
     }
   ],
   "newpage-new-session-title": [
@@ -2154,7 +2154,7 @@
   "open-shared-project-description": [
     {
       "type": 0,
-      "value": "This is a Microsoft MakeCode shared project compatible with CreateAI."
+      "value": "This is a Microsoft MakeCode shared project compatible with ML-Machine."
     }
   ],
   "open-shared-project-error-description": [
@@ -2166,7 +2166,7 @@
   "open-shared-project-title": [
     {
       "type": 0,
-      "value": "Open shared CreateAI project"
+      "value": "Open shared ML-Machine project"
     }
   ],
   "other-tabs-body1": [
@@ -2186,7 +2186,7 @@
     },
     {
       "type": 0,
-      "value": ")，或者在重試之前拔下並重新插入 micro:bit。"
+      "value": ")，或者在重試之前拔下並重新插入 Calliope mini。"
     }
   ],
   "other-tabs-heading": [
@@ -2216,13 +2216,13 @@
   "radio-link-microbit": [
     {
       "type": 0,
-      "value": "無線電連結 micro:bit"
+      "value": "無線電連結 Calliope mini"
     }
   ],
   "radio-link-microbit-label": [
     {
       "type": 0,
-      "value": "顯示無線電連結 micro:bit 與電腦連線的示意圖"
+      "value": "顯示無線電連結 Calliope mini 與電腦連線的示意圖"
     }
   ],
   "recognition-point-label": [
@@ -2240,43 +2240,43 @@
   "reconnect-failed-bluetooth-heading": [
     {
       "type": 0,
-      "value": "無法重新連線至數據收集 micro:bit"
+      "value": "無法重新連線至數據收集 Calliope mini"
     }
   ],
   "reconnect-failed-bluetooth1": [
     {
       "type": 0,
-      "value": "無法重新建立與數據收集 micro:bit 的連線。"
+      "value": "無法重新建立與數據收集 Calliope mini 的連線。"
     }
   ],
   "reconnect-failed-bridge-heading": [
     {
       "type": 0,
-      "value": "無法重新連線到無線電連結 micro:bit"
+      "value": "無法重新連線到無線電連結 Calliope mini"
     }
   ],
   "reconnect-failed-bridge1": [
     {
       "type": 0,
-      "value": "無法重新建立與您的電腦連線的 micro:bit 的連線。"
+      "value": "無法重新建立與您的電腦連線的 Calliope mini 的連線。"
     }
   ],
   "reconnect-failed-radio-heading": [
     {
       "type": 0,
-      "value": "無法重新連線到 micro:bits"
+      "value": "無法重新連線到 Calliope minis"
     }
   ],
   "reconnect-failed-remote-heading": [
     {
       "type": 0,
-      "value": "無法重新連線至數據收集 micro:bit"
+      "value": "無法重新連線至數據收集 Calliope mini"
     }
   ],
   "reconnect-failed-remote1": [
     {
       "type": 0,
-      "value": "無法重新建立與數據收集 micro:bit 的連線。"
+      "value": "無法重新建立與數據收集 Calliope mini 的連線。"
     }
   ],
   "reconnect-failed-subtitle": [
@@ -2320,7 +2320,7 @@
   "record-hint-button-b": [
     {
       "type": 0,
-      "value": "按下以記錄數據樣本或是按下您的數據收集用的 micro:bit 上的按鍵 B。"
+      "value": "按下以記錄數據樣本或是按下您的數據收集用的 Calliope mini 上的按鍵 B。"
     }
   ],
   "record-samples": [
@@ -2426,13 +2426,13 @@
   "recording-fingerprint-label": [
     {
       "type": 0,
-      "value": "顯示一次記錄的 micro:bit x、y、z 加速度計數據功能的熱圖"
+      "value": "顯示一次記錄的 Calliope mini x、y、z 加速度計數據功能的熱圖"
     }
   ],
   "recording-graph-label": [
     {
       "type": 0,
-      "value": "顯示一次記錄的 micro:bit x、y、z 加速度計數據的圖表"
+      "value": "顯示一次記錄的 Calliope mini x、y、z 加速度計數據的圖表"
     }
   ],
   "recording-options-aria": [
@@ -2706,7 +2706,7 @@
   "third-party-content-description": [
     {
       "type": 0,
-      "value": "The content above is provided by a third party, and is not endorsed by the Micro:bit Educational Foundation."
+      "value": "The content above is provided by a third party, and is not endorsed by the Calliope mini Educational Foundation."
     }
   ],
   "tour-action": [
@@ -2818,19 +2818,19 @@
   "tour-dataSamples-connected-title": [
     {
       "type": 0,
-      "value": "您的數據收集用的 micro:bit 已連線！"
+      "value": "您的數據收集用的 Calliope mini 已連線！"
     }
   ],
   "tour-dataSamples-liveGraph-content": [
     {
       "type": 0,
-      "value": "圖表顯示來自 micro:bit 加速計的移動數據。移動您的數據收集用的 micro:bit 並查看圖表如何變化。"
+      "value": "圖表顯示來自 Calliope mini 加速計的移動數據。移動您的數據收集用的 Calliope mini 並查看圖表如何變化。"
     }
   ],
   "tour-makecode-intro-content1": [
     {
       "type": 0,
-      "value": "下載模型和程式碼以在 micro:bit 上測試您的專案。您還可以新增更多程式碼區塊以利用您的模型建立您自己的程式。"
+      "value": "下載模型和程式碼以在 Calliope mini 上測試您的專案。您還可以新增更多程式碼區塊以利用您的模型建立您自己的程式。"
     }
   ],
   "tour-makecode-intro-content2": [
@@ -2860,7 +2860,7 @@
   "tour-trainModel-afterTrain-content": [
     {
       "type": 0,
-      "value": "現在測試您的機器學習模型。藉由移動您的數據收集用的 micro:bit 嘗試各個動作。模型是否正確地估計各個動作？"
+      "value": "現在測試您的機器學習模型。藉由移動您的數據收集用的 Calliope mini 嘗試各個動作。模型是否正確地估計各個動作？"
     }
   ],
   "tour-trainModel-afterTrain-delayedUntilConnected-title": [
@@ -2884,19 +2884,19 @@
   "tour-trainModel-editInMakeCode-content": [
     {
       "type": 0,
-      "value": "在 MakeCode 中開啟您的專案，將程式和您的機器學習模型下載到 micro:bit。您可以新增更多區塊以利用您的模型來建立您自己的程式。"
+      "value": "在 MakeCode 中開啟您的專案，將程式和您的機器學習模型下載到 Calliope mini。您可以新增更多區塊以利用您的模型來建立您自己的程式。"
     }
   ],
   "tour-trainModel-estimatedAction-content": [
     {
       "type": 0,
-      "value": "模型估計您目前正在執行的動作會顯示在該動作的 micro:bit 圖示下方。"
+      "value": "模型估計您目前正在執行的動作會顯示在該動作的 Calliope mini 圖示下方。"
     }
   ],
   "tour-trainModel-makeCodeBlocks-content": [
     {
       "type": 0,
-      "value": "當您將程式碼和模型傳輸到 micro:bit 時，這些 MakeCode 區塊將顯示偵測到的各個動作的圖示。"
+      "value": "當您將程式碼和模型傳輸到 Calliope mini 時，這些 MakeCode 區塊將顯示偵測到的各個動作的圖示。"
     }
   ],
   "tour-trainModel-makeCodeBlocks-title": [
@@ -2916,7 +2916,7 @@
     },
     {
       "type": 0,
-      "value": " 能夠在當您移動 micro:bit 時辨識不同的動作。"
+      "value": " 能夠在當您移動 Calliope mini 時辨識不同的動作。"
     }
   ],
   "train-error-body": [
@@ -2958,13 +2958,13 @@
   "transfer-hex-alt": [
     {
       "type": 0,
-      "value": "將十六進位檔案從下載資料夾拖曳到檔案總管中列出的 micro:bit 磁碟機或裝置上的動畫"
+      "value": "將十六進位檔案從下載資料夾拖曳到檔案總管中列出的 Calliope mini 磁碟機或裝置上的動畫"
     }
   ],
   "transfer-hex-heading": [
     {
       "type": 0,
-      "value": "將儲存的 HEX 檔案傳輸至 micro:bit"
+      "value": "將儲存的 HEX 檔案傳輸至 Calliope mini"
     }
   ],
   "transfer-hex-manual-download": [
@@ -3008,31 +3008,31 @@
   "unplug-radio-link-microbit-description": [
     {
       "type": 0,
-      "value": "從電腦上拔下無線電連結 micro:bit。如果您想要記錄更多數據樣本，則需要重新連接 micro:bit。"
+      "value": "從電腦上拔下無線電連結 Calliope mini。如果您想要記錄更多數據樣本，則需要重新連接 Calliope mini。"
     }
   ],
   "unplug-radio-link-microbit-label": [
     {
       "type": 0,
-      "value": "顯示 USB 纜線從 micro:bit 頂部斷開連接的動畫"
+      "value": "顯示 USB 纜線從 Calliope mini 頂部斷開連接的動畫"
     }
   ],
   "unplug-radio-link-microbit-title": [
     {
       "type": 0,
-      "value": "拔掉無線電連結 micro:bit"
+      "value": "拔掉無線電連結 Calliope mini"
     }
   ],
   "unsupported-device-explain": [
     {
       "type": 0,
-      "value": "很遺憾，使用 micro:bit 無線電連線時，我們僅支援 micro:bit V2。您已連線"
+      "value": "很遺憾，使用 Calliope mini 無線電連線時，我們僅支援 Calliope mini V2。您已連線"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V1"
+          "value": "Calliope mini V1"
         }
       ],
       "type": 8,
@@ -3046,19 +3046,19 @@
   "unsupported-device-header": [
     {
       "type": 0,
-      "value": "micro:bit 無線電連線不支援 micro:bit V1"
+      "value": "Calliope mini 無線電連線不支援 Calliope mini V1"
     }
   ],
   "unsupported-device-with-bluetooth": [
     {
       "type": 0,
-      "value": "請改用網路藍牙連線至您的 micro:bit V1。"
+      "value": "請改用網路藍牙連線至您的 Calliope mini V1。"
     }
   ],
   "unsupported-device-without-bluetooth": [
     {
       "type": 0,
-      "value": "您可以利用網路藍牙連線至 micro:bit V1，但是，此瀏覽器或裝置沒有啟用藍牙。 "
+      "value": "您可以利用網路藍牙連線至 Calliope mini V1，但是，此瀏覽器或裝置沒有啟用藍牙。 "
     },
     {
       "children": [
@@ -3084,7 +3084,7 @@
   "webusb-retry-no-select": [
     {
       "type": 0,
-      "value": "您沒有選擇 micro:bit。您想再試一次嗎？"
+      "value": "您沒有選擇 Calliope mini。您想再試一次嗎？"
     }
   ],
   "webusb-retry-replug1": [
@@ -3102,7 +3102,7 @@
   "webusb-retry-replug3": [
     {
       "type": 0,
-      "value": "檢查此 micro:bit 是否未連線電池組"
+      "value": "檢查此 Calliope mini 是否未連線電池組"
     }
   ],
   "webusb-retry-replug4": [

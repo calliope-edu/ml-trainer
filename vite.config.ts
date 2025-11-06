@@ -54,7 +54,7 @@ export default defineConfig(async ({ mode }): Promise<UserConfig> => {
     ? // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
       ((await import(themePackageAlias)).default({}) as TemplateStrings)
     : {
-        appNameFull: "ml-trainer",
+        appNameFull: "KI-Trainer",
         ogDescription: undefined,
         metaDescription: undefined,
       };

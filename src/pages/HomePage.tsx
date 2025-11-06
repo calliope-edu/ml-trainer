@@ -10,7 +10,6 @@ import {
   Heading,
   HStack,
   Image,
-  Link,
   Text,
   VStack,
 } from "@chakra-ui/react";
@@ -18,24 +17,12 @@ import { useCallback } from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { useNavigate } from "react-router";
 import DefaultPageLayout from "../components/DefaultPageLayout";
-import ResourceCard from "../components/ResourceCard";
 import YoutubeVideoEmbed from "../components/YoutubeVideoEmbed";
 import { useDeployment } from "../deployment";
-import { flags } from "../flags";
 import clap from "../images/clap-hands.png";
 import xyzGraph from "../images/xyz-graph.png";
 import { createNewPageUrl } from "../urls";
 
-import projectImage3 from "theme-package/images/ai-activity-timer.png";
-import projectImage2 from "theme-package/images/simple-ai-exercise-timer.png";
-import projectImage1 from "theme-package/images/ai-storytelling-friend.png";
-import StepByStepIllustration from "../components/StepByStepIllustration";
-import {
-  landingPageUrl,
-  projectUrl,
-  userGuideUrl,
-} from "../utils/external-links";
-import { useSettings } from "../store";
 import { useSearchParams } from "react-router-dom";
 import { setEditorVersionOverride } from "../editor-version";
 
@@ -47,7 +34,6 @@ const HomePage = () => {
     navigate(createNewPageUrl());
   }, [navigate]);
   const intl = useIntl();
-  const [{ languageId }] = useSettings();
   const { appNameFull } = useDeployment();
   return (
     <DefaultPageLayout
@@ -130,88 +116,13 @@ const HomePage = () => {
           </Heading>
           <Box w="100%" position="relative">
             <YoutubeVideoEmbed
-              youtubeId="yWl3WxDE6QI"
+              youtubeId="GUdoNdTNNaU"
               alt={intl.formatMessage({ id: "homepage-video-alt" })}
             />
           </Box>
-          {flags.websiteContent && (
-            <Text fontSize="md">
-              <FormattedMessage
-                id="homepage-how-it-works-paragraph"
-                values={{
-                  appNameFull,
-                  link: (children) => (
-                    <Link
-                      color="brand.600"
-                      textDecoration="underline"
-                      href={userGuideUrl()}
-                    >
-                      {children}
-                    </Link>
-                  ),
-                }}
-              />
-            </Text>
-          )}
         </VStack>
-        <VStack gap={10}>
-          <Heading as="h2" textAlign="center" variant="marketing">
-            <FormattedMessage id="homepage-step-by-step" />
-          </Heading>
-          <VStack
-            position="relative"
-            role="img"
-            aria-label={intl.formatMessage({ id: "steps-alt" })}
-          >
-            <StepByStepIllustration />
-          </VStack>
-        </VStack>
-        {flags.websiteContent && (
-          <VStack gap={10}>
-            <Heading as="h2" textAlign="center" variant="marketing">
-              <FormattedMessage id="homepage-projects" />
-            </Heading>
-            <HStack gap={5} flexDir={{ base: "column", lg: "row" }}>
-              <ResourceCard
-                title={intl.formatMessage({
-                  id: "ai-storytelling-friend-resource-title",
-                })}
-                url={projectUrl("ai-storytelling-friend", languageId)}
-                imgSrc={projectImage1}
-              />
-              <ResourceCard
-                title={intl.formatMessage({
-                  id: "simple-ai-exercise-timer-resource-title",
-                })}
-                url={projectUrl("simple-ai-exercise-timer", languageId)}
-                imgSrc={projectImage2}
-              />
-              <ResourceCard
-                title={intl.formatMessage({
-                  id: "ai-activity-timer-resource-title",
-                })}
-                url={projectUrl("ai-activity-timer", languageId)}
-                imgSrc={projectImage3}
-              />
-            </HStack>
-            <Text fontSize="md">
-              <FormattedMessage
-                id="homepage-projects-more"
-                values={{
-                  link: (children) => (
-                    <Link
-                      color="brand.600"
-                      textDecoration="underline"
-                      href={landingPageUrl(languageId)}
-                    >
-                      {children}
-                    </Link>
-                  ),
-                }}
-              />
-            </Text>
-          </VStack>
-        )}
+
+
       </Container>
     </DefaultPageLayout>
   );

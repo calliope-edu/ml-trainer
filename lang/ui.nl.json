@@ -8,7 +8,7 @@
     "description": "Menu item link to view information about app"
   },
   "about-dialog-alt": {
-    "defaultMessage": "micro:bit bord met een hart op het LED-display",
+    "defaultMessage": "Calliope mini bord met een hart op het LED-display",
     "description": "Alt text for image in about dialog"
   },
   "about-dialog-title": {
@@ -16,8 +16,8 @@
     "description": "Title of about dialog"
   },
   "accelerometer-image-alt": {
-    "defaultMessage": "micro:bit toont de X-as over de voorkant, de Y-as gaat naar beneden en omhoog, de Z-as gaat terug naar voren",
-    "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the micro:bit accelerometer"
+    "defaultMessage": "Calliope mini toont de X-as over de voorkant, de Y-as gaat naar beneden en omhoog, de Z-as gaat terug naar voren",
+    "description": "Alt text for image showing the board-relative directions of the X/Y/Z dimensions of the Calliope mini accelerometer"
   },
   "accessibility": {
     "defaultMessage": "Toegankelijkheid",
@@ -76,11 +76,11 @@
     "description": "Blocks preview heading text"
   },
   "bluetooth-unsupported-advice": {
-    "defaultMessage": "We raden Google Chrome of Microsoft Edge aan, zodat je direct verbinding kunt maken met je micro:bit.",
+    "defaultMessage": "We raden Google Chrome of Microsoft Edge aan, zodat je direct verbinding kunt maken met je Calliope mini.",
     "description": "Note on supported browsers"
   },
   "bluetooth-unsupported-explain": {
-    "defaultMessage": "Helaas worden WebUSB en Web Bluetooth niet ondersteund door deze browser. Dit betekent dat je niet kunt verbinden met een micro:bit om de data samples te registreren die nodig zijn om een machine learning model te trainen.",
+    "defaultMessage": "Helaas worden WebUSB en Web Bluetooth niet ondersteund door deze browser. Dit betekent dat je niet kunt verbinden met een Calliope mini om de data samples te registreren die nodig zijn om een machine learning model te trainen.",
     "description": "Note on supported browsers"
   },
   "bluetooth-unsupported-header": {
@@ -132,7 +132,7 @@
     "description": "Aria label for code tooltip icon"
   },
   "code-tooltip": {
-    "defaultMessage": "Dit zijn de MakeCode blokken voor elke gedetecteerde actie wanneer je je ML model en code naar een micro:bit verplaatst",
+    "defaultMessage": "Dit zijn de MakeCode blokken voor elke gedetecteerde actie wanneer je je ML model en code naar een Calliope mini verplaatst",
     "description": "Code column heading tooltip"
   },
   "confirm-action": {
@@ -145,11 +145,11 @@
   },
   "connect-action": {
     "defaultMessage": "Verbinden ",
-    "description": "Connect action to connect to data collection micro:bit via Bluetooth or micro:bit radio"
+    "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-action-aria": {
-    "defaultMessage": "Verbinden met een micro:bit",
-    "description": "Connect action to connect to data collection micro:bit via Bluetooth or micro:bit radio"
+    "defaultMessage": "Verbinden met een Calliope mini",
+    "description": "Connect action to connect to data collection Calliope mini via Bluetooth or Calliope mini radio"
   },
   "connect-battery-heading": {
     "defaultMessage": "Ontkoppel USB en sluit batterijpakket aan",
@@ -160,15 +160,15 @@
     "description": "Label for battery holder icon"
   },
   "connect-battery-link": {
-    "defaultMessage": "Je kan de micro:bit vastmaken om je pols of aan een object",
+    "defaultMessage": "Je kan de Calliope mini vastmaken om je pols of aan een object",
     "description": "Battery connection dialog"
   },
   "connect-battery-subtitle": {
-    "defaultMessage": "Koppel de micro:bit los van de computer en verbind het batterijpakket.",
+    "defaultMessage": "Koppel de Calliope mini los van de computer en verbind het batterijpakket.",
     "description": "Battery connection dialog"
   },
   "connect-bluetooth-cancelled-connection": {
-    "defaultMessage": "Je hebt geen micro:bit gekozen. Wil je het opnieuw proberen?",
+    "defaultMessage": "Je hebt geen Calliope mini gekozen. Wil je het opnieuw proberen?",
     "description": "Error when the user cancelled the Web Bluetooth permission/device selection dialog"
   },
   "connect-bluetooth-heading": {
@@ -184,27 +184,27 @@
     "description": "Connection dialog heading"
   },
   "connect-bluetooth-start-requirements1": {
-    "defaultMessage": "1 micro:bit",
-    "description": "Label for icon of single micro:bit"
+    "defaultMessage": "1 Calliope mini",
+    "description": "Label for icon of single Calliope mini"
   },
   "connect-bluetooth-start-requirements2-subtitle": {
     "defaultMessage": "met Internet, een USB-poort & Web Bluetooth",
     "description": "Under heading 'Computer' this lists the features the computer needs"
   },
   "connect-bluetooth-start-switch-radio": {
-    "defaultMessage": "Maak in plaats daarvan verbinding met de micro:bit radio",
+    "defaultMessage": "Maak in plaats daarvan verbinding met de Calliope mini radio",
     "description": "Link to alternative connection method"
   },
   "connect-cable-alt": {
-    "defaultMessage": "animatie met een USB-kabel die is aangesloten op de bovenkant van een micro:bit",
+    "defaultMessage": "animatie met een USB-kabel die is aangesloten op de bovenkant van een Calliope mini",
     "description": "Alt text"
   },
   "connect-cable-download-project-subtitle": {
-    "defaultMessage": "Sluit een micro:bit aan op deze computer met een USB-kabel om je machine learning MakeCode programma te downloaden.",
+    "defaultMessage": "Sluit een Calliope mini aan op deze computer met een USB-kabel om je machine learning MakeCode programma te downloaden.",
     "description": "Download project dialog"
   },
   "connect-cable-heading": {
-    "defaultMessage": "USB-kabel aansluiten op de micro:bit",
+    "defaultMessage": "USB-kabel aansluiten op de Calliope mini",
     "description": "Connect cable dialog heading"
   },
   "connect-cable-skip": {
@@ -212,7 +212,7 @@
     "description": "Link to skip"
   },
   "connect-cable-subtitle": {
-    "defaultMessage": "Sluit de micro:bit aan op deze computer met een USB-kabel zodat het programma voor gegevensverzameling kan worden gedownload.",
+    "defaultMessage": "Sluit de Calliope mini aan op deze computer met een USB-kabel zodat het programma voor gegevensverzameling kan worden gedownload.",
     "description": "Project download instructions"
   },
   "connect-computer": {
@@ -220,39 +220,39 @@
     "description": "Label for computer icon in connection dialog"
   },
   "connect-data-collection-heading": {
-    "defaultMessage": "USB-kabel aansluiten op micro:bit 1",
+    "defaultMessage": "USB-kabel aansluiten op Calliope mini 1",
     "description": "Connection dialog heading"
   },
   "connect-data-collection-subtitle": {
-    "defaultMessage": "Sluit de eerste micro:bit aan op deze computer met een USB-kabel zodat het programma voor gegevensverzameling kan worden gedownload. Dit is de micro:bit die je zal gebruiken om data samples te verzamelen.",
+    "defaultMessage": "Sluit de eerste Calliope mini aan op deze computer met een USB-kabel zodat het programma voor gegevensverzameling kan worden gedownload. Dit is de Calliope mini die je zal gebruiken om data samples te verzamelen.",
     "description": "Connection dialog subtitle"
   },
   "connect-failed-bluetooth-heading": {
-    "defaultMessage": "Kan geen verbinding maken met micro:bit",
+    "defaultMessage": "Kan geen verbinding maken met Calliope mini",
     "description": "Bluetooth connection error message"
   },
   "connect-failed-bluetooth1": {
-    "defaultMessage": "De verbinding met de micro:bit die de gegevens verzamelt kon niet worden gemaakt.",
+    "defaultMessage": "De verbinding met de Calliope mini die de gegevens verzamelt kon niet worden gemaakt.",
     "description": "Bluetooth connection error message"
   },
   "connect-failed-bridge-heading": {
-    "defaultMessage": "Kan geen verbinding maken met de radio link micro:bit",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "Kan geen verbinding maken met de radio link Calliope mini",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-bridge1": {
-    "defaultMessage": "De verbinding van de micro:bit met je computer kon niet tot stand worden gebracht.",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "De verbinding van de Calliope mini met je computer kon niet tot stand worden gebracht.",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote-heading": {
-    "defaultMessage": "Kan geen verbinding maken met gegevensverzameling micro:bit",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "Kan geen verbinding maken met gegevensverzameling Calliope mini",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-failed-remote1": {
-    "defaultMessage": "De verbinding met de micro:bit die de gegevens verzamelt kon niet worden gemaakt.",
-    "description": "micro:bit radio connection error message"
+    "defaultMessage": "De verbinding met de Calliope mini die de gegevens verzamelt kon niet worden gemaakt.",
+    "description": "Calliope mini radio connection error message"
   },
   "connect-help-alt": {
-    "defaultMessage": "WebUSB verbinding dialoogvenster met BBC micro:bit item gelabeld 1 en Connect knop gelabeld 2",
+    "defaultMessage": "WebUSB verbinding dialoogvenster met BBC Calliope mini item gelabeld 1 en Connect knop gelabeld 2",
     "description": "Alt text for image in connect help dialog"
   },
   "connect-micro-usb-cable": {
@@ -260,7 +260,7 @@
     "description": "Label for cable icon in list of requirements"
   },
   "connect-or-import": {
-    "defaultMessage": "<link1>Verbind een micro:bit die gegevens verzamelt</link1> of <link2>importeer data samples</link2>",
+    "defaultMessage": "<link1>Verbind een Calliope mini die gegevens verzamelt</link1> of <link2>importeer data samples</link2>",
     "description": "Empty data samples page text"
   },
   "connect-pattern-heading": {
@@ -268,19 +268,19 @@
     "description": "Heading for Bluetooth pattern connection dialog"
   },
   "connect-pattern-input-label": {
-    "defaultMessage": "Kolom {colNum} - aantal verlichte LEDs op de micro:bit display",
+    "defaultMessage": "Kolom {colNum} - aantal verlichte LEDs op de Calliope mini display",
     "description": "Screen reader text for numeric pattern input"
   },
   "connect-pattern-subtitle": {
-    "defaultMessage": "Kopieer het getoonde patroon op de micro:bit.",
+    "defaultMessage": "Kopieer het getoonde patroon op de Calliope mini.",
     "description": "Instruction for bluetooth pattern dialog"
   },
   "connect-popup": {
-    "defaultMessage": "Selecteer een micro:bit",
+    "defaultMessage": "Selecteer een Calliope mini",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-bluetooth-alt": {
-    "defaultMessage": "Web Bluetooth-verbinding dialoog met BBC micro:bit item gelabeld 1 en Koppelen-knop gelabeld 2",
+    "defaultMessage": "Web Bluetooth-verbinding dialoog met BBC Calliope mini item gelabeld 1 en Koppelen-knop gelabeld 2",
     "description": "Alt text"
   },
   "connect-popup-bluetooth-instruction2": {
@@ -288,7 +288,7 @@
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-bluetooth-title": {
-    "defaultMessage": " Micro:bit verbinden met behulp van Web Bluetooth",
+    "defaultMessage": " Calliope mini verbinden met behulp van Web Bluetooth",
     "description": "Instruction for dialog that previews the Bluetooth permission dialog"
   },
   "connect-popup-instruction-heading": {
@@ -296,19 +296,19 @@
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-instruction1": {
-    "defaultMessage": "Kies je micro:bit",
+    "defaultMessage": "Kies je Calliope mini",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-usb-bluetooth-data-collection-title": {
-    "defaultMessage": "Download programma voor gegevensverzameling naar micro:bit",
+    "defaultMessage": "Download programma voor gegevensverzameling naar Calliope mini",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-data-collection-title": {
-    "defaultMessage": "Download programma voor gegevensverzameling naar micro:bit 1",
+    "defaultMessage": "Download programma voor gegevensverzameling naar Calliope mini 1",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-link-title": {
-    "defaultMessage": "Download radiolink programma naar micro:bit 2",
+    "defaultMessage": "Download radiolink programma naar Calliope mini 2",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-webusb-instruction2": {
@@ -316,36 +316,36 @@
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-radio-data-collection-microbit-description": {
-    "defaultMessage": "Verbind de gegevensverzameling micro:bit met deze computer om jouw machine learning MakeCode programma ernaar te downloaden. Als je de gegevensverzameling micro:bit draagt, moet je het misschien eerst losmaken.",
-    "description": "Connect radio data collection micro:bit dialog description"
+    "defaultMessage": "Verbind de gegevensverzameling Calliope mini met deze computer om jouw machine learning MakeCode programma ernaar te downloaden. Als je de gegevensverzameling Calliope mini draagt, moet je het misschien eerst losmaken.",
+    "description": "Connect radio data collection Calliope mini dialog description"
   },
   "connect-radio-data-collection-microbit-title": {
-    "defaultMessage": "USB-kabel aansluiten op de gegevensverzameling micro:bit",
-    "description": "Connect radio data collection micro:bit dialog title"
+    "defaultMessage": "USB-kabel aansluiten op de gegevensverzameling Calliope mini",
+    "description": "Connect radio data collection Calliope mini dialog title"
   },
   "connect-radio-heading": {
-    "defaultMessage": "micro:bits verbinden",
-    "description": "Text shown while radio link and data connection micro:bit are being connected"
+    "defaultMessage": "Calliope minis verbinden",
+    "description": "Text shown while radio link and data connection Calliope mini are being connected"
   },
   "connect-radio-link-heading": {
-    "defaultMessage": "USB-kabel aansluiten op micro:bit 2",
-    "description": "Heading for connecting radio link micro:bit cable"
+    "defaultMessage": "USB-kabel aansluiten op Calliope mini 2",
+    "description": "Heading for connecting radio link Calliope mini cable"
   },
   "connect-radio-link-subtitle": {
-    "defaultMessage": "Sluit een tweede micro:bit aan op deze computer met een USB-kabel zodat het radio link programma kan worden gedownload. Deze radio link micro:bit zal communiceren met de gegevensverzameling micro:bit.",
-    "description": "Instruction for connecting radio link micro:bit cable"
+    "defaultMessage": "Sluit een tweede Calliope mini aan op deze computer met een USB-kabel zodat het radio link programma kan worden gedownload. Deze radio link Calliope mini zal communiceren met de gegevensverzameling Calliope mini.",
+    "description": "Instruction for connecting radio link Calliope mini cable"
   },
   "connect-radio-start-heading": {
-    "defaultMessage": "Wat je nodig hebt om te verbinden met de micro:bit radio",
+    "defaultMessage": "Wat je nodig hebt om te verbinden met de Calliope mini radio",
     "description": "Connection dialog heading"
   },
   "connect-radio-start-requirements1": {
-    "defaultMessage": "2 micro:bits",
-    "description": "Label for icon of two micro:bits"
+    "defaultMessage": "2 Calliope minis",
+    "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
     "defaultMessage": "Alleen voor de V2",
-    "description": "Shown below 2 micro:bit label for micro:bit radio approach"
+    "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
     "defaultMessage": "met internet & een USB-poort",
@@ -357,22 +357,22 @@
   },
   "connect-to-record": {
     "defaultMessage": "Verbinden om data samples op te nemen",
-    "description": "Live graph disconnected micro:bit status message for data samples page"
+    "description": "Live graph disconnected Calliope mini status message for data samples page"
   },
   "connect-to-record-body": {
-    "defaultMessage": "Verbind een micro:bit om een data sample op te nemen.",
+    "defaultMessage": "Verbind een Calliope mini om een data sample op te nemen.",
     "description": "Insufficient data modal content"
   },
   "connect-to-test-model": {
     "defaultMessage": "Maak verbinding om jouw ML-model te testen",
-    "description": "Live graph disconnected micro:bit status message for test model page"
+    "description": "Live graph disconnected Calliope mini status message for test model page"
   },
   "connect-to-tour-body": {
-    "defaultMessage": "Je moet een gegevensverzameling micro:bit koppelen om de rondleiding te bekijken.",
-    "description": "Prompt to connect the app to a micro:bit"
+    "defaultMessage": "Je moet een gegevensverzameling Calliope mini koppelen om de rondleiding te bekijken.",
+    "description": "Prompt to connect the app to a Calliope mini"
   },
   "connect-troubleshoot": {
-    "defaultMessage": "Problemen met het verbinden met je micro:bit",
+    "defaultMessage": "Problemen met het verbinden met je Calliope mini",
     "description": "Link to support article for troubleshooting"
   },
   "connect-troubleshooting": {
@@ -412,11 +412,11 @@
     "description": "Aria label for menu"
   },
   "data-collection-microbit": {
-    "defaultMessage": "micro:bit voor gegevensverzameling",
-    "description": "Data collection micro:bit image caption"
+    "defaultMessage": "Calliope mini voor gegevensverzameling",
+    "description": "Data collection Calliope mini image caption"
   },
   "data-collection-microbit-label": {
-    "defaultMessage": "diagram met gegevensverzameling micro:bit die is verbonden met de pols van een persoon",
+    "defaultMessage": "diagram met gegevensverzameling Calliope mini die is verbonden met de pols van een persoon",
     "description": "Aria label for data collection image"
   },
   "data-connection-region": {
@@ -501,42 +501,42 @@
   },
   "disconnected-during-recording": {
     "defaultMessage": "micro: bit losgekoppeld tijdens opname",
-    "description": "Error when the micro:bit is disconnected during recording"
+    "description": "Error when the Calliope mini is disconnected during recording"
   },
   "disconnected-warning-bluetooth-heading": {
-    "defaultMessage": "Verbinding verbroken met micro:bit die gegevens verzamelt",
+    "defaultMessage": "Verbinding verbroken met Calliope mini die gegevens verzamelt",
     "description": "Dialog heading"
   },
   "disconnected-warning-bluetooth1": {
-    "defaultMessage": "De verbinding met de gegevensverzameling micro:bit is verloren.",
+    "defaultMessage": "De verbinding met de gegevensverzameling Calliope mini is verloren.",
     "description": "Dialog text"
   },
   "disconnected-warning-bluetooth2": {
-    "defaultMessage": "Controleer dat de micro:bit:",
+    "defaultMessage": "Controleer dat de Calliope mini:",
     "description": "Heading for list of things to check"
   },
   "disconnected-warning-bluetooth3": {
-    "defaultMessage": "is aangezet (het rode licht op de achterkant van de micro:bit moet aanstaan)",
-    "description": "List item, one of several things to check about the micro:bit"
+    "defaultMessage": "is aangezet (het rode licht op de achterkant van de Calliope mini moet aanstaan)",
+    "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bluetooth4": {
     "defaultMessage": "dicht bij de computer is",
-    "description": "List item, one of several things to check about the micro:bit"
+    "description": "List item, one of several things to check about the Calliope mini"
   },
   "disconnected-warning-bridge-heading": {
-    "defaultMessage": "Radio link micro:bit verbinding verbroken",
+    "defaultMessage": "Radio link Calliope mini verbinding verbroken",
     "description": "Connection error dialog"
   },
   "disconnected-warning-bridge1": {
-    "defaultMessage": "De verbinding met de micro:bit die met je computer is aangesloten, is verbroken.",
+    "defaultMessage": "De verbinding met de Calliope mini die met je computer is aangesloten, is verbroken.",
     "description": "Connection error dialog"
   },
   "disconnected-warning-remote-heading": {
-    "defaultMessage": "Verbinding verbroken met micro:bit die gegevens verzamelt",
+    "defaultMessage": "Verbinding verbroken met Calliope mini die gegevens verzamelt",
     "description": "Connection error dialog"
   },
   "disconnected-warning-remote1": {
-    "defaultMessage": "De verbinding met de gegevensverzameling micro:bit is verloren.",
+    "defaultMessage": "De verbinding met de gegevensverzameling Calliope mini is verloren.",
     "description": "Connection error dialog"
   },
   "dont-show-again": {
@@ -548,19 +548,19 @@
     "description": "Download action"
   },
   "download-project-choose-microbit-subtitle": {
-    "defaultMessage": "Het downloaden van je project naar dezelfde micro:bit zal de micro:bit loskoppelen van de tool. Je moet de micro:bit opnieuw koppelen als je meer data samples wilt registreren.",
-    "description": "Download project choose micro:bit dialog subtitle"
+    "defaultMessage": "Het downloaden van je project naar dezelfde Calliope mini zal de Calliope mini loskoppelen van de tool. Je moet de Calliope mini opnieuw koppelen als je meer data samples wilt registreren.",
+    "description": "Download project choose Calliope mini dialog subtitle"
   },
   "download-project-choose-microbit-title": {
-    "defaultMessage": "Welke micro:bit wil je gebruiken?",
-    "description": "Download project choose micro:bit dialog title"
+    "defaultMessage": "Welke Calliope mini wil je gebruiken?",
+    "description": "Download project choose Calliope mini dialog title"
   },
   "download-project-different-microbit-option": {
-    "defaultMessage": "Andere micro:bit",
-    "description": "Download project different micro:bit option"
+    "defaultMessage": "Andere Calliope mini",
+    "description": "Download project different Calliope mini option"
   },
   "download-project-intro-description": {
-    "defaultMessage": "Je programma bevat het door jou gecreëerde machine learning model. Het model wordt uitgevoerd op de micro:bit zodat je het kan gebruiken zonder verbonden te zijn met {appNameFull}.",
+    "defaultMessage": "Je programma bevat het door jou gecreëerde machine learning model. Het model wordt uitgevoerd op de Calliope mini zodat je het kan gebruiken zonder verbonden te zijn met {appNameFull}.",
     "description": "Download project intro dialog description"
   },
   "download-project-intro-title": {
@@ -568,15 +568,15 @@
     "description": "Download project intro dialog title"
   },
   "download-project-same-microbit-option": {
-    "defaultMessage": "Dezelfde micro:bit",
-    "description": "Download project same micro:bit option"
+    "defaultMessage": "Dezelfde Calliope mini",
+    "description": "Download project same Calliope mini option"
   },
   "downloading-data-collection-header": {
     "defaultMessage": "Het programma voor gegevensverzameling downloaden",
     "description": "Progress text"
   },
   "downloading-header": {
-    "defaultMessage": "Programma downloaden naar micro:bit",
+    "defaultMessage": "Programma downloaden naar Calliope mini",
     "description": "Progress text"
   },
   "downloading-radio-link-header": {
@@ -584,7 +584,7 @@
     "description": "Progress text"
   },
   "downloading-subtitle": {
-    "defaultMessage": "Even geduld. Programma is aan het downloaden naar de micro:bit.",
+    "defaultMessage": "Even geduld. Programma is aan het downloaden naar de Calliope mini.",
     "description": "Progress text"
   },
   "edit-in-makecode-action": {
@@ -708,11 +708,11 @@
     "description": "Tooltip for data feature of a recording"
   },
   "firmware-outdated-content1": {
-    "defaultMessage": "Het verbinden met de micro:bit is mislukt omdat de firmware op je micro:bit te oud is.",
+    "defaultMessage": "Het verbinden met de Calliope mini is mislukt omdat de firmware op je Calliope mini te oud is.",
     "description": "Connection error dialog"
   },
   "firmware-outdated-content2": {
-    "defaultMessage": "Je moet <link>firmware updaten</link> voordat je verbinding kan maken met deze micro:bit.",
+    "defaultMessage": "Je moet <link>firmware updaten</link> voordat je verbinding kan maken met deze Calliope mini.",
     "description": "Connection error dialog"
   },
   "firmware-outdated-heading": {
@@ -789,11 +789,11 @@
     "description": "Link to home page"
   },
   "homepage-alt": {
-    "defaultMessage": "grafiek met de x, y, z grafieklijnen die de micro:bit versnellingsmetergegevens weergeven met klappende handen er overheen getekend",
+    "defaultMessage": "grafiek met de x, y, z grafieklijnen die de Calliope mini versnellingsmetergegevens weergeven met klappende handen er overheen getekend",
     "description": "Alt text for image in homepage"
   },
   "homepage-alt-graph": {
-    "defaultMessage": "grafiek toont x, y, z grafieklijnen die de micro:bit versnellingsmetergegevens weergeven",
+    "defaultMessage": "grafiek toont x, y, z grafieklijnen die de Calliope mini versnellingsmetergegevens weergeven",
     "description": "Alt text for image in homepage"
   },
   "homepage-alt-hands": {
@@ -801,7 +801,7 @@
     "description": "Alt text for image in homepage"
   },
   "homepage-description": {
-    "defaultMessage": "Train een machine learning model op je eigen bewegingsgegevens en voer het uit op je micro:bit.",
+    "defaultMessage": "Train een machine learning model op je eigen bewegingsgegevens en voer het uit op je Calliope mini.",
     "description": "Home page description"
   },
   "homepage-how-it-works": {
@@ -817,7 +817,7 @@
     "description": "Home page section heading"
   },
   "homepage-projects-more": {
-    "defaultMessage": "Ontdek meer <link>inhoud en bronnen over micro:bit en AI</link>.",
+    "defaultMessage": "Ontdek meer <link>inhoud en bronnen over Calliope mini en AI</link>.",
     "description": "Link back to AI landing page"
   },
   "homepage-step-by-step": {
@@ -825,7 +825,7 @@
     "description": "Home page section heading"
   },
   "homepage-subtitle": {
-    "defaultMessage": "Maak AI aan op je BBC micro:bit met behulp van beweging en machine learning.",
+    "defaultMessage": "Maak AI aan op je BBC Calliope mini met behulp van beweging en machine learning.",
     "description": "Home page subtitle"
   },
   "homepage-video-alt": {
@@ -845,11 +845,11 @@
     "description": "Title of import error dialog"
   },
   "incompatible-device-body-alt": {
-    "defaultMessage": "Ga terug naar een andere micro:bit, of <link>sla de project-hex</link> op die later kan worden gedownload naar een micro:bit V2",
+    "defaultMessage": "Ga terug naar een andere Calliope mini, of <link>sla de project-hex</link> op die later kan worden gedownload naar een Calliope mini V2",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body1": {
-    "defaultMessage": "Ga door naar MakeCode om het programma te bewerken. Je kunt vervolgens de project-hex opslaan die kan worden gedownload naar een micro:bit V2.",
+    "defaultMessage": "Ga door naar MakeCode om het programma te bewerken. Je kunt vervolgens de project-hex opslaan die kan worden gedownload naar een Calliope mini V2.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body2": {
@@ -861,7 +861,7 @@
     "description": "Incompatible device dialog heading"
   },
   "incompatible-device-subtitle": {
-    "defaultMessage": "Je gebruikt een micro:bit V1, maar machine learning projecten hebben de snellere processor van een micro:bit V2 nodig. <link>Leer meer over micro:bit versies.</link>",
+    "defaultMessage": "Je gebruikt een Calliope mini V1, maar machine learning projecten hebben de snellere processor van een Calliope mini V2 nodig. <link>Leer meer over Calliope mini versies.</link>",
     "description": "Incompatible device dialog subtitle"
   },
   "insufficient-data-body": {
@@ -894,7 +894,7 @@
   },
   "language-supported-for": {
     "defaultMessage": "Vertalingen ondersteund voor:",
-    "description": "Text introducing list of translated areas for a given language (areas: Microsoft MakeCode, micro:bit CreateAI UI itself)"
+    "description": "Text introducing list of translated areas for a given language (areas: Microsoft MakeCode, Calliope mini ML-Machine UI itself)"
   },
   "language-toast-title": {
     "defaultMessage": "Taal niet volledig ondersteund",
@@ -1077,7 +1077,7 @@
     "description": "Heading for live graph"
   },
   "live-graph-tooltip": {
-    "defaultMessage": "Deze grafiek toont bewegingsgegevens van de micro:bit's versnellingsmeter in realtime. Probeer je gegevensverzameling micro:bit te verplaatsen om de verandering van X, Y en Z assen te zien. Elke gekleurde lijn staat voor een andere richting (dimensie) waarin je de micro:bit verplaatst.",
+    "defaultMessage": "Deze grafiek toont bewegingsgegevens van de Calliope mini's versnellingsmeter in realtime. Probeer je gegevensverzameling Calliope mini te verplaatsen om de verandering van X, Y en Z assen te zien. Elke gekleurde lijn staat voor een andere richting (dimensie) waarin je de Calliope mini verplaatst.",
     "description": "Tooltip for live graph heading"
   },
   "live-graph-tooltip-aria": {
@@ -1113,8 +1113,8 @@
     "description": "Title of MakeCode load error dialog"
   },
   "microbit-not-connected": {
-    "defaultMessage": "Je micro:bit is niet verbonden",
-    "description": "Live graph disconnected micro:bit status message"
+    "defaultMessage": "Je Calliope mini is niet verbonden",
+    "description": "Live graph disconnected Calliope mini status message"
   },
   "ml.onStart|block": {
     "defaultMessage": "op ML $event start",
@@ -1125,7 +1125,7 @@
     "description": "Aria label for the additional actions menu to the right of the Edit in MakeCode button"
   },
   "name-action-hint": {
-    "defaultMessage": "Geef een naam aan een actie die je wilt dat de micro:bit herkent",
+    "defaultMessage": "Geef een naam aan een actie die je wilt dat de Calliope mini herkent",
     "description": "Hint shown when you have an unnamed action"
   },
   "name-project": {
@@ -1173,7 +1173,7 @@
     "description": "Open last session title"
   },
   "newpage-new-session-subtitle": {
-    "defaultMessage": "Verbind je micro:bit en verzamel bewegingsgegevens om een machine learning model te bouwen.",
+    "defaultMessage": "Verbind je Calliope mini en verzamel bewegingsgegevens om een machine learning model te bouwen.",
     "description": "Start new session subtitle"
   },
   "newpage-new-session-title": {
@@ -1202,11 +1202,11 @@
   },
   "not-create-ai-hex-import-dialog-content": {
     "defaultMessage": "Dit project bevatte geen data samples, dus alleen de code is geopend. Je moet een model trainen voordat je de code kunt gebruiken.",
-    "description": "Content of import non-CreateAI hex dialog"
+    "description": "Content of import non-ML-Machine hex dialog"
   },
   "not-create-ai-hex-import-dialog-title": {
     "defaultMessage": "Je MakeCode project is geïmporteerd",
-    "description": "Title of import non-CreateAI hex dialog"
+    "description": "Title of import non-ML-Machine hex dialog"
   },
   "not-found": {
     "defaultMessage": "{appNameFull} startpagina",
@@ -1241,23 +1241,23 @@
     "description": "Data preview description text"
   },
   "open-shared-project-description": {
-    "defaultMessage": "This is a Microsoft MakeCode shared project compatible with CreateAI.",
-    "description": "Import shared CreateAI project description"
+    "defaultMessage": "This is a Microsoft MakeCode shared project compatible with ML-Machine.",
+    "description": "Import shared ML-Machine project description"
   },
   "open-shared-project-error-description": {
     "defaultMessage": "Check the link you followed is correct, and make sure you are connected to the internet before trying again.",
-    "description": "Import shared CreateAI error description"
+    "description": "Import shared ML-Machine error description"
   },
   "open-shared-project-title": {
-    "defaultMessage": "Open shared CreateAI project",
-    "description": "Import shared CreateAI project title"
+    "defaultMessage": "Open shared ML-Machine project",
+    "description": "Import shared ML-Machine project title"
   },
   "other-tabs-body1": {
     "defaultMessage": "Een ander proces is verbonden met dit apparaat.",
     "description": "Connection error dialog"
   },
   "other-tabs-body2": {
-    "defaultMessage": "Sluit alle andere tabbladen die WebUSB kunnen gebruiken (bijv. MakeCode, Python Editor, {appNameShort}) of verwijder de stekker van de micro:bit voordat je het opnieuw probeert.",
+    "defaultMessage": "Sluit alle andere tabbladen die WebUSB kunnen gebruiken (bijv. MakeCode, Python Editor, {appNameShort}) of verwijder de stekker van de Calliope mini voordat je het opnieuw probeert.",
     "description": "Connection error dialog"
   },
   "other-tabs-heading": {
@@ -1277,11 +1277,11 @@
     "description": "Validation message for project name"
   },
   "radio-link-microbit": {
-    "defaultMessage": "Radio link micro:bit",
-    "description": "Radio link micro:bit image caption"
+    "defaultMessage": "Radio link Calliope mini",
+    "description": "Radio link Calliope mini image caption"
   },
   "radio-link-microbit-label": {
-    "defaultMessage": "diagram dat de radio link micro:bit toont die wordt verbonden met een computer",
+    "defaultMessage": "diagram dat de radio link Calliope mini toont die wordt verbonden met een computer",
     "description": "Aria label for radio link image"
   },
   "recognition-point-label": {
@@ -1290,34 +1290,34 @@
   },
   "reconnect-action": {
     "defaultMessage": "Opnieuw verbinden",
-    "description": "Button text to reconnect a micro:bit over Bluetooth/radio"
+    "description": "Button text to reconnect a Calliope mini over Bluetooth/radio"
   },
   "reconnect-failed-bluetooth-heading": {
-    "defaultMessage": "Niet gelukt om opnieuw verbinding te maken met de gegevensverzameling micro:bit",
+    "defaultMessage": "Niet gelukt om opnieuw verbinding te maken met de gegevensverzameling Calliope mini",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bluetooth1": {
-    "defaultMessage": "De verbinding met de gegevensverzameling micro:bit kon niet worden hersteld.",
+    "defaultMessage": "De verbinding met de gegevensverzameling Calliope mini kon niet worden hersteld.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bridge-heading": {
-    "defaultMessage": "Niet gelukt om opnieuw verbinding te maken met radio link micro:bit",
+    "defaultMessage": "Niet gelukt om opnieuw verbinding te maken met radio link Calliope mini",
     "description": "Connection error dialog"
   },
   "reconnect-failed-bridge1": {
-    "defaultMessage": "De verbinding van de micro:bit met je computer kon niet opnieuw tot stand worden gebracht.",
+    "defaultMessage": "De verbinding van de Calliope mini met je computer kon niet opnieuw tot stand worden gebracht.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-radio-heading": {
-    "defaultMessage": "Kan geen nieuwe verbinding maken met micro:bits",
+    "defaultMessage": "Kan geen nieuwe verbinding maken met Calliope minis",
     "description": "Connection error dialog"
   },
   "reconnect-failed-remote-heading": {
-    "defaultMessage": "Niet gelukt om opnieuw verbinding te maken met de gegevensverzameling micro:bit",
+    "defaultMessage": "Niet gelukt om opnieuw verbinding te maken met de gegevensverzameling Calliope mini",
     "description": "Connection error dialog"
   },
   "reconnect-failed-remote1": {
-    "defaultMessage": "De verbinding met de gegevensverzameling micro:bit kon niet worden hersteld.",
+    "defaultMessage": "De verbinding met de gegevensverzameling Calliope mini kon niet worden hersteld.",
     "description": "Connection error dialog"
   },
   "reconnect-failed-subtitle": {
@@ -1341,8 +1341,8 @@
     "description": "Hint when you have named the first action but not recorded any data samples"
   },
   "record-hint-button-b": {
-    "defaultMessage": "Klik om een data sample op te nemen of druk op knop B op jouw data collectie micro:bit.",
-    "description": "Hint when you have named the first action but not recorded any data samples and have a micro:bit connected"
+    "defaultMessage": "Klik om een data sample op te nemen of druk op knop B op jouw data collectie Calliope mini.",
+    "description": "Hint when you have named the first action but not recorded any data samples and have a Calliope mini connected"
   },
   "record-samples": {
     "defaultMessage": "Neem {numSamples} samples op",
@@ -1377,11 +1377,11 @@
     "description": "Text in recording dialog"
   },
   "recording-fingerprint-label": {
-    "defaultMessage": "heatmap met micro:bit x, y, z accelerometer data functies voor één opname",
+    "defaultMessage": "heatmap met Calliope mini x, y, z accelerometer data functies voor één opname",
     "description": "Label for recording fingerprint heatmap"
   },
   "recording-graph-label": {
-    "defaultMessage": "Grafiek met micro:bit x, y, z versnellingsmeter data voor één opname",
+    "defaultMessage": "Grafiek met Calliope mini x, y, z versnellingsmeter data voor één opname",
     "description": "Label for recording graph"
   },
   "recording-options-aria": {
@@ -1533,7 +1533,7 @@
     "description": "Testing model page title"
   },
   "third-party-content-description": {
-    "defaultMessage": "The content above is provided by a third party, and is not endorsed by the Micro:bit Educational Foundation.",
+    "defaultMessage": "The content above is provided by a third party, and is not endorsed by the Calliope mini Educational Foundation.",
     "description": "Notify user of third party content"
   },
   "tour-action": {
@@ -1589,15 +1589,15 @@
     "description": "Tour step content"
   },
   "tour-dataSamples-connected-title": {
-    "defaultMessage": "Jouw data collectie micro:bit is verbonden!",
+    "defaultMessage": "Jouw data collectie Calliope mini is verbonden!",
     "description": "Tour step title"
   },
   "tour-dataSamples-liveGraph-content": {
-    "defaultMessage": "De grafiek toont bewegingsgegevens van de micro:bit’s versnellingsmeter. Verplaats je data collectie micro:bit en zie hoe de grafiek verandert.",
+    "defaultMessage": "De grafiek toont bewegingsgegevens van de Calliope mini’s versnellingsmeter. Verplaats je data collectie Calliope mini en zie hoe de grafiek verandert.",
     "description": "Tour step content"
   },
   "tour-makecode-intro-content1": {
-    "defaultMessage": "Download het model en de code om je project te testen op een micro:bit. Je kunt ook meer codeblokken toevoegen om je eigen programma's te maken met je model.",
+    "defaultMessage": "Download het model en de code om je project te testen op een Calliope mini. Je kunt ook meer codeblokken toevoegen om je eigen programma's te maken met je model.",
     "description": "Tour step description"
   },
   "tour-makecode-intro-content2": {
@@ -1617,7 +1617,7 @@
     "description": "Tour step title"
   },
   "tour-trainModel-afterTrain-content": {
-    "defaultMessage": "Test nu je machine learning model. Probeer elke actie door je data collectie micro:bit te verplaatsen. Schat het model elke actie correct?",
+    "defaultMessage": "Test nu je machine learning model. Probeer elke actie door je data collectie Calliope mini te verplaatsen. Schat het model elke actie correct?",
     "description": "Tour step description"
   },
   "tour-trainModel-afterTrain-delayedUntilConnected-title": {
@@ -1633,15 +1633,15 @@
     "description": "Tour step title"
   },
   "tour-trainModel-editInMakeCode-content": {
-    "defaultMessage": "Open je project in MakeCode om het programma en je machine learning model te downloaden naar een micro:bit. Je kunt meer blokken toevoegen om je eigen programma's te maken met je model.",
+    "defaultMessage": "Open je project in MakeCode om het programma en je machine learning model te downloaden naar een Calliope mini. Je kunt meer blokken toevoegen om je eigen programma's te maken met je model.",
     "description": "Tour step description"
   },
   "tour-trainModel-estimatedAction-content": {
-    "defaultMessage": "De actie die het model schat dat je momenteel aan het doen bent wordt onder het micro:bit pictogram getoond voor die actie.",
+    "defaultMessage": "De actie die het model schat dat je momenteel aan het doen bent wordt onder het Calliope mini pictogram getoond voor die actie.",
     "description": "Tour step description"
   },
   "tour-trainModel-makeCodeBlocks-content": {
-    "defaultMessage": "Deze MakeCode blokken tonen pictogrammen voor elke actie die gedetecteerd wordt wanneer je code en model naar een micro:bit verplaatst.",
+    "defaultMessage": "Deze MakeCode blokken tonen pictogrammen voor elke actie die gedetecteerd wordt wanneer je code en model naar een Calliope mini verplaatst.",
     "description": "Tour step description"
   },
   "tour-trainModel-makeCodeBlocks-title": {
@@ -1649,7 +1649,7 @@
     "description": "Tour step title"
   },
   "train-description": {
-    "defaultMessage": "Het computerprogramma spoort patronen of verschillen op in jouw data samples, en gebruikt deze om een wiskundig model te bouwen waarmee {appNameFull} verschillende acties herkent wanneer je de micro:bit verplaatst.",
+    "defaultMessage": "Het computerprogramma spoort patronen of verschillen op in jouw data samples, en gebruikt deze om een wiskundig model te bouwen waarmee {appNameFull} verschillende acties herkent wanneer je de Calliope mini verplaatst.",
     "description": "Explanation on training dialog"
   },
   "train-error-body": {
@@ -1677,11 +1677,11 @@
     "description": "Progress title"
   },
   "transfer-hex-alt": {
-    "defaultMessage": "animatie van het slepen van een hex bestand van de download-map naar de micro:bit schijf of apparaat vermeld in de bestandsverkenner",
+    "defaultMessage": "animatie van het slepen van een hex bestand van de download-map naar de Calliope mini schijf of apparaat vermeld in de bestandsverkenner",
     "description": "Alt text"
   },
   "transfer-hex-heading": {
-    "defaultMessage": "Zet het opgeslagen hex-bestand over naar micro:bit",
+    "defaultMessage": "Zet het opgeslagen hex-bestand over naar Calliope mini",
     "description": "Dialog shown when WebUSB fails"
   },
   "transfer-hex-manual-download": {
@@ -1689,7 +1689,7 @@
     "description": "Dialog shown when WebUSB fails"
   },
   "transfer-hex-message": {
-    "defaultMessage": "Sleep het hex-bestand van je map Downloads naar het MICROBIT-station.",
+    "defaultMessage": "Sleep het hex-bestand van je map Downloads naar het MINI-station.",
     "description": "Dialog shown when WebUSB fails"
   },
   "try-again-action": {
@@ -1701,31 +1701,31 @@
     "description": "Label for unknown ML event"
   },
   "unplug-radio-link-microbit-description": {
-    "defaultMessage": "Haal de radio link micro:bit los van de computer. Je moet de micro:bit opnieuw koppelen als je meer data samples wilt opnemen.",
-    "description": "Unplug radio link micro:bit dialog description"
+    "defaultMessage": "Haal de radio link Calliope mini los van de computer. Je moet de Calliope mini opnieuw koppelen als je meer data samples wilt opnemen.",
+    "description": "Unplug radio link Calliope mini dialog description"
   },
   "unplug-radio-link-microbit-label": {
-    "defaultMessage": "animatie met een USB-kabel die wordt losgekoppeld van de bovenkant van een micro:bit",
-    "description": "Unplug radio link micro:bit dialog aria label"
+    "defaultMessage": "animatie met een USB-kabel die wordt losgekoppeld van de bovenkant van een Calliope mini",
+    "description": "Unplug radio link Calliope mini dialog aria label"
   },
   "unplug-radio-link-microbit-title": {
-    "defaultMessage": "Ontkoppel de radio link micro:bit",
-    "description": "Unplug radio link micro:bit dialog title"
+    "defaultMessage": "Ontkoppel de radio link Calliope mini",
+    "description": "Unplug radio link Calliope mini dialog title"
   },
   "unsupported-device-explain": {
-    "defaultMessage": "Helaas ondersteunen we alleen het gebruik van micro:bit V2 bij het verbinden met een micro:bit radio. Je hebt een <link>micro:bit V1</link> verbonden.",
+    "defaultMessage": "Helaas ondersteunen we alleen het gebruik van Calliope mini V2 bij het verbinden met een Calliope mini radio. Je hebt een <link>Calliope mini V1</link> verbonden.",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-header": {
-    "defaultMessage": "micro:bit radioverbindingen ondersteunen geen micro:bit V1",
+    "defaultMessage": "Calliope mini radioverbindingen ondersteunen geen Calliope mini V1",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-with-bluetooth": {
-    "defaultMessage": "Gebruik Web Bluetooth om in plaats daarvan verbinding te maken met je micro:bit V1.",
+    "defaultMessage": "Gebruik Web Bluetooth om in plaats daarvan verbinding te maken met je Calliope mini V1.",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-without-bluetooth": {
-    "defaultMessage": "Je kunt verbinden met micro:bit V1 via Web Bluetooth, deze browser of apparaat heeft Bluetooth echter niet ingeschakeld. <link>Hoe Bluetooth in te schakelen</link>.",
+    "defaultMessage": "Je kunt verbinden met Calliope mini V1 via Web Bluetooth, deze browser of apparaat heeft Bluetooth echter niet ingeschakeld. <link>Hoe Bluetooth in te schakelen</link>.",
     "description": "Unsupported device dialog"
   },
   "user-guide": {
@@ -1733,8 +1733,8 @@
     "description": "Used for link to user guide page on microbit.org"
   },
   "webusb-retry-no-select": {
-    "defaultMessage": "Je hebt geen micro:bit gekozen. Wil je het opnieuw proberen?",
-    "description": "Shown if the user fails to choose a micro:bit"
+    "defaultMessage": "Je hebt geen Calliope mini gekozen. Wil je het opnieuw proberen?",
+    "description": "Shown if the user fails to choose a Calliope mini"
   },
   "webusb-retry-replug1": {
     "defaultMessage": "Er is een WebUSB-fout opgetreden.",
@@ -1745,7 +1745,7 @@
     "description": "WebUSB error dialog"
   },
   "webusb-retry-replug3": {
-    "defaultMessage": "controleer of deze micro:bit niet is aangesloten op de batterij",
+    "defaultMessage": "controleer of deze Calliope mini niet is aangesloten op de batterij",
     "description": "WebUSB error dialog"
   },
   "webusb-retry-replug4": {

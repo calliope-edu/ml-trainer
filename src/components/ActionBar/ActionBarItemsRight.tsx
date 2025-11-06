@@ -34,7 +34,6 @@ const ItemsRight = ({ menuItems, toolbarItems }: ItemsRightProps) => {
   const isSettingsDialogOpen = useStore((s) => s.isSettingsDialogOpen);
   const aboutDialogOnOpen = useStore((s) => s.aboutDialogOnOpen);
   const isAboutDialogOpen = useStore((s) => s.isAboutDialogOpen);
-  const feedbackOnOpen = useStore((s) => s.feedbackFormOnOpen);
   const connectFirstDialogOnOpen = useStore((s) => s.connectFirstDialogOnOpen);
   const isConnectFirstDialogOpen = useStore((s) => s.isConnectFirstDialogOpen);
   const setPostConnectTourTrigger = useStore(
@@ -81,7 +80,6 @@ const ItemsRight = ({ menuItems, toolbarItems }: ItemsRightProps) => {
         display={{ base: "none", md: "block", lg: "block" }}
         onAboutDialogOpen={aboutDialogOnOpen}
         onConnectFirstDialogOpen={connectFirstDialogOnOpen}
-        onFeedbackOpen={feedbackOnOpen}
         tourTrigger={tourTrigger}
       />
       <ToolbarMenu
@@ -106,7 +104,6 @@ const ItemsRight = ({ menuItems, toolbarItems }: ItemsRightProps) => {
         <HelpMenuItems
           onAboutDialogOpen={aboutDialogOnOpen}
           onConnectFirstDialogOpen={connectFirstDialogOnOpen}
-          onFeedbackOpen={feedbackOnOpen}
           tourTrigger={tourTrigger}
         />
       </ToolbarMenu>
