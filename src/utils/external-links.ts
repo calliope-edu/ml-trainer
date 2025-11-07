@@ -9,8 +9,8 @@ import { stage } from "../environment";
 // They'll also need to become language aware
 const microbitOrgBaseUrl =
   stage === "production"
-    ? "https://microbit.org/"
-    : "https://stage.microbit.org/";
+    ? "https://calliope.cc"
+    : "https://stage.calliope.cc";
 
 const langPath = (languageId: string) =>
   languageId === "en" ? "" : `${languageId.toLowerCase()}/`;

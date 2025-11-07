@@ -47,10 +47,10 @@ const defaultDeploymentFactory: DeploymentConfigFactory = () => ({
   },
   supportLinks: {
     // Just placeholders, these need replacing in a real deployment with branded help content.
-    bluetooth: "https://support.microbit.org",
-    main: "https://support.microbit.org",
-    troubleshooting: "https://support.microbit.org",
-    wearable: "https://support.microbit.org",
+    bluetooth: "https://calliope.cc",
+    main: "https://calliope.cc",
+    troubleshooting: "https://calliope.cc",
+    wearable: "https://calliope.cc",
   },
 });
 

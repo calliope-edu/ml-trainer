@@ -61,7 +61,7 @@ const BrokenFirmwareDialog = ({
                       <Link
                         color="brand.600"
                         textDecoration="underline"
-                        href="https://microbit.org/get-started/user-guide/firmware/"
+                        href="https://calliope.cc/faq#firmware"
                         target="_blank"
                         rel="noopener"
                       >

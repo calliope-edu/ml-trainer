@@ -66,7 +66,7 @@ const IncompatibleEditorDevice = ({
                         <Link
                           color="brand.600"
                           textDecoration="underline"
-                          href="https://support.microbit.org/support/solutions/articles/19000154234-which-version-of-micro-bit-do-i-have-"
+                          href="https://calliope.cc"
                           target="_blank"
                           rel="noopener"
                         >
