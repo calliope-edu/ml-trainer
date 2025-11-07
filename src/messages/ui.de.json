@@ -566,7 +566,7 @@
   "connect-radio-heading": [
     {
       "type": 0,
-      "value": "Calliope minis verbinden"
+      "value": "Calliope mini verbinden"
     }
   ],
   "connect-radio-link-heading": [
@@ -626,7 +626,7 @@
   "connect-to-test-model": [
     {
       "type": 0,
-      "value": "Verbinden, um dein ML-Modell zu testen"
+      "value": "Verbinden, um dein Modell zu testen"
     }
   ],
   "connect-to-tour-body": [
