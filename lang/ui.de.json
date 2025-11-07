@@ -363,7 +363,7 @@
     "description": "Insufficient data modal content"
   },
   "connect-to-test-model": {
-    "defaultMessage": "Verbinde, um dein Modell zu testen",
+    "defaultMessage": "Verbinden, um dein Modell zu testen",
     "description": "Live graph disconnected Calliope mini status message for test model page"
   },
   "connect-to-tour-body": {
