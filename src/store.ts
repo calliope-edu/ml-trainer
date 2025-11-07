@@ -85,15 +85,15 @@ interface PredictionResult {
 const createUntitledProject = (): MakeCodeProject => ({
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   header: {
-    target: "microbit",
-    targetVersion: "7.1.2",
+    target: "calliopemini",
+    targetVersion: "8.1.5",
     name: untitledProjectName,
     meta: {},
     editor: "blocksprj",
     pubId: "",
     pubCurrent: false,
     _rev: null,
-    id: "45a3216b-e997-456c-bd4b-6550ddb81c4e",
+    id: "45a3216b-e997-456c-bd4b-6550ddb81c4f",
     recentUse: 1726493314,
     modificationTime: 1726493314,
     cloudUserId: null,
@@ -310,6 +310,7 @@ export interface Actions {
 type Store = State & Actions;
 
 const createMlStore = (logging: Logging) => {
+  console.log("[MAKECODE] createMlStore() - creating store and editor promises (editorReady/editorContentLoaded)");
   return create<Store>()(
     devtools(
       persist(
@@ -383,6 +384,9 @@ const createMlStore = (logging: Logging) => {
               // MakeCode does not reload.
               return;
             }
+            console.log(
+              "[MAKECODE] setLanguage() - resetting editor promises due to language change"
+            );
             set(
               ({ settings }) => ({
                 settings: {
