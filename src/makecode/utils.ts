@@ -33,6 +33,7 @@ export const pxt = {
   description: "",
   dependencies: {
     core: "*",
+    v3: "*",
     microphone: "*",
     radio: "*", // Needed to compile.
     [extensionName]: extensionURL,
