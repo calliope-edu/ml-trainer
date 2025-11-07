@@ -1730,7 +1730,7 @@
   },
   "user-guide": {
     "defaultMessage": "User guide",
-    "description": "Used for link to user guide page on microbit.org"
+    "description": "Used for link to user guide page on calliope.cc"
   },
   "webusb-retry-no-select": {
     "defaultMessage": "You didn't select a Calliope mini. Do you want to try again?",
