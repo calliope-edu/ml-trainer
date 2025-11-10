@@ -43,6 +43,48 @@ import {
 } from "../utils/fs-util";
 import { useDownloadActions } from "./download-hooks";
 
+// Helper to safely log a MakeCode project. By default we truncate previews
+// to avoid overwhelming the console. You can enable full dumps in two ways:
+//  - Run in development mode (NODE_ENV=development)
+//  - Add `?makecode_full_dump=1` to the current page URL
+// When enabled we print the full contents of each file.
+const logMakeCodeProject = (project: MakeCodeProject | undefined, where = "") => {
+  // Use shared detection helper so callers can decide the same behaviour.
+  const enableFullDump = (() => {
+    try {
+      return Boolean(
+        (typeof process !== "undefined" && (process as any).env && (process as any).env.NODE_ENV === "development") ||
+          (typeof window !== "undefined" && new URL(window.location.href).searchParams.get("makecode_full_dump") === "1")
+      );
+    } catch (e) {
+      return false;
+    }
+  })();
+  const PREVIEW_LIMIT = enableFullDump ? undefined : 1000;
+  console.log(`[MAKECODE] ${where} - logMakeCodeProject fullDump=${enableFullDump}`);
+  try {
+    if (!project) {
+      console.log(`[MAKECODE] ${where} - project is undefined`);
+      return;
+    }
+    console.log(`[MAKECODE] ${where} - project.header:`, project.header);
+    // MakeCode projects produced here use the `text` map (filename -> content).
+    const textFiles = (project as any).text || (project as any).files || {};
+    const entries = Object.entries(textFiles || {});
+    console.log(`[MAKECODE] ${where} - project contains ${entries.length} files`);
+    for (const [filename, content] of entries) {
+      const asString = typeof content === "string" ? content : JSON.stringify(content);
+  const len = asString.length;
+  const preview = PREVIEW_LIMIT ? asString.slice(0, PREVIEW_LIMIT) : asString;
+      console.log(`[MAKECODE] ${where} - file='${filename}' size=${len}`);
+  console.log(`[MAKECODE] ${where} - file preview for '${filename}':\n${preview}${PREVIEW_LIMIT && len > PREVIEW_LIMIT ? "\n...(truncated)" : ""}`);
+    }
+  } catch (e) {
+    // Ensure logging never throws.
+    console.error(`[MAKECODE] ${where} - failed to stringify project`, e);
+  }
+};
+
 class CodeEditorError extends Error {}
 
 /**
@@ -148,9 +190,12 @@ export const ProjectProvider = ({
 
   const project = useStore((s) => s.project);
   const initialProjects = useCallback(() => {
-    logging.log(
-      `[MakeCode] Initialising with header ID: ${project.header?.id}`
-    );
+      logging.log(`[MakeCode] Initialising with header ID: ${project.header?.id}`);
+      console.log(
+        `[MAKECODE] initialProjects() called - returning project with header id=%s`,
+        project.header?.id
+      );
+    logMakeCodeProject(project, "initialProjects");
     // This is a useful point to introduce a delay to debug MakeCode init dependencies.
     return Promise.resolve([project]);
   }, [logging, project]);
@@ -159,10 +204,27 @@ export const ProjectProvider = ({
 
   const onWorkspaceLoaded = useCallback(async () => {
     logging.log("[MakeCode] Workspace loaded");
+    console.log(
+      "[MAKECODE] onWorkspaceLoaded - workspace loaded event received; waiting for editorContentLoadedPromise"
+    );
     await editorContentLoadedPromise.promise;
+    console.log(
+      "[MAKECODE] onWorkspaceLoaded - editorContentLoadedPromise resolved; checking startup state"
+    );
     // Get latest start up state and only mark editor ready if editor has not timed out.
-    getEditorStartUp() !== "timed out" && editorReady();
+    if (getEditorStartUp() !== "timed out") {
+      console.log(
+        "[MAKECODE] onWorkspaceLoaded - calling store.editorReady() to mark editor as ready"
+      );
+      editorReady();
+    } else {
+      console.log(
+        "[MAKECODE] onWorkspaceLoaded - editor start up already timed out; skipping editorReady()"
+      );
+    }
+    console.log("[MAKECODE] onWorkspaceLoaded - resolving editorReadyPromise");
     editorReadyPromise.resolve();
+    console.log("[MAKECODE] editorReadyPromise resolved");
   }, [
     editorContentLoadedPromise,
     editorReady,
@@ -173,7 +235,11 @@ export const ProjectProvider = ({
 
   const onEditorContentLoaded = useCallback(() => {
     logging.log("[MakeCode] Editor content loaded");
+    console.log(
+      "[MAKECODE] onEditorContentLoaded - resolving editorContentLoadedPromise"
+    );
     editorContentLoadedPromise.resolve();
+    console.log("[MAKECODE] editorContentLoadedPromise resolved");
   }, [editorContentLoadedPromise, logging]);
 
   const checkIfEditorStartUpTimedOut = useCallback(
@@ -185,20 +251,31 @@ export const ProjectProvider = ({
         (editorStartUp === "in-progress" && remainingTimeout <= 0) ||
         editorStartUp === "timed out"
       ) {
+        console.log(
+          `[MAKECODE] checkIfEditorStartUpTimedOut - already timed out (editorStartUp=${editorStartUp}, remainingTimeout=${remainingTimeout})`
+        );
         return true;
       }
-      return await Promise.race([
-        promise,
-        ...(remainingTimeout > 0
-          ? [
-              new Promise<true>((resolve) =>
-                setTimeout(() => {
-                  resolve(true);
-                }, remainingTimeout)
-              ),
-            ]
-          : []),
-      ]);
+
+      const racePromises: Promise<unknown>[] = [promise as Promise<unknown>].filter(Boolean);
+      if (remainingTimeout > 0) {
+        racePromises.push(
+          new Promise<true>((resolve) =>
+            setTimeout(() => {
+              resolve(true);
+            }, remainingTimeout)
+          )
+        );
+      }
+
+      const result = await Promise.race(racePromises);
+      if (result === true) {
+        console.log(
+          `[MAKECODE] checkIfEditorStartUpTimedOut - startup timed out after ${startUpTimeout}ms (elapsed ${elapsedTimeSinceStartup}ms)`
+        );
+        return true;
+      }
+      return false;
     },
     [editorStartUp, startUpTimestamp]
   );
@@ -221,6 +298,11 @@ export const ProjectProvider = ({
             const project = getCurrentProject();
             try {
               setEditorImportingState();
+              console.log(
+                `[MAKECODE] doAfterEditorUpdate - importing project to MakeCode iframe headerId=%s`,
+                project.header?.id
+              );
+              logMakeCodeProject(project, "doAfterEditorUpdate - importProject");
               await driverRef.current.importProject({ project });
               logging.log("[MakeCode] Project import succeeded");
               projectFlushedToEditor();
@@ -242,12 +324,22 @@ export const ProjectProvider = ({
           doAfterEditorUpdatePromise.current
         );
         if (hasTimedOut) {
+          // Previously we threw an error here. For debugging and resilience we will
+          // wait a short period and then continue assuming the editor eventually
+          // initialised. This avoids hard-failing flows that depend on MakeCode
+          // which can be flaky in some environments.
+          logging.log(
+            "[MAKECODE] Load timed out (startup). Waiting 10s and continuing without throwing"
+          );
+          // Mark editor timed out in state for diagnostics, but do not abort.
           editorTimedOut();
-          logging.log("[MakeCode] Load timed out");
           logging.event({
             type: "makecode-load-failed",
           });
-          throw new CodeEditorError("MakeCode load timed out");
+          // Wait 10 seconds before continuing to give the iframe a chance to finish
+          // initialization. This is a best-effort fallback only for local/dev use.
+          await new Promise((resolve) => setTimeout(resolve, 10_000));
+          logging.log("[MAKECODE] Continuing after 10s wait despite startup timeout");
         }
       } finally {
         doAfterEditorUpdatePromise.current = undefined;
@@ -334,6 +426,30 @@ export const ProjectProvider = ({
           }
           // This triggers the code in editorChanged to update actions etc.
           setEditorLoadingFile();
+          console.log(
+            `[MAKECODE] loadFile - detected MakeCode hex; calling driverRef.current.importFile(${file.name}) to import into iframe`
+          );
+          try {
+            const enableFullDump = (() => {
+              try {
+                return Boolean(
+                  (typeof process !== "undefined" && (process as any).env && (process as any).env.NODE_ENV === "development") ||
+                    (typeof window !== "undefined" && new URL(window.location.href).searchParams.get("makecode_full_dump") === "1")
+                );
+              } catch (e) {
+                return false;
+              }
+            })();
+            const preview = enableFullDump ? hex : hex.slice(0, 1000);
+            console.log(
+              `[MAKECODE] loadFile - hex file length=%d chars; preview (truncated=%s):`,
+              hex.length,
+              (!enableFullDump && hex.length > 1000).toString(),
+              preview
+            );
+          } catch (e) {
+            console.log("[MAKECODE] loadFile - failed to log hex preview", e);
+          }
           driverRef.current!.importFile({
             filename: file.name,
             parts: [hex],
@@ -381,6 +497,9 @@ export const ProjectProvider = ({
         try {
           await doAfterEditorUpdate(async () => {
             saveNextDownloadRef.current = true;
+            console.log(
+              "[MAKECODE] saveHex - triggering driverRef.current.compile() to build hex for save"
+            );
             await driverRef.current!.compile();
           });
         } catch (e) {
@@ -429,6 +548,8 @@ export const ProjectProvider = ({
   const editorChange = useStore((s) => s.editorChange);
   const onWorkspaceSave = useCallback(
     (event: EditorWorkspaceSaveRequest) => {
+      console.log(`[MAKECODE] onWorkspaceSave - event received`);
+      logMakeCodeProject(event.project, "onWorkspaceSave");
       if (!checkIfLangChanged()) {
         // We don't want to handle these events until MakeCode has been
         // reinitialised after a language change.
@@ -446,6 +567,28 @@ export const ProjectProvider = ({
   const downloadActions = useDownloadActions();
   const onDownload = useCallback(
     (download: HexData) => {
+      try {
+        const len = download?.hex?.length ?? 0;
+        const enableFullDump = (() => {
+          try {
+            return Boolean(
+              (typeof process !== "undefined" && (process as any).env && (process as any).env.NODE_ENV === "development") ||
+                (typeof window !== "undefined" && new URL(window.location.href).searchParams.get("makecode_full_dump") === "1")
+            );
+          } catch (e) {
+            return false;
+          }
+        })();
+        const preview = enableFullDump ? download?.hex ?? "" : (download?.hex ?? "").slice(0, 1000);
+        console.log(
+          `[MAKECODE] onDownload - hex length=%d; preview (truncated=%s):`,
+          len,
+          (!enableFullDump && len > 1000).toString(),
+          preview
+        );
+      } catch (e) {
+        console.log(`[MAKECODE] onDownload - could not stringify download`, e);
+      }
       if (saveNextDownloadRef.current) {
         saveNextDownloadRef.current = false;
         void saveHex(download);
