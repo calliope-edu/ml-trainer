@@ -2928,7 +2928,7 @@
   "transfer-hex-message": [
     {
       "type": 0,
-      "value": "Faites glisser le fichier hex de votre dossier Téléchargements vers le lecteur MICROBIT."
+      "value": "Faites glisser le fichier hex de votre dossier Téléchargements vers le lecteur MINI."
     }
   ],
   "try-again-action": [

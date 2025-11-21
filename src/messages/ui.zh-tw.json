@@ -2990,7 +2990,7 @@
   "transfer-hex-message": [
     {
       "type": 0,
-      "value": "將十六進位檔案從您的下載資料夾拖曳至 MICROBIT 磁碟。"
+      "value": "將十六進位檔案從您的下載資料夾拖曳至 MINI 磁碟。"
     }
   ],
   "try-again-action": [

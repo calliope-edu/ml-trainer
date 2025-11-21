@@ -2970,7 +2970,7 @@
   "transfer-hex-message": [
     {
       "type": 0,
-      "value": "다운로드 폴더의 hex 파일을 MICROBIT 드라이브로 드래그하세요."
+      "value": "다운로드 폴더의 hex 파일을 MINI 드라이브로 드래그하세요."
     }
   ],
   "try-again-action": [

@@ -3012,7 +3012,7 @@
   "transfer-hex-message": [
     {
       "type": 0,
-      "value": "Drag the hex file from your Downloads folder to the MICROBIT drive."
+      "value": "Drag the hex file from your Downloads folder to the MINI drive."
     }
   ],
   "try-again-action": [

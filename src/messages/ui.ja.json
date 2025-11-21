@@ -2962,7 +2962,7 @@
   "transfer-hex-message": [
     {
       "type": 0,
-      "value": "hex ファイルをダウンロードフォルダからMICROBITドライブへドラッグします。"
+      "value": "hex ファイルをダウンロードフォルダからMINIドライブへドラッグします。"
     }
   ],
   "try-again-action": [
