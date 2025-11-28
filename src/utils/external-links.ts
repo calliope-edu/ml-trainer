@@ -21,7 +21,7 @@ export const projectUrl = (slug: string, language: string) =>
   )}projects/make-it-code-it/${encodeURIComponent(slug)}/`;
 
 export const userGuideUrl = () =>
-  `${microbitOrgBaseUrl}get-started/user-guide/microbit-createai/`;
+  `${microbitOrgBaseUrl}schulen/ki`;
 
 export const landingPageUrl = (language: string) =>
-  `${microbitOrgBaseUrl}${langPath(language)}ai/`;
+  `${microbitOrgBaseUrl}${langPath(language)}schulen/ki`;

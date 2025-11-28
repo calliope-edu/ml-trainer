@@ -255,7 +255,7 @@ const SupportStatement = ({
           MakeCode
         </SupportedListItem>
         <SupportedListItem supported={uiSupported(language)} intl={intl}>
-          KI-Trainer
+          Calliope-ML
         </SupportedListItem>
       </List>
     </Text>

@@ -54,7 +54,7 @@ export default defineConfig(async ({ mode }): Promise<UserConfig> => {
     ? // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
       ((await import(themePackageAlias)).default({}) as TemplateStrings)
     : {
-        appNameFull: "KI-Trainer",
+        appNameFull: "calliope-ml",
         ogDescription: undefined,
         metaDescription: undefined,
       };
@@ -93,7 +93,7 @@ const createServer = (mode: string): ServerOptions => {
     port: 5173,
     proxy: {
       "/microbit-org-proxy/": {
-        target: "https://microbit.org/",
+        target: "https://calliope.cc/",
         changeOrigin: true,
         rewrite: (path: string) => path.replace(/^\/microbit-org-proxy/, ""),
       },

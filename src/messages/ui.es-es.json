@@ -500,7 +500,7 @@
   "connect-popup-bluetooth-alt": [
     {
       "type": 0,
-      "value": "Diálogo de conexión de Web Bluetooth con la entrada del Calliope mini BBC etiquetada como 1 y el botón Emparejar etiquetado como 2"
+      "value": "Diálogo de conexión de Web Bluetooth con la entrada del Calliope mini etiquetada como 1 y el botón Emparejar etiquetado como 2"
     }
   ],
   "connect-popup-bluetooth-instruction2": [
@@ -1366,7 +1366,7 @@
   "homepage-how-it-works": [
     {
       "type": 0,
-      "value": "Cómo funciona"
+      "value": "Así es una red neuronal"
     }
   ],
   "homepage-how-it-works-paragraph": [

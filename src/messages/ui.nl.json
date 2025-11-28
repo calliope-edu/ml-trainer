@@ -710,7 +710,7 @@
   "data-connection-region": [
     {
       "type": 0,
-      "value": "micro: bit data verbinding"
+      "value": "Calliope mini data verbinding"
     }
   ],
   "data-features-hide-action": [
@@ -874,7 +874,7 @@
   "disconnected-during-recording": [
     {
       "type": 0,
-      "value": "micro: bit losgekoppeld tijdens opname"
+      "value": "Calliope mini losgekoppeld tijdens opname"
     }
   ],
   "disconnected-warning-bluetooth-heading": [
@@ -1366,7 +1366,7 @@
   "homepage-how-it-works": [
     {
       "type": 0,
-      "value": "Zo werkt het"
+      "value": "Zo ziet een neuraal netwerk eruit"
     }
   ],
   "homepage-how-it-works-paragraph": [

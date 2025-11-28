@@ -19,8 +19,8 @@ const stubConsentContext = createContext<CookieConsent | undefined>(
 
 const defaultDeploymentFactory: DeploymentConfigFactory = () => ({
   chakraTheme: theme,
-  appNameFull: "KI-Trainer",
-  appNameShort: "KI-Trainer",
+  appNameFull: "Calliope-ML",
+  appNameShort: "calliope-ml",
   AppLogo: (props: BoxProps) => {
     return (
       <VStack
@@ -30,7 +30,7 @@ const defaultDeploymentFactory: DeploymentConfigFactory = () => ({
         alignItems="center"
         {...props}
       >
-        <Text>KI-Trainer</Text>
+        <Text>Calliope Machine Learning</Text>
       </VStack>
     );
   },
