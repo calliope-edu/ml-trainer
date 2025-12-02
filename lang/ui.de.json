@@ -1411,7 +1411,7 @@
     "description": "Restore default settings confirmation dialog body text"
   },
   "restore-defaults-confirm-heading": {
-    "defaultMessage": "Standardeinstellungen wiederherstellen",
+    "defaultMessage": "Standardeinstellungen",
     "description": "Restore default settings confirmation dialog title"
   },
   "restore-defaults-helper": {
