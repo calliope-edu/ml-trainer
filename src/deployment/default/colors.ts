@@ -15,11 +15,20 @@ const gray = {
   600: "#6b7280",
 };
 
+const brand = {
+  500: "#97f500", // Calliope Neon Green
+  100: "rgba(151, 245, 0, 0.5)", // Hover / Alpha
+};
+
+const brand2 = {
+  500: "#1B1C1D", // calliope black
+};
+
 const colors = {
   ...theme.colors,
   gray,
-  brand: theme.colors.blue,
-  brand2: theme.colors.gray,
+  brand,
+  brand2,
 };
 
 export default colors;

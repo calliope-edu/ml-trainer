@@ -3,11 +3,12 @@
  *
  * SPDX-License-Identifier: MIT
  */
-import { BoxProps, Text, VStack } from "@chakra-ui/react";
+import { BoxProps, Image, Text, VStack } from "@chakra-ui/react";
 import { ReactNode, createContext } from "react";
 import { CookieConsent, DeploymentConfigFactory } from "..";
 import { NullLogging } from "./logging";
 import theme from "./theme";
+import calliopeLogo from "../../images/calliope_logo.png";
 
 const stubConsentValue: CookieConsent = {
   analytics: false,
@@ -21,19 +22,25 @@ const defaultDeploymentFactory: DeploymentConfigFactory = () => ({
   chakraTheme: theme,
   appNameFull: "Calliope-ML",
   appNameShort: "calliope-ml",
-  AppLogo: (props: BoxProps) => {
-    return (
-      <VStack
-        color="white"
-        fontWeight="bold"
-        justifyContent="center"
-        alignItems="center"
-        {...props}
-      >
-        <Text>Calliope Machine Learning</Text>
-      </VStack>
-    );
-  },
+AppLogo: (props: BoxProps) => {
+  return (
+    <VStack
+      color="white"
+      fontWeight="bold"
+      justifyContent="center"
+      alignItems="center"
+      {...props}
+    >
+      <Image
+        src={calliopeLogo}
+        alt="Calliope Logo"
+        maxH="48px"
+        mb={2}
+      />
+      {/* <Text>Calliope Machine Learning</Text> */}
+    </VStack>
+  );
+},
   OrgLogo: undefined,
   logging: new NullLogging(),
   compliance: {

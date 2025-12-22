@@ -8,6 +8,7 @@ import { StyleConfig } from "@chakra-ui/theme-tools";
 const Button: StyleConfig = {
   baseStyle: {
     borderRadius: "button",
+    color: "brand2.500",
   },
   variants: {
     unstyled: {
@@ -22,7 +23,7 @@ const Button: StyleConfig = {
     secondary: () => ({
       borderWidth: "2px",
       borderColor: "brand.500",
-      color: "brand.700",
+      color: "brand2.700",
       bg: "transparent",
       _hover: {
         borderColor: "brand.600",
@@ -55,10 +56,10 @@ const Button: StyleConfig = {
       },
     }),
     primary: () => ({
-      color: "white",
+      color: "brand2.500",
       bg: "brand.500",
       _hover: {
-        bg: "brand.600",
+        bg: "brand.100",
         _disabled: {
           bg: "brand.500",
         },
@@ -108,10 +109,10 @@ const Button: StyleConfig = {
       },
     }),
     toolbar: () => ({
-      color: "black",
-      bg: "white",
+      color: "brand2.500",
+      bg: "brand.500",
       _hover: {
-        bg: "whiteAlpha.900",
+        bg: "brand.100",
         _disabled: {
           bg: "white",
         },
