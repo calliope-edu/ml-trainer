@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-import { BoxProps, Image, Text, VStack } from "@chakra-ui/react";
+import { BoxProps, Image, VStack } from "@chakra-ui/react";
 import { ReactNode, createContext } from "react";
 import { CookieConsent, DeploymentConfigFactory } from "..";
 import { NullLogging } from "./logging";
