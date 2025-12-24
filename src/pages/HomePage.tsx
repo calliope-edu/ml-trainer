@@ -19,8 +19,7 @@ import { useNavigate } from "react-router";
 import DefaultPageLayout from "../components/DefaultPageLayout";
 import YoutubeVideoEmbed from "../components/YoutubeVideoEmbed";
 import { useDeployment } from "../deployment";
-import clap from "../images/clap-hands.png";
-import xyzGraph from "../images/xyz-graph.png";
+import xyzGraph from "../images/xyz_calliope.png";
 import { createNewPageUrl } from "../urls";
 
 import { useSearchParams } from "react-router-dom";
@@ -94,19 +93,8 @@ const HomePage = () => {
             <Image
               src={xyzGraph}
               borderRadius="lg"
-              bgColor="white"
               pr={1}
               alt={intl.formatMessage({ id: "homepage-alt-graph" })}
-            />
-            <Image
-              height="100%"
-              position="absolute"
-              bottom={0}
-              left={0}
-              src={clap}
-              borderRadius="md"
-              pr={1}
-              alt={intl.formatMessage({ id: "homepage-alt-hands" })}
             />
           </Box>
         </HStack>

@@ -8,7 +8,7 @@ import { ReactNode, createContext } from "react";
 import { CookieConsent, DeploymentConfigFactory } from "..";
 import { NullLogging } from "./logging";
 import theme from "./theme";
-import calliopeLogo from "../../images/calliope_logo.png";
+import calliopeLogo from "../../images/Logo_KI-Training_2.png";
 
 const stubConsentValue: CookieConsent = {
   analytics: false,
