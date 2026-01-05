@@ -34,7 +34,7 @@ AppLogo: (props: BoxProps) => {
       <Image
         src={calliopeLogo}
         alt="Calliope Logo"
-        maxH="48px"
+        maxH="30px"
         mb={2}
       />
       {/* <Text>Calliope Machine Learning</Text> */}
