@@ -27,7 +27,7 @@ const DataSamplesTableHints = ({
       {action.name.length === 0 ? (
         <GridItem h="120px">
           <VStack m={0} p={2} w={200} transform="translate(-30px, 40px)">
-            <GreetingEmojiWithArrow w="120px" h="103px" color="brand.500" />
+            <GreetingEmojiWithArrow w="120px" h="103px" color="calliope.black.500" />
             <Text textAlign="center">
               <FormattedMessage id="name-action-hint" />
             </Text>

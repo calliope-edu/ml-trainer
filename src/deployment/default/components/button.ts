@@ -70,29 +70,29 @@ const Button: StyleConfig = {
     }),
     recordOutline: () => ({
       borderWidth: "1px",
-      borderColor: "red.500",
-      color: "red.500",
+      borderColor: "gray.500",
+      color: "gray.500",
       bg: "transparent",
       _hover: {
-        bg: "red.50",
+        bg: "gray.50",
       },
       _active: {
-        borderColor: "red.600",
-        color: "red.600",
-        bg: "red.100",
+        borderColor: "gray.600",
+        color: "gray.600",
+        bg: "gray.100",
       },
     }),
     record: () => ({
       color: "white",
-      bg: "red.500",
+      bg: "gray.900",
       _hover: {
-        bg: "red.600",
+        bg: "gray.700",
         _disabled: {
-          bg: "red.500",
+          bg: "gray.400",
         },
       },
       _active: {
-        bg: "red.700",
+        bg: "gray.700",
       },
     }),
     warning: () => ({
