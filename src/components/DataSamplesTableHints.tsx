@@ -51,7 +51,7 @@ const DataSamplesTableHints = ({
               transform="translateX(65px)"
               w="calc(100% - 65px)"
             >
-              <UpCurveArrow w="60px" h="93px" color="brand.500" />
+              <UpCurveArrow w="60px" h="93px" color="calliope.black.500" />
               {isConnected ? (
                 <Text textAlign="center" maxW={200}>
                   <FormattedMessage id="record-hint-button-b" />

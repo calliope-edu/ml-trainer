@@ -217,6 +217,7 @@ const RecordingArea = ({
           <Button
             id={recordButtonId(action)}
             pr={2}
+            bg="calliope.black.500"
             variant={selected ? "record" : "recordOutline"}
             borderRight="none"
             onClick={() =>
@@ -231,6 +232,7 @@ const RecordingArea = ({
           </Button>
           <MoreMenuButton
             minW={8}
+            bg="calliope.black.500"
             variant={selected ? "record" : "recordOutline"}
             aria-label={intl.formatMessage(
               { id: "recording-options-aria" },
