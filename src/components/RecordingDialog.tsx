@@ -301,7 +301,7 @@ const RecordingDialog = ({
                   }
                   textAlign="center"
                   fontWeight="bold"
-                  color="calliope.black.500"
+                  color="gray.900"
                   role="timer"
                   aria-live="assertive"
                 >
@@ -312,7 +312,7 @@ const RecordingDialog = ({
                 alignSelf="center"
                 w="280px"
                 h="24px"
-                colorScheme="gray"
+                colorScheme="red"
                 borderRadius="xl"
                 value={progress}
               />
