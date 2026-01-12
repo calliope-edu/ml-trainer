@@ -312,7 +312,7 @@ const RecordingDialog = ({
                 alignSelf="center"
                 w="280px"
                 h="24px"
-                colorScheme="black"
+                colorScheme="gray"
                 borderRadius="xl"
                 value={progress}
               />
