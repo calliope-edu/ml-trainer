@@ -11,7 +11,7 @@ import { keyboardShortcuts, useShortcut } from "../../keyboard-shortcut-hooks";
 import { useStore } from "../../store";
 import AboutDialog from "../AboutDialog";
 import ConnectFirstDialog from "../ConnectFirstDialog";
-import HelpMenu from "../HelpMenu";
+// import HelpMenu from "../HelpMenu";
 import HelpMenuItems, { tourMap } from "../HelpMenuItems";
 import { LanguageDialog } from "../LanguageDialog";
 import LanguageMenuItem from "../LanguageMenuItem";
@@ -76,12 +76,12 @@ const ItemsRight = ({ menuItems, toolbarItems }: ItemsRightProps) => {
           onSettingsDialogOpen={settingsDialogOnOpen}
         />
       </HStack>
-      <HelpMenu
+      {/* <HelpMenu
         display={{ base: "none", md: "block", lg: "block" }}
         onAboutDialogOpen={aboutDialogOnOpen}
         onConnectFirstDialogOpen={connectFirstDialogOnOpen}
         tourTrigger={tourTrigger}
-      />
+      /> */}
       <ToolbarMenu
         display={{ base: "none", md: "block", lg: "none" }}
         variant="plain"

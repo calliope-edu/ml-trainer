@@ -66,20 +66,21 @@ const NewPageChoice = ({
             w={40}
             isDisabled={disabled}
             aria-label={label}
-            bgColor="brand.700"
+            bgColor="calliope.neon.500"
             color="white"
             height="100%"
             variant="unstyled"
             icon={icon}
             borderInlineEndRadius="md"
             _groupHover={{
-              color: disabled ? undefined : "#efedf5",
+              color: disabled ? undefined : "white",
+              opacity: disabled ? undefined : 0.5,
             }}
             _focusVisible={{
               boxShadow: "none",
             }}
             _hover={{
-              bgColor: "brand.700",
+              bgColor: "calliope.neon.500",
             }}
             _disabled={{
               opacity: 1,

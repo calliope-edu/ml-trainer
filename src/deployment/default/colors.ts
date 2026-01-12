@@ -24,11 +24,24 @@ const brand2 = {
   500: "#1B1C1D", // calliope black
 };
 
+const calliope = {
+  red: {
+    500: "#E6007D", // Calliope Pink
+  },
+  black: {
+    500: "#1B1C1D", // Calliope Pink
+  },
+  neon: {
+  500: "#97f500",
+  }
+};
+
 const colors = {
   ...theme.colors,
   gray,
   brand,
   brand2,
+  calliope
 };
 
 export default colors;

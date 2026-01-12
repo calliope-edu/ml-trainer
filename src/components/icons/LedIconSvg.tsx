@@ -13,7 +13,7 @@ interface LedIconSvg {
 }
 
 const LedIconSvg = ({ icon }: LedIconSvg) => {
-  const [brand500, gray200] = useToken("colors", ["brand.500", "gray.200"]);
+  const [brand500, gray200] = useToken("colors", ["calliope.red.500", "gray.200"]);
   const iconData = icons[icon];
   const intl = useIntl();
   const getFill = useCallback(
