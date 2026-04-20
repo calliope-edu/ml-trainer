@@ -340,7 +340,7 @@
     "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
-    "defaultMessage": "V2 uniquement",
+    "defaultMessage": "V3 uniquement",
     "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
