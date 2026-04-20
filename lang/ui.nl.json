@@ -344,7 +344,7 @@
     "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
-    "defaultMessage": "Alleen voor de V2",
+    "defaultMessage": "Alleen voor de V3",
     "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
