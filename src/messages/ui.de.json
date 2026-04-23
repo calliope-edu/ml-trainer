@@ -2380,7 +2380,7 @@
   "recording": [
     {
       "type": 0,
-      "value": "aufzuzeichnen"
+      "value": "aufzeichnen"
     }
   ],
   "recording-complete": [
@@ -2392,7 +2392,7 @@
   "recording-data-for": [
     {
       "type": 0,
-      "value": "Daten für Aktionen aufzeichnen \""
+      "value": "Daten für Aktion \"" 
     },
     {
       "type": 1,
