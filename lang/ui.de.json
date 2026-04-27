@@ -107,7 +107,7 @@
     "description": "Label for certainty of an action"
   },
   "certainty-tooltip": {
-    "defaultMessage": "Wie sicher sich das Modell ist, dass Sie gerade jede Aktion ausführen.",
+    "defaultMessage": "Wie sicher sich das Modell ist, dass du gerade diese Aktion ausführst.",
     "description": "Tooltip for certainty column"
   },
   "click-to-reload-page-action": {
@@ -166,8 +166,9 @@
     "defaultMessage": "Trenne den Calliope mini vom Computer und schließe das Batteriepack an.",
     "description": "Battery connection dialog"
   },
+ud
   "connect-bluetooth-cancelled-connection": {
-    "defaultMessage": "Sie haben keinen Calliope mini ausgewählt. Möchtest du es erneut versuchen?",
+    "defaultMessage": "Du hast keinen Calliope mini ausgewählt. Möchtest du es erneut versuchen?",
     "description": "Error when the user cancelled the Web Bluetooth permission/device selection dialog"
   },
   "connect-bluetooth-heading": {
@@ -175,7 +176,7 @@
     "description": "Connection dialogs"
   },
   "connect-bluetooth-invalid-pattern": {
-    "defaultMessage": "Das von dir gezeichnete Muster ist ungültig.",
+    "defaultMessage": "Das gezeichnete Muster ist ungültig.",
     "description": "Error when the bluetooth pattern is incomplete "
   },
   "connect-bluetooth-start-heading": {
@@ -207,7 +208,7 @@
     "description": "Connect cable dialog heading"
   },
   "connect-cable-skip": {
-    "defaultMessage": "Überspringen: Programm bereits heruntergeladen?",
+    "defaultMessage": "Überspringen: Programm schon runtergeladen?",
     "description": "Link to skip"
   },
   "connect-cable-subtitle": {
@@ -219,7 +220,7 @@
     "description": "Label for computer icon in connection dialog"
   },
   "connect-data-collection-heading": {
-    "defaultMessage": "USB-Kabel mit Calliope mini 1 verbinden",
+    "defaultMessage": "USB-Kabel mit Calliope mini A verbinden",
     "description": "Connection dialog heading"
   },
   "connect-data-collection-subtitle": {
@@ -271,7 +272,7 @@
     "description": "Screen reader text for numeric pattern input"
   },
   "connect-pattern-subtitle": {
-    "defaultMessage": "Kopieren Sie das auf dem Calliope mini angezeigte Muster.",
+    "defaultMessage": "Kopiere das auf dem Calliope mini angezeigte Muster.",
     "description": "Instruction for bluetooth pattern dialog"
   },
   "connect-popup": {
@@ -283,7 +284,7 @@
     "description": "Alt text"
   },
   "connect-popup-bluetooth-instruction2": {
-    "defaultMessage": "Wählen Sie 'Koppeln'",
+    "defaultMessage": "Wähle 'Koppeln'",
     "description": "Instruction for dialog that previews the Bluetooth/WebUSB permission dialog"
   },
   "connect-popup-bluetooth-title": {
@@ -303,7 +304,7 @@
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-data-collection-title": {
-    "defaultMessage": "Datenerfassungsprogramm auf Calliope mini V1/V2/V3 herunterladen",
+    "defaultMessage": "Datenerfassungsprogramm auf Calliope mini herunterladen",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-link-title": {
@@ -327,7 +328,7 @@
     "description": "Text shown while radio link and data connection Calliope mini are being connected"
   },
   "connect-radio-link-heading": {
-    "defaultMessage": "Verbinde das USB-Kabel mit Calliope mini 2",
+    "defaultMessage": "Verbinde das USB-Kabel mit Calliope mini B",
     "description": "Heading for connecting radio link Calliope mini cable"
   },
   "connect-radio-link-subtitle": {
@@ -371,7 +372,7 @@
     "description": "Prompt to connect the app to a Calliope mini"
   },
   "connect-troubleshoot": {
-    "defaultMessage": "Probleme beim Verbinden mit deinem Calliope mini beheben",
+    "defaultMessage": "Probleme beim Verbinden des Calliope mini beheben",
     "description": "Link to support article for troubleshooting"
   },
   "connect-troubleshooting": {
@@ -1595,7 +1596,7 @@
     "description": "Tour step title"
   },
   "tour-dataSamples-liveGraph-content": {
-    "defaultMessage": "Die Grafik zeigt Bewegungsdaten vom Beschleunigungssensor des Calliope mini. Bewege deinen Datenerfassungs-Calliope mini und sieh, wie sich die Grafik verändert.",
+    "defaultMessage": "Die Grafik zeigt Bewegungsdaten vom Beschleunigungssensor des Calliope mini. Bewege deinen Datenerfassungs-Calliope mini und siehe, wie sich die Grafik verändert.",
     "description": "Tour step content"
   },
   "tour-makecode-intro-content1": {
