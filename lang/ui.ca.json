@@ -845,7 +845,7 @@
     "description": "Title of import error dialog"
   },
   "incompatible-device-body-alt": {
-    "defaultMessage": "Torna enrere per seleccionar una Calliope mini diferent, o bé <link>desa l'hexadecimal del projecte</link> que es pot transferir a una Calliope mini V2 més tard.",
+    "defaultMessage": "Torna enrere per seleccionar una Calliope mini diferent, o bé <link>desa l'hexadecimal del projecte</link> que es pot transferir a una Calliope mini més tard.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body1": {

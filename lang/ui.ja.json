@@ -344,7 +344,7 @@
     "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
-    "defaultMessage": "V2のみ",
+    "defaultMessage": "V3のみ",
     "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
@@ -845,11 +845,11 @@
     "description": "Title of import error dialog"
   },
   "incompatible-device-body-alt": {
-    "defaultMessage": "戻って別のCalliope miniを選ぶか、<link>プロジェクトのhexを保存して</link>、Calliope mini V2にダウンロードしてください。",
+    "defaultMessage": "戻って別のCalliope miniを選ぶか、<link>プロジェクトのhexを保存して</link>、Calliope mini V3にダウンロードしてください。",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body1": {
-    "defaultMessage": "プログラムを編集するには、MakeCodeに進んでください。その後、Calliope mini V2にダウンロードできるプロジェクトのhexファイルを保存できます。",
+    "defaultMessage": "プログラムを編集するには、MakeCodeに進んでください。その後、Calliope mini V3にダウンロードできるプロジェクトのhexファイルを保存できます。",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body2": {
@@ -861,7 +861,7 @@
     "description": "Incompatible device dialog heading"
   },
   "incompatible-device-subtitle": {
-    "defaultMessage": "Calliope mini V1を使っていますが、機械学習プロジェクトでは Calliope mini V2 に載っている、より速いプロセッサが必要となります。 <link>Calliope miniのバージョンについてもっと調べる。</link>",
+    "defaultMessage": "Calliope mini V1を使っていますが、機械学習プロジェクトでは Calliope mini V3 に載っている、より速いプロセッサが必要となります。 <link>Calliope miniのバージョンについてもっと調べる。</link>",
     "description": "Incompatible device dialog subtitle"
   },
   "insufficient-data-body": {
@@ -1713,7 +1713,7 @@
     "description": "Unplug radio link Calliope mini dialog title"
   },
   "unsupported-device-explain": {
-    "defaultMessage": "残念ながら、Calliope mini 無線を使った接続は Calliope mini V2 だけでサポートされています。接続されているのは <link>Calliope mini V1</link> です。 ",
+    "defaultMessage": "残念ながら、Calliope mini 無線を使った接続は Calliope mini V3 だけでサポートされています。接続されているのは <link>Calliope mini V1</link> です。 ",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-header": {

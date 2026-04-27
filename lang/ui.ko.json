@@ -344,7 +344,7 @@
     "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
-    "defaultMessage": "V2에 한정됨",
+    "defaultMessage": "V3에 한정됨",
     "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
@@ -845,11 +845,11 @@
     "description": "Title of import error dialog"
   },
   "incompatible-device-body-alt": {
-    "defaultMessage": "뒤로 돌아가 다른 Calliope mini를 선택하거나,  <link>프로젝트 hex를 저장</link>하세요. 프로젝트 hex는 나중에 Calliope mini V2에 다운로드할 수 있습니다.",
+    "defaultMessage": "뒤로 돌아가 다른 Calliope mini를 선택하거나,  <link>프로젝트 hex를 저장</link>하세요. 프로젝트 hex는 나중에 Calliope mini V3에 다운로드할 수 있습니다.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body1": {
-    "defaultMessage": "MakeCode로 계속 프로그램을 편집하면 Calliope mini V2에 다운로드할 수 있는 프로젝트 hex를 저장할 수 있습니다.",
+    "defaultMessage": "MakeCode로 계속 프로그램을 편집하면 Calliope mini V3에 다운로드할 수 있는 프로젝트 hex를 저장할 수 있습니다.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body2": {
@@ -861,7 +861,7 @@
     "description": "Incompatible device dialog heading"
   },
   "incompatible-device-subtitle": {
-    "defaultMessage": "현재 Calliope mini V1을 사용하고 있지만 기계 학습 프로젝트에는 더 빠른 프로세서가 탑재된 Calliope mini V2가 필요합니다. <link>Calliope mini 버전에 대해 자세히 알아보세요.</link>",
+    "defaultMessage": "현재 Calliope mini V1을 사용하고 있지만 기계 학습 프로젝트에는 더 빠른 프로세서가 탑재된 Calliope mini V3가 필요합니다. <link>Calliope mini 버전에 대해 자세히 알아보세요.</link>",
     "description": "Incompatible device dialog subtitle"
   },
   "insufficient-data-body": {
@@ -1713,7 +1713,7 @@
     "description": "Unplug radio link Calliope mini dialog title"
   },
   "unsupported-device-explain": {
-    "defaultMessage": "아쉽게도 Calliope mini 라디오로 연결 시 Calliope mini V2만 지원합니다. <link>Calliope mini V1</link>을 연결했습니다.",
+    "defaultMessage": "아쉽게도 Calliope mini 라디오로 연결 시 Calliope mini V3만 지원합니다. <link>Calliope mini V1</link>을 연결했습니다.",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-header": {

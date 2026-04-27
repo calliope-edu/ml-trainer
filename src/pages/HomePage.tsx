@@ -18,7 +18,6 @@ import { FormattedMessage, useIntl } from "react-intl";
 import { useNavigate } from "react-router";
 import DefaultPageLayout from "../components/DefaultPageLayout";
 import YoutubeVideoEmbed from "../components/YoutubeVideoEmbed";
-import { useDeployment } from "../deployment";
 import xyzGraph from "../images/xyz_calliope.png";
 import { createNewPageUrl } from "../urls";
 
@@ -33,7 +32,6 @@ const HomePage = () => {
     navigate(createNewPageUrl());
   }, [navigate]);
   const intl = useIntl();
-  const { appNameFull } = useDeployment();
   return (
     <DefaultPageLayout
       toolbarItemsRight={
@@ -67,7 +65,7 @@ const HomePage = () => {
               fontWeight="bold"
               variant="marketing"
             >
-              {appNameFull}
+              <FormattedMessage id="homepage-title" />
             </Heading>
             <Text fontSize="md" fontWeight="bold">
               <FormattedMessage id="homepage-subtitle" />

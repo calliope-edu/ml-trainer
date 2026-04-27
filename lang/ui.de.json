@@ -307,7 +307,7 @@
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-usb-radio-link-title": {
-    "defaultMessage": "Funkverbindungsprogramm auf Calliope mini V3 herunterladen",
+    "defaultMessage": "Funkverbindungsprogramm auf Calliope mini herunterladen",
     "description": "Instruction for dialog that previews the WebUSB permission dialog"
   },
   "connect-popup-webusb-instruction2": {

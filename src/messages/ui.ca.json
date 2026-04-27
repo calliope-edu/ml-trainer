@@ -596,7 +596,7 @@
   "connect-radio-start-requirements1-subtitle": [
     {
       "type": 0,
-      "value": "Només V2"
+      "value": "Només V3"
     }
   ],
   "connect-radio-start-requirements2-subtitle": [
@@ -1413,6 +1413,12 @@
       "value": "Crea IA a la teva Calliope mini de la utilitzant el moviment i l'aprenentatge automàtic."
     }
   ],
+  "homepage-title": [
+    {
+      "type": 0,
+      "value": "Calliope-ML"
+    }
+  ],
   "homepage-video-alt": [
     {
       "type": 0,
@@ -1462,13 +1468,13 @@
     },
     {
       "type": 0,
-      "value": " que es pot transferir a una Calliope mini V2 més tard."
+      "value": " que es pot transferir a una Calliope mini V3 més tard."
     }
   ],
   "incompatible-device-body1": [
     {
       "type": 0,
-      "value": "Continua a MakeCode per editar el programa. A continuació, pots desar l'hex del projecte que es pot transferir a una Calliope mini V2."
+      "value": "Continua a MakeCode per editar el programa. A continuació, pots desar l'hex del projecte que es pot transferir a una Calliope mini V3."
     }
   ],
   "incompatible-device-body2": [
@@ -1500,7 +1506,7 @@
   "incompatible-device-subtitle": [
     {
       "type": 0,
-      "value": "Estàs utilitzant una Calliope mini V1, però els projectes d'aprenentatge automàtic necessiten el processador més ràpid en una Calliope mini V2. "
+      "value": "Estàs utilitzant una Calliope mini V1, però els projectes d'aprenentatge automàtic necessiten el processador més ràpid en una Calliope mini V3. "
     },
     {
       "children": [
@@ -2429,6 +2435,34 @@
       "value": "gràfic que mostra les dades de l'acceleròmetre de la  Calliope mini x, y, z per a un enregistrament"
     }
   ],
+  "recording-duration-helper": [
+    {
+      "type": 0,
+      "value": "Durada de cada enregistrament de gest. Interval: "
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " s – "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": " s. Els canvis s'apliquen als enregistraments posteriors."
+    }
+  ],
+  "recording-duration-label": [
+    {
+      "type": 0,
+      "value": "Durada de l'enregistrament"
+    }
+  ],
   "recording-options-aria": [
     {
       "type": 0,
@@ -3020,7 +3054,7 @@
   "unsupported-device-explain": [
     {
       "type": 0,
-      "value": "Malauradament, només admetem l'ús de Calliope mini V2 quan ens connectem mitjançant la ràdio Calliope mini. Has connectat una "
+      "value": "Malauradament, només admetem l'ús de Calliope mini V3 quan ens connectem mitjançant la ràdio Calliope mini. Has connectat una "
     },
     {
       "children": [

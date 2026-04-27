@@ -596,7 +596,7 @@
   "connect-radio-start-requirements1-subtitle": [
     {
       "type": 0,
-      "value": "V2 only"
+      "value": "V3 only"
     }
   ],
   "connect-radio-start-requirements2-subtitle": [
@@ -1427,6 +1427,12 @@
       "value": "Create AI on your Calliope mini using movement and machine learning."
     }
   ],
+  "homepage-title": [
+    {
+      "type": 0,
+      "value": "Calliope-ML"
+    }
+  ],
   "homepage-video-alt": [
     {
       "type": 0,
@@ -1476,13 +1482,13 @@
     },
     {
       "type": 0,
-      "value": " which can be downloaded onto a Calliope mini V2 later."
+      "value": " which can be downloaded onto a Calliope mini V3 later."
     }
   ],
   "incompatible-device-body1": [
     {
       "type": 0,
-      "value": "Continue to MakeCode to edit the program. You can then save the project hex which can be downloaded onto a Calliope mini V2."
+      "value": "Continue to MakeCode to edit the program. You can then save the project hex which can be downloaded onto a Calliope mini V3."
     }
   ],
   "incompatible-device-body2": [
@@ -1514,7 +1520,7 @@
   "incompatible-device-subtitle": [
     {
       "type": 0,
-      "value": "You are using a Calliope mini V1, but machine learning projects need the faster processor on a Calliope mini V2. "
+      "value": "You are using a Calliope mini V1, but machine learning projects need the faster processor on a Calliope mini V3. "
     },
     {
       "children": [
@@ -2443,6 +2449,34 @@
       "value": "graph showing Calliope mini x, y, z accelerometer data for one recording"
     }
   ],
+  "recording-duration-helper": [
+    {
+      "type": 0,
+      "value": "Length of each gesture recording. Range: "
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " s – "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": " s. Changes apply to all subsequent recordings."
+    }
+  ],
+  "recording-duration-label": [
+    {
+      "type": 0,
+      "value": "Recording length"
+    }
+  ],
   "recording-options-aria": [
     {
       "type": 0,
@@ -3048,7 +3082,7 @@
   "unsupported-device-explain": [
     {
       "type": 0,
-      "value": "Unfortunately, we only support using Calliope mini V2 when connecting using Calliope mini radio. You have connected a "
+      "value": "Unfortunately, we only support using Calliope mini V3 when connecting using Calliope mini radio. You have connected a "
     },
     {
       "children": [

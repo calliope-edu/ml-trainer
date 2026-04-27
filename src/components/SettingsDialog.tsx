@@ -16,17 +16,26 @@ import {
   AspectRatio,
   FormControl,
   FormHelperText,
+  FormLabel,
+  HStack,
+  Slider,
+  SliderFilledTrack,
+  SliderThumb,
+  SliderTrack,
   Text,
   useDisclosure,
   VStack,
 } from "@chakra-ui/react";
-import { useCallback, useMemo } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import {
   defaultSettings,
   graphColorSchemeOptions,
   graphLineSchemeOptions,
   graphLineWeightOptions,
+  recordingDurationDefault,
+  recordingDurationMax,
+  recordingDurationMin,
 } from "../settings";
 import { useSettings } from "../store";
 import { previewGraphData } from "../utils/preview-graph-data";
@@ -48,6 +57,25 @@ export const SettingsDialog = ({
   const [settings, setSettings] = useSettings();
   const intl = useIntl();
   const resetConfirmDialog = useDisclosure();
+
+  const storedRecordingDuration =
+    settings.recordingDuration ?? recordingDurationDefault;
+  // Local mirror for smooth slider drag; the store is updated on change-end.
+  const [recordingDurationDraft, setRecordingDurationDraft] =
+    useState<number>(storedRecordingDuration);
+  // Re-sync the slider when the store value changes externally (e.g. reset).
+  useEffect(() => {
+    setRecordingDurationDraft(storedRecordingDuration);
+  }, [storedRecordingDuration]);
+  const handleRecordingDurationChange = useCallback((value: number) => {
+    setRecordingDurationDraft(value);
+  }, []);
+  const handleRecordingDurationChangeEnd = useCallback(
+    (value: number) => {
+      setSettings({ recordingDuration: value });
+    },
+    [setSettings]
+  );
   const handleResetToDefault = useCallback(() => {
     resetConfirmDialog.onOpen();
   }, [resetConfirmDialog]);
@@ -167,7 +195,42 @@ export const SettingsDialog = ({
                   </AspectRatio>
                 </VStack>
                 <FormControl>
-                  <Button variant="link" onClick={handleResetToDefault}>
+                  <HStack justifyContent="space-between" w="full">
+                    <FormLabel mb={1}>
+                      <FormattedMessage id="recording-duration-label" />
+                    </FormLabel>
+                    <Text fontSize="sm" color="gray.600">
+                      {(recordingDurationDraft / 1000).toFixed(2)} s
+                    </Text>
+                  </HStack>
+                  <Slider
+                    aria-label={intl.formatMessage({
+                      id: "recording-duration-label",
+                    })}
+                    min={recordingDurationMin}
+                    max={recordingDurationMax}
+                    step={10}
+                    value={recordingDurationDraft}
+                    onChange={handleRecordingDurationChange}
+                    onChangeEnd={handleRecordingDurationChangeEnd}
+                  >
+                    <SliderTrack h="8px" rounded="full">
+                      <SliderFilledTrack bg="gray.600" />
+                    </SliderTrack>
+                    <SliderThumb bg="gray.600" />
+                  </Slider>
+                  <FormHelperText>
+                    <FormattedMessage
+                      id="recording-duration-helper"
+                      values={{
+                        min: (recordingDurationMin / 1000).toFixed(2),
+                        max: (recordingDurationMax / 1000).toFixed(2),
+                      }}
+                    />
+                  </FormHelperText>
+                </FormControl>
+                <FormControl>
+                  <Button variant="primary" onClick={handleResetToDefault}>
                     <FormattedMessage id="restore-defaults-action" />
                   </Button>
                   <FormHelperText>

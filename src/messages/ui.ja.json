@@ -584,7 +584,7 @@
   "connect-radio-start-requirements1-subtitle": [
     {
       "type": 0,
-      "value": "V2のみ"
+      "value": "V3のみ"
     }
   ],
   "connect-radio-start-requirements2-subtitle": [
@@ -1411,6 +1411,12 @@
       "value": "動作と機械学習を使ってCalliope miniでAIを作ります。"
     }
   ],
+  "homepage-title": [
+    {
+      "type": 0,
+      "value": "Calliope-ML"
+    }
+  ],
   "homepage-video-alt": [
     {
       "type": 0,
@@ -1456,13 +1462,13 @@
     },
     {
       "type": 0,
-      "value": "、Calliope mini V2にダウンロードしてください。"
+      "value": "、Calliope mini V3にダウンロードしてください。"
     }
   ],
   "incompatible-device-body1": [
     {
       "type": 0,
-      "value": "プログラムを編集するには、MakeCodeに進んでください。その後、Calliope mini V2にダウンロードできるプロジェクトのhexファイルを保存できます。"
+      "value": "プログラムを編集するには、MakeCodeに進んでください。その後、Calliope mini V3にダウンロードできるプロジェクトのhexファイルを保存できます。"
     }
   ],
   "incompatible-device-body2": [
@@ -1494,7 +1500,7 @@
   "incompatible-device-subtitle": [
     {
       "type": 0,
-      "value": "Calliope mini V1を使っていますが、機械学習プロジェクトでは Calliope mini V2 に載っている、より速いプロセッサが必要となります。 "
+      "value": "Calliope mini V1を使っていますが、機械学習プロジェクトでは Calliope mini V3 に載っている、より速いプロセッサが必要となります。 "
     },
     {
       "children": [
@@ -2411,6 +2417,34 @@
       "value": "Calliope mini の加速度センサーのx軸、y軸、z軸の各データを示しているグラフ"
     }
   ],
+  "recording-duration-helper": [
+    {
+      "type": 0,
+      "value": "各ジェスチャー録音の長さ。範囲："
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " 秒 〜 "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": " 秒。変更は以降のすべての録音に適用されます。"
+    }
+  ],
+  "recording-duration-label": [
+    {
+      "type": 0,
+      "value": "録音時間"
+    }
+  ],
   "recording-options-aria": [
     {
       "type": 0,
@@ -2998,7 +3032,7 @@
   "unsupported-device-explain": [
     {
       "type": 0,
-      "value": "残念ながら、Calliope mini 無線を使った接続は Calliope mini V2 だけでサポートされています。接続されているのは "
+      "value": "残念ながら、Calliope mini 無線を使った接続は Calliope mini V3 だけでサポートされています。接続されているのは "
     },
     {
       "children": [

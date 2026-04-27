@@ -837,11 +837,11 @@
     "description": "Title of import error dialog"
   },
   "incompatible-device-body-alt": {
-    "defaultMessage": "Revenez en arrière pour sélectionner un autre Calliope mini, ou <link>enregistrer le projet hex</link> qui pourra être téléchargé ultérieurement sur un Calliope mini V2.",
+    "defaultMessage": "Revenez en arrière pour sélectionner un autre Calliope mini, ou <link>enregistrer le projet hex</link> qui pourra être téléchargé ultérieurement sur un Calliope mini V3.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body1": {
-    "defaultMessage": "Continuez vers MakeCode pour modifier le programme. Vous pouvez ensuite enregistrer le projet hex qui peut être téléchargé sur un Calliope mini V2.",
+    "defaultMessage": "Continuez vers MakeCode pour modifier le programme. Vous pouvez ensuite enregistrer le projet hex qui peut être téléchargé sur un Calliope mini V3.",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body2": {
@@ -853,7 +853,7 @@
     "description": "Incompatible device dialog heading"
   },
   "incompatible-device-subtitle": {
-    "defaultMessage": "Vous utilisez un Calliope mini V1, mais les projets d'apprentissage automatique ont besoin du processeur plus rapide sur un Calliope mini V2. <link>En savoir plus sur les versions de Calliope mini.</link>",
+    "defaultMessage": "Vous utilisez un Calliope mini V1, mais les projets d'apprentissage automatique ont besoin du processeur plus rapide sur un Calliope mini V3. <link>En savoir plus sur les versions de Calliope mini.</link>",
     "description": "Incompatible device dialog subtitle"
   },
   "insufficient-data-body": {
@@ -1673,7 +1673,7 @@
     "description": "Unplug radio link Calliope mini dialog title"
   },
   "unsupported-device-explain": {
-    "defaultMessage": "Malheureusement, nous ne prenons en charge l'utilisation de Calliope mini V2 que lors de la connexion avec la radio Calliope mini. Vous avez connecté un <link>Calliope mini V1</link>.",
+    "defaultMessage": "Malheureusement, nous ne prenons en charge l'utilisation de Calliope mini V3 que lors de la connexion avec la radio Calliope mini. Vous avez connecté un <link>Calliope mini V1</link>.",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-header": {

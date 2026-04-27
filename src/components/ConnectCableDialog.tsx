@@ -83,7 +83,7 @@ const ConnectCableDialog = ({
         onSwitch && (
           <Button
             onClick={linkType === "skip" ? onSkip : onSwitch}
-            variant="link"
+            variant="secondary"
             size="lg"
           >
             <FormattedMessage id={linkTextId} />

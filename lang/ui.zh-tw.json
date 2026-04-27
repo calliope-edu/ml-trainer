@@ -344,7 +344,7 @@
     "description": "Label for icon of two Calliope minis"
   },
   "connect-radio-start-requirements1-subtitle": {
-    "defaultMessage": "僅限 V2",
+    "defaultMessage": "僅限 V3",
     "description": "Shown below 2 Calliope mini label for Calliope mini radio approach"
   },
   "connect-radio-start-requirements2-subtitle": {
@@ -842,11 +842,11 @@
     "description": "Title of import error dialog"
   },
   "incompatible-device-body-alt": {
-    "defaultMessage": "返回選擇不同的 Calliope mini，或<link>儲存專案十六進位檔案</link>，稍後可以將其下載到 Calliope mini V2 上。",
+    "defaultMessage": "返回選擇不同的 Calliope mini，或<link>儲存專案十六進位檔案</link>，稍後可以將其下載到 Calliope mini V3 上。",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body1": {
-    "defaultMessage": "繼續 MakeCode 來編輯程式。然後，您可以儲存專案十六進位檔案，並將其下載到 Calliope mini V2 上。",
+    "defaultMessage": "繼續 MakeCode 來編輯程式。然後，您可以儲存專案十六進位檔案，並將其下載到 Calliope mini V3 上。",
     "description": "Incompatible device dialog body text"
   },
   "incompatible-device-body2": {
@@ -858,7 +858,7 @@
     "description": "Incompatible device dialog heading"
   },
   "incompatible-device-subtitle": {
-    "defaultMessage": "您使用的是 Calliope mini V1，但是機器學習專案需要 Calliope mini V2 上更快的處理器。 <link>瞭解有關 Calliope mini 版本的更多資訊。</link>",
+    "defaultMessage": "您使用的是 Calliope mini V1，但是機器學習專案需要 Calliope mini V3 上更快的處理器。 <link>瞭解有關 Calliope mini 版本的更多資訊。</link>",
     "description": "Incompatible device dialog subtitle"
   },
   "insufficient-data-body": {
@@ -1707,7 +1707,7 @@
     "description": "Unplug radio link Calliope mini dialog title"
   },
   "unsupported-device-explain": {
-    "defaultMessage": "很遺憾，使用 Calliope mini 無線電連線時，我們僅支援 Calliope mini V2。您已連線<link>Calliope mini V1</link>。",
+    "defaultMessage": "很遺憾，使用 Calliope mini 無線電連線時，我們僅支援 Calliope mini V3。您已連線<link>Calliope mini V1</link>。",
     "description": "Unsupported device dialog"
   },
   "unsupported-device-header": {

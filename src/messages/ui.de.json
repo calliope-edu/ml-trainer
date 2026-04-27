@@ -1429,6 +1429,12 @@
       "value": "Nutze KI auf deinem Calliope mini mithilfe von Bewegung und maschinellem Lernen."
     }
   ],
+  "homepage-title": [
+    {
+      "type": 0,
+      "value": "KI-Training"
+    }
+  ],
   "homepage-video-alt": [
     {
       "type": 0,
@@ -2443,6 +2449,34 @@
     {
       "type": 0,
       "value": "Grafik mit den Daten des Calliope mini X, Y, Z-Beschleunigungsmessers für eine Aufzeichnung"
+    }
+  ],
+  "recording-duration-helper": [
+    {
+      "type": 0,
+      "value": "Länge jeder Gesten-Aufnahme. Bereich: "
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " s – "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": " s. Änderungen gelten für alle nachfolgenden Aufnahmen."
+    }
+  ],
+  "recording-duration-label": [
+    {
+      "type": 0,
+      "value": "Aufnahmedauer"
     }
   ],
   "recording-options-aria": [

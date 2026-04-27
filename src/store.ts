@@ -36,7 +36,11 @@ import {
   TourTriggerName,
   tourSequence,
 } from "./model";
-import { defaultSettings, Settings } from "./settings";
+import {
+  defaultSettings,
+  recordingDurationDefault,
+  Settings,
+} from "./settings";
 import { getTotalNumSamples } from "./utils/actions";
 import { defaultIcons, MakeCodeIcon } from "./utils/icons";
 import { untitledProjectName } from "./project-name";
@@ -75,6 +79,31 @@ export const currentDataWindow: DataWindow = {
   minSamples: 44,
   deviceSamplesPeriod: 20, // Default value for accelerometer period.
   deviceSamplesLength: 50, // Number of samples required at 20 ms intervals for 1 second of data.
+};
+
+// Ratio of the original currentDataWindow used to scale derived values
+// (minSamples / deviceSamplesLength) when the user changes the recording length.
+const minSamplesRatio =
+  currentDataWindow.minSamples / currentDataWindow.deviceSamplesLength;
+
+/**
+ * Builds a DataWindow for an arbitrary user-chosen recording duration (ms).
+ * deviceSamplesPeriod is kept at the current default (20ms) and the other
+ * fields are scaled proportionally so detection thresholds stay consistent.
+ */
+export const buildDataWindowForDuration = (duration: number): DataWindow => {
+  const deviceSamplesPeriod = currentDataWindow.deviceSamplesPeriod;
+  const deviceSamplesLength = Math.max(
+    1,
+    Math.round(duration / deviceSamplesPeriod)
+  );
+  const minSamples = Math.max(1, Math.round(deviceSamplesLength * minSamplesRatio));
+  return {
+    duration,
+    minSamples,
+    deviceSamplesPeriod,
+    deviceSamplesLength,
+  };
 };
 
 interface PredictionResult {
@@ -366,12 +395,28 @@ const createMlStore = (logging: Logging) => {
 
           setSettings(update: Partial<Settings>) {
             set(
-              ({ settings }) => ({
-                settings: {
+              ({ settings, dataWindow }) => {
+                const newSettings = {
                   ...settings,
                   ...update,
-                },
-              }),
+                };
+                // If the user-configurable recording duration changed,
+                // rebuild the active dataWindow so subsequent recordings
+                // immediately use the new length.
+                const durationChanged =
+                  update.recordingDuration !== undefined &&
+                  update.recordingDuration !== dataWindow.duration;
+                return {
+                  settings: newSettings,
+                  ...(durationChanged
+                    ? {
+                        dataWindow: buildDataWindowForDuration(
+                          update.recordingDuration as number
+                        ),
+                      }
+                    : {}),
+                };
+              },
               false,
               "setSettings"
             );
@@ -409,10 +454,18 @@ const createMlStore = (logging: Logging) => {
 
           newSession(projectName?: string) {
             const untitledProject = createUntitledProject();
+            // Starting a new session resets the recording length back to the
+            // default (0.99 s) so the user begins from a known baseline.
             set(
-              {
+              ({ settings }) => ({
                 actions: [],
-                dataWindow: currentDataWindow,
+                dataWindow: buildDataWindowForDuration(
+                  recordingDurationDefault
+                ),
+                settings: {
+                  ...settings,
+                  recordingDuration: recordingDurationDefault,
+                },
                 model: undefined,
                 project: projectName
                   ? renameProject(untitledProject, projectName)
@@ -420,7 +473,7 @@ const createMlStore = (logging: Logging) => {
                 projectEdited: false,
                 appEditNeedsFlushToEditor: true,
                 timestamp: Date.now(),
-              },
+              }),
               false,
               "newSession"
             );
@@ -497,7 +550,11 @@ const createMlStore = (logging: Logging) => {
             return set(({ project, projectEdited, actions, dataWindow }) => {
               const newActions = actions.filter((a) => a.ID !== id);
               const newDataWindow =
-                newActions.length === 0 ? currentDataWindow : dataWindow;
+                newActions.length === 0
+                  ? buildDataWindowForDuration(
+                      get().settings.recordingDuration
+                    )
+                  : dataWindow;
               return {
                 actions:
                   newActions.length === 0 ? [createFirstAction()] : newActions,
@@ -602,7 +659,11 @@ const createMlStore = (logging: Logging) => {
                 0
               );
               const newDataWindow =
-                numRecordings === 0 ? currentDataWindow : dataWindow;
+                numRecordings === 0
+                  ? buildDataWindowForDuration(
+                      get().settings.recordingDuration
+                    )
+                  : dataWindow;
               return {
                 actions: newActions,
                 dataWindow: newDataWindow,
@@ -619,18 +680,23 @@ const createMlStore = (logging: Logging) => {
           },
 
           deleteAllActions() {
-            return set(({ project, projectEdited }) => ({
-              actions: [createFirstAction()],
-              dataWindow: currentDataWindow,
-              model: undefined,
-              ...updateProject(
-                project,
-                projectEdited,
-                [],
-                undefined,
-                currentDataWindow
-              ),
-            }));
+            return set(({ project, projectEdited }) => {
+              const newDataWindow = buildDataWindowForDuration(
+                get().settings.recordingDuration
+              );
+              return {
+                actions: [createFirstAction()],
+                dataWindow: newDataWindow,
+                model: undefined,
+                ...updateProject(
+                  project,
+                  projectEdited,
+                  [],
+                  undefined,
+                  newDataWindow
+                ),
+              };
+            });
           },
 
           downloadDataset() {
@@ -1305,15 +1371,26 @@ const createMlStore = (logging: Logging) => {
           merge(persistedStateUnknown, currentState) {
             // The zustand default merge does no validation either.
             const persistedState = persistedStateUnknown as State;
+            const mergedSettings = {
+              // Make sure we have any new settings defaulted
+              ...defaultSettings,
+              ...currentState.settings,
+              ...persistedState.settings,
+            };
+            // Restore the active recording length from the user's persisted
+            // settings so it survives reloads. If no actions are present we
+            // can fully derive the dataWindow from the duration; otherwise
+            // we let the existing actions-derived dataWindow stand.
+            const persistedActions = persistedState.actions ?? [];
+            const dataWindow =
+              persistedActions.length === 0
+                ? buildDataWindowForDuration(mergedSettings.recordingDuration)
+                : currentState.dataWindow;
             return {
               ...currentState,
               ...persistedState,
-              settings: {
-                // Make sure we have any new settings defaulted
-                ...defaultSettings,
-                ...currentState.settings,
-                ...persistedState.settings,
-              },
+              dataWindow,
+              settings: mergedSettings,
             };
           },
         }

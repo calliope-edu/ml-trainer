@@ -1359,6 +1359,12 @@
       "value": "crwdns363040:0crwdne363040:0"
     }
   ],
+  "homepage-title": [
+    {
+      "type": 0,
+      "value": "Calliope-ML"
+    }
+  ],
   "homepage-video-alt": [
     {
       "type": 0,
@@ -2317,6 +2323,34 @@
     {
       "type": 0,
       "value": "crwdns363294:0crwdne363294:0"
+    }
+  ],
+  "recording-duration-helper": [
+    {
+      "type": 0,
+      "value": "Length of each gesture recording. Range: "
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " s – "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": " s. Changes apply to all subsequent recordings."
+    }
+  ],
+  "recording-duration-label": [
+    {
+      "type": 0,
+      "value": "Recording length"
     }
   ],
   "recording-options-aria": [

@@ -596,7 +596,7 @@
   "connect-radio-start-requirements1-subtitle": [
     {
       "type": 0,
-      "value": "Alleen voor de V2"
+      "value": "Alleen voor de V3"
     }
   ],
   "connect-radio-start-requirements2-subtitle": [
@@ -1427,6 +1427,12 @@
       "value": "Maak AI aan op je Calliope mini met behulp van beweging en machine learning."
     }
   ],
+  "homepage-title": [
+    {
+      "type": 0,
+      "value": "Calliope-ML"
+    }
+  ],
   "homepage-video-alt": [
     {
       "type": 0,
@@ -1476,13 +1482,13 @@
     },
     {
       "type": 0,
-      "value": " op die later kan worden gedownload naar een Calliope mini V2"
+      "value": " op die later kan worden gedownload naar een Calliope mini V3"
     }
   ],
   "incompatible-device-body1": [
     {
       "type": 0,
-      "value": "Ga door naar MakeCode om het programma te bewerken. Je kunt vervolgens de project-hex opslaan die kan worden gedownload naar een Calliope mini V2."
+      "value": "Ga door naar MakeCode om het programma te bewerken. Je kunt vervolgens de project-hex opslaan die kan worden gedownload naar een Calliope mini V3."
     }
   ],
   "incompatible-device-body2": [
@@ -1514,7 +1520,7 @@
   "incompatible-device-subtitle": [
     {
       "type": 0,
-      "value": "Je gebruikt een Calliope mini V1, maar machine learning projecten hebben de snellere processor van een Calliope mini V2 nodig. "
+      "value": "Je gebruikt een Calliope mini V1, maar machine learning projecten hebben de snellere processor van een Calliope mini V3 nodig. "
     },
     {
       "children": [
@@ -2443,6 +2449,34 @@
       "value": "Grafiek met Calliope mini x, y, z versnellingsmeter data voor één opname"
     }
   ],
+  "recording-duration-helper": [
+    {
+      "type": 0,
+      "value": "Lengte van elke gebaaropname. Bereik: "
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " s – "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": " s. Wijzigingen zijn van toepassing op alle volgende opnames."
+    }
+  ],
+  "recording-duration-label": [
+    {
+      "type": 0,
+      "value": "Opnameduur"
+    }
+  ],
   "recording-options-aria": [
     {
       "type": 0,
@@ -3034,7 +3068,7 @@
   "unsupported-device-explain": [
     {
       "type": 0,
-      "value": "Helaas ondersteunen we alleen het gebruik van Calliope mini V2 bij het verbinden met een Calliope mini radio. Je hebt een "
+      "value": "Helaas ondersteunen we alleen het gebruik van Calliope mini V3 bij het verbinden met een Calliope mini radio. Je hebt een "
     },
     {
       "children": [

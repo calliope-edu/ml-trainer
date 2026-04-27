@@ -80,7 +80,7 @@ export const allLanguages: Language[] = [
     id: "el",
     name: "Ελληνικά",
     enName: "Greek",
-    ui: false,
+    ui: true,
     makeCode: true,
   },
   {
@@ -270,12 +270,65 @@ export const allLanguages: Language[] = [
 export const getMakeCodeLang = (languageId: string): string =>
   allLanguages.find((l) => l.id === languageId)?.makeCode ? languageId : "en";
 
+/**
+ * Returns the id of a language with full UI support (`ui: true`) that best
+ * matches `tag` (a BCP-47 locale string such as "el", "el-GR", "pt-BR"…).
+ * Tries an exact match (case-insensitive) first, then a primary-subtag match
+ * (e.g. "en-US" → "en"). Returns `undefined` if no match is found.
+ *
+ * Note: only languages with `ui === true` are considered — preview locales
+ * are not auto-selected so users don't get half-translated UIs by default.
+ */
+const findSupportedLanguage = (tag: string | null | undefined) => {
+  if (!tag) return undefined;
+  const lower = tag.toLowerCase();
+  const supported = allLanguages.filter((l) => l.ui === true);
+  const exact = supported.find((l) => l.id.toLowerCase() === lower);
+  if (exact) return exact;
+  const primary = lower.split("-")[0];
+  return supported.find(
+    (l) => l.id.toLowerCase().split("-")[0] === primary
+  );
+};
+
+/**
+ * Picks the initial language for the app:
+ *   1. `?l=` URL parameter (if it points to a known language — preview or full).
+ *   2. The user's preferred browser languages (`navigator.languages`),
+ *      restricted to languages with full UI support.
+ *   3. English as the ultimate fallback.
+ */
 export const getLanguageFromQuery = (): string => {
+  // 1. Explicit override via the URL.
   const searchParams = new URLSearchParams(window.location.search);
   const l = searchParams.get("l");
-  const language = allLanguages.find((x) => x.id === l);
-  return language?.id || allLanguages[0].id;
+  if (l) {
+    const queryLang = allLanguages.find((x) => x.id === l);
+    if (queryLang) return queryLang.id;
+  }
+
+  // 2. Browser language preferences (most-preferred first).
+  const browserLangs: readonly string[] =
+    typeof navigator !== "undefined"
+      ? navigator.languages && navigator.languages.length > 0
+        ? navigator.languages
+        : navigator.language
+        ? [navigator.language]
+        : []
+      : [];
+  for (const tag of browserLangs) {
+    const match = findSupportedLanguage(tag);
+    if (match) return match.id;
+  }
+
+  // 3. Fallback — English (which is allLanguages[0]).
+  return allLanguages[0].id;
 };
+
+// Recording length (in milliseconds) bounds shown in the settings UI.
+export const recordingDurationMin = 750;
+export const recordingDurationMax = 2500;
+export const recordingDurationDefault = 990;
 
 export const defaultSettings: Settings = {
   languageId: getLanguageFromQuery(),
@@ -288,6 +341,7 @@ export const defaultSettings: Settings = {
   graphColorScheme: "default",
   graphLineScheme: "solid",
   graphLineWeight: "default",
+  recordingDuration: recordingDurationDefault,
 };
 
 export type GraphColorScheme = "default" | "color-blind-1" | "color-blind-2";
@@ -317,4 +371,9 @@ export interface Settings {
   graphColorScheme: GraphColorScheme;
   graphLineScheme: GraphLineScheme;
   graphLineWeight: GraphLineWeight;
+  /**
+   * User-configurable gesture recording length, in milliseconds.
+   * Used to derive the active DataWindow for new sessions.
+   */
+  recordingDuration: number;
 }

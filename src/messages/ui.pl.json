@@ -596,7 +596,7 @@
   "connect-radio-start-requirements1-subtitle": [
     {
       "type": 0,
-      "value": "Tylko V2"
+      "value": "Tylko V3"
     }
   ],
   "connect-radio-start-requirements2-subtitle": [
@@ -1431,6 +1431,12 @@
       "value": "Utwórz AI na swoim Calliope mini poprzez ruch i uczenie maszynowe."
     }
   ],
+  "homepage-title": [
+    {
+      "type": 0,
+      "value": "Calliope-ML"
+    }
+  ],
   "homepage-video-alt": [
     {
       "type": 0,
@@ -1480,13 +1486,13 @@
     },
     {
       "type": 0,
-      "value": ", który można pobrać na Calliope mini V2 później."
+      "value": ", który można pobrać na Calliope mini V3 później."
     }
   ],
   "incompatible-device-body1": [
     {
       "type": 0,
-      "value": "Przejdź do MakeCode, aby edytować program. Następnie zapisz hex projektu, który można pobrać na Calliope mini V2."
+      "value": "Przejdź do MakeCode, aby edytować program. Następnie zapisz hex projektu, który można pobrać na Calliope mini V3."
     }
   ],
   "incompatible-device-body2": [
@@ -2443,6 +2449,34 @@
       "value": "wykres pokazujący dane z akcelerometru x, y, z Calliope mini dla jednego nagrania"
     }
   ],
+  "recording-duration-helper": [
+    {
+      "type": 0,
+      "value": "Długość każdego nagrania gestu. Zakres: "
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " s – "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": " s. Zmiany dotyczą wszystkich kolejnych nagrań."
+    }
+  ],
+  "recording-duration-label": [
+    {
+      "type": 0,
+      "value": "Długość nagrania"
+    }
+  ],
   "recording-options-aria": [
     {
       "type": 0,
@@ -2563,8 +2597,7 @@
       "value": "\""
     }
   ],
-  "select-icon-action-untitled-aria": [
-  ],
+  "select-icon-action-untitled-aria": [],
   "select-icon-option-action-aria": [
     {
       "type": 0,
@@ -3030,7 +3063,7 @@
   "unsupported-device-explain": [
     {
       "type": 0,
-      "value": "Niestety, wspieramy tylko używanie Calliope mini V2 podczas łączenia się z radiem Calliope mini. Podłączyłeś "
+      "value": "Niestety, wspieramy tylko używanie Calliope mini V3 podczas łączenia się z radiem Calliope mini. Podłączyłeś "
     },
     {
       "children": [

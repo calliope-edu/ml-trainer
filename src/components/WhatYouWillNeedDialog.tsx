@@ -89,7 +89,7 @@ const WhatYouWillNeedDialog = ({
       footerLeft={
         <VStack alignItems="start">
           {onLinkClick && (
-            <Button onClick={onLinkClick} variant="link" size="lg">
+            <Button onClick={onLinkClick} variant="secondary" size="lg">
               <FormattedMessage
                 id={`connect-${type}-start-switch-${
                   type === "bluetooth" ? "radio" : "bluetooth"
