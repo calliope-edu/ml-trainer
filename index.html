@@ -23,6 +23,7 @@
     <% } %>
     <meta property="og:image" content="%VITE_FULL_URL%social.png" />
     <link rel="shortcut icon" href="%VITE_FULL_URL%imgs/favicon.ico" />
+    <% if (sharedAssets) { %>
     <script
       src="https://go.calliope.cc/ml-machine/common.js"
       async
@@ -31,6 +32,7 @@
       rel="stylesheet"
       href="https://go.calliope.cc/ml-machine/main.css"
     />
+    <% } %>
     <script>
       // GA config itself is via the common assets config depending on consent.
       window.dataLayer = window.dataLayer || [];

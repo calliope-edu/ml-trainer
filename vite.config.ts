@@ -60,7 +60,18 @@ export default defineConfig(async ({ mode }): Promise<UserConfig> => {
       };
   return {
     base: process.env.BASE_URL ?? "/",
-    plugins: [viteEjsPlugin(strings), react(), svgr()],
+    plugins: [
+      viteEjsPlugin({
+        ...strings,
+        // The shared consent/analytics assets from go.calliope.cc. The build
+        // for Calliope Campus (CAMPUS_DIST=1, .github/workflows/campus-dist.yml)
+        // leaves them out: Campus serves it on its own origin, where every
+        // script runs with Campus's rights, so it only loads what it pins.
+        sharedAssets: process.env.CAMPUS_DIST !== "1",
+      }),
+      react(),
+      svgr(),
+    ],
     assetsInclude: ["**/*.hex"],
     define: {
       "import.meta.env.VITE_APP_VERSION": JSON.stringify(
